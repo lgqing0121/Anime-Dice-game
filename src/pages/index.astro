@@ -1,0 +1,35 @@
+---
+const locales = [
+  { code: 'en', label: 'English' },
+  { code: 'pt-br', label: 'Português do Brasil' },
+  { code: 'es', label: 'Español' },
+  { code: 'id', label: 'Bahasa Indonesia' },
+] as const;
+---
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="robots" content="noindex,follow" />
+    <title>Anime Dice Wiki — Choose Language</title>
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+  <body class="gateway-page">
+    <main class="gateway-card">
+      <span class="brand-mark" aria-hidden="true">AD</span>
+      <h1>Anime Dice Wiki</h1>
+      <p>Choose your language</p>
+      <nav data-gateway-locales aria-label="Choose language">
+        {locales.map((locale) => <a href={`/${locale.code}/`} hreflang={locale.code === 'pt-br' ? 'pt-BR' : locale.code}>{locale.label}</a>)}
+      </nav>
+    </main>
+    <script>
+      import { routeLanguageGateway } from '../scripts/locale-gateway';
+      routeLanguageGateway();
+    </script>
+  </body>
+</html>
+<style>
+  :global(*){box-sizing:border-box}:global(body){margin:0;min-height:100vh;display:grid;place-items:center;background:#080a12;color:#f5f7ff;font-family:Inter,system-ui,sans-serif}.gateway-card{width:min(440px,calc(100% - 32px));border:1px solid #2a3145;border-radius:18px;background:#101421;padding:32px;text-align:center}.brand-mark{display:grid;width:46px;height:46px;margin:auto;place-items:center;border-radius:12px;background:linear-gradient(135deg,#8b5cf6,#4f46e5);font-weight:800}.gateway-card h1{margin:18px 0 4px}.gateway-card p{color:#aab2c8}.gateway-card nav{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px}.gateway-card a{border:1px solid #343c53;border-radius:9px;color:#ddd6fe;padding:10px;text-decoration:none;font-weight:700}@media(max-width:420px){.gateway-card nav{grid-template-columns:1fr}}
+</style>

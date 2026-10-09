@@ -19,6 +19,10 @@ const jsonLd = buildHomeJsonLd(locale, origin, copy);
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={seo.description} />
     <meta name="theme-color" content="#0b0d16" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <title>{seo.title}</title>
     <link rel="canonical" href={seo.canonical} />
     {seo.alternates.map((alternate) => <link rel="alternate" hreflang={alternate.hrefLang} href={alternate.href} />)}
@@ -31,10 +35,20 @@ const jsonLd = buildHomeJsonLd(locale, origin, copy);
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={seo.title} />
     <meta name="twitter:description" content={seo.description} />
+    <script is:inline>
+      try {
+        const savedTheme = localStorage.getItem('theme');
+        document.documentElement.dataset.theme = savedTheme === 'light' ? 'light' : 'dark';
+      } catch {}
+    </script>
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   </head>
   <body>
     <Header locale={locale} copy={copy} />
     <slot />
+    <script>
+      import '../scripts/theme';
+      import '../scripts/menu';
+    </script>
   </body>
 </html>

@@ -10,7 +10,7 @@ const locales = [
 ] as const;
 
 for (const locale of locales) {
-  test(`${locale.route} renders the localized wiki shell`, async ({ page }) => {
+  test(`${locale.route} renders the localized wiki shell`, async ({ page }, testInfo) => {
     const response = await page.goto(`/${locale.route}/`);
 
     expect(response?.status()).toBe(200);
@@ -55,5 +55,48 @@ for (const locale of locales) {
 
     const internalHrefs = await page.locator('a[href^="/"]').evaluateAll((links) => links.map((link) => link.getAttribute('href')));
     expect(internalHrefs.every((href) => /^\/(en|pt-br|es|id)\/$/.test(href ?? ''))).toBe(true);
+
+    if (testInfo.project.name === 'mobile') {
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth)).toBe(true);
+      const menuButton = page.locator('[data-menu-toggle]');
+      await expect(menuButton).toHaveAttribute('aria-expanded', 'false');
+      await menuButton.focus();
+      await page.keyboard.press('Enter');
+      await expect(menuButton).toHaveAttribute('aria-expanded', 'true');
+      await expect(page.locator('[data-mobile-menu]')).toBeVisible();
+      await page.keyboard.press('Escape');
+      await expect(menuButton).toHaveAttribute('aria-expanded', 'false');
+    }
   });
 }
+
+test('theme choice persists after reload', async ({ page }) => {
+  await page.goto('/en/');
+  await page.evaluate(() => localStorage.removeItem('theme'));
+  await page.reload();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+  await page.locator('[data-theme-toggle]').click();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
+  expect(await page.evaluate(() => localStorage.getItem('theme'))).toBe('light');
+  await page.reload();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
+});
+
+test('root gateway falls back safely and preserves an explicit choice', async ({ page }) => {
+  await page.addInitScript(() => Object.defineProperty(navigator, 'language', { configurable: true, value: 'zh-CN' }));
+  await page.goto('/');
+  await expect(page).toHaveURL(/\/en\/$/);
+  await page.locator('.language-picker select').selectOption('es');
+  await expect(page).toHaveURL(/\/es\/$/);
+  await page.goto('/');
+  await expect(page).toHaveURL(/\/es\/$/);
+});
+
+test('root gateway exposes locale links without JavaScript', async ({ browser }) => {
+  const context = await browser.newContext({ javaScriptEnabled: false });
+  const page = await context.newPage();
+  const response = await page.goto('/');
+  expect(response?.status()).toBe(200);
+  await expect(page.locator('[data-gateway-locales] a')).toHaveCount(4);
+  await context.close();
+});
