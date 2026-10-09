@@ -1,0 +1,27 @@
+---
+import AdSlot from '../../components/AdSlot.astro';
+import Hero from '../../components/Hero.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import { SUPPORTED_LOCALES, type Locale } from '../../config/site';
+import { getHomeCopy } from '../../i18n';
+import WikiLayout from '../../layouts/WikiLayout.astro';
+
+export function getStaticPaths() {
+  return SUPPORTED_LOCALES.map((locale) => ({ params: { locale }, props: { locale } }));
+}
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const copy = getHomeCopy(locale);
+---
+<WikiLayout locale={locale} copy={copy}>
+  <main class="page-shell">
+    <AdSlot />
+    <div class="content-grid">
+      <div class="primary-column">
+        <Hero copy={copy} />
+      </div>
+      <Sidebar copy={copy} />
+    </div>
+  </main>
+</WikiLayout>

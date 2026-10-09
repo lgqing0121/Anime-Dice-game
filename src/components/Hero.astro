@@ -1,0 +1,17 @@
+---
+import { GAME_FACTS } from '../data/game';
+import type { HomeCopy } from '../i18n';
+interface Props { copy: HomeCopy }
+const { copy } = Astro.props;
+---
+<section class="hero" aria-labelledby="page-title">
+  <p class="eyebrow">{copy.hero.eyebrow}</p>
+  <div class="hero-heading"><h1 id="page-title">{copy.hero.title}</h1><span class="update-badge">{GAME_FACTS.currentUpdate}</span></div>
+  <a class="hero-media" href={GAME_FACTS.links.guideVideo} target="_blank" rel="noreferrer" aria-label={copy.hero.videoLabel}>
+    <img src="/assets/anime-dice-hero.jpg" alt="Anime Dice Roblox gameplay" width="500" height="280" /><span class="play-badge" aria-hidden="true">▶</span>
+  </a>
+  <p class="hero-description">{copy.hero.description}</p>
+  <div class="stat-chips" aria-label="Game snapshot">{copy.hero.stats.map((stat) => <span>{stat}</span>)}</div>
+  <div class="hero-actions"><a data-hero-action class="button button-primary" href="#guide">{copy.hero.primaryCta}</a><a data-hero-action class="button button-secondary" href="#progression">{copy.hero.secondaryCta}</a><a data-hero-action class="button button-ghost" href="#codes">{copy.hero.tertiaryCta}</a></div>
+  <p class="review-note">{copy.hero.reviewedLabel}</p>
+</section>

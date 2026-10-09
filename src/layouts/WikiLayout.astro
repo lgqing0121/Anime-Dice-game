@@ -1,0 +1,40 @@
+---
+import type { Locale } from '../config/site';
+import { localeToHrefLang } from '../config/site';
+import type { HomeCopy } from '../i18n';
+import { buildHomeJsonLd, buildSeo } from '../lib/seo';
+import Header from '../components/Header.astro';
+import '../styles/global.css';
+
+interface Props { locale: Locale; copy: HomeCopy }
+const { locale, copy } = Astro.props;
+const origin = Astro.site?.origin ?? Astro.url.origin;
+const seo = buildSeo(locale, origin, copy);
+const jsonLd = buildHomeJsonLd(locale, origin, copy);
+---
+<!doctype html>
+<html lang={localeToHrefLang(locale)} data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={seo.description} />
+    <meta name="theme-color" content="#0b0d16" />
+    <title>{seo.title}</title>
+    <link rel="canonical" href={seo.canonical} />
+    {seo.alternates.map((alternate) => <link rel="alternate" hreflang={alternate.hrefLang} href={alternate.href} />)}
+    <meta property="og:type" content={seo.openGraph.type} />
+    <meta property="og:locale" content={seo.openGraph.locale} />
+    <meta property="og:url" content={seo.openGraph.url} />
+    <meta property="og:title" content={seo.openGraph.title} />
+    <meta property="og:description" content={seo.openGraph.description} />
+    <meta property="og:image" content={seo.openGraph.image} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={seo.title} />
+    <meta name="twitter:description" content={seo.description} />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </head>
+  <body>
+    <Header locale={locale} copy={copy} />
+    <slot />
+  </body>
+</html>

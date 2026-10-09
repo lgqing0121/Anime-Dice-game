@@ -1,0 +1,15 @@
+---
+import { NAV_ITEMS } from '../config/navigation';
+import { GAME_FACTS } from '../data/game';
+import type { HomeCopy } from '../i18n';
+interface Props { copy: HomeCopy }
+const { copy } = Astro.props;
+---
+<aside class="sidebar" aria-label={copy.sidebar.title}>
+  <section class="sidebar-card"><h2>{copy.sidebar.title}</h2><nav data-sidebar-nav aria-label={copy.sidebar.title}><ul>{NAV_ITEMS.map((item) => <li><a href={`#${item.id}`}><span>{copy.nav[item.id]}</span><span class="count" data-sidebar-count>{item.count}</span></a></li>)}</ul></nav></section>
+  <section class="sidebar-card codes-card" id="codes">
+    <div class="card-heading"><h2>{copy.sidebar.activeCodes}</h2><span class="live-dot">Active</span></div><p class="checked-date">{copy.sidebar.lastChecked}</p>
+    <div class="code-list">{GAME_FACTS.sidebarCodes.map((entry) => <article data-code-card class="code-entry"><code>{entry.code}</code><p>{entry.reward}</p></article>)}</div>
+    <a class="sidebar-link" href="#codes">{copy.sidebar.viewAll} →</a>
+  </section>
+</aside>
