@@ -1,0 +1,10 @@
+---
+import type { HomeCopy } from '../i18n';
+interface Props { copy: HomeCopy }
+const { copy } = Astro.props;
+---
+<section class="content-section" id="community">
+  <p class="eyebrow">{copy.trending.eyebrow}</p>
+  <h2 data-section-heading="trending">{copy.trending.title}</h2>
+  <div class="trend-list">{copy.trending.items.map((item, index) => <a href={index === 0 ? '#codes' : '#explore'}><span>{String(index + 1).padStart(2, '0')}</span>{item}<b aria-hidden="true">↗</b></a>)}</div>
+</section>

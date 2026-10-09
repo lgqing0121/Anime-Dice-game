@@ -1,0 +1,19 @@
+---
+import { GAME_FACTS } from '../data/game';
+import type { HomeCopy } from '../i18n';
+interface Props { copy: HomeCopy }
+const { copy } = Astro.props;
+const values = [
+  GAME_FACTS.developer, GAME_FACTS.platform, GAME_FACTS.genre, GAME_FACTS.snapshot.visits,
+  GAME_FACTS.snapshot.favorites, GAME_FACTS.snapshot.approval, GAME_FACTS.snapshot.serverSize,
+  GAME_FACTS.currentUpdate, GAME_FACTS.rebirthPaths,
+];
+---
+<section class="content-section about-section" id="trading">
+  <h2 data-section-heading="about">{copy.about.title}</h2>
+  <div class="about-copy">{copy.about.paragraphs.map((paragraph) => <p>{paragraph}</p>)}</div>
+  <dl class="fact-grid" data-about-facts>
+    {copy.about.statLabels.map((label, index) => <div data-about-fact><dt>{label}</dt><dd>{values[index]}</dd></div>)}
+  </dl>
+  <a class="button button-secondary" href="#explore">{copy.about.cta}</a>
+</section>

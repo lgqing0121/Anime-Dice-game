@@ -1,4 +1,6 @@
 import { expect, test } from '@playwright/test';
+import { GAME_FACTS } from '../../src/data/game';
+import { EXPLORE_MODULES } from '../../src/data/modules';
 
 const locales = [
   { route: 'en', lang: 'en', label: 'English', lastChecked: 'Last checked: Oct 5, 2026' },
@@ -26,5 +28,32 @@ for (const locale of locales) {
     await expect(page.locator('[data-sidebar-count]')).toHaveText(['1', '7', '7', '8', '4', '4', '5', '4']);
     await expect(page.locator('[data-code-card]')).toHaveCount(2);
     await expect(page.getByText(locale.lastChecked, { exact: true })).toBeVisible();
+
+    expect(await page.locator('[data-section-heading]').evaluateAll((nodes) => nodes.map((node) => node.getAttribute('data-section-heading')))).toEqual([
+      'updates',
+      'journey',
+      'trending',
+      'about',
+      'explore',
+      'faq',
+      'final-cta',
+    ]);
+
+    await expect(page.locator('[data-journey-card]')).toHaveCount(4);
+    await expect(page.locator('[data-explore-module]')).toHaveCount(8);
+    expect(await page.locator('[data-explore-module]').evaluateAll((nodes) => nodes.map((node) => ({
+      id: node.getAttribute('data-module-id'),
+      display: node.getAttribute('data-display-type'),
+    })))).toEqual(EXPLORE_MODULES.map((module) => ({ id: module.id, display: module.displayType })));
+
+    await expect(page.locator('[data-about-fact]')).toHaveCount(9);
+    await expect(page.locator('[data-about-facts]')).toContainText(GAME_FACTS.developer);
+    await expect(page.locator('[data-about-facts]')).toContainText(GAME_FACTS.snapshot.visits);
+    await expect(page.locator('[data-faq-item]')).toHaveCount(6);
+    await expect(page.locator('[data-play-roblox]')).toHaveAttribute('href', GAME_FACTS.links.game);
+    await expect(page.locator('[data-fan-disclaimer]')).toBeVisible();
+
+    const internalHrefs = await page.locator('a[href^="/"]').evaluateAll((links) => links.map((link) => link.getAttribute('href')));
+    expect(internalHrefs.every((href) => /^\/(en|pt-br|es|id)\/$/.test(href ?? ''))).toBe(true);
   });
 }

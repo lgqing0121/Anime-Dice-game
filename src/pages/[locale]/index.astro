@@ -2,6 +2,14 @@
 import AdSlot from '../../components/AdSlot.astro';
 import Hero from '../../components/Hero.astro';
 import Sidebar from '../../components/Sidebar.astro';
+import LatestUpdates from '../../components/LatestUpdates.astro';
+import Journey from '../../components/Journey.astro';
+import Trending from '../../components/Trending.astro';
+import AboutGame from '../../components/AboutGame.astro';
+import ExploreModules from '../../components/ExploreModules.astro';
+import Faq from '../../components/Faq.astro';
+import FinalCta from '../../components/FinalCta.astro';
+import Footer from '../../components/Footer.astro';
 import { SUPPORTED_LOCALES, type Locale } from '../../config/site';
 import { getHomeCopy } from '../../i18n';
 import WikiLayout from '../../layouts/WikiLayout.astro';
@@ -20,8 +28,16 @@ const copy = getHomeCopy(locale);
     <div class="content-grid">
       <div class="primary-column">
         <Hero copy={copy} />
+        <LatestUpdates copy={copy} />
+        <Journey copy={copy} />
+        <Trending copy={copy} />
+        <AboutGame copy={copy} />
+        <ExploreModules copy={copy} />
+        <Faq copy={copy} />
+        <FinalCta copy={copy} />
       </div>
       <Sidebar copy={copy} />
     </div>
   </main>
+  <Footer locale={locale} copy={copy} />
 </WikiLayout>

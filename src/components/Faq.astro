@@ -1,0 +1,11 @@
+---
+import type { HomeCopy } from '../i18n';
+interface Props { copy: HomeCopy }
+const { copy } = Astro.props;
+---
+<section class="content-section faq-section" id="faq">
+  <p class="eyebrow">{copy.faq.eyebrow}</p>
+  <h2 data-section-heading="faq">{copy.faq.title}</h2>
+  <p class="section-subtitle">{copy.faq.subtitle}</p>
+  <div class="faq-list">{copy.faq.items.map((item) => <details data-faq-item><summary>{item.question}<span aria-hidden="true">+</span></summary><p>{item.answer}</p></details>)}</div>
+</section>
