@@ -18,6 +18,7 @@ const jsonLd = buildHomeJsonLd(locale, origin, copy);
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={seo.description} />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
     <meta name="theme-color" content="#0b0d16" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -27,6 +28,7 @@ const jsonLd = buildHomeJsonLd(locale, origin, copy);
     <link rel="canonical" href={seo.canonical} />
     {seo.alternates.map((alternate) => <link rel="alternate" hreflang={alternate.hrefLang} href={alternate.href} />)}
     <meta property="og:type" content={seo.openGraph.type} />
+    <meta property="og:site_name" content="Anime Dice Wiki" />
     <meta property="og:locale" content={seo.openGraph.locale} />
     <meta property="og:url" content={seo.openGraph.url} />
     <meta property="og:title" content={seo.openGraph.title} />
@@ -35,6 +37,7 @@ const jsonLd = buildHomeJsonLd(locale, origin, copy);
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={seo.title} />
     <meta name="twitter:description" content={seo.description} />
+    <meta name="twitter:image" content={seo.openGraph.image} />
     <script is:inline>
       try {
         const savedTheme = localStorage.getItem('theme');
