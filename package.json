@@ -1,0 +1,28 @@
+{
+  "name": "youxi-anime-dice",
+  "version": "1.0.0",
+  "description": "Multilingual Anime Dice community wiki",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "typecheck": "astro check",
+    "test": "vitest run",
+    "test:unit": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "keywords": ["anime-dice", "roblox", "wiki"],
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "astro": "^7.3.8"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@playwright/test": "^1.64.0",
+    "cross-env": "^10.1.0",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.3"
+  }
+}
