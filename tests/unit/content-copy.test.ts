@@ -137,3 +137,18 @@ describe('English Updates and Community content',()=>{
  });
  it('completes all forty English articles',()=>expect(Object.keys(EN_ARTICLE_COPY)).toHaveLength(40));
 });
+
+import { PT_BR_ARTICLE_COPY } from '../../src/i18n/articles/pt-br';
+import { PT_BR_CATEGORY_COPY } from '../../src/i18n/categories/pt-br';
+
+describe('Portuguese content',()=>{
+ it('provides complete Brazilian Portuguese coverage',()=>{
+  expect(Object.keys(PT_BR_CATEGORY_COPY)).toHaveLength(8);
+  expect(Object.keys(PT_BR_ARTICLE_COPY)).toHaveLength(40);
+  for(const id of Object.keys(EN_ARTICLE_COPY) as ArticleId[]){
+   expect(PT_BR_ARTICLE_COPY[id].title).not.toBe(EN_ARTICLE_COPY[id]!.title);
+   expect(PT_BR_ARTICLE_COPY[id].sections).toHaveLength(3);
+  }
+  expect(validateLocalizedContent('pt-br',Object.keys(PT_BR_ARTICLE_COPY) as ArticleId[])).toEqual([]);
+ });
+});

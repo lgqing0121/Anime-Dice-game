@@ -1,8 +1,11 @@
 import type{ArticleId,CategoryId,LocalizedArticle}from'../content/types';
 import type{Locale}from'../config/site';
 import{EN_ARTICLE_COPY}from'./articles/en';
+import{PT_BR_ARTICLE_COPY}from'./articles/pt-br';
 import{EN_CATEGORY_COPY}from'./categories/en';
-const articles={en:EN_ARTICLE_COPY}as const,categories={en:EN_CATEGORY_COPY}as const;
+import{PT_BR_CATEGORY_COPY}from'./categories/pt-br';
+const articles={en:EN_ARTICLE_COPY,'pt-br':PT_BR_ARTICLE_COPY}as const;
+const categories={en:EN_CATEGORY_COPY,'pt-br':PT_BR_CATEGORY_COPY}as const;
 export function getCategoryCopy(locale:Locale,id:CategoryId){const localized=categories[locale as keyof typeof categories];const copy=localized?.[id];if(!copy)throw new Error(`Missing category copy for ${locale}/${id}`);return copy;}
 export function getArticleCopy(locale:Locale,id:ArticleId):LocalizedArticle{const localized=articles[locale as keyof typeof articles];const copy=localized?.[id];if(!copy)throw new Error(`Missing article copy for ${locale}/${id}`);return copy;}
 export function validateLocalizedContent(locale:Locale,ids:readonly ArticleId[]):string[]{const errors:string[]=[],titles=new Set<string>(),descriptions=new Set<string>();for(const id of ids){let copy:LocalizedArticle;try{copy=getArticleCopy(locale,id)}catch{errors.push(`Missing article copy: ${locale}/${id}`);continue}if(!copy.title.trim()||!copy.description.trim())errors.push(`Empty metadata: ${locale}/${id}`);if(titles.has(copy.title))errors.push(`Duplicate title: ${copy.title}`);if(descriptions.has(copy.description))errors.push(`Duplicate description: ${copy.description}`);titles.add(copy.title);descriptions.add(copy.description);if(copy.intro.join(' ').length<120)errors.push(`Short intro: ${locale}/${id}`);if(copy.sections.length<3)errors.push(`Too few sections: ${locale}/${id}`);if(copy.faq.length<2)errors.push(`Too few FAQ items: ${locale}/${id}`);if(!copy.sourceNote.trim())errors.push(`Missing source note: ${locale}/${id}`);const sectionIds=new Set<string>();for(const section of copy.sections){if(!section.id.trim()||sectionIds.has(section.id))errors.push(`Invalid section id: ${locale}/${id}`);sectionIds.add(section.id);if(!section.title.trim()||!section.blocks.length)errors.push(`Empty section: ${locale}/${id}/${section.id}`)}}return errors;}
