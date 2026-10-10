@@ -152,3 +152,21 @@ describe('Portuguese content',()=>{
   expect(validateLocalizedContent('pt-br',Object.keys(PT_BR_ARTICLE_COPY) as ArticleId[])).toEqual([]);
  });
 });
+
+import { ES_ARTICLE_COPY } from '../../src/i18n/articles/es';
+import { ID_ARTICLE_COPY } from '../../src/i18n/articles/id';
+import { ES_CATEGORY_COPY } from '../../src/i18n/categories/es';
+import { ID_CATEGORY_COPY } from '../../src/i18n/categories/id';
+import { validateReleaseContent } from '../../src/lib/content-validation';
+
+describe('Spanish, Indonesian, and release content',()=>{
+ it('provides forty articles and eight categories per added locale',()=>{
+  expect(Object.keys(ES_CATEGORY_COPY)).toHaveLength(8);
+  expect(Object.keys(ID_CATEGORY_COPY)).toHaveLength(8);
+  expect(Object.keys(ES_ARTICLE_COPY)).toHaveLength(40);
+  expect(Object.keys(ID_ARTICLE_COPY)).toHaveLength(40);
+  expect(validateLocalizedContent('es',Object.keys(ES_ARTICLE_COPY) as ArticleId[])).toEqual([]);
+  expect(validateLocalizedContent('id',Object.keys(ID_ARTICLE_COPY) as ArticleId[])).toEqual([]);
+ });
+ it('passes the complete four-language release contract',()=>expect(validateReleaseContent()).toEqual([]));
+});

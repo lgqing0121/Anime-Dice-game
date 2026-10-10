@@ -59,3 +59,32 @@ export function validateContentCatalog(input: CatalogInput = {}): string[] {
   }
   return [...errors];
 }
+
+import { SUPPORTED_LOCALES } from '../config/site';
+import { getArticleCopy, getCategoryCopy, validateLocalizedContent } from '../i18n/content';
+
+export function validateReleaseContent(): string[] {
+  const errors = [...validateContentCatalog()];
+  for (const locale of SUPPORTED_LOCALES) {
+    errors.push(...validateLocalizedContent(locale, ARTICLE_IDS));
+    for (const categoryId of CATEGORY_IDS) {
+      try { getCategoryCopy(locale, categoryId); } catch { errors.push(`Missing category copy: ${locale}/${categoryId}`); }
+    }
+    for (const article of ARTICLES) {
+      try {
+        const copy = getArticleCopy(locale, article.id);
+        const english = getArticleCopy('en', article.id);
+        if (copy.sections.length !== english.sections.length || copy.faq.length !== english.faq.length) {
+          errors.push(`Structure mismatch: ${locale}/${article.id}`);
+        }
+        const shape = copy.sections.map((section) => section.blocks.map((block) => block.type).join(',')).join('|');
+        const englishShape = english.sections.map((section) => section.blocks.map((block) => block.type).join(',')).join('|');
+        if (shape !== englishShape) errors.push(`Block structure mismatch: ${locale}/${article.id}`);
+        for (const relatedId of article.relatedIds) getArticleCopy(locale, relatedId);
+      } catch {
+        errors.push(`Release coverage missing: ${locale}/${article.id}`);
+      }
+    }
+  }
+  return [...new Set(errors)];
+}
