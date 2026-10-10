@@ -1,0 +1,1 @@
+import type{Locale}from'../../config/site';import{EN_LEGAL}from'./en';import{PT_BR_LEGAL}from'./pt-br';import{ES_LEGAL}from'./es';import{ID_LEGAL}from'./id';const legal={en:EN_LEGAL,'pt-br':PT_BR_LEGAL,es:ES_LEGAL,id:ID_LEGAL};export const getLegalCopy=(locale:Locale)=>legal[locale];

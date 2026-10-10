@@ -1,0 +1,1 @@
+export interface LegalCopy{privacy:{title:string;description:string;sections:Array<{title:string;text:string}>};terms:{title:string;description:string;sections:Array<{title:string;text:string}>}}

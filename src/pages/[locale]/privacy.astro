@@ -1,0 +1,5 @@
+---
+import WikiLayout from'../../layouts/WikiLayout.astro';import Footer from'../../components/Footer.astro';import Breadcrumbs from'../../components/Breadcrumbs.astro';import{SUPPORTED_LOCALES,type Locale}from'../../config/site';import{getHomeCopy}from'../../i18n';import{getLegalCopy}from'../../i18n/legal';
+export function getStaticPaths(){return SUPPORTED_LOCALES.map(locale=>({params:{locale},props:{locale}}))}interface Props{locale:Locale}const{locale}=Astro.props,home=getHomeCopy(locale),copy=getLegalCopy(locale).privacy;
+---
+<WikiLayout locale={locale} copy={home} page={{kind:'privacy'}}><main class="page-shell legal-page"><Breadcrumbs items={[{label:'Anime Dice',href:`/${locale}/`},{label:copy.title}]}/><header class="page-intro"><h1>{copy.title}</h1><p>{copy.description}</p></header>{copy.sections.map(section=><section class="article-section"><h2>{section.title}</h2><p>{section.text}</p></section>)}</main><Footer locale={locale} copy={home}/></WikiLayout>

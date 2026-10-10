@@ -32,11 +32,11 @@ const copy = getHomeCopy(locale);
         <Journey copy={copy} />
         <Trending copy={copy} />
         <AboutGame copy={copy} />
-        <ExploreModules copy={copy} />
+        <ExploreModules locale={locale} copy={copy} />
         <Faq copy={copy} />
         <FinalCta copy={copy} />
       </div>
-      <Sidebar copy={copy} />
+      <Sidebar locale={locale} copy={copy} />
     </div>
   </main>
   <Footer locale={locale} copy={copy} />

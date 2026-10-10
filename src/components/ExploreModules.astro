@@ -1,34 +1,5 @@
 ---
-import { EXPLORE_MODULES } from '../data/modules';
-import type { HomeCopy } from '../i18n';
-interface Props { copy: HomeCopy }
-const { copy } = Astro.props;
-const anchorIds: Record<string, string> = {
-  codes: 'codes', guide: 'beginner-guide', 'tier-list': 'units', dice: 'progression',
-  traits: 'traits', rebirth: 'rebirth', gears: 'tower', towers: 'towers',
-};
+import{EXPLORE_MODULES}from'../data/modules';import type{HomeCopy}from'../i18n';import type{Locale}from'../config/site';import type{ArticleId}from'../content/types';import{getArticlePath}from'../lib/routes';
+interface Props{copy:HomeCopy;locale:Locale}const{copy,locale}=Astro.props;const articleIds:Record<string,ArticleId>={codes:'anime-dice-codes',guide:'anime-dice-guide','tier-list':'anime-dice-tier-list',dice:'anime-dice-luck',traits:'anime-dice-traits',rebirth:'anime-dice-rebirth',gears:'anime-dice-gear',towers:'anime-dice-tower'};
 ---
-<section class="content-section explore-section" id="explore">
-  <p class="eyebrow">{copy.modules.eyebrow}</p>
-  <h2 data-section-heading="explore">{copy.modules.title}</h2>
-  <p class="section-subtitle">{copy.modules.subtitle}</p>
-  <div class="module-stack">
-    {EXPLORE_MODULES.map((module) => {
-      const localized = copy.modules.items.find((item) => item.id === module.id);
-      if (!localized) throw new Error(`Missing localized module: ${module.id}`);
-      return (
-        <article class:list={['module-card', `module-${module.displayType}`]} id={anchorIds[module.id]} data-explore-module data-module-id={module.id} data-display-type={module.displayType}>
-          <div class="module-heading"><span>{String(module.order).padStart(2, '0')}</span><div><h3>{localized.name}</h3><p>{localized.description}</p></div></div>
-          <div class="module-highlights">
-            {module.highlights.map((highlight, index) => (
-              <div class="module-highlight">
-                <div><strong>{highlight.label}</strong>{highlight.badge && <span class="mini-badge">{copy.common.active}</span>}</div>
-                <p>{localized.highlights[index]}</p>
-              </div>
-            ))}
-          </div>
-        </article>
-      );
-    })}
-  </div>
-</section>
+<section class="content-section explore-section" id="explore"><p class="eyebrow">{copy.modules.eyebrow}</p><h2 data-section-heading="explore">{copy.modules.title}</h2><p class="section-subtitle">{copy.modules.subtitle}</p><div class="module-stack">{EXPLORE_MODULES.map(module=>{const localized=copy.modules.items.find(item=>item.id===module.id);if(!localized)throw new Error(`Missing localized module: ${module.id}`);const href=getArticlePath(locale,articleIds[module.id]);return <article class:list={['module-card',`module-${module.displayType}`]} id={module.id} data-explore-module data-module-id={module.id} data-display-type={module.displayType}><div class="module-heading"><span>{String(module.order).padStart(2,'0')}</span><div><h3><a href={href}>{localized.name}</a></h3><p>{localized.description}</p></div></div><div class="module-highlights">{module.highlights.map((highlight,index)=><div class="module-highlight"><div><strong>{highlight.label}</strong>{highlight.badge&&<span class="mini-badge">{copy.common.active}</span>}</div><p>{localized.highlights[index]}</p></div>)}</div><a class="text-link" href={href}>{localized.name} →</a></article>})}</div></section>
