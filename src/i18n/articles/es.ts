@@ -1766,7 +1766,7 @@ export const ES_ARTICLE_COPY = {
             "type": "callout",
             "tone": "unverified",
             "title": "Lucky Spins — Límites no confirmados",
-            "body": "Resultados, probabilidades y disponibilidad pueden cambiar."
+            "body": "Resultados, probabilidades y disponibilidad actuales no están confirmados."
           }
         ]
       }
@@ -1782,7 +1782,7 @@ export const ES_ARTICLE_COPY = {
       },
       {
         "question": "Lucky Spins: ¿Qué sigue sin confirmar?",
-        "answer": "Resultados, probabilidades y disponibilidad pueden cambiar."
+        "answer": "Resultados, probabilidades y disponibilidad actuales no están confirmados."
       }
     ],
     "sourceNote": "Revisado con la página oficial del juego y las referencias editoriales indicadas; los detalles variables deben comprobarse dentro del juego.",
@@ -2653,7 +2653,8 @@ export const ES_ARTICLE_COPY = {
             "style": "unordered",
             "items": [
               "Compara rarity, grade, trait, mutation y nivel.",
-              "Anota fuente y fecha de cualquier estimación."
+              "Anota fuente y fecha de cualquier estimación.",
+              "Rechaza la presión para cerrar la operación antes de verificarla."
             ]
           }
         ]

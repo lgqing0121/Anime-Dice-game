@@ -2653,7 +2653,8 @@ export const PT_BR_ARTICLE_COPY = {
             "style": "unordered",
             "items": [
               "Compare rarity, grade, trait, mutation e nível.",
-              "Registre fonte e data de qualquer estimativa comunitária."
+              "Registre fonte e data de qualquer estimativa comunitária.",
+              "Rejeite pressão para concluir a troca antes da verificação."
             ]
           }
         ]

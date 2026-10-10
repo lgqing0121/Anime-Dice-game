@@ -2,6 +2,7 @@ import { ARTICLE_IDS, CATEGORY_IDS, type ArticleId, type ArticleRecord, type Cat
 import { ARTICLES } from '../data/articles';
 import { CATEGORIES } from '../data/categories';
 import { ARTICLE_FACTS } from '../data/article-facts';
+import { LOCALIZED_FACT_ASSERTIONS } from '../data/localized-fact-assertions';
 
 interface CatalogInput { categories?: readonly CategoryRecord[]; articles?: readonly ArticleRecord[] }
 const expectedCounts = [1, 7, 7, 8, 4, 4, 5, 4];
@@ -77,7 +78,13 @@ export function validateReleaseContent(): string[] {
       try {
         const copy = getArticleCopy(locale, article.id);
         const english = getArticleCopy('en', article.id);
-        const expectedFactKeys = ARTICLE_FACTS[article.id].factKeys;
+        const contract = ARTICLE_FACTS[article.id];
+        const expectedFactKeys = contract.factKeys;
+        const assertions = LOCALIZED_FACT_ASSERTIONS[locale][article.id];
+        if (contract.claims.length !== expectedFactKeys.length || assertions.length !== expectedFactKeys.length) errors.push('Incomplete fact contract: '+locale+'/'+article.id);
+        if (assertions.map((item) => item.key).join('|') !== expectedFactKeys.join('|')) errors.push('Localized fact key mismatch: '+locale+'/'+article.id);
+        const renderedCopy = JSON.stringify(copy);
+        for (const assertion of assertions) if (!renderedCopy.includes(assertion.text)) errors.push('Missing localized factual assertion '+assertion.key+': '+locale+'/'+article.id);
         if (copy.factKeys.join('|') !== expectedFactKeys.join('|')) errors.push('Fact contract mismatch: '+locale+'/'+article.id);
         if (article.id !== 'anime-dice-codes' && copy.sections.length < 4) errors.push('Insufficient substantive outline: '+locale+'/'+article.id);
         if (copy.sections.length !== english.sections.length || copy.faq.length !== english.faq.length) {

@@ -1766,7 +1766,7 @@ export const ID_ARTICLE_COPY = {
             "type": "callout",
             "tone": "unverified",
             "title": "Lucky Spins — Batas belum terkonfirmasi",
-            "body": "Hasil, peluang, dan ketersediaan dapat berubah."
+            "body": "Hasil, peluang, dan ketersediaan saat ini belum terkonfirmasi."
           }
         ]
       }
@@ -1782,7 +1782,7 @@ export const ID_ARTICLE_COPY = {
       },
       {
         "question": "Lucky Spins: Apa yang belum terkonfirmasi?",
-        "answer": "Hasil, peluang, dan ketersediaan dapat berubah."
+        "answer": "Hasil, peluang, dan ketersediaan saat ini belum terkonfirmasi."
       }
     ],
     "sourceNote": "Ditinjau berdasarkan halaman game resmi dan referensi editorial yang dicantumkan; detail yang mudah berubah harus diperiksa di dalam game.",
@@ -2653,7 +2653,8 @@ export const ID_ARTICLE_COPY = {
             "style": "unordered",
             "items": [
               "Bandingkan rarity, grade, trait, mutation, dan level.",
-              "Catat sumber dan tanggal perkiraan komunitas."
+              "Catat sumber dan tanggal perkiraan komunitas.",
+              "Tolak tekanan untuk menyelesaikan pertukaran sebelum verifikasi."
             ]
           }
         ]
