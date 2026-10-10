@@ -88,7 +88,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Learn the verified Anime Dice gameplay loop, from rolling and equipping a team to upgrades, keeper units, mutations, and offline earnings.",
     "intro": [
       "Anime Dice centers on rolling for characters, comparing results, and improving a team over time. Stronger rolls become keeper units while upgrades make later sessions more efficient.",
-      "Use this Guide for New Players article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This guide is organized around the exact control a player can use, the result that should be observed, and the limit of the supplied evidence. Guide for New Players therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -97,7 +97,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Grades and traits are separate systems."
+            "text": "Guide for New Players: Start with the exact control, property, or claim connected to this topic. Grades and traits are separate systems."
           }
         ]
       },
@@ -107,7 +107,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Guide for New Players: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -127,7 +127,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Guide for New Players: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -150,19 +150,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Progress speed varies, so no guaranteed timeline is stated."
           }
         ]
+      },
+      {
+        "id": "guide-decision-record",
+        "title": "Guide for New Players — A repeatable control check",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Guide for New Players should be tested with the relevant panel open: record the starting setting, perform the documented action, and confirm the visible result before changing anything else."
+          },
+          {
+            "type": "paragraph",
+            "text": "Guide for New Players: If the interface differs from this review, stop at the current in-game wording; a missing button or changed label is evidence that the guide needs a new review, not permission to guess."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Guide for New Players review item: preserve the current screen or source date.",
+              "Guide for New Players decision item: compare the result with the next documented goal.",
+              "Guide for New Players boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Guide for New Players: What should I check first?",
+        "question": "Where is the documented Guide for New Players control?",
         "answer": "Roll several units."
       },
       {
-        "question": "Guide for New Players: Which supplied detail matters to the decision?",
-        "answer": "Mutations can affect unit evaluation."
+        "question": "What visible result confirms Guide for New Players worked?",
+        "answer": "Guide for New Players should be tested with the relevant panel open: record the starting setting, perform the documented action, and confirm the visible result before changing anything else."
       },
       {
-        "question": "Guide for New Players: What remains unconfirmed?",
+        "question": "When should the Guide for New Players instructions be rechecked?",
         "answer": "Progress speed varies, so no guaranteed timeline is stated."
       }
     ],
@@ -179,7 +202,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Use practical Anime Dice tips for upgrade order, unit safety, automated rolling, selling thresholds, and more consistent resource decisions.",
     "intro": [
       "Reliable progress comes from reducing wasted rolls and protecting results that improve the team. A repeatable routine is safer than spending every resource immediately.",
-      "Use this Tips for Faster Progress article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This guide is organized around the exact control a player can use, the result that should be observed, and the limit of the supplied evidence. Tips for Faster Progress therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -188,7 +211,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Money and Luck are strong early priorities."
+            "text": "Tips for Faster Progress: Start with the exact control, property, or claim connected to this topic. Money and Luck are strong early priorities."
           }
         ]
       },
@@ -198,7 +221,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Tips for Faster Progress: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -218,7 +241,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Tips for Faster Progress: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -241,19 +264,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Rare outcomes and a fixed progression pace cannot be promised."
           }
         ]
+      },
+      {
+        "id": "tips-decision-record",
+        "title": "Tips for Faster Progress — A repeatable control check",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Tips for Faster Progress should be tested with the relevant panel open: record the starting setting, perform the documented action, and confirm the visible result before changing anything else."
+          },
+          {
+            "type": "paragraph",
+            "text": "Tips for Faster Progress: If the interface differs from this review, stop at the current in-game wording; a missing button or changed label is evidence that the guide needs a new review, not permission to guess."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Tips for Faster Progress review item: preserve the current screen or source date.",
+              "Tips for Faster Progress decision item: compare the result with the next documented goal.",
+              "Tips for Faster Progress boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Tips for Faster Progress: What should I check first?",
+        "question": "Where is the documented Tips for Faster Progress control?",
         "answer": "Use Equip Best before selling."
       },
       {
-        "question": "Tips for Faster Progress: Which supplied detail matters to the decision?",
-        "answer": "Roll Speed helps after the economy is stable."
+        "question": "What visible result confirms Tips for Faster Progress worked?",
+        "answer": "Tips for Faster Progress should be tested with the relevant panel open: record the starting setting, perform the documented action, and confirm the visible result before changing anything else."
       },
       {
-        "question": "Tips for Faster Progress: What remains unconfirmed?",
+        "question": "When should the Tips for Faster Progress instructions be rechecked?",
         "answer": "Rare outcomes and a fixed progression pace cannot be promised."
       }
     ],
@@ -270,7 +316,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Turn on Anime Dice Auto Roll from the Roll panel, use Hide to reduce the visible animation, and combine it with safer team checks.",
     "intro": [
       "Anime Dice includes an Auto control in the Roll interface. It continues the normal rolling loop without selecting the roll action every time during a longer session.",
-      "Use this Auto Roll Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This guide is organized around the exact control a player can use, the result that should be observed, and the limit of the supplied evidence. Auto Roll therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -279,7 +325,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Hide affects the repeated roll presentation."
+            "text": "Auto Roll: Start with the exact control, property, or claim connected to this topic. Hide affects the repeated roll presentation."
           }
         ]
       },
@@ -289,7 +335,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Auto Roll: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -309,7 +355,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Auto Roll: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -332,19 +378,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Hide is not evidence of a universal option for unrelated scenes."
           }
         ]
+      },
+      {
+        "id": "auto-roll-decision-record",
+        "title": "Auto Roll — A repeatable control check",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Auto Roll should be tested with the relevant panel open: record the starting setting, perform the documented action, and confirm the visible result before changing anything else."
+          },
+          {
+            "type": "paragraph",
+            "text": "Auto Roll: If the interface differs from this review, stop at the current in-game wording; a missing button or changed label is evidence that the guide needs a new review, not permission to guess."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Auto Roll review item: preserve the current screen or source date.",
+              "Auto Roll decision item: compare the result with the next documented goal.",
+              "Auto Roll boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Auto Roll Guide: What should I check first?",
+        "question": "Where is the documented Auto Roll control?",
         "answer": "Open the Roll panel."
       },
       {
-        "question": "Auto Roll Guide: Which supplied detail matters to the decision?",
-        "answer": "Rolls continue while that animation is hidden."
+        "question": "What visible result confirms Auto Roll worked?",
+        "answer": "Auto Roll should be tested with the relevant panel open: record the starting setting, perform the documented action, and confirm the visible result before changing anything else."
       },
       {
-        "question": "Auto Roll Guide: What remains unconfirmed?",
+        "question": "When should the Auto Roll instructions be rechecked?",
         "answer": "Hide is not evidence of a universal option for unrelated scenes."
       }
     ],
@@ -361,7 +430,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Configure Anime Dice Auto Sell at the Sell Units stand, choose a cautious threshold, and protect team upgrades before clearing extras.",
     "intro": [
       "Auto Sell reduces inventory cleanup, but an aggressive threshold can remove a useful result. The documented settings are available from the Sell Units stand in the game area.",
-      "Use this Auto Sell Settings article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This guide is organized around the exact control a player can use, the result that should be observed, and the limit of the supplied evidence. Auto Sell Settings therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -370,7 +439,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Grades, traits, and mutations can matter independently."
+            "text": "Auto Sell Settings: Start with the exact control, property, or claim connected to this topic. Grades, traits, and mutations can matter independently."
           }
         ]
       },
@@ -380,7 +449,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Auto Sell Settings: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -400,7 +469,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Auto Sell Settings: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -423,19 +492,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Keep an uncertain unit until its properties have been compared."
           }
         ]
+      },
+      {
+        "id": "auto-sell-decision-record",
+        "title": "Auto Sell Settings — A repeatable control check",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Auto Sell Settings should be tested with the relevant panel open: record the starting setting, perform the documented action, and confirm the visible result before changing anything else."
+          },
+          {
+            "type": "paragraph",
+            "text": "Auto Sell Settings: If the interface differs from this review, stop at the current in-game wording; a missing button or changed label is evidence that the guide needs a new review, not permission to guess."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Auto Sell Settings review item: preserve the current screen or source date.",
+              "Auto Sell Settings decision item: compare the result with the next documented goal.",
+              "Auto Sell Settings boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Auto Sell Settings: What should I check first?",
+        "question": "Where is the documented Auto Sell Settings control?",
         "answer": "Go to the Sell Units stand."
       },
       {
-        "question": "Auto Sell Settings: Which supplied detail matters to the decision?",
-        "answer": "The threshold should stay below units you actively use."
+        "question": "What visible result confirms Auto Sell Settings worked?",
+        "answer": "Auto Sell Settings should be tested with the relevant panel open: record the starting setting, perform the documented action, and confirm the visible result before changing anything else."
       },
       {
-        "question": "Auto Sell Settings: What remains unconfirmed?",
+        "question": "When should the Auto Sell Settings instructions be rechecked?",
         "answer": "Keep an uncertain unit until its properties have been compared."
       }
     ],
@@ -452,7 +544,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Plan Anime Dice unit leveling around keeper units, separate levels from grades and traits, and avoid wasting resources on temporary results.",
     "intro": [
       "Unit leveling is most useful when resources go to characters that remain on the active team. Rolling can replace an early result, so upgrading every unit evenly can slow progress.",
-      "Use this How to Level Up Units article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This guide is organized around the exact control a player can use, the result that should be observed, and the limit of the supplied evidence. How to Level Up Units therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -461,7 +553,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Level is one part of unit evaluation."
+            "text": "How to Level Up Units: Start with the exact control, property, or claim connected to this topic. Level is one part of unit evaluation."
           }
         ]
       },
@@ -471,7 +563,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "How to Level Up Units: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -491,7 +583,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "How to Level Up Units: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -514,19 +606,42 @@ export const EN_ARTICLE_COPY = {
             "body": "The supplied references do not establish one universal maximum level, so no number is invented."
           }
         ]
+      },
+      {
+        "id": "how-to-level-up-decision-record",
+        "title": "How to Level Up Units — A repeatable control check",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "How to Level Up Units should be tested with the relevant panel open: record the starting setting, perform the documented action, and confirm the visible result before changing anything else."
+          },
+          {
+            "type": "paragraph",
+            "text": "How to Level Up Units: If the interface differs from this review, stop at the current in-game wording; a missing button or changed label is evidence that the guide needs a new review, not permission to guess."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "How to Level Up Units review item: preserve the current screen or source date.",
+              "How to Level Up Units decision item: compare the result with the next documented goal.",
+              "How to Level Up Units boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "How to Level Up Units: What should I check first?",
+        "question": "Where is the documented How to Level Up Units control?",
         "answer": "Use Equip Best."
       },
       {
-        "question": "How to Level Up Units: Which supplied detail matters to the decision?",
-        "answer": "Grades and traits are separate systems."
+        "question": "What visible result confirms How to Level Up Units worked?",
+        "answer": "How to Level Up Units should be tested with the relevant panel open: record the starting setting, perform the documented action, and confirm the visible result before changing anything else."
       },
       {
-        "question": "How to Level Up Units: What remains unconfirmed?",
+        "question": "When should the How to Level Up Units instructions be rechecked?",
         "answer": "The supplied references do not establish one universal maximum level, so no number is invented."
       }
     ],
@@ -543,7 +658,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Use the verified Anime Dice Hide control for roll animations and understand why this guide does not claim a universal cutscene toggle exists.",
     "intro": [
       "Players searching to skip Anime Dice cutscenes are often trying to remove the repeated roll animation. The documented control for that specific need is Hide inside the Roll interface.",
-      "Use this How to Hide Roll Animations article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This guide is organized around the exact control a player can use, the result that should be observed, and the limit of the supplied evidence. How to Hide Roll Animations therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -552,7 +667,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Hide covers the roll presentation."
+            "text": "How to Hide Roll Animations: Start with the exact control, property, or claim connected to this topic. Hide covers the roll presentation."
           }
         ]
       },
@@ -562,7 +677,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "How to Hide Roll Animations: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -582,7 +697,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "How to Hide Roll Animations: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -605,19 +720,42 @@ export const EN_ARTICLE_COPY = {
             "body": "No supplied source confirms a setting that skips every intro, update, event, or story scene."
           }
         ]
+      },
+      {
+        "id": "how-to-skip-cutscenes-decision-record",
+        "title": "How to Hide Roll Animations — A repeatable control check",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "How to Hide Roll Animations should be tested with the relevant panel open: record the starting setting, perform the documented action, and confirm the visible result before changing anything else."
+          },
+          {
+            "type": "paragraph",
+            "text": "How to Hide Roll Animations: If the interface differs from this review, stop at the current in-game wording; a missing button or changed label is evidence that the guide needs a new review, not permission to guess."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "How to Hide Roll Animations review item: preserve the current screen or source date.",
+              "How to Hide Roll Animations decision item: compare the result with the next documented goal.",
+              "How to Hide Roll Animations boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "How to Hide Roll Animations: What should I check first?",
+        "question": "Where is the documented How to Hide Roll Animations control?",
         "answer": "Open the Roll panel."
       },
       {
-        "question": "How to Hide Roll Animations: Which supplied detail matters to the decision?",
-        "answer": "It does not stop the rolling process."
+        "question": "What visible result confirms How to Hide Roll Animations worked?",
+        "answer": "How to Hide Roll Animations should be tested with the relevant panel open: record the starting setting, perform the documented action, and confirm the visible result before changing anything else."
       },
       {
-        "question": "How to Hide Roll Animations: What remains unconfirmed?",
+        "question": "When should the How to Hide Roll Animations instructions be rechecked?",
         "answer": "No supplied source confirms a setting that skips every intro, update, event, or story scene."
       }
     ],
@@ -634,7 +772,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Find and join the verified Anime Dice developer group, avoid impersonation pages, and understand the cautiously documented group chest rewards.",
     "intro": [
       "Anime Dice is connected to the Roblox community More & More Games. Joining through the verified developer link is safer than choosing a similarly named group from search results.",
-      "Use this How to Join the Official Group article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This guide is organized around the exact control a player can use, the result that should be observed, and the limit of the supplied evidence. How to Join the Official Group therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -643,7 +781,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. The supplied guide says the chest may provide spins."
+            "text": "How to Join the Official Group: Start with the exact control, property, or claim connected to this topic. The supplied guide says the chest may provide spins."
           }
         ]
       },
@@ -653,7 +791,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "How to Join the Official Group: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -673,7 +811,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "How to Join the Official Group: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -696,19 +834,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Avoid lookalike communities and confirm the Roblox destination before joining."
           }
         ]
+      },
+      {
+        "id": "how-to-join-group-decision-record",
+        "title": "How to Join the Official Group — A repeatable control check",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "How to Join the Official Group should be tested with the relevant panel open: record the starting setting, perform the documented action, and confirm the visible result before changing anything else."
+          },
+          {
+            "type": "paragraph",
+            "text": "How to Join the Official Group: If the interface differs from this review, stop at the current in-game wording; a missing button or changed label is evidence that the guide needs a new review, not permission to guess."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "How to Join the Official Group review item: preserve the current screen or source date.",
+              "How to Join the Official Group decision item: compare the result with the next documented goal.",
+              "How to Join the Official Group boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "How to Join the Official Group: What should I check first?",
+        "question": "Where is the documented How to Join the Official Group control?",
         "answer": "Sign in to Roblox."
       },
       {
-        "question": "How to Join the Official Group: Which supplied detail matters to the decision?",
-        "answer": "Gems or rerolls may also be available."
+        "question": "What visible result confirms How to Join the Official Group worked?",
+        "answer": "How to Join the Official Group should be tested with the relevant panel open: record the starting setting, perform the documented action, and confirm the visible result before changing anything else."
       },
       {
-        "question": "How to Join the Official Group: What remains unconfirmed?",
+        "question": "When should the How to Join the Official Group instructions be rechecked?",
         "answer": "Avoid lookalike communities and confirm the Roblox destination before joining."
       }
     ],
@@ -725,7 +886,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice tier list with a focused reference for how units fit a current team, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice tier list page focuses on how units fit a current team. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Tier List Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This reference separates the unit property from rarity, grade, trait, mutation, and level so a roll is not judged by one label alone. Tier List therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -734,7 +895,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. A useful ranking depends on the current game version."
+            "text": "Tier List: Start with the exact control, property, or claim connected to this topic. A useful ranking depends on the current game version."
           }
         ]
       },
@@ -744,7 +905,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Tier List: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -764,7 +925,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Tier List: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -772,6 +933,24 @@ export const EN_ARTICLE_COPY = {
             "items": [
               "Grade, trait, mutation, and level are separate considerations.",
               "Equip Best is a starting check rather than a permanent ranking."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tier-list-verified-data",
+        "title": "Tier List — How to interpret this page",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The supplied material does not establish an S/A/B/C unit ranking. This page therefore publishes evaluation inputs and leaves any universal combat order unconfirmed."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Galactic is documented as a rarity introduced in Update 7.",
+              "Grade, trait, mutation, and level must be evaluated separately."
             ]
           }
         ]
@@ -787,19 +966,42 @@ export const EN_ARTICLE_COPY = {
             "body": "A universal permanent ranking is not confirmed, so no unsupported combat order is published."
           }
         ]
+      },
+      {
+        "id": "tier-list-decision-record",
+        "title": "Tier List — A complete unit comparison",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Tier List should be recorded with the unit identity plus rarity, grade, trait, mutation, and level. That prevents one attractive label from hiding a weaker overall team decision."
+          },
+          {
+            "type": "paragraph",
+            "text": "Tier List: Before selling or investing, compare the result with the equipped lineup and keep any uncertain unit until every displayed property has been checked."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Tier List review item: preserve the current screen or source date.",
+              "Tier List decision item: compare the result with the next documented goal.",
+              "Tier List boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Tier List Guide: What should I check first?",
+        "question": "Which properties belong in a Tier List comparison?",
         "answer": "Open the current game panel or verified source related to how units fit a current team."
       },
       {
-        "question": "Tier List Guide: Which supplied detail matters to the decision?",
-        "answer": "Grade, trait, mutation, and level are separate considerations."
+        "question": "What should be protected before selling a Tier List result?",
+        "answer": "Tier List should be recorded with the unit identity plus rarity, grade, trait, mutation, and level. That prevents one attractive label from hiding a weaker overall team decision."
       },
       {
-        "question": "Tier List Guide: What remains unconfirmed?",
+        "question": "Which Tier List values are not established here?",
         "answer": "A universal permanent ranking is not confirmed, so no unsupported combat order is published."
       }
     ],
@@ -816,7 +1018,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice units with a focused reference for rolling, keeping, equipping, and improving characters, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice units page focuses on rolling, keeping, equipping, and improving characters. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Units Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This reference separates the unit property from rarity, grade, trait, mutation, and level so a roll is not judged by one label alone. Units therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -825,7 +1027,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Characters are obtained through the roll loop."
+            "text": "Units: Start with the exact control, property, or claim connected to this topic. Characters are obtained through the roll loop."
           }
         ]
       },
@@ -835,7 +1037,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Units: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -855,7 +1057,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Units: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -878,19 +1080,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Unit availability and balance can change; confirm the current roster in game."
           }
         ]
+      },
+      {
+        "id": "units-decision-record",
+        "title": "Units — A complete unit comparison",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Units should be recorded with the unit identity plus rarity, grade, trait, mutation, and level. That prevents one attractive label from hiding a weaker overall team decision."
+          },
+          {
+            "type": "paragraph",
+            "text": "Units: Before selling or investing, compare the result with the equipped lineup and keep any uncertain unit until every displayed property has been checked."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Units review item: preserve the current screen or source date.",
+              "Units decision item: compare the result with the next documented goal.",
+              "Units boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Units Guide: What should I check first?",
+        "question": "Which properties belong in a Units comparison?",
         "answer": "Open the current game panel or verified source related to rolling, keeping, equipping, and improving characters."
       },
       {
-        "question": "Units Guide: Which supplied detail matters to the decision?",
-        "answer": "Keeper units deserve resources before temporary results."
+        "question": "What should be protected before selling a Units result?",
+        "answer": "Units should be recorded with the unit identity plus rarity, grade, trait, mutation, and level. That prevents one attractive label from hiding a weaker overall team decision."
       },
       {
-        "question": "Units Guide: What remains unconfirmed?",
+        "question": "Which Units values are not established here?",
         "answer": "Unit availability and balance can change; confirm the current roster in game."
       }
     ],
@@ -907,7 +1132,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice traits with a focused reference for evaluating traits without confusing them with grades or mutations, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice traits page focuses on evaluating traits without confusing them with grades or mutations. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Traits Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This reference separates the unit property from rarity, grade, trait, mutation, and level so a roll is not judged by one label alone. Traits therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -916,7 +1141,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Traits are a separate unit property."
+            "text": "Traits: Start with the exact control, property, or claim connected to this topic. Traits are a separate unit property."
           }
         ]
       },
@@ -926,7 +1151,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Traits: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -946,7 +1171,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Traits: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -954,6 +1179,47 @@ export const EN_ARTICLE_COPY = {
             "items": [
               "Trait Rerolls are named by the confirmed UPDATE6 reward.",
               "A trait should be evaluated with the unit it belongs to."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "traits-verified-data",
+        "title": "Traits — Verified supplied data",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Trait",
+              "Income / Damage / Health",
+              "Displayed chance"
+            ],
+            "rows": [
+              [
+                "Eternal",
+                "27x",
+                "Not stated in supplied module"
+              ],
+              [
+                "Transcendent",
+                "15x",
+                "0.006%"
+              ],
+              [
+                "Monarch",
+                "8x",
+                "0.025%"
+              ],
+              [
+                "Shogun",
+                "5x",
+                "0.12%"
+              ],
+              [
+                "Samurai",
+                "3x",
+                "0.5%"
+              ]
             ]
           }
         ]
@@ -969,19 +1235,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Exact trait effects and rankings are not confirmed for every current version."
           }
         ]
+      },
+      {
+        "id": "traits-decision-record",
+        "title": "Traits — A complete unit comparison",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Traits should be recorded with the unit identity plus rarity, grade, trait, mutation, and level. That prevents one attractive label from hiding a weaker overall team decision."
+          },
+          {
+            "type": "paragraph",
+            "text": "Traits: Before selling or investing, compare the result with the equipped lineup and keep any uncertain unit until every displayed property has been checked."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Traits review item: preserve the current screen or source date.",
+              "Traits decision item: compare the result with the next documented goal.",
+              "Traits boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Traits Guide: What should I check first?",
+        "question": "Which properties belong in a Traits comparison?",
         "answer": "Open the current game panel or verified source related to evaluating traits without confusing them with grades or mutations."
       },
       {
-        "question": "Traits Guide: Which supplied detail matters to the decision?",
-        "answer": "Trait Rerolls are named by the confirmed UPDATE6 reward."
+        "question": "What should be protected before selling a Traits result?",
+        "answer": "Traits should be recorded with the unit identity plus rarity, grade, trait, mutation, and level. That prevents one attractive label from hiding a weaker overall team decision."
       },
       {
-        "question": "Traits Guide: What remains unconfirmed?",
+        "question": "Which Traits values are not established here?",
         "answer": "Exact trait effects and rankings are not confirmed for every current version."
       }
     ],
@@ -990,7 +1279,12 @@ export const EN_ARTICLE_COPY = {
       "anime-dice-traits:confirmed-1",
       "anime-dice-traits:confirmed-2",
       "anime-dice-traits:confirmed-3",
-      "anime-dice-traits:evidence-boundary"
+      "anime-dice-traits:evidence-boundary",
+      "anime-dice-traits:supplied-eternal",
+      "anime-dice-traits:supplied-transcendent",
+      "anime-dice-traits:supplied-monarch",
+      "anime-dice-traits:supplied-shogun",
+      "anime-dice-traits:supplied-samurai"
     ]
   },
   "anime-dice-mutation": {
@@ -998,7 +1292,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice mutation with a focused reference for recognizing mutation as a separate character property, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice mutation page focuses on recognizing mutation as a separate character property. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Mutation Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This reference separates the unit property from rarity, grade, trait, mutation, and level so a roll is not judged by one label alone. Mutation therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -1007,7 +1301,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Mutations are part of the documented character loop."
+            "text": "Mutation: Start with the exact control, property, or claim connected to this topic. Mutations are part of the documented character loop."
           }
         ]
       },
@@ -1017,7 +1311,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Mutation: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -1037,7 +1331,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Mutation: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -1060,19 +1354,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Exact mutation odds and a complete live mutation list are not confirmed."
           }
         ]
+      },
+      {
+        "id": "mutation-decision-record",
+        "title": "Mutation — A complete unit comparison",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Mutation should be recorded with the unit identity plus rarity, grade, trait, mutation, and level. That prevents one attractive label from hiding a weaker overall team decision."
+          },
+          {
+            "type": "paragraph",
+            "text": "Mutation: Before selling or investing, compare the result with the equipped lineup and keep any uncertain unit until every displayed property has been checked."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Mutation review item: preserve the current screen or source date.",
+              "Mutation decision item: compare the result with the next documented goal.",
+              "Mutation boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Mutation Guide: What should I check first?",
+        "question": "Which properties belong in a Mutation comparison?",
         "answer": "Open the current game panel or verified source related to recognizing mutation as a separate character property."
       },
       {
-        "question": "Mutation Guide: Which supplied detail matters to the decision?",
-        "answer": "Mutation, grade, and trait are separate labels."
+        "question": "What should be protected before selling a Mutation result?",
+        "answer": "Mutation should be recorded with the unit identity plus rarity, grade, trait, mutation, and level. That prevents one attractive label from hiding a weaker overall team decision."
       },
       {
-        "question": "Mutation Guide: What remains unconfirmed?",
+        "question": "Which Mutation values are not established here?",
         "answer": "Exact mutation odds and a complete live mutation list are not confirmed."
       }
     ],
@@ -1089,7 +1406,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice rarity with a focused reference for comparing roll rarity with the rest of a unit, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice rarity page focuses on comparing roll rarity with the rest of a unit. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Rarity Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This reference separates the unit property from rarity, grade, trait, mutation, and level so a roll is not judged by one label alone. Rarity therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -1098,7 +1415,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Rarity helps describe a roll result."
+            "text": "Rarity: Start with the exact control, property, or claim connected to this topic. Rarity helps describe a roll result."
           }
         ]
       },
@@ -1108,7 +1425,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Rarity: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -1128,7 +1445,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Rarity: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -1151,19 +1468,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Exact roll probabilities are not confirmed by the supplied references."
           }
         ]
+      },
+      {
+        "id": "rarity-decision-record",
+        "title": "Rarity — A complete unit comparison",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Rarity should be recorded with the unit identity plus rarity, grade, trait, mutation, and level. That prevents one attractive label from hiding a weaker overall team decision."
+          },
+          {
+            "type": "paragraph",
+            "text": "Rarity: Before selling or investing, compare the result with the equipped lineup and keep any uncertain unit until every displayed property has been checked."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Rarity review item: preserve the current screen or source date.",
+              "Rarity decision item: compare the result with the next documented goal.",
+              "Rarity boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Rarity Guide: What should I check first?",
+        "question": "Which properties belong in a Rarity comparison?",
         "answer": "Open the current game panel or verified source related to comparing roll rarity with the rest of a unit."
       },
       {
-        "question": "Rarity Guide: Which supplied detail matters to the decision?",
-        "answer": "Rarity does not replace grade, trait, mutation, or level checks."
+        "question": "What should be protected before selling a Rarity result?",
+        "answer": "Rarity should be recorded with the unit identity plus rarity, grade, trait, mutation, and level. That prevents one attractive label from hiding a weaker overall team decision."
       },
       {
-        "question": "Rarity Guide: What remains unconfirmed?",
+        "question": "Which Rarity values are not established here?",
         "answer": "Exact roll probabilities are not confirmed by the supplied references."
       }
     ],
@@ -1180,7 +1520,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice grades with a focused reference for checking unit grades independently from traits, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice grades page focuses on checking unit grades independently from traits. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Grades Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This reference separates the unit property from rarity, grade, trait, mutation, and level so a roll is not judged by one label alone. Grades therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -1189,7 +1529,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Grades are separate from traits and mutations."
+            "text": "Grades: Start with the exact control, property, or claim connected to this topic. Grades are separate from traits and mutations."
           }
         ]
       },
@@ -1199,7 +1539,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Grades: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -1219,7 +1559,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Grades: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -1242,19 +1582,42 @@ export const EN_ARTICLE_COPY = {
             "body": "A complete current grade table and exact modifiers are not confirmed."
           }
         ]
+      },
+      {
+        "id": "grades-decision-record",
+        "title": "Grades — A complete unit comparison",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Grades should be recorded with the unit identity plus rarity, grade, trait, mutation, and level. That prevents one attractive label from hiding a weaker overall team decision."
+          },
+          {
+            "type": "paragraph",
+            "text": "Grades: Before selling or investing, compare the result with the equipped lineup and keep any uncertain unit until every displayed property has been checked."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Grades review item: preserve the current screen or source date.",
+              "Grades decision item: compare the result with the next documented goal.",
+              "Grades boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Grades Guide: What should I check first?",
+        "question": "Which properties belong in a Grades comparison?",
         "answer": "Open the current game panel or verified source related to checking unit grades independently from traits."
       },
       {
-        "question": "Grades Guide: Which supplied detail matters to the decision?",
-        "answer": "A grade should be read alongside the underlying unit."
+        "question": "What should be protected before selling a Grades result?",
+        "answer": "Grades should be recorded with the unit identity plus rarity, grade, trait, mutation, and level. That prevents one attractive label from hiding a weaker overall team decision."
       },
       {
-        "question": "Grades Guide: What remains unconfirmed?",
+        "question": "Which Grades values are not established here?",
         "answer": "A complete current grade table and exact modifiers are not confirmed."
       }
     ],
@@ -1271,7 +1634,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice max level with a focused reference for planning unit investment without inventing a cap, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice max level page focuses on planning unit investment without inventing a cap. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Max Level Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This reference separates the unit property from rarity, grade, trait, mutation, and level so a roll is not judged by one label alone. Max Level therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -1280,7 +1643,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Leveling resources are best focused on keeper units."
+            "text": "Max Level: Start with the exact control, property, or claim connected to this topic. Leveling resources are best focused on keeper units."
           }
         ]
       },
@@ -1290,7 +1653,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Max Level: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -1310,7 +1673,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Max Level: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -1333,19 +1696,42 @@ export const EN_ARTICLE_COPY = {
             "body": "One universal maximum level is not confirmed by the supplied references."
           }
         ]
+      },
+      {
+        "id": "max-level-decision-record",
+        "title": "Max Level — A complete unit comparison",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Max Level should be recorded with the unit identity plus rarity, grade, trait, mutation, and level. That prevents one attractive label from hiding a weaker overall team decision."
+          },
+          {
+            "type": "paragraph",
+            "text": "Max Level: Before selling or investing, compare the result with the equipped lineup and keep any uncertain unit until every displayed property has been checked."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Max Level review item: preserve the current screen or source date.",
+              "Max Level decision item: compare the result with the next documented goal.",
+              "Max Level boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Max Level Guide: What should I check first?",
+        "question": "Which properties belong in a Max Level comparison?",
         "answer": "Open the current game panel or verified source related to planning unit investment without inventing a cap."
       },
       {
-        "question": "Max Level Guide: Which supplied detail matters to the decision?",
-        "answer": "Level, grade, trait, and mutation remain separate."
+        "question": "What should be protected before selling a Max Level result?",
+        "answer": "Max Level should be recorded with the unit identity plus rarity, grade, trait, mutation, and level. That prevents one attractive label from hiding a weaker overall team decision."
       },
       {
-        "question": "Max Level Guide: What remains unconfirmed?",
+        "question": "Which Max Level values are not established here?",
         "answer": "One universal maximum level is not confirmed by the supplied references."
       }
     ],
@@ -1362,7 +1748,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice luck with a focused reference for prioritizing Luck as part of early progression, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice luck page focuses on prioritizing Luck as part of early progression. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Luck Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This progression page connects the resource or reset decision to the current upgrade panel and avoids treating a changing cap as permanent. Luck therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -1371,7 +1757,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Luck is a practical early upgrade priority."
+            "text": "Luck: Start with the exact control, property, or claim connected to this topic. Luck is a practical early upgrade priority."
           }
         ]
       },
@@ -1381,7 +1767,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Luck: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -1401,7 +1787,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Luck: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -1409,6 +1795,53 @@ export const EN_ARTICLE_COPY = {
             "items": [
               "Money and Luck can be improved before Roll Speed.",
               "Luck does not guarantee a particular roll."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "luck-verified-data",
+        "title": "Luck — Verified supplied data",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Die",
+              "Rarity",
+              "Cost",
+              "Luck"
+            ],
+            "rows": [
+              [
+                "Normal",
+                "Common",
+                "$1",
+                "2x"
+              ],
+              [
+                "Storm",
+                "Epic",
+                "$200 million",
+                "400x"
+              ],
+              [
+                "Light",
+                "Legendary",
+                "$12 billion",
+                "1,500x"
+              ],
+              [
+                "Prismatic",
+                "Exotic",
+                "$1 quintillion",
+                "1,000,000x"
+              ],
+              [
+                "Radiant",
+                "Heavenly",
+                "$100 octillion",
+                "5,000,000,000x"
+              ]
             ]
           }
         ]
@@ -1424,19 +1857,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Exact probabilities at each Luck value are not confirmed."
           }
         ]
+      },
+      {
+        "id": "luck-decision-record",
+        "title": "Luck — A resource decision record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Luck decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
+          },
+          {
+            "type": "paragraph",
+            "text": "Luck: If a cost, cap, reward, or probability is absent from the supplied evidence, use the live panel as authority and preserve the uncertainty rather than filling it with an estimate."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Luck review item: preserve the current screen or source date.",
+              "Luck decision item: compare the result with the next documented goal.",
+              "Luck boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Luck Guide: What should I check first?",
+        "question": "What should be recorded before using Luck?",
         "answer": "Open the current game panel or verified source related to prioritizing Luck as part of early progression."
       },
       {
-        "question": "Luck Guide: Which supplied detail matters to the decision?",
-        "answer": "Money and Luck can be improved before Roll Speed."
+        "question": "How does Luck connect to the next upgrade goal?",
+        "answer": "Luck decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
       },
       {
-        "question": "Luck Guide: What remains unconfirmed?",
+        "question": "Which Luck values still require the live panel?",
         "answer": "Exact probabilities at each Luck value are not confirmed."
       }
     ],
@@ -1445,7 +1901,12 @@ export const EN_ARTICLE_COPY = {
       "anime-dice-luck:confirmed-1",
       "anime-dice-luck:confirmed-2",
       "anime-dice-luck:confirmed-3",
-      "anime-dice-luck:evidence-boundary"
+      "anime-dice-luck:evidence-boundary",
+      "anime-dice-luck:supplied-normal-die",
+      "anime-dice-luck:supplied-storm-die",
+      "anime-dice-luck:supplied-light-die",
+      "anime-dice-luck:supplied-prismatic-die",
+      "anime-dice-luck:supplied-radiant-die"
     ]
   },
   "anime-dice-max-luck": {
@@ -1453,7 +1914,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice max luck with a focused reference for tracking upgrade limits without publishing an unsupported cap, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice max luck page focuses on tracking upgrade limits without publishing an unsupported cap. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Max Luck Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This progression page connects the resource or reset decision to the current upgrade panel and avoids treating a changing cap as permanent. Max Luck therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -1462,7 +1923,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Luck is an upgrade priority in the supplied progression guide."
+            "text": "Max Luck: Start with the exact control, property, or claim connected to this topic. Luck is an upgrade priority in the supplied progression guide."
           }
         ]
       },
@@ -1472,7 +1933,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Max Luck: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -1492,7 +1953,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Max Luck: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -1515,19 +1976,42 @@ export const EN_ARTICLE_COPY = {
             "body": "A permanent universal maximum Luck value is not confirmed."
           }
         ]
+      },
+      {
+        "id": "max-luck-decision-record",
+        "title": "Max Luck — A resource decision record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Max Luck decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
+          },
+          {
+            "type": "paragraph",
+            "text": "Max Luck: If a cost, cap, reward, or probability is absent from the supplied evidence, use the live panel as authority and preserve the uncertainty rather than filling it with an estimate."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Max Luck review item: preserve the current screen or source date.",
+              "Max Luck decision item: compare the result with the next documented goal.",
+              "Max Luck boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Max Luck Guide: What should I check first?",
+        "question": "What should be recorded before using Max Luck?",
         "answer": "Open the current game panel or verified source related to tracking upgrade limits without publishing an unsupported cap."
       },
       {
-        "question": "Max Luck Guide: Which supplied detail matters to the decision?",
-        "answer": "Rebirth and other systems can affect long-term progression."
+        "question": "How does Max Luck connect to the next upgrade goal?",
+        "answer": "Max Luck decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
       },
       {
-        "question": "Max Luck Guide: What remains unconfirmed?",
+        "question": "Which Max Luck values still require the live panel?",
         "answer": "A permanent universal maximum Luck value is not confirmed."
       }
     ],
@@ -1544,7 +2028,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice gems with a focused reference for protecting and spending a named progression resource, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice gems page focuses on protecting and spending a named progression resource. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Gems Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This progression page connects the resource or reset decision to the current upgrade panel and avoids treating a changing cap as permanent. Gems therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -1553,7 +2037,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Gems are included in the documented UPDATE6 rewards."
+            "text": "Gems: Start with the exact control, property, or claim connected to this topic. Gems are included in the documented UPDATE6 rewards."
           }
         ]
       },
@@ -1563,7 +2047,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Gems: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -1583,7 +2067,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Gems: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -1606,19 +2090,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Current prices, offers, and best purchases are not confirmed and can change."
           }
         ]
+      },
+      {
+        "id": "gems-decision-record",
+        "title": "Gems — A resource decision record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Gems decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
+          },
+          {
+            "type": "paragraph",
+            "text": "Gems: If a cost, cap, reward, or probability is absent from the supplied evidence, use the live panel as authority and preserve the uncertainty rather than filling it with an estimate."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Gems review item: preserve the current screen or source date.",
+              "Gems decision item: compare the result with the next documented goal.",
+              "Gems boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Gems Guide: What should I check first?",
+        "question": "What should be recorded before using Gems?",
         "answer": "Open the current game panel or verified source related to protecting and spending a named progression resource."
       },
       {
-        "question": "Gems Guide: Which supplied detail matters to the decision?",
-        "answer": "The group chest may provide gems according to the supplied guide."
+        "question": "How does Gems connect to the next upgrade goal?",
+        "answer": "Gems decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
       },
       {
-        "question": "Gems Guide: What remains unconfirmed?",
+        "question": "Which Gems values still require the live panel?",
         "answer": "Current prices, offers, and best purchases are not confirmed and can change."
       }
     ],
@@ -1635,7 +2142,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice jackpot roll with a focused reference for checking the in-game roll feature without claiming odds, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice jackpot roll page focuses on checking the in-game roll feature without claiming odds. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Jackpot Roll Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This progression page connects the resource or reset decision to the current upgrade panel and avoids treating a changing cap as permanent. Jackpot Roll therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -1644,7 +2151,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Jackpot Roll is treated as a progression search intent."
+            "text": "Jackpot Roll: Start with the exact control, property, or claim connected to this topic. Jackpot Roll is treated as a progression search intent."
           }
         ]
       },
@@ -1654,7 +2161,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Jackpot Roll: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -1674,7 +2181,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Jackpot Roll: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -1697,19 +2204,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Activation requirements, rewards, and exact odds are not confirmed."
           }
         ]
+      },
+      {
+        "id": "jackpot-roll-decision-record",
+        "title": "Jackpot Roll — A resource decision record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Jackpot Roll decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
+          },
+          {
+            "type": "paragraph",
+            "text": "Jackpot Roll: If a cost, cap, reward, or probability is absent from the supplied evidence, use the live panel as authority and preserve the uncertainty rather than filling it with an estimate."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Jackpot Roll review item: preserve the current screen or source date.",
+              "Jackpot Roll decision item: compare the result with the next documented goal.",
+              "Jackpot Roll boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Jackpot Roll Guide: What should I check first?",
+        "question": "What should be recorded before using Jackpot Roll?",
         "answer": "Open the current game panel or verified source related to checking the in-game roll feature without claiming odds."
       },
       {
-        "question": "Jackpot Roll Guide: Which supplied detail matters to the decision?",
-        "answer": "Luck and normal rolling remain distinct considerations."
+        "question": "How does Jackpot Roll connect to the next upgrade goal?",
+        "answer": "Jackpot Roll decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
       },
       {
-        "question": "Jackpot Roll Guide: What remains unconfirmed?",
+        "question": "Which Jackpot Roll values still require the live panel?",
         "answer": "Activation requirements, rewards, and exact odds are not confirmed."
       }
     ],
@@ -1726,7 +2256,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice lucky spin with a focused reference for handling Lucky Spins as a limited resource, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice lucky spin page focuses on handling Lucky Spins as a limited resource. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Lucky Spin Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This progression page connects the resource or reset decision to the current upgrade panel and avoids treating a changing cap as permanent. Lucky Spin therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -1735,7 +2265,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Lucky Spins are named in the documented UPDATE6 reward."
+            "text": "Lucky Spin: Start with the exact control, property, or claim connected to this topic. Lucky Spins are named in the documented UPDATE6 reward."
           }
         ]
       },
@@ -1745,7 +2275,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Lucky Spin: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -1765,7 +2295,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Lucky Spin: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -1788,19 +2318,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Exact outcomes, odds, and current availability are not confirmed."
           }
         ]
+      },
+      {
+        "id": "lucky-spin-decision-record",
+        "title": "Lucky Spin — A resource decision record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Lucky Spin decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
+          },
+          {
+            "type": "paragraph",
+            "text": "Lucky Spin: If a cost, cap, reward, or probability is absent from the supplied evidence, use the live panel as authority and preserve the uncertainty rather than filling it with an estimate."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Lucky Spin review item: preserve the current screen or source date.",
+              "Lucky Spin decision item: compare the result with the next documented goal.",
+              "Lucky Spin boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Lucky Spin Guide: What should I check first?",
+        "question": "What should be recorded before using Lucky Spin?",
         "answer": "Open the current game panel or verified source related to handling Lucky Spins as a limited resource."
       },
       {
-        "question": "Lucky Spin Guide: Which supplied detail matters to the decision?",
-        "answer": "The group chest may provide spins."
+        "question": "How does Lucky Spin connect to the next upgrade goal?",
+        "answer": "Lucky Spin decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
       },
       {
-        "question": "Lucky Spin Guide: What remains unconfirmed?",
+        "question": "Which Lucky Spin values still require the live panel?",
         "answer": "Exact outcomes, odds, and current availability are not confirmed."
       }
     ],
@@ -1817,7 +2370,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice rebirth with a focused reference for preparing for a long-term progression reset, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice rebirth page focuses on preparing for a long-term progression reset. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Rebirth Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This progression page connects the resource or reset decision to the current upgrade panel and avoids treating a changing cap as permanent. Rebirth therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -1826,7 +2379,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Rebirth belongs to long-term progression."
+            "text": "Rebirth: Start with the exact control, property, or claim connected to this topic. Rebirth belongs to long-term progression."
           }
         ]
       },
@@ -1836,7 +2389,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Rebirth: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -1856,7 +2409,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Rebirth: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -1864,6 +2417,23 @@ export const EN_ARTICLE_COPY = {
             "items": [
               "Update 7 is documented as adding six rebirth upgrade paths.",
               "A reset decision should be checked against the current interface."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rebirth-documented-sequence",
+        "title": "Rebirth — Documented supplied sequence",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ordered",
+            "items": [
+              "Wait until equipped units can rebuild income after reset.",
+              "Spend remaining cash before rebirth because current cash resets.",
+              "Collected units, grades, and traits remain.",
+              "Receive one Rebirth Upgrade Point per rebirth in Update 7.",
+              "Assign points across six Rebirth Upgrade paths, restart Auto Roll, and rebuild income."
             ]
           }
         ]
@@ -1879,19 +2449,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Exact costs and reset effects for every step are not confirmed here."
           }
         ]
+      },
+      {
+        "id": "rebirth-decision-record",
+        "title": "Rebirth — A resource decision record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Rebirth decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
+          },
+          {
+            "type": "paragraph",
+            "text": "Rebirth: If a cost, cap, reward, or probability is absent from the supplied evidence, use the live panel as authority and preserve the uncertainty rather than filling it with an estimate."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Rebirth review item: preserve the current screen or source date.",
+              "Rebirth decision item: compare the result with the next documented goal.",
+              "Rebirth boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Rebirth Guide: What should I check first?",
+        "question": "What should be recorded before using Rebirth?",
         "answer": "Open the current game panel or verified source related to preparing for a long-term progression reset."
       },
       {
-        "question": "Rebirth Guide: Which supplied detail matters to the decision?",
-        "answer": "Update 7 is documented as adding six rebirth upgrade paths."
+        "question": "How does Rebirth connect to the next upgrade goal?",
+        "answer": "Rebirth decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
       },
       {
-        "question": "Rebirth Guide: What remains unconfirmed?",
+        "question": "Which Rebirth values still require the live panel?",
         "answer": "Exact costs and reset effects for every step are not confirmed here."
       }
     ],
@@ -1900,7 +2493,12 @@ export const EN_ARTICLE_COPY = {
       "anime-dice-rebirth:confirmed-1",
       "anime-dice-rebirth:confirmed-2",
       "anime-dice-rebirth:confirmed-3",
-      "anime-dice-rebirth:evidence-boundary"
+      "anime-dice-rebirth:evidence-boundary",
+      "anime-dice-rebirth:supplied-rebuild-ready",
+      "anime-dice-rebirth:supplied-cash-resets",
+      "anime-dice-rebirth:supplied-units-remain",
+      "anime-dice-rebirth:supplied-upgrade-point",
+      "anime-dice-rebirth:supplied-six-paths"
     ]
   },
   "anime-dice-max-rebirth": {
@@ -1908,7 +2506,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice max rebirth with a focused reference for checking rebirth limits without inventing a final cap, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice max rebirth page focuses on checking rebirth limits without inventing a final cap. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Max Rebirth Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This progression page connects the resource or reset decision to the current upgrade panel and avoids treating a changing cap as permanent. Max Rebirth therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -1917,7 +2515,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Update 7 is documented as adding six rebirth upgrade paths."
+            "text": "Max Rebirth: Start with the exact control, property, or claim connected to this topic. Update 7 is documented as adding six rebirth upgrade paths."
           }
         ]
       },
@@ -1927,7 +2525,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Max Rebirth: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -1947,7 +2545,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Max Rebirth: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -1970,19 +2568,42 @@ export const EN_ARTICLE_COPY = {
             "body": "A permanent maximum rebirth number is not confirmed."
           }
         ]
+      },
+      {
+        "id": "max-rebirth-decision-record",
+        "title": "Max Rebirth — A resource decision record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Max Rebirth decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
+          },
+          {
+            "type": "paragraph",
+            "text": "Max Rebirth: If a cost, cap, reward, or probability is absent from the supplied evidence, use the live panel as authority and preserve the uncertainty rather than filling it with an estimate."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Max Rebirth review item: preserve the current screen or source date.",
+              "Max Rebirth decision item: compare the result with the next documented goal.",
+              "Max Rebirth boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Max Rebirth Guide: What should I check first?",
+        "question": "What should be recorded before using Max Rebirth?",
         "answer": "Open the current game panel or verified source related to checking rebirth limits without inventing a final cap."
       },
       {
-        "question": "Max Rebirth Guide: Which supplied detail matters to the decision?",
-        "answer": "A path count is not the same as a universal rebirth cap."
+        "question": "How does Max Rebirth connect to the next upgrade goal?",
+        "answer": "Max Rebirth decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
       },
       {
-        "question": "Max Rebirth Guide: What remains unconfirmed?",
+        "question": "Which Max Rebirth values still require the live panel?",
         "answer": "A permanent maximum rebirth number is not confirmed."
       }
     ],
@@ -1999,7 +2620,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice quest shop with a focused reference for evaluating current quest rewards and purchases, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice quest shop page focuses on evaluating current quest rewards and purchases. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Quest Shop Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This progression page connects the resource or reset decision to the current upgrade panel and avoids treating a changing cap as permanent. Quest Shop therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -2008,7 +2629,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Quest progress and shop choices should be checked in game."
+            "text": "Quest Shop: Start with the exact control, property, or claim connected to this topic. Quest progress and shop choices should be checked in game."
           }
         ]
       },
@@ -2018,7 +2639,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Quest Shop: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -2038,7 +2659,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Quest Shop: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -2061,19 +2682,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Live inventory, prices, and refresh timing are not confirmed."
           }
         ]
+      },
+      {
+        "id": "quest-shop-decision-record",
+        "title": "Quest Shop — A resource decision record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Quest Shop decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
+          },
+          {
+            "type": "paragraph",
+            "text": "Quest Shop: If a cost, cap, reward, or probability is absent from the supplied evidence, use the live panel as authority and preserve the uncertainty rather than filling it with an estimate."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Quest Shop review item: preserve the current screen or source date.",
+              "Quest Shop decision item: compare the result with the next documented goal.",
+              "Quest Shop boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Quest Shop Guide: What should I check first?",
+        "question": "What should be recorded before using Quest Shop?",
         "answer": "Open the current game panel or verified source related to evaluating current quest rewards and purchases."
       },
       {
-        "question": "Quest Shop Guide: Which supplied detail matters to the decision?",
-        "answer": "Gems, Tickets, and spins are separate named resources."
+        "question": "How does Quest Shop connect to the next upgrade goal?",
+        "answer": "Quest Shop decisions should record the resource balance, the current panel text, and the next concrete upgrade goal. That makes the choice reproducible without claiming a universal optimum."
       },
       {
-        "question": "Quest Shop Guide: What remains unconfirmed?",
+        "question": "Which Quest Shop values still require the live panel?",
         "answer": "Live inventory, prices, and refresh timing are not confirmed."
       }
     ],
@@ -2090,7 +2734,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice tower with a focused reference for preparing a team and resources before entering the Tower, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice tower page focuses on preparing a team and resources before entering the Tower. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Tower Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This Tower reference separates preparation, the run itself, and the reward evidence so a floor claim is not confused with a guaranteed drop. Tower therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -2099,7 +2743,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Review the active team before a run."
+            "text": "Tower: Start with the exact control, property, or claim connected to this topic. Review the active team before a run."
           }
         ]
       },
@@ -2109,7 +2753,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Tower: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -2129,7 +2773,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Tower: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -2137,6 +2781,23 @@ export const EN_ARTICLE_COPY = {
             "items": [
               "Gear, potions, and Tickets are separate preparation resources.",
               "Tower details were reviewed with the supplied progression sources."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tower-documented-sequence",
+        "title": "Tower — Documented supplied sequence",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ordered",
+            "items": [
+              "Enter the Towers portal in the central lobby and choose a challenge such as Dragon Tower.",
+              "Use Equip Best before starting the fight.",
+              "Auto and Hide can keep cleared floors moving while rewards are collected.",
+              "Dragon, Cursed, Pirate, Hidden Leaf, and Slayer Towers each have tower-specific Gear.",
+              "Improve grades, traits, Damage, and Health when the team cannot clear the next floor."
             ]
           }
         ]
@@ -2152,19 +2813,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Current floors, enemies, and reward rotations are not confirmed."
           }
         ]
+      },
+      {
+        "id": "tower-decision-record",
+        "title": "Tower — A run preparation record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Tower preparation should record the chosen Tower, the active lineup, and any item or ticket committed to the run. After the attempt, note the stopping floor and visible reward."
+          },
+          {
+            "type": "paragraph",
+            "text": "Tower: A single run or community video does not prove a drop rate. Use documented values only where the supplied research states them and treat rotating rewards as version-dependent."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Tower review item: preserve the current screen or source date.",
+              "Tower decision item: compare the result with the next documented goal.",
+              "Tower boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Tower Guide: What should I check first?",
+        "question": "What belongs in a Tower run checklist?",
         "answer": "Open the current game panel or verified source related to preparing a team and resources before entering the Tower."
       },
       {
-        "question": "Tower Guide: Which supplied detail matters to the decision?",
-        "answer": "Gear, potions, and Tickets are separate preparation resources."
+        "question": "How should a failed Tower run be reviewed?",
+        "answer": "Tower preparation should record the chosen Tower, the active lineup, and any item or ticket committed to the run. After the attempt, note the stopping floor and visible reward."
       },
       {
-        "question": "Tower Guide: What remains unconfirmed?",
+        "question": "Which Tower rewards are not guaranteed?",
         "answer": "Current floors, enemies, and reward rotations are not confirmed."
       }
     ],
@@ -2173,7 +2857,12 @@ export const EN_ARTICLE_COPY = {
       "anime-dice-tower:confirmed-1",
       "anime-dice-tower:confirmed-2",
       "anime-dice-tower:confirmed-3",
-      "anime-dice-tower:evidence-boundary"
+      "anime-dice-tower:evidence-boundary",
+      "anime-dice-tower:supplied-portal",
+      "anime-dice-tower:supplied-equip-best",
+      "anime-dice-tower:supplied-auto-hide",
+      "anime-dice-tower:supplied-tower-gear",
+      "anime-dice-tower:supplied-stuck-upgrades"
     ]
   },
   "anime-dice-gear": {
@@ -2181,7 +2870,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice gear with a focused reference for comparing gear by its documented source and fit, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice gear page focuses on comparing gear by its documented source and fit. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Gear Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This Tower reference separates preparation, the run itself, and the reward evidence so a floor claim is not confused with a guaranteed drop. Gear therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -2190,7 +2879,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Gear belongs to Tower preparation in the supplied sources."
+            "text": "Gear: Start with the exact control, property, or claim connected to this topic. Gear belongs to Tower preparation in the supplied sources."
           }
         ]
       },
@@ -2200,7 +2889,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Gear: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -2220,7 +2909,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Gear: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -2228,6 +2917,41 @@ export const EN_ARTICLE_COPY = {
             "items": [
               "Compare a gear item with the unit and goal it supports.",
               "Keep acquisition notes tied to reviewed sources."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gear-verified-data",
+        "title": "Gear — Verified supplied data",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Gear",
+              "Documented effect and source"
+            ],
+            "rows": [
+              [
+                "Angel's Halo",
+                "+30% Luck, +5 Walk Speed; 0.02% from Dragon Tower Floors 90+"
+              ],
+              [
+                "Sakuna's Sash",
+                "2x Damage, +30% Luck, +30% Gems; 0.02% from Cursed Tower Floors 90+"
+              ],
+              [
+                "Enol's Drums",
+                "+40% Luck, 1.5x Cash; 0.02% from Pirate Tower Floors 90+"
+              ],
+              [
+                "Obita's Mask",
+                "+40% Luck, +30% Gems; 0.02% from Hidden Leaf Tower Floors 90+"
+              ],
+              [
+                "Mazun's Coat",
+                "+50% Luck, 2x Cash; 0.02% from Slayer Tower Floors 90+"
+              ]
             ]
           }
         ]
@@ -2243,19 +2967,42 @@ export const EN_ARTICLE_COPY = {
             "body": "A complete live gear list and exact modifiers are not confirmed."
           }
         ]
+      },
+      {
+        "id": "gear-decision-record",
+        "title": "Gear — A run preparation record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Gear preparation should record the chosen Tower, the active lineup, and any item or ticket committed to the run. After the attempt, note the stopping floor and visible reward."
+          },
+          {
+            "type": "paragraph",
+            "text": "Gear: A single run or community video does not prove a drop rate. Use documented values only where the supplied research states them and treat rotating rewards as version-dependent."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Gear review item: preserve the current screen or source date.",
+              "Gear decision item: compare the result with the next documented goal.",
+              "Gear boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Gear Guide: What should I check first?",
+        "question": "What belongs in a Gear run checklist?",
         "answer": "Open the current game panel or verified source related to comparing gear by its documented source and fit."
       },
       {
-        "question": "Gear Guide: Which supplied detail matters to the decision?",
-        "answer": "Compare a gear item with the unit and goal it supports."
+        "question": "How should a failed Gear run be reviewed?",
+        "answer": "Gear preparation should record the chosen Tower, the active lineup, and any item or ticket committed to the run. After the attempt, note the stopping floor and visible reward."
       },
       {
-        "question": "Gear Guide: What remains unconfirmed?",
+        "question": "Which Gear rewards are not guaranteed?",
         "answer": "A complete live gear list and exact modifiers are not confirmed."
       }
     ],
@@ -2264,7 +3011,12 @@ export const EN_ARTICLE_COPY = {
       "anime-dice-gear:confirmed-1",
       "anime-dice-gear:confirmed-2",
       "anime-dice-gear:confirmed-3",
-      "anime-dice-gear:evidence-boundary"
+      "anime-dice-gear:evidence-boundary",
+      "anime-dice-gear:supplied-angels-halo",
+      "anime-dice-gear:supplied-sakunas-sash",
+      "anime-dice-gear:supplied-enols-drums",
+      "anime-dice-gear:supplied-obitas-mask",
+      "anime-dice-gear:supplied-mazuns-coat"
     ]
   },
   "anime-dice-potion": {
@@ -2272,7 +3024,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice potion with a focused reference for deciding when a temporary resource supports a run, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice potion page focuses on deciding when a temporary resource supports a run. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Potion Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This Tower reference separates preparation, the run itself, and the reward evidence so a floor claim is not confused with a guaranteed drop. Potion therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -2281,7 +3033,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Potions are treated as a Tower preparation resource."
+            "text": "Potion: Start with the exact control, property, or claim connected to this topic. Potions are treated as a Tower preparation resource."
           }
         ]
       },
@@ -2291,7 +3043,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Potion: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -2311,7 +3063,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Potion: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -2334,19 +3086,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Live potion inventory, duration, and exact effects are not confirmed."
           }
         ]
+      },
+      {
+        "id": "potion-decision-record",
+        "title": "Potion — A run preparation record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Potion preparation should record the chosen Tower, the active lineup, and any item or ticket committed to the run. After the attempt, note the stopping floor and visible reward."
+          },
+          {
+            "type": "paragraph",
+            "text": "Potion: A single run or community video does not prove a drop rate. Use documented values only where the supplied research states them and treat rotating rewards as version-dependent."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Potion review item: preserve the current screen or source date.",
+              "Potion decision item: compare the result with the next documented goal.",
+              "Potion boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Potion Guide: What should I check first?",
+        "question": "What belongs in a Potion run checklist?",
         "answer": "Open the current game panel or verified source related to deciding when a temporary resource supports a run."
       },
       {
-        "question": "Potion Guide: Which supplied detail matters to the decision?",
-        "answer": "Check the current item text before use."
+        "question": "How should a failed Potion run be reviewed?",
+        "answer": "Potion preparation should record the chosen Tower, the active lineup, and any item or ticket committed to the run. After the attempt, note the stopping floor and visible reward."
       },
       {
-        "question": "Potion Guide: What remains unconfirmed?",
+        "question": "Which Potion rewards are not guaranteed?",
         "answer": "Live potion inventory, duration, and exact effects are not confirmed."
       }
     ],
@@ -2363,7 +3138,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice tickets with a focused reference for tracking a named resource before Tower or event use, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice tickets page focuses on tracking a named resource before Tower or event use. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Tickets Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This Tower reference separates preparation, the run itself, and the reward evidence so a floor claim is not confused with a guaranteed drop. Tickets therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -2372,7 +3147,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Tickets are included in the documented UPDATE6 reward."
+            "text": "Tickets: Start with the exact control, property, or claim connected to this topic. Tickets are included in the documented UPDATE6 reward."
           }
         ]
       },
@@ -2382,7 +3157,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Tickets: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -2402,7 +3177,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Tickets: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -2425,19 +3200,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Current costs, uses, and event availability are not confirmed."
           }
         ]
+      },
+      {
+        "id": "tickets-decision-record",
+        "title": "Tickets — A run preparation record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Tickets preparation should record the chosen Tower, the active lineup, and any item or ticket committed to the run. After the attempt, note the stopping floor and visible reward."
+          },
+          {
+            "type": "paragraph",
+            "text": "Tickets: A single run or community video does not prove a drop rate. Use documented values only where the supplied research states them and treat rotating rewards as version-dependent."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Tickets review item: preserve the current screen or source date.",
+              "Tickets decision item: compare the result with the next documented goal.",
+              "Tickets boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Tickets Guide: What should I check first?",
+        "question": "What belongs in a Tickets run checklist?",
         "answer": "Open the current game panel or verified source related to tracking a named resource before Tower or event use."
       },
       {
-        "question": "Tickets Guide: Which supplied detail matters to the decision?",
-        "answer": "Ticket use should be checked in the current interface."
+        "question": "How should a failed Tickets run be reviewed?",
+        "answer": "Tickets preparation should record the chosen Tower, the active lineup, and any item or ticket committed to the run. After the attempt, note the stopping floor and visible reward."
       },
       {
-        "question": "Tickets Guide: What remains unconfirmed?",
+        "question": "Which Tickets rewards are not guaranteed?",
         "answer": "Current costs, uses, and event availability are not confirmed."
       }
     ],
@@ -2454,7 +3252,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice trading with a focused reference for checking both sides of a player exchange safely, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice trading page focuses on checking both sides of a player exchange safely. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Trading Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This trading worksheet records both sides, the date, and every unit property; it does not turn an observed offer into a fixed market price. Trading therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -2463,7 +3261,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Confirm the item or unit offered on both sides."
+            "text": "Trading: Start with the exact control, property, or claim connected to this topic. Confirm the item or unit offered on both sides."
           }
         ]
       },
@@ -2473,7 +3271,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Trading: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -2493,7 +3291,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Trading: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -2516,19 +3314,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Trading availability and live demand are volatile and not confirmed as permanent."
           }
         ]
+      },
+      {
+        "id": "trading-decision-record",
+        "title": "Trading — A documented comparison record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Trading begins with a written list of both sides of the proposed exchange. Add rarity, grade, trait, mutation, level, source, and observation date before comparing."
+          },
+          {
+            "type": "paragraph",
+            "text": "Trading: Observed listings are not completed trades. Reject urgency, recheck the final confirmation screen, and do not convert a community estimate into a guaranteed price."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Trading review item: preserve the current screen or source date.",
+              "Trading decision item: compare the result with the next documented goal.",
+              "Trading boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Trading Guide: What should I check first?",
+        "question": "What must be written down before a Trading decision?",
         "answer": "Open the current game panel or verified source related to checking both sides of a player exchange safely."
       },
       {
-        "question": "Trading Guide: Which supplied detail matters to the decision?",
-        "answer": "Recheck grade, trait, mutation, and level separately."
+        "question": "Why is one observed Trading offer insufficient?",
+        "answer": "Trading begins with a written list of both sides of the proposed exchange. Add rarity, grade, trait, mutation, level, source, and observation date before comparing."
       },
       {
-        "question": "Trading Guide: What remains unconfirmed?",
+        "question": "Which Trading price claim does this page reject?",
         "answer": "Trading availability and live demand are volatile and not confirmed as permanent."
       }
     ],
@@ -2545,7 +3366,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice trade value with a focused reference for building a transparent comparison rather than copying a price claim, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice trade value page focuses on building a transparent comparison rather than copying a price claim. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Trade Value Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This trading worksheet records both sides, the date, and every unit property; it does not turn an observed offer into a fixed market price. Trade Value therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -2554,7 +3375,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Compare unit identity and rarity."
+            "text": "Trade Value: Start with the exact control, property, or claim connected to this topic. Compare unit identity and rarity."
           }
         ]
       },
@@ -2564,7 +3385,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Trade Value: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -2584,7 +3405,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Trade Value: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -2607,19 +3428,42 @@ export const EN_ARTICLE_COPY = {
             "body": "No verified live price dataset is supplied, so guaranteed values are not published."
           }
         ]
+      },
+      {
+        "id": "trade-value-decision-record",
+        "title": "Trade Value — A documented comparison record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Trade Value begins with a written list of both sides of the proposed exchange. Add rarity, grade, trait, mutation, level, source, and observation date before comparing."
+          },
+          {
+            "type": "paragraph",
+            "text": "Trade Value: Observed listings are not completed trades. Reject urgency, recheck the final confirmation screen, and do not convert a community estimate into a guaranteed price."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Trade Value review item: preserve the current screen or source date.",
+              "Trade Value decision item: compare the result with the next documented goal.",
+              "Trade Value boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Trade Value Guide: What should I check first?",
+        "question": "What must be written down before a Trade Value decision?",
         "answer": "Open the current game panel or verified source related to building a transparent comparison rather than copying a price claim."
       },
       {
-        "question": "Trade Value Guide: Which supplied detail matters to the decision?",
-        "answer": "Review grade, trait, mutation, and level separately."
+        "question": "Why is one observed Trade Value offer insufficient?",
+        "answer": "Trade Value begins with a written list of both sides of the proposed exchange. Add rarity, grade, trait, mutation, level, source, and observation date before comparing."
       },
       {
-        "question": "Trade Value Guide: What remains unconfirmed?",
+        "question": "Which Trade Value price claim does this page reject?",
         "answer": "No verified live price dataset is supplied, so guaranteed values are not published."
       }
     ],
@@ -2636,7 +3480,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice value calculator with a focused reference for using a manual evaluation worksheet for a proposed deal, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice value calculator page focuses on using a manual evaluation worksheet for a proposed deal. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Value Calculator Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This trading worksheet records both sides, the date, and every unit property; it does not turn an observed offer into a fixed market price. Value Calculator therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -2645,7 +3489,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. List each unit on both sides."
+            "text": "Value Calculator: Start with the exact control, property, or claim connected to this topic. List each unit on both sides."
           }
         ]
       },
@@ -2655,7 +3499,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Value Calculator: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -2675,7 +3519,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Value Calculator: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -2699,19 +3543,42 @@ export const EN_ARTICLE_COPY = {
             "body": "This page is a transparent worksheet; a numeric market formula is not confirmed."
           }
         ]
+      },
+      {
+        "id": "value-calculator-decision-record",
+        "title": "Value Calculator — A documented comparison record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Value Calculator begins with a written list of both sides of the proposed exchange. Add rarity, grade, trait, mutation, level, source, and observation date before comparing."
+          },
+          {
+            "type": "paragraph",
+            "text": "Value Calculator: Observed listings are not completed trades. Reject urgency, recheck the final confirmation screen, and do not convert a community estimate into a guaranteed price."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Value Calculator review item: preserve the current screen or source date.",
+              "Value Calculator decision item: compare the result with the next documented goal.",
+              "Value Calculator boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Value Calculator Guide: What should I check first?",
+        "question": "What must be written down before a Value Calculator decision?",
         "answer": "Open the current game panel or verified source related to using a manual evaluation worksheet for a proposed deal."
       },
       {
-        "question": "Value Calculator Guide: Which supplied detail matters to the decision?",
-        "answer": "Compare rarity, grade, trait, mutation, and level."
+        "question": "Why is one observed Value Calculator offer insufficient?",
+        "answer": "Value Calculator begins with a written list of both sides of the proposed exchange. Add rarity, grade, trait, mutation, level, source, and observation date before comparing."
       },
       {
-        "question": "Value Calculator Guide: What remains unconfirmed?",
+        "question": "Which Value Calculator price claim does this page reject?",
         "answer": "This page is a transparent worksheet; a numeric market formula is not confirmed."
       }
     ],
@@ -2729,7 +3596,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice market with a focused reference for monitoring changeable community demand cautiously, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice market page focuses on monitoring changeable community demand cautiously. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Market Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This trading worksheet records both sides, the date, and every unit property; it does not turn an observed offer into a fixed market price. Market therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -2738,7 +3605,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Separate observed offers from completed exchanges."
+            "text": "Market: Start with the exact control, property, or claim connected to this topic. Separate observed offers from completed exchanges."
           }
         ]
       },
@@ -2748,7 +3615,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Market: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -2768,7 +3635,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Market: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -2791,19 +3658,42 @@ export const EN_ARTICLE_COPY = {
             "body": "There is no verified live market feed or authoritative fixed price list in the supplied sources."
           }
         ]
+      },
+      {
+        "id": "market-decision-record",
+        "title": "Market — A documented comparison record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Market begins with a written list of both sides of the proposed exchange. Add rarity, grade, trait, mutation, level, source, and observation date before comparing."
+          },
+          {
+            "type": "paragraph",
+            "text": "Market: Observed listings are not completed trades. Reject urgency, recheck the final confirmation screen, and do not convert a community estimate into a guaranteed price."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Market review item: preserve the current screen or source date.",
+              "Market decision item: compare the result with the next documented goal.",
+              "Market boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Market Guide: What should I check first?",
+        "question": "What must be written down before a Market decision?",
         "answer": "Open the current game panel or verified source related to monitoring changeable community demand cautiously."
       },
       {
-        "question": "Market Guide: Which supplied detail matters to the decision?",
-        "answer": "Record dates because demand can move."
+        "question": "Why is one observed Market offer insufficient?",
+        "answer": "Market begins with a written list of both sides of the proposed exchange. Add rarity, grade, trait, mutation, level, source, and observation date before comparing."
       },
       {
-        "question": "Market Guide: What remains unconfirmed?",
+        "question": "Which Market price claim does this page reject?",
         "answer": "There is no verified live market feed or authoritative fixed price list in the supplied sources."
       }
     ],
@@ -2820,7 +3710,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice new update with a focused reference for checking the latest confirmed change instead of guessing, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice new update page focuses on checking the latest confirmed change instead of guessing. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this New Update Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This status page distinguishes a dated developer or game statement from community prediction and records what was actually known at review time. New Update therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -2829,7 +3719,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. The supplied research identifies Update 7."
+            "text": "New Update: Start with the exact control, property, or claim connected to this topic. The supplied research identifies Update 7."
           }
         ]
       },
@@ -2839,7 +3729,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "New Update: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -2859,7 +3749,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "New Update: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -2882,19 +3772,42 @@ export const EN_ARTICLE_COPY = {
             "body": "A newer release is not verified by the supplied sources; check official destinations."
           }
         ]
+      },
+      {
+        "id": "new-update-decision-record",
+        "title": "New Update — A dated verification record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "New Update must be tied to an original dated announcement or the current Roblox experience. Record the source, publication date, and exact wording before summarizing it."
+          },
+          {
+            "type": "paragraph",
+            "text": "New Update: Do not merge rumor, repost, or video title into the confirmed record. If the official destinations do not state a date or feature, the answer remains unknown."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "New Update review item: preserve the current screen or source date.",
+              "New Update decision item: compare the result with the next documented goal.",
+              "New Update boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "New Update Guide: What should I check first?",
+        "question": "Which dated source can confirm New Update?",
         "answer": "Open the current game panel or verified source related to checking the latest confirmed change instead of guessing."
       },
       {
-        "question": "New Update Guide: Which supplied detail matters to the decision?",
-        "answer": "Update 7 adds Galactic rarity and six rebirth upgrade paths."
+        "question": "How is a New Update announcement separated from rumor?",
+        "answer": "New Update must be tied to an original dated announcement or the current Roblox experience. Record the source, publication date, and exact wording before summarizing it."
       },
       {
-        "question": "New Update Guide: What remains unconfirmed?",
+        "question": "What remains unknown about New Update?",
         "answer": "A newer release is not verified by the supplied sources; check official destinations."
       }
     ],
@@ -2911,7 +3824,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice next update with a focused reference for verifying future news without predicting a date, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice next update page focuses on verifying future news without predicting a date. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Next Update Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This status page distinguishes a dated developer or game statement from community prediction and records what was actually known at review time. Next Update therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -2920,7 +3833,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Use the official Roblox game page and verified Discord for announcements."
+            "text": "Next Update: Start with the exact control, property, or claim connected to this topic. Use the official Roblox game page and verified Discord for announcements."
           }
         ]
       },
@@ -2930,7 +3843,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Next Update: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -2950,7 +3863,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Next Update: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -2973,19 +3886,42 @@ export const EN_ARTICLE_COPY = {
             "body": "No next-update date or feature list is verified by the supplied sources."
           }
         ]
+      },
+      {
+        "id": "next-update-decision-record",
+        "title": "Next Update — A dated verification record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Next Update must be tied to an original dated announcement or the current Roblox experience. Record the source, publication date, and exact wording before summarizing it."
+          },
+          {
+            "type": "paragraph",
+            "text": "Next Update: Do not merge rumor, repost, or video title into the confirmed record. If the official destinations do not state a date or feature, the answer remains unknown."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Next Update review item: preserve the current screen or source date.",
+              "Next Update decision item: compare the result with the next documented goal.",
+              "Next Update boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Next Update Guide: What should I check first?",
+        "question": "Which dated source can confirm Next Update?",
         "answer": "Open the current game panel or verified source related to verifying future news without predicting a date."
       },
       {
-        "question": "Next Update Guide: Which supplied detail matters to the decision?",
-        "answer": "Separate a developer announcement from community speculation."
+        "question": "How is a Next Update announcement separated from rumor?",
+        "answer": "Next Update must be tied to an original dated announcement or the current Roblox experience. Record the source, publication date, and exact wording before summarizing it."
       },
       {
-        "question": "Next Update Guide: What remains unconfirmed?",
+        "question": "What remains unknown about Next Update?",
         "answer": "No next-update date or feature list is verified by the supplied sources."
       }
     ],
@@ -3002,7 +3938,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice update 7 with a focused reference for reviewing the sourced Update 7 changes, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice update 7 page focuses on reviewing the sourced Update 7 changes. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Update 7 Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This status page distinguishes a dated developer or game statement from community prediction and records what was actually known at review time. Update 7 therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -3011,7 +3947,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Update 7 adds Galactic rarity."
+            "text": "Update 7: Start with the exact control, property, or claim connected to this topic. Update 7 adds Galactic rarity."
           }
         ]
       },
@@ -3021,7 +3957,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Update 7: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -3041,7 +3977,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Update 7: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -3049,6 +3985,24 @@ export const EN_ARTICLE_COPY = {
             "items": [
               "The update adds six rebirth upgrade paths.",
               "UPDATE7 is a documented reward code."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "update-7-documented-sequence",
+        "title": "Update 7 — Documented supplied sequence",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ordered",
+            "items": [
+              "Galactic rarity",
+              "7 new units",
+              "6 rebirth upgrade paths",
+              "a third base floor",
+              "a new Tower",
+              "gamepass trading"
             ]
           }
         ]
@@ -3064,19 +4018,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Exact balance values beyond the supplied Update 7 source are not verified."
           }
         ]
+      },
+      {
+        "id": "update-7-decision-record",
+        "title": "Update 7 — A dated verification record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Update 7 must be tied to an original dated announcement or the current Roblox experience. Record the source, publication date, and exact wording before summarizing it."
+          },
+          {
+            "type": "paragraph",
+            "text": "Update 7: Do not merge rumor, repost, or video title into the confirmed record. If the official destinations do not state a date or feature, the answer remains unknown."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Update 7 review item: preserve the current screen or source date.",
+              "Update 7 decision item: compare the result with the next documented goal.",
+              "Update 7 boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Update 7 Guide: What should I check first?",
+        "question": "Which dated source can confirm Update 7?",
         "answer": "Open the current game panel or verified source related to reviewing the sourced Update 7 changes."
       },
       {
-        "question": "Update 7 Guide: Which supplied detail matters to the decision?",
-        "answer": "The update adds six rebirth upgrade paths."
+        "question": "How is a Update 7 announcement separated from rumor?",
+        "answer": "Update 7 must be tied to an original dated announcement or the current Roblox experience. Record the source, publication date, and exact wording before summarizing it."
       },
       {
-        "question": "Update 7 Guide: What remains unconfirmed?",
+        "question": "What remains unknown about Update 7?",
         "answer": "Exact balance values beyond the supplied Update 7 source are not verified."
       }
     ],
@@ -3085,7 +4062,13 @@ export const EN_ARTICLE_COPY = {
       "anime-dice-update-7:confirmed-1",
       "anime-dice-update-7:confirmed-2",
       "anime-dice-update-7:confirmed-3",
-      "anime-dice-update-7:evidence-boundary"
+      "anime-dice-update-7:evidence-boundary",
+      "anime-dice-update-7:supplied-galactic",
+      "anime-dice-update-7:supplied-seven-units",
+      "anime-dice-update-7:supplied-six-rebirth-paths",
+      "anime-dice-update-7:supplied-third-base-floor",
+      "anime-dice-update-7:supplied-new-tower",
+      "anime-dice-update-7:supplied-gamepass-trading"
     ]
   },
   "anime-dice-event": {
@@ -3093,7 +4076,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice event with a focused reference for checking whether a current event has official confirmation, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice event page focuses on checking whether a current event has official confirmation. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Event Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This status page distinguishes a dated developer or game statement from community prediction and records what was actually known at review time. Event therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -3102,7 +4085,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Check the official game page and verified Discord."
+            "text": "Event: Start with the exact control, property, or claim connected to this topic. Check the official game page and verified Discord."
           }
         ]
       },
@@ -3112,7 +4095,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Event: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -3132,7 +4115,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Event: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -3155,19 +4138,42 @@ export const EN_ARTICLE_COPY = {
             "body": "No current event schedule is verified by the supplied sources."
           }
         ]
+      },
+      {
+        "id": "event-decision-record",
+        "title": "Event — A dated verification record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Event must be tied to an original dated announcement or the current Roblox experience. Record the source, publication date, and exact wording before summarizing it."
+          },
+          {
+            "type": "paragraph",
+            "text": "Event: Do not merge rumor, repost, or video title into the confirmed record. If the official destinations do not state a date or feature, the answer remains unknown."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Event review item: preserve the current screen or source date.",
+              "Event decision item: compare the result with the next documented goal.",
+              "Event boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Event Guide: What should I check first?",
+        "question": "Which dated source can confirm Event?",
         "answer": "Open the current game panel or verified source related to checking whether a current event has official confirmation."
       },
       {
-        "question": "Event Guide: Which supplied detail matters to the decision?",
-        "answer": "Confirm start and end information in the current game."
+        "question": "How is a Event announcement separated from rumor?",
+        "answer": "Event must be tied to an original dated announcement or the current Roblox experience. Record the source, publication date, and exact wording before summarizing it."
       },
       {
-        "question": "Event Guide: What remains unconfirmed?",
+        "question": "What remains unknown about Event?",
         "answer": "No current event schedule is verified by the supplied sources."
       }
     ],
@@ -3184,7 +4190,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice admin abuse time with a focused reference for checking a claimed session without publishing a false schedule, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice admin abuse time page focuses on checking a claimed session without publishing a false schedule. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Admin Abuse Time Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This status page distinguishes a dated developer or game statement from community prediction and records what was actually known at review time. Admin Abuse Time therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -3193,7 +4199,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Look for a dated announcement in verified official destinations."
+            "text": "Admin Abuse Time: Start with the exact control, property, or claim connected to this topic. Look for a dated announcement in verified official destinations."
           }
         ]
       },
@@ -3203,7 +4209,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Admin Abuse Time: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -3223,7 +4229,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Admin Abuse Time: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -3246,19 +4252,42 @@ export const EN_ARTICLE_COPY = {
             "body": "No recurring admin event time is verified by the supplied sources."
           }
         ]
+      },
+      {
+        "id": "admin-abuse-time-decision-record",
+        "title": "Admin Abuse Time — A dated verification record",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Admin Abuse Time must be tied to an original dated announcement or the current Roblox experience. Record the source, publication date, and exact wording before summarizing it."
+          },
+          {
+            "type": "paragraph",
+            "text": "Admin Abuse Time: Do not merge rumor, repost, or video title into the confirmed record. If the official destinations do not state a date or feature, the answer remains unknown."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Admin Abuse Time review item: preserve the current screen or source date.",
+              "Admin Abuse Time decision item: compare the result with the next documented goal.",
+              "Admin Abuse Time boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Admin Abuse Time Guide: What should I check first?",
+        "question": "Which dated source can confirm Admin Abuse Time?",
         "answer": "Open the current game panel or verified source related to checking a claimed session without publishing a false schedule."
       },
       {
-        "question": "Admin Abuse Time Guide: Which supplied detail matters to the decision?",
-        "answer": "Confirm timezone and date together."
+        "question": "How is a Admin Abuse Time announcement separated from rumor?",
+        "answer": "Admin Abuse Time must be tied to an original dated announcement or the current Roblox experience. Record the source, publication date, and exact wording before summarizing it."
       },
       {
-        "question": "Admin Abuse Time Guide: What remains unconfirmed?",
+        "question": "What remains unknown about Admin Abuse Time?",
         "answer": "No recurring admin event time is verified by the supplied sources."
       }
     ],
@@ -3275,7 +4304,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice discord with a focused reference for finding the verified community invite safely, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice discord page focuses on finding the verified community invite safely. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Discord Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This community guide checks destination ownership, the original link, and the review date before treating a page or message as official. Discord therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -3284,7 +4313,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Use the verified invite discord.com/invite/ag5MCCu5aQ linked by this site."
+            "text": "Discord: Start with the exact control, property, or claim connected to this topic. Use the verified invite discord.com/invite/ag5MCCu5aQ linked by this site."
           }
         ]
       },
@@ -3294,7 +4323,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Discord: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -3314,7 +4343,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Discord: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -3337,19 +4366,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Channel names and current announcements can change after review."
           }
         ]
+      },
+      {
+        "id": "discord-decision-record",
+        "title": "Discord — A destination trust check",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Discord is safe to use only after the destination matches a link from the verified game, developer group, or supplied Discord reference. Check the full domain before joining."
+          },
+          {
+            "type": "paragraph",
+            "text": "Discord: Community messages can help locate questions, but roles, votes, and reposts do not establish developer confirmation. Preserve the original URL and timestamp for any claim."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Discord review item: preserve the current screen or source date.",
+              "Discord decision item: compare the result with the next documented goal.",
+              "Discord boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Discord Guide: What should I check first?",
+        "question": "How is the Discord destination verified?",
         "answer": "Open the current game panel or verified source related to finding the verified community invite safely."
       },
       {
-        "question": "Discord Guide: Which supplied detail matters to the decision?",
-        "answer": "Check announcement context and timestamps."
+        "question": "Which Discord messages count only as community discussion?",
+        "answer": "Discord is safe to use only after the destination matches a link from the verified game, developer group, or supplied Discord reference. Check the full domain before joining."
       },
       {
-        "question": "Discord Guide: What remains unconfirmed?",
+        "question": "When should the Discord link be checked again?",
         "answer": "Channel names and current announcements can change after review."
       }
     ],
@@ -3366,7 +4418,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice reddit with a focused reference for evaluating community posts when no official page is established, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice reddit page focuses on evaluating community posts when no official page is established. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Reddit Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This community guide checks destination ownership, the original link, and the review date before treating a page or message as official. Reddit therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -3375,7 +4427,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Compare claims with the official game page."
+            "text": "Reddit: Start with the exact control, property, or claim connected to this topic. Compare claims with the official game page."
           }
         ]
       },
@@ -3385,7 +4437,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Reddit: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -3405,7 +4457,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Reddit: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -3428,19 +4480,42 @@ export const EN_ARTICLE_COPY = {
             "body": "An official Anime Dice Reddit community is not verified by the supplied sources."
           }
         ]
+      },
+      {
+        "id": "reddit-decision-record",
+        "title": "Reddit — A destination trust check",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Reddit is safe to use only after the destination matches a link from the verified game, developer group, or supplied Discord reference. Check the full domain before joining."
+          },
+          {
+            "type": "paragraph",
+            "text": "Reddit: Community messages can help locate questions, but roles, votes, and reposts do not establish developer confirmation. Preserve the original URL and timestamp for any claim."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Reddit review item: preserve the current screen or source date.",
+              "Reddit decision item: compare the result with the next documented goal.",
+              "Reddit boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Reddit Guide: What should I check first?",
+        "question": "How is the Reddit destination verified?",
         "answer": "Open the current game panel or verified source related to evaluating community posts when no official page is established."
       },
       {
-        "question": "Reddit Guide: Which supplied detail matters to the decision?",
-        "answer": "Look for a direct developer source."
+        "question": "Which Reddit messages count only as community discussion?",
+        "answer": "Reddit is safe to use only after the destination matches a link from the verified game, developer group, or supplied Discord reference. Check the full domain before joining."
       },
       {
-        "question": "Reddit Guide: What remains unconfirmed?",
+        "question": "When should the Reddit link be checked again?",
         "answer": "An official Anime Dice Reddit community is not verified by the supplied sources."
       }
     ],
@@ -3457,7 +4532,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice trello with a focused reference for checking board claims without endorsing an imitation, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice trello page focuses on checking board claims without endorsing an imitation. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Trello Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This community guide checks destination ownership, the original link, and the review date before treating a page or message as official. Trello therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -3466,7 +4541,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. Verify any board from an official developer destination."
+            "text": "Trello: Start with the exact control, property, or claim connected to this topic. Verify any board from an official developer destination."
           }
         ]
       },
@@ -3476,7 +4551,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Trello: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -3496,7 +4571,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Trello: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -3519,19 +4594,42 @@ export const EN_ARTICLE_COPY = {
             "body": "An official Anime Dice Trello board is not verified by the supplied sources."
           }
         ]
+      },
+      {
+        "id": "trello-decision-record",
+        "title": "Trello — A destination trust check",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Trello is safe to use only after the destination matches a link from the verified game, developer group, or supplied Discord reference. Check the full domain before joining."
+          },
+          {
+            "type": "paragraph",
+            "text": "Trello: Community messages can help locate questions, but roles, votes, and reposts do not establish developer confirmation. Preserve the original URL and timestamp for any claim."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Trello review item: preserve the current screen or source date.",
+              "Trello decision item: compare the result with the next documented goal.",
+              "Trello boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Trello Guide: What should I check first?",
+        "question": "How is the Trello destination verified?",
         "answer": "Open the current game panel or verified source related to checking board claims without endorsing an imitation."
       },
       {
-        "question": "Trello Guide: Which supplied detail matters to the decision?",
-        "answer": "Check board ownership and update history."
+        "question": "Which Trello messages count only as community discussion?",
+        "answer": "Trello is safe to use only after the destination matches a link from the verified game, developer group, or supplied Discord reference. Check the full domain before joining."
       },
       {
-        "question": "Trello Guide: What remains unconfirmed?",
+        "question": "When should the Trello link be checked again?",
         "answer": "An official Anime Dice Trello board is not verified by the supplied sources."
       }
     ],
@@ -3548,7 +4646,7 @@ export const EN_ARTICLE_COPY = {
     "description": "Understand Anime Dice group with a focused reference for using the verified More & More Games Roblox community, practical checks, and clearly marked limits on unverified values.",
     "intro": [
       "This Anime Dice group page focuses on using the verified More & More Games Roblox community. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "Use this Group Guide article as a decision aid: identify the exact control or claim, compare the supplied facts, and stop where the evidence stops."
+      "This community guide checks destination ownership, the original link, and the review date before treating a page or message as official. Group therefore has its own checklist and evidence boundary rather than borrowing an answer from a neighboring topic."
     ],
     "sections": [
       {
@@ -3557,7 +4655,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Start with the exact control, property, or claim connected to this topic. The verified developer community is More & More Games."
+            "text": "Group: Start with the exact control, property, or claim connected to this topic. The verified developer community is More & More Games."
           }
         ]
       },
@@ -3567,7 +4665,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Follow this sequence before changing settings, spending resources, or accepting a claim."
+            "text": "Group: Follow this sequence before changing settings, spending resources, or accepting a claim."
           },
           {
             "type": "list",
@@ -3587,7 +4685,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Keep these supplied facts visible while making the decision."
+            "text": "Group: Keep these supplied facts visible while making the decision."
           },
           {
             "type": "list",
@@ -3610,19 +4708,42 @@ export const EN_ARTICLE_COPY = {
             "body": "Chest availability and exact rewards can change and should be checked in game."
           }
         ]
+      },
+      {
+        "id": "group-decision-record",
+        "title": "Group — A destination trust check",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Group is safe to use only after the destination matches a link from the verified game, developer group, or supplied Discord reference. Check the full domain before joining."
+          },
+          {
+            "type": "paragraph",
+            "text": "Group: Community messages can help locate questions, but roles, votes, and reposts do not establish developer confirmation. Preserve the original URL and timestamp for any claim."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Group review item: preserve the current screen or source date.",
+              "Group decision item: compare the result with the next documented goal.",
+              "Group boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Group Guide: What should I check first?",
+        "question": "How is the Group destination verified?",
         "answer": "Open the current game panel or verified source related to using the verified More & More Games Roblox community."
       },
       {
-        "question": "Group Guide: Which supplied detail matters to the decision?",
-        "answer": "The group chest may provide spins, gems, or rerolls."
+        "question": "Which Group messages count only as community discussion?",
+        "answer": "Group is safe to use only after the destination matches a link from the verified game, developer group, or supplied Discord reference. Check the full domain before joining."
       },
       {
-        "question": "Group Guide: What remains unconfirmed?",
+        "question": "When should the Group link be checked again?",
         "answer": "Chest availability and exact rewards can change and should be checked in game."
       }
     ],

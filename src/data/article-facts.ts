@@ -146,13 +146,23 @@ export const ARTICLE_FACTS = {
       "anime-dice-traits:confirmed-1",
       "anime-dice-traits:confirmed-2",
       "anime-dice-traits:confirmed-3",
-      "anime-dice-traits:evidence-boundary"
+      "anime-dice-traits:evidence-boundary",
+      "anime-dice-traits:supplied-eternal",
+      "anime-dice-traits:supplied-transcendent",
+      "anime-dice-traits:supplied-monarch",
+      "anime-dice-traits:supplied-shogun",
+      "anime-dice-traits:supplied-samurai"
     ],
     "claims": [
       "Traits are a separate unit property.",
       "Trait Rerolls are named by the confirmed UPDATE6 reward.",
       "A trait should be evaluated with the unit it belongs to.",
-      "Exact trait effects and rankings are not confirmed for every current version."
+      "Exact trait effects and rankings are not confirmed for every current version.",
+      "Eternal shows 27x Income, Damage, and Health; its chance is not stated in the supplied module.",
+      "Transcendent shows 15x and a displayed 0.006% chance.",
+      "Monarch shows 8x and a displayed 0.025% chance.",
+      "Shogun shows 5x and a displayed 0.12% chance.",
+      "Samurai shows 3x and a displayed 0.5% chance."
     ]
   },
   "anime-dice-mutation": {
@@ -216,13 +226,23 @@ export const ARTICLE_FACTS = {
       "anime-dice-luck:confirmed-1",
       "anime-dice-luck:confirmed-2",
       "anime-dice-luck:confirmed-3",
-      "anime-dice-luck:evidence-boundary"
+      "anime-dice-luck:evidence-boundary",
+      "anime-dice-luck:supplied-normal-die",
+      "anime-dice-luck:supplied-storm-die",
+      "anime-dice-luck:supplied-light-die",
+      "anime-dice-luck:supplied-prismatic-die",
+      "anime-dice-luck:supplied-radiant-die"
     ],
     "claims": [
       "Luck is a practical early upgrade priority.",
       "Money and Luck can be improved before Roll Speed.",
       "Luck does not guarantee a particular roll.",
-      "Exact probabilities at each Luck value are not confirmed."
+      "Exact probabilities at each Luck value are not confirmed.",
+      "Normal is Common, costs $1, and shows 2x Luck.",
+      "Storm is Epic, costs $200 million, and shows 400x Luck.",
+      "Light is Legendary, costs $12 billion, and shows 1,500x Luck.",
+      "Prismatic is Exotic, costs $1 quintillion, and shows 1,000,000x Luck.",
+      "Radiant is Heavenly, costs $100 octillion, and shows 5,000,000,000x Luck."
     ]
   },
   "anime-dice-max-luck": {
@@ -286,13 +306,23 @@ export const ARTICLE_FACTS = {
       "anime-dice-rebirth:confirmed-1",
       "anime-dice-rebirth:confirmed-2",
       "anime-dice-rebirth:confirmed-3",
-      "anime-dice-rebirth:evidence-boundary"
+      "anime-dice-rebirth:evidence-boundary",
+      "anime-dice-rebirth:supplied-rebuild-ready",
+      "anime-dice-rebirth:supplied-cash-resets",
+      "anime-dice-rebirth:supplied-units-remain",
+      "anime-dice-rebirth:supplied-upgrade-point",
+      "anime-dice-rebirth:supplied-six-paths"
     ],
     "claims": [
       "Rebirth belongs to long-term progression.",
       "Update 7 is documented as adding six rebirth upgrade paths.",
       "A reset decision should be checked against the current interface.",
-      "Exact costs and reset effects for every step are not confirmed here."
+      "Exact costs and reset effects for every step are not confirmed here.",
+      "Wait until equipped units can rebuild income after reset.",
+      "Spend remaining cash before rebirth because current cash resets.",
+      "Collected units, grades, and traits remain.",
+      "Update 7 gives one Rebirth Upgrade Point per rebirth.",
+      "Update 7 has six Rebirth Upgrade paths; restart Auto Roll and rebuild income after assigning points."
     ]
   },
   "anime-dice-max-rebirth": {
@@ -328,13 +358,23 @@ export const ARTICLE_FACTS = {
       "anime-dice-tower:confirmed-1",
       "anime-dice-tower:confirmed-2",
       "anime-dice-tower:confirmed-3",
-      "anime-dice-tower:evidence-boundary"
+      "anime-dice-tower:evidence-boundary",
+      "anime-dice-tower:supplied-portal",
+      "anime-dice-tower:supplied-equip-best",
+      "anime-dice-tower:supplied-auto-hide",
+      "anime-dice-tower:supplied-tower-gear",
+      "anime-dice-tower:supplied-stuck-upgrades"
     ],
     "claims": [
       "Review the active team before a run.",
       "Gear, potions, and Tickets are separate preparation resources.",
       "Tower details were reviewed with the supplied progression sources.",
-      "Current floors, enemies, and reward rotations are not confirmed."
+      "Current floors, enemies, and reward rotations are not confirmed.",
+      "The Towers portal is in the central lobby.",
+      "Use Equip Best before starting the fight.",
+      "Auto and Hide can keep cleared floors moving while rewards are collected.",
+      "Dragon, Cursed, Pirate, Hidden Leaf, and Slayer Towers have tower-specific Gear.",
+      "Improve grades, traits, Damage, and Health when the team cannot clear the next floor."
     ]
   },
   "anime-dice-gear": {
@@ -342,13 +382,23 @@ export const ARTICLE_FACTS = {
       "anime-dice-gear:confirmed-1",
       "anime-dice-gear:confirmed-2",
       "anime-dice-gear:confirmed-3",
-      "anime-dice-gear:evidence-boundary"
+      "anime-dice-gear:evidence-boundary",
+      "anime-dice-gear:supplied-angels-halo",
+      "anime-dice-gear:supplied-sakunas-sash",
+      "anime-dice-gear:supplied-enols-drums",
+      "anime-dice-gear:supplied-obitas-mask",
+      "anime-dice-gear:supplied-mazuns-coat"
     ],
     "claims": [
       "Gear belongs to Tower preparation in the supplied sources.",
       "Compare a gear item with the unit and goal it supports.",
       "Keep acquisition notes tied to reviewed sources.",
-      "A complete live gear list and exact modifiers are not confirmed."
+      "A complete live gear list and exact modifiers are not confirmed.",
+      "Angel's Halo gives +30% Luck and +5 Walk Speed, with a supplied 0.02% source from Dragon Tower Floors 90+.",
+      "Sakuna's Sash gives 2x Damage, +30% Luck, and +30% Gems, with a supplied 0.02% source from Cursed Tower Floors 90+.",
+      "Enol's Drums gives +40% Luck and 1.5x Cash, with a supplied 0.02% source from Pirate Tower Floors 90+.",
+      "Obita's Mask gives +40% Luck and +30% Gems, with a supplied 0.02% source from Hidden Leaf Tower Floors 90+.",
+      "Mazun's Coat gives +50% Luck and 2x Cash, with a supplied 0.02% source from Slayer Tower Floors 90+."
     ]
   },
   "anime-dice-potion": {
@@ -470,13 +520,25 @@ export const ARTICLE_FACTS = {
       "anime-dice-update-7:confirmed-1",
       "anime-dice-update-7:confirmed-2",
       "anime-dice-update-7:confirmed-3",
-      "anime-dice-update-7:evidence-boundary"
+      "anime-dice-update-7:evidence-boundary",
+      "anime-dice-update-7:supplied-galactic",
+      "anime-dice-update-7:supplied-seven-units",
+      "anime-dice-update-7:supplied-six-rebirth-paths",
+      "anime-dice-update-7:supplied-third-base-floor",
+      "anime-dice-update-7:supplied-new-tower",
+      "anime-dice-update-7:supplied-gamepass-trading"
     ],
     "claims": [
       "Update 7 adds Galactic rarity.",
       "The update adds six rebirth upgrade paths.",
       "UPDATE7 is a documented reward code.",
-      "Exact balance values beyond the supplied Update 7 source are not verified."
+      "Exact balance values beyond the supplied Update 7 source are not verified.",
+      "Update 7 adds Galactic rarity.",
+      "Update 7 adds seven units.",
+      "Update 7 adds six rebirth upgrade paths.",
+      "Update 7 adds a third base floor.",
+      "Update 7 adds a new Tower.",
+      "Update 7 adds gamepass trading."
     ]
   },
   "anime-dice-event": {

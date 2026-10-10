@@ -84,7 +84,7 @@ export function validateReleaseContent(): string[] {
         if (contract.claims.length !== expectedFactKeys.length || assertions.length !== expectedFactKeys.length) errors.push('Incomplete fact contract: '+locale+'/'+article.id);
         if (assertions.map((item) => item.key).join('|') !== expectedFactKeys.join('|')) errors.push('Localized fact key mismatch: '+locale+'/'+article.id);
         const renderedCopy = JSON.stringify(copy);
-        for (const assertion of assertions) if (!renderedCopy.includes(assertion.text)) errors.push('Missing localized factual assertion '+assertion.key+': '+locale+'/'+article.id);
+        for (const assertion of assertions) for (const text of assertion.texts) if (!renderedCopy.includes(text)) errors.push('Missing localized factual assertion '+assertion.key+': '+locale+'/'+article.id);
         if (copy.factKeys.join('|') !== expectedFactKeys.join('|')) errors.push('Fact contract mismatch: '+locale+'/'+article.id);
         if (article.id !== 'anime-dice-codes' && copy.sections.length < 4) errors.push('Insufficient substantive outline: '+locale+'/'+article.id);
         if (copy.sections.length !== english.sections.length || copy.faq.length !== english.faq.length) {

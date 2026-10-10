@@ -88,7 +88,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Guia para iniciantes: guia focado em o ciclo de rolar, equipar e melhorar a equipe, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de o ciclo de rolar, equipar e melhorar a equipe. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Guia para iniciantes como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Este guia organiza o controle exato, o resultado observável e o limite das evidências fornecidas. Guia para iniciantes por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -97,7 +97,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Roll gera personagens para comparação."
+            "text": "Guia para iniciantes: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Roll gera personagens para comparação."
           }
         ]
       },
@@ -107,7 +107,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Guia para iniciantes: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -126,7 +126,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Guia para iniciantes: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -149,19 +149,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "O tempo necessário para progredir varia e não é garantido."
           }
         ]
+      },
+      {
+        "id": "guide-decision-record",
+        "title": "Guia para iniciantes — Verificação repetível do controle",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Guia para iniciantes deve ser testado com o painel relevante aberto: registre a opção inicial, execute a ação documentada e confirme o resultado visível antes de outra mudança."
+          },
+          {
+            "type": "paragraph",
+            "text": "Guia para iniciantes: Se a interface estiver diferente, siga o texto atual do jogo; botão ausente ou rótulo alterado exige nova revisão, não uma suposição."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Guia para iniciantes review item: preserve the current screen or source date.",
+              "Guia para iniciantes decision item: compare the result with the next documented goal.",
+              "Guia para iniciantes boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Guia para iniciantes: O que verificar primeiro?",
+        "question": "Onde fica o controle documentado de Guia para iniciantes?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Guia para iniciantes."
       },
       {
-        "question": "Guia para iniciantes: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Equip Best ajuda a revisar a equipe atual."
+        "question": "Qual resultado visível confirma Guia para iniciantes?",
+        "answer": "Guia para iniciantes deve ser testado com o painel relevante aberto: registre a opção inicial, execute a ação documentada e confirme o resultado visível antes de outra mudança."
       },
       {
-        "question": "Guia para iniciantes: O que segue sem confirmação?",
+        "question": "Quando as instruções de Guia para iniciantes precisam de revisão?",
         "answer": "O tempo necessário para progredir varia e não é garantido."
       }
     ],
@@ -178,7 +201,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Dicas de progressão: guia focado em uma rotina segura de rolagem e limpeza, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de uma rotina segura de rolagem e limpeza. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Dicas de progressão como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Este guia organiza o controle exato, o resultado observável e o limite das evidências fornecidas. Dicas de progressão por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -187,7 +210,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Proteja unidades úteis antes de vender."
+            "text": "Dicas de progressão: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Proteja unidades úteis antes de vender."
           }
         ]
       },
@@ -197,7 +220,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Dicas de progressão: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -216,7 +239,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Dicas de progressão: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -239,19 +262,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Resultados raros e velocidade fixa de progresso não podem ser prometidos."
           }
         ]
+      },
+      {
+        "id": "tips-decision-record",
+        "title": "Dicas de progressão — Verificação repetível do controle",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Dicas de progressão deve ser testado com o painel relevante aberto: registre a opção inicial, execute a ação documentada e confirme o resultado visível antes de outra mudança."
+          },
+          {
+            "type": "paragraph",
+            "text": "Dicas de progressão: Se a interface estiver diferente, siga o texto atual do jogo; botão ausente ou rótulo alterado exige nova revisão, não uma suposição."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Dicas de progressão review item: preserve the current screen or source date.",
+              "Dicas de progressão decision item: compare the result with the next documented goal.",
+              "Dicas de progressão boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Dicas de progressão: O que verificar primeiro?",
+        "question": "Onde fica o controle documentado de Dicas de progressão?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Dicas de progressão."
       },
       {
-        "question": "Dicas de progressão: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Revise grade, trait e mutation separadamente."
+        "question": "Qual resultado visível confirma Dicas de progressão?",
+        "answer": "Dicas de progressão deve ser testado com o painel relevante aberto: registre a opção inicial, execute a ação documentada e confirme o resultado visível antes de outra mudança."
       },
       {
-        "question": "Dicas de progressão: O que segue sem confirmação?",
+        "question": "Quando as instruções de Dicas de progressão precisam de revisão?",
         "answer": "Resultados raros e velocidade fixa de progresso não podem ser prometidos."
       }
     ],
@@ -268,7 +314,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Rolagem automática: guia focado em o controle Auto no painel de Roll, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de o controle Auto no painel de Roll. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Rolagem automática como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Este guia organiza o controle exato, o resultado observável e o limite das evidências fornecidas. Rolagem automática por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -277,7 +323,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Auto repete a rolagem sem clicar a cada vez."
+            "text": "Rolagem automática: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Auto repete a rolagem sem clicar a cada vez."
           }
         ]
       },
@@ -287,7 +333,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Rolagem automática: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -306,7 +352,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Rolagem automática: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -329,19 +375,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Hide não comprova uma opção universal para outras cenas."
           }
         ]
+      },
+      {
+        "id": "auto-roll-decision-record",
+        "title": "Rolagem automática — Verificação repetível do controle",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Rolagem automática deve ser testado com o painel relevante aberto: registre a opção inicial, execute a ação documentada e confirme o resultado visível antes de outra mudança."
+          },
+          {
+            "type": "paragraph",
+            "text": "Rolagem automática: Se a interface estiver diferente, siga o texto atual do jogo; botão ausente ou rótulo alterado exige nova revisão, não uma suposição."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Rolagem automática review item: preserve the current screen or source date.",
+              "Rolagem automática decision item: compare the result with the next documented goal.",
+              "Rolagem automática boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Rolagem automática: O que verificar primeiro?",
+        "question": "Onde fica o controle documentado de Rolagem automática?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Rolagem automática."
       },
       {
-        "question": "Rolagem automática: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Hide remove a animação repetida de Roll."
+        "question": "Qual resultado visível confirma Rolagem automática?",
+        "answer": "Rolagem automática deve ser testado com o painel relevante aberto: registre a opção inicial, execute a ação documentada e confirme o resultado visível antes de outra mudança."
       },
       {
-        "question": "Rolagem automática: O que segue sem confirmação?",
+        "question": "Quando as instruções de Rolagem automática precisam de revisão?",
         "answer": "Hide não comprova uma opção universal para outras cenas."
       }
     ],
@@ -358,7 +427,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Venda automática: guia focado em as configurações no estande Sell Units, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de as configurações no estande Sell Units. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Venda automática como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Este guia organiza o controle exato, o resultado observável e o limite das evidências fornecidas. Venda automática por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -367,7 +436,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. O estande oferece “Edit auto sell settings!”."
+            "text": "Venda automática: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. O estande oferece “Edit auto sell settings!”."
           }
         ]
       },
@@ -377,7 +446,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Venda automática: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -396,7 +465,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Venda automática: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -419,19 +488,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Mantenha unidades incertas até concluir a comparação."
           }
         ]
+      },
+      {
+        "id": "auto-sell-decision-record",
+        "title": "Venda automática — Verificação repetível do controle",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Venda automática deve ser testado com o painel relevante aberto: registre a opção inicial, execute a ação documentada e confirme o resultado visível antes de outra mudança."
+          },
+          {
+            "type": "paragraph",
+            "text": "Venda automática: Se a interface estiver diferente, siga o texto atual do jogo; botão ausente ou rótulo alterado exige nova revisão, não uma suposição."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Venda automática review item: preserve the current screen or source date.",
+              "Venda automática decision item: compare the result with the next documented goal.",
+              "Venda automática boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Venda automática: O que verificar primeiro?",
+        "question": "Onde fica o controle documentado de Venda automática?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Venda automática."
       },
       {
-        "question": "Venda automática: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Equip Best deve ser usado antes de definir o limite."
+        "question": "Qual resultado visível confirma Venda automática?",
+        "answer": "Venda automática deve ser testado com o painel relevante aberto: registre a opção inicial, execute a ação documentada e confirme o resultado visível antes de outra mudança."
       },
       {
-        "question": "Venda automática: O que segue sem confirmação?",
+        "question": "Quando as instruções de Venda automática precisam de revisão?",
         "answer": "Mantenha unidades incertas até concluir a comparação."
       }
     ],
@@ -448,7 +540,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Como aumentar o nível: guia focado em investir recursos apenas em unidades que ficarão na equipe, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de investir recursos apenas em unidades que ficarão na equipe. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Como aumentar o nível como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Este guia organiza o controle exato, o resultado observável e o limite das evidências fornecidas. Como aumentar o nível por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -457,7 +549,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Nível é apenas uma parte da avaliação."
+            "text": "Como aumentar o nível: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Nível é apenas uma parte da avaliação."
           }
         ]
       },
@@ -467,7 +559,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Como aumentar o nível: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -486,7 +578,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Como aumentar o nível: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -509,19 +601,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "As fontes não confirmam um nível máximo universal."
           }
         ]
+      },
+      {
+        "id": "how-to-level-up-decision-record",
+        "title": "Como aumentar o nível — Verificação repetível do controle",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Como aumentar o nível deve ser testado com o painel relevante aberto: registre a opção inicial, execute a ação documentada e confirme o resultado visível antes de outra mudança."
+          },
+          {
+            "type": "paragraph",
+            "text": "Como aumentar o nível: Se a interface estiver diferente, siga o texto atual do jogo; botão ausente ou rótulo alterado exige nova revisão, não uma suposição."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Como aumentar o nível review item: preserve the current screen or source date.",
+              "Como aumentar o nível decision item: compare the result with the next documented goal.",
+              "Como aumentar o nível boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Como aumentar o nível: O que verificar primeiro?",
+        "question": "Onde fica o controle documentado de Como aumentar o nível?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Como aumentar o nível."
       },
       {
-        "question": "Como aumentar o nível: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Uma rolagem melhor pode substituir uma unidade inicial."
+        "question": "Qual resultado visível confirma Como aumentar o nível?",
+        "answer": "Como aumentar o nível deve ser testado com o painel relevante aberto: registre a opção inicial, execute a ação documentada e confirme o resultado visível antes de outra mudança."
       },
       {
-        "question": "Como aumentar o nível: O que segue sem confirmação?",
+        "question": "Quando as instruções de Como aumentar o nível precisam de revisão?",
         "answer": "As fontes não confirmam um nível máximo universal."
       }
     ],
@@ -538,7 +653,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Como ocultar animações: guia focado em o controle Hide da animação de Roll, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de o controle Hide da animação de Roll. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Como ocultar animações como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Este guia organiza o controle exato, o resultado observável e o limite das evidências fornecidas. Como ocultar animações por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -547,7 +662,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Hide fica na interface de Roll."
+            "text": "Como ocultar animações: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Hide fica na interface de Roll."
           }
         ]
       },
@@ -557,7 +672,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Como ocultar animações: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -576,7 +691,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Como ocultar animações: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -599,19 +714,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Nenhuma fonte confirma um botão que pule todas as cenas."
           }
         ]
+      },
+      {
+        "id": "how-to-skip-cutscenes-decision-record",
+        "title": "Como ocultar animações — Verificação repetível do controle",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Como ocultar animações deve ser testado com o painel relevante aberto: registre a opção inicial, execute a ação documentada e confirme o resultado visível antes de outra mudança."
+          },
+          {
+            "type": "paragraph",
+            "text": "Como ocultar animações: Se a interface estiver diferente, siga o texto atual do jogo; botão ausente ou rótulo alterado exige nova revisão, não uma suposição."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Como ocultar animações review item: preserve the current screen or source date.",
+              "Como ocultar animações decision item: compare the result with the next documented goal.",
+              "Como ocultar animações boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Como ocultar animações: O que verificar primeiro?",
+        "question": "Onde fica o controle documentado de Como ocultar animações?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Como ocultar animações."
       },
       {
-        "question": "Como ocultar animações: Qual detalhe fornecido importa para a decisão?",
-        "answer": "A rolagem pode continuar sem a animação repetida."
+        "question": "Qual resultado visível confirma Como ocultar animações?",
+        "answer": "Como ocultar animações deve ser testado com o painel relevante aberto: registre a opção inicial, execute a ação documentada e confirme o resultado visível antes de outra mudança."
       },
       {
-        "question": "Como ocultar animações: O que segue sem confirmação?",
+        "question": "Quando as instruções de Como ocultar animações precisam de revisão?",
         "answer": "Nenhuma fonte confirma um botão que pule todas as cenas."
       }
     ],
@@ -628,7 +766,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Como entrar no grupo: guia focado em a comunidade verificada More & More Games, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de a comunidade verificada More & More Games. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Como entrar no grupo como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Este guia organiza o controle exato, o resultado observável e o limite das evidências fornecidas. Como entrar no grupo por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -637,7 +775,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. O grupo ligado ao jogo é More & More Games."
+            "text": "Como entrar no grupo: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. O grupo ligado ao jogo é More & More Games."
           }
         ]
       },
@@ -647,7 +785,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Como entrar no grupo: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -666,7 +804,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Como entrar no grupo: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -689,19 +827,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Confira o destino Roblox e evite grupos imitadores."
           }
         ]
+      },
+      {
+        "id": "how-to-join-group-decision-record",
+        "title": "Como entrar no grupo — Verificação repetível do controle",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Como entrar no grupo deve ser testado com o painel relevante aberto: registre a opção inicial, execute a ação documentada e confirme o resultado visível antes de outra mudança."
+          },
+          {
+            "type": "paragraph",
+            "text": "Como entrar no grupo: Se a interface estiver diferente, siga o texto atual do jogo; botão ausente ou rótulo alterado exige nova revisão, não uma suposição."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Como entrar no grupo review item: preserve the current screen or source date.",
+              "Como entrar no grupo decision item: compare the result with the next documented goal.",
+              "Como entrar no grupo boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Como entrar no grupo: O que verificar primeiro?",
+        "question": "Onde fica o controle documentado de Como entrar no grupo?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Como entrar no grupo."
       },
       {
-        "question": "Como entrar no grupo: Qual detalhe fornecido importa para a decisão?",
-        "answer": "A referência diz que o baú pode oferecer spins."
+        "question": "Qual resultado visível confirma Como entrar no grupo?",
+        "answer": "Como entrar no grupo deve ser testado com o painel relevante aberto: registre a opção inicial, execute a ação documentada e confirme o resultado visível antes de outra mudança."
       },
       {
-        "question": "Como entrar no grupo: O que segue sem confirmação?",
+        "question": "Quando as instruções de Como entrar no grupo precisam de revisão?",
         "answer": "Confira o destino Roblox e evite grupos imitadores."
       }
     ],
@@ -718,7 +879,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Tier list de unidades: guia focado em avaliar a utilidade de cada unidade na equipe atual, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de avaliar a utilidade de cada unidade na equipe atual. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Tier list de unidades como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta referência separa a propriedade da unidade de rarity, grade, trait, mutation e nível para evitar uma decisão baseada em um único rótulo. Tier list de unidades por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -727,7 +888,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Uma classificação depende da versão do jogo."
+            "text": "Tier list de unidades: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Uma classificação depende da versão do jogo."
           }
         ]
       },
@@ -737,7 +898,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Tier list de unidades: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -756,7 +917,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Tier list de unidades: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -764,6 +925,24 @@ export const PT_BR_ARTICLE_COPY = {
             "items": [
               "Grade, trait, mutation e nível mudam a avaliação.",
               "Equip Best é um ponto de partida, não um ranking permanente."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tier-list-verified-data",
+        "title": "Tier List — Como interpretar esta página",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "O material fornecido não estabelece um ranking de unidades S/A/B/C. Por isso, esta página publica critérios de avaliação e deixa qualquer ordem universal de combate como não confirmada."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Galactic está documentada como uma raridade introduzida no Update 7.",
+              "Grade, trait, mutation e level devem ser avaliados separadamente."
             ]
           }
         ]
@@ -779,19 +958,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Não há ranking universal confirmado nas fontes fornecidas."
           }
         ]
+      },
+      {
+        "id": "tier-list-decision-record",
+        "title": "Tier list de unidades — Comparação completa da unidade",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Tier list de unidades deve ser registrado com identidade, rarity, grade, trait, mutation e nível. Assim, um único rótulo não decide sozinho a utilidade da unidade."
+          },
+          {
+            "type": "paragraph",
+            "text": "Tier list de unidades: Antes de vender ou investir, compare com a equipe equipada e guarde a unidade duvidosa até conferir todas as propriedades exibidas."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Tier list de unidades review item: preserve the current screen or source date.",
+              "Tier list de unidades decision item: compare the result with the next documented goal.",
+              "Tier list de unidades boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Tier list de unidades: O que verificar primeiro?",
+        "question": "Quais propriedades entram na comparação de Tier list de unidades?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Tier list de unidades."
       },
       {
-        "question": "Tier list de unidades: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Grade, trait, mutation e nível mudam a avaliação."
+        "question": "O que proteger antes de vender um resultado de Tier list de unidades?",
+        "answer": "Tier list de unidades deve ser registrado com identidade, rarity, grade, trait, mutation e nível. Assim, um único rótulo não decide sozinho a utilidade da unidade."
       },
       {
-        "question": "Tier list de unidades: O que segue sem confirmação?",
+        "question": "Quais valores de Tier list de unidades não foram estabelecidos?",
         "answer": "Não há ranking universal confirmado nas fontes fornecidas."
       }
     ],
@@ -808,7 +1010,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Unidades: guia focado em rolar, manter, equipar e melhorar personagens, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de rolar, manter, equipar e melhorar personagens. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Unidades como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta referência separa a propriedade da unidade de rarity, grade, trait, mutation e nível para evitar uma decisão baseada em um único rótulo. Unidades por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -817,7 +1019,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Personagens são obtidos pelo ciclo de Roll."
+            "text": "Unidades: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Personagens são obtidos pelo ciclo de Roll."
           }
         ]
       },
@@ -827,7 +1029,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Unidades: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -846,7 +1048,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Unidades: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -869,19 +1071,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Disponibilidade e balanceamento podem mudar."
           }
         ]
+      },
+      {
+        "id": "units-decision-record",
+        "title": "Unidades — Comparação completa da unidade",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Unidades deve ser registrado com identidade, rarity, grade, trait, mutation e nível. Assim, um único rótulo não decide sozinho a utilidade da unidade."
+          },
+          {
+            "type": "paragraph",
+            "text": "Unidades: Antes de vender ou investir, compare com a equipe equipada e guarde a unidade duvidosa até conferir todas as propriedades exibidas."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Unidades review item: preserve the current screen or source date.",
+              "Unidades decision item: compare the result with the next documented goal.",
+              "Unidades boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Unidades: O que verificar primeiro?",
+        "question": "Quais propriedades entram na comparação de Unidades?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Unidades."
       },
       {
-        "question": "Unidades: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Unidades mantidas merecem recursos antes das temporárias."
+        "question": "O que proteger antes de vender um resultado de Unidades?",
+        "answer": "Unidades deve ser registrado com identidade, rarity, grade, trait, mutation e nível. Assim, um único rótulo não decide sozinho a utilidade da unidade."
       },
       {
-        "question": "Unidades: O que segue sem confirmação?",
+        "question": "Quais valores de Unidades não foram estabelecidos?",
         "answer": "Disponibilidade e balanceamento podem mudar."
       }
     ],
@@ -898,7 +1123,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Traits: guia focado em avaliar trait sem confundir com grade ou mutation, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de avaliar trait sem confundir com grade ou mutation. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Traits como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta referência separa a propriedade da unidade de rarity, grade, trait, mutation e nível para evitar uma decisão baseada em um único rótulo. Traits por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -907,7 +1132,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Trait é uma propriedade separada da unidade."
+            "text": "Traits: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Trait é uma propriedade separada da unidade."
           }
         ]
       },
@@ -917,7 +1142,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Traits: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -936,7 +1161,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Traits: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -944,6 +1169,47 @@ export const PT_BR_ARTICLE_COPY = {
             "items": [
               "UPDATE6 documenta Trait Rerolls como recompensa.",
               "O trait deve ser lido junto da unidade que o recebeu."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "traits-verified-data",
+        "title": "Traits — Dados fornecidos e verificados",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Trait",
+              "Income / Damage / Health",
+              "Chance exibida"
+            ],
+            "rows": [
+              [
+                "Eternal",
+                "27x",
+                "Não informado no módulo fornecido"
+              ],
+              [
+                "Transcendent",
+                "15x",
+                "0.006%"
+              ],
+              [
+                "Monarch",
+                "8x",
+                "0.025%"
+              ],
+              [
+                "Shogun",
+                "5x",
+                "0.12%"
+              ],
+              [
+                "Samurai",
+                "3x",
+                "0.5%"
+              ]
             ]
           }
         ]
@@ -959,19 +1225,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Efeitos e rankings completos não estão confirmados para toda versão."
           }
         ]
+      },
+      {
+        "id": "traits-decision-record",
+        "title": "Traits — Comparação completa da unidade",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Traits deve ser registrado com identidade, rarity, grade, trait, mutation e nível. Assim, um único rótulo não decide sozinho a utilidade da unidade."
+          },
+          {
+            "type": "paragraph",
+            "text": "Traits: Antes de vender ou investir, compare com a equipe equipada e guarde a unidade duvidosa até conferir todas as propriedades exibidas."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Traits review item: preserve the current screen or source date.",
+              "Traits decision item: compare the result with the next documented goal.",
+              "Traits boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Traits: O que verificar primeiro?",
+        "question": "Quais propriedades entram na comparação de Traits?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Traits."
       },
       {
-        "question": "Traits: Qual detalhe fornecido importa para a decisão?",
-        "answer": "UPDATE6 documenta Trait Rerolls como recompensa."
+        "question": "O que proteger antes de vender um resultado de Traits?",
+        "answer": "Traits deve ser registrado com identidade, rarity, grade, trait, mutation e nível. Assim, um único rótulo não decide sozinho a utilidade da unidade."
       },
       {
-        "question": "Traits: O que segue sem confirmação?",
+        "question": "Quais valores de Traits não foram estabelecidos?",
         "answer": "Efeitos e rankings completos não estão confirmados para toda versão."
       }
     ],
@@ -980,7 +1269,12 @@ export const PT_BR_ARTICLE_COPY = {
       "anime-dice-traits:confirmed-1",
       "anime-dice-traits:confirmed-2",
       "anime-dice-traits:confirmed-3",
-      "anime-dice-traits:evidence-boundary"
+      "anime-dice-traits:evidence-boundary",
+      "anime-dice-traits:supplied-eternal",
+      "anime-dice-traits:supplied-transcendent",
+      "anime-dice-traits:supplied-monarch",
+      "anime-dice-traits:supplied-shogun",
+      "anime-dice-traits:supplied-samurai"
     ]
   },
   "anime-dice-mutation": {
@@ -988,7 +1282,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Mutations: guia focado em reconhecer mutation como propriedade separada, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de reconhecer mutation como propriedade separada. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Mutations como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta referência separa a propriedade da unidade de rarity, grade, trait, mutation e nível para evitar uma decisão baseada em um único rótulo. Mutations por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -997,7 +1291,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Mutation faz parte do ciclo documentado de personagens."
+            "text": "Mutations: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Mutation faz parte do ciclo documentado de personagens."
           }
         ]
       },
@@ -1007,7 +1301,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Mutations: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -1026,7 +1320,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Mutations: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -1049,19 +1343,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Odds e lista completa de mutations não foram confirmadas."
           }
         ]
+      },
+      {
+        "id": "mutation-decision-record",
+        "title": "Mutations — Comparação completa da unidade",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Mutations deve ser registrado com identidade, rarity, grade, trait, mutation e nível. Assim, um único rótulo não decide sozinho a utilidade da unidade."
+          },
+          {
+            "type": "paragraph",
+            "text": "Mutations: Antes de vender ou investir, compare com a equipe equipada e guarde a unidade duvidosa até conferir todas as propriedades exibidas."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Mutations review item: preserve the current screen or source date.",
+              "Mutations decision item: compare the result with the next documented goal.",
+              "Mutations boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Mutations: O que verificar primeiro?",
+        "question": "Quais propriedades entram na comparação de Mutations?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Mutations."
       },
       {
-        "question": "Mutations: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Mutation, grade e trait são rótulos diferentes."
+        "question": "O que proteger antes de vender um resultado de Mutations?",
+        "answer": "Mutations deve ser registrado com identidade, rarity, grade, trait, mutation e nível. Assim, um único rótulo não decide sozinho a utilidade da unidade."
       },
       {
-        "question": "Mutations: O que segue sem confirmação?",
+        "question": "Quais valores de Mutations não foram estabelecidos?",
         "answer": "Odds e lista completa de mutations não foram confirmadas."
       }
     ],
@@ -1078,7 +1395,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Raridades: guia focado em comparar a raridade com as demais propriedades, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de comparar a raridade com as demais propriedades. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Raridades como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta referência separa a propriedade da unidade de rarity, grade, trait, mutation e nível para evitar uma decisão baseada em um único rótulo. Raridades por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -1087,7 +1404,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Rarity descreve o resultado de uma rolagem."
+            "text": "Raridades: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Rarity descreve o resultado de uma rolagem."
           }
         ]
       },
@@ -1097,7 +1414,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Raridades: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -1116,7 +1433,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Raridades: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -1139,19 +1456,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "As probabilidades exatas de cada rarity não estão confirmadas."
           }
         ]
+      },
+      {
+        "id": "rarity-decision-record",
+        "title": "Raridades — Comparação completa da unidade",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Raridades deve ser registrado com identidade, rarity, grade, trait, mutation e nível. Assim, um único rótulo não decide sozinho a utilidade da unidade."
+          },
+          {
+            "type": "paragraph",
+            "text": "Raridades: Antes de vender ou investir, compare com a equipe equipada e guarde a unidade duvidosa até conferir todas as propriedades exibidas."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Raridades review item: preserve the current screen or source date.",
+              "Raridades decision item: compare the result with the next documented goal.",
+              "Raridades boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Raridades: O que verificar primeiro?",
+        "question": "Quais propriedades entram na comparação de Raridades?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Raridades."
       },
       {
-        "question": "Raridades: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Ela não substitui grade, trait, mutation ou nível."
+        "question": "O que proteger antes de vender um resultado de Raridades?",
+        "answer": "Raridades deve ser registrado com identidade, rarity, grade, trait, mutation e nível. Assim, um único rótulo não decide sozinho a utilidade da unidade."
       },
       {
-        "question": "Raridades: O que segue sem confirmação?",
+        "question": "Quais valores de Raridades não foram estabelecidos?",
         "answer": "As probabilidades exatas de cada rarity não estão confirmadas."
       }
     ],
@@ -1168,7 +1508,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Graus: guia focado em ler o grade de forma independente, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de ler o grade de forma independente. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Graus como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta referência separa a propriedade da unidade de rarity, grade, trait, mutation e nível para evitar uma decisão baseada em um único rótulo. Graus por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -1177,7 +1517,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Grade é separado de trait e mutation."
+            "text": "Graus: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Grade é separado de trait e mutation."
           }
         ]
       },
@@ -1187,7 +1527,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Graus: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -1206,7 +1546,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Graus: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -1229,19 +1569,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "A tabela completa e os modificadores atuais não estão confirmados."
           }
         ]
+      },
+      {
+        "id": "grades-decision-record",
+        "title": "Graus — Comparação completa da unidade",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Graus deve ser registrado com identidade, rarity, grade, trait, mutation e nível. Assim, um único rótulo não decide sozinho a utilidade da unidade."
+          },
+          {
+            "type": "paragraph",
+            "text": "Graus: Antes de vender ou investir, compare com a equipe equipada e guarde a unidade duvidosa até conferir todas as propriedades exibidas."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Graus review item: preserve the current screen or source date.",
+              "Graus decision item: compare the result with the next documented goal.",
+              "Graus boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Graus: O que verificar primeiro?",
+        "question": "Quais propriedades entram na comparação de Graus?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Graus."
       },
       {
-        "question": "Graus: Qual detalhe fornecido importa para a decisão?",
-        "answer": "O grade deve ser comparado com a unidade base."
+        "question": "O que proteger antes de vender um resultado de Graus?",
+        "answer": "Graus deve ser registrado com identidade, rarity, grade, trait, mutation e nível. Assim, um único rótulo não decide sozinho a utilidade da unidade."
       },
       {
-        "question": "Graus: O que segue sem confirmação?",
+        "question": "Quais valores de Graus não foram estabelecidos?",
         "answer": "A tabela completa e os modificadores atuais não estão confirmados."
       }
     ],
@@ -1258,7 +1621,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Nível máximo: guia focado em planejar investimento sem inventar um limite, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de planejar investimento sem inventar um limite. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Nível máximo como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta referência separa a propriedade da unidade de rarity, grade, trait, mutation e nível para evitar uma decisão baseada em um único rótulo. Nível máximo por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -1267,7 +1630,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Recursos de nível rendem mais em unidades mantidas."
+            "text": "Nível máximo: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Recursos de nível rendem mais em unidades mantidas."
           }
         ]
       },
@@ -1277,7 +1640,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Nível máximo: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -1296,7 +1659,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Nível máximo: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -1319,19 +1682,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "As fontes não estabelecem um nível máximo universal."
           }
         ]
+      },
+      {
+        "id": "max-level-decision-record",
+        "title": "Nível máximo — Comparação completa da unidade",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Nível máximo deve ser registrado com identidade, rarity, grade, trait, mutation e nível. Assim, um único rótulo não decide sozinho a utilidade da unidade."
+          },
+          {
+            "type": "paragraph",
+            "text": "Nível máximo: Antes de vender ou investir, compare com a equipe equipada e guarde a unidade duvidosa até conferir todas as propriedades exibidas."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Nível máximo review item: preserve the current screen or source date.",
+              "Nível máximo decision item: compare the result with the next documented goal.",
+              "Nível máximo boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Nível máximo: O que verificar primeiro?",
+        "question": "Quais propriedades entram na comparação de Nível máximo?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Nível máximo."
       },
       {
-        "question": "Nível máximo: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Nível continua separado de grade, trait e mutation."
+        "question": "O que proteger antes de vender um resultado de Nível máximo?",
+        "answer": "Nível máximo deve ser registrado com identidade, rarity, grade, trait, mutation e nível. Assim, um único rótulo não decide sozinho a utilidade da unidade."
       },
       {
-        "question": "Nível máximo: O que segue sem confirmação?",
+        "question": "Quais valores de Nível máximo não foram estabelecidos?",
         "answer": "As fontes não estabelecem um nível máximo universal."
       }
     ],
@@ -1348,7 +1734,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Luck: guia focado em priorizar Luck na progressão inicial, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de priorizar Luck na progressão inicial. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Luck como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta página liga a decisão de recurso ou reset ao painel atual e não trata um limite variável como permanente. Luck por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -1357,7 +1743,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Luck é uma prioridade inicial prática."
+            "text": "Luck: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Luck é uma prioridade inicial prática."
           }
         ]
       },
@@ -1367,7 +1753,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Luck: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -1386,7 +1772,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Luck: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -1394,6 +1780,53 @@ export const PT_BR_ARTICLE_COPY = {
             "items": [
               "Money e Luck podem vir antes de Roll Speed.",
               "Luck melhora o sistema, mas não garante uma unidade específica."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "luck-verified-data",
+        "title": "Luck — Dados fornecidos e verificados",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Die",
+              "Rarity",
+              "Cost",
+              "Luck"
+            ],
+            "rows": [
+              [
+                "Normal",
+                "Common",
+                "$1",
+                "2x"
+              ],
+              [
+                "Storm",
+                "Epic",
+                "$200 million",
+                "400x"
+              ],
+              [
+                "Light",
+                "Legendary",
+                "$12 billion",
+                "1,500x"
+              ],
+              [
+                "Prismatic",
+                "Exotic",
+                "$1 quintillion",
+                "1,000,000x"
+              ],
+              [
+                "Radiant",
+                "Heavenly",
+                "$100 octillion",
+                "5,000,000,000x"
+              ]
             ]
           }
         ]
@@ -1409,19 +1842,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "As probabilidades em cada valor de Luck não estão confirmadas."
           }
         ]
+      },
+      {
+        "id": "luck-decision-record",
+        "title": "Luck — Registro da decisão de recurso",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Luck exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
+          },
+          {
+            "type": "paragraph",
+            "text": "Luck: Se custo, limite, recompensa ou probabilidade não aparece nas evidências, use o painel atual e mantenha a incerteza."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Luck review item: preserve the current screen or source date.",
+              "Luck decision item: compare the result with the next documented goal.",
+              "Luck boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Luck: O que verificar primeiro?",
+        "question": "O que registrar antes de usar Luck?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Luck."
       },
       {
-        "question": "Luck: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Money e Luck podem vir antes de Roll Speed."
+        "question": "Como Luck se liga à próxima meta?",
+        "answer": "Luck exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
       },
       {
-        "question": "Luck: O que segue sem confirmação?",
+        "question": "Quais valores de Luck exigem o painel atual?",
         "answer": "As probabilidades em cada valor de Luck não estão confirmadas."
       }
     ],
@@ -1430,7 +1886,12 @@ export const PT_BR_ARTICLE_COPY = {
       "anime-dice-luck:confirmed-1",
       "anime-dice-luck:confirmed-2",
       "anime-dice-luck:confirmed-3",
-      "anime-dice-luck:evidence-boundary"
+      "anime-dice-luck:evidence-boundary",
+      "anime-dice-luck:supplied-normal-die",
+      "anime-dice-luck:supplied-storm-die",
+      "anime-dice-luck:supplied-light-die",
+      "anime-dice-luck:supplied-prismatic-die",
+      "anime-dice-luck:supplied-radiant-die"
     ]
   },
   "anime-dice-max-luck": {
@@ -1438,7 +1899,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Luck máxima: guia focado em verificar limites atuais no painel de upgrades, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de verificar limites atuais no painel de upgrades. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Luck máxima como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta página liga a decisão de recurso ou reset ao painel atual e não trata um limite variável como permanente. Luck máxima por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -1447,7 +1908,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Luck aparece como prioridade no guia de progressão."
+            "text": "Luck máxima: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Luck aparece como prioridade no guia de progressão."
           }
         ]
       },
@@ -1457,7 +1918,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Luck máxima: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -1476,7 +1937,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Luck máxima: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -1499,19 +1960,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Não há valor máximo permanente de Luck confirmado."
           }
         ]
+      },
+      {
+        "id": "max-luck-decision-record",
+        "title": "Luck máxima — Registro da decisão de recurso",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Luck máxima exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
+          },
+          {
+            "type": "paragraph",
+            "text": "Luck máxima: Se custo, limite, recompensa ou probabilidade não aparece nas evidências, use o painel atual e mantenha a incerteza."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Luck máxima review item: preserve the current screen or source date.",
+              "Luck máxima decision item: compare the result with the next documented goal.",
+              "Luck máxima boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Luck máxima: O que verificar primeiro?",
+        "question": "O que registrar antes de usar Luck máxima?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Luck máxima."
       },
       {
-        "question": "Luck máxima: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Rebirth pode afetar a progressão de longo prazo."
+        "question": "Como Luck máxima se liga à próxima meta?",
+        "answer": "Luck máxima exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
       },
       {
-        "question": "Luck máxima: O que segue sem confirmação?",
+        "question": "Quais valores de Luck máxima exigem o painel atual?",
         "answer": "Não há valor máximo permanente de Luck confirmado."
       }
     ],
@@ -1528,7 +2012,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Gems: guia focado em proteger e gastar um recurso de progressão, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de proteger e gastar um recurso de progressão. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Gems como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta página liga a decisão de recurso ou reset ao painel atual e não trata um limite variável como permanente. Gems por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -1537,7 +2021,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. UPDATE6 inclui Gems nas recompensas documentadas."
+            "text": "Gems: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. UPDATE6 inclui Gems nas recompensas documentadas."
           }
         ]
       },
@@ -1547,7 +2031,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Gems: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -1566,7 +2050,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Gems: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -1589,19 +2073,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Preços, ofertas e melhor compra podem mudar e não estão confirmados."
           }
         ]
+      },
+      {
+        "id": "gems-decision-record",
+        "title": "Gems — Registro da decisão de recurso",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Gems exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
+          },
+          {
+            "type": "paragraph",
+            "text": "Gems: Se custo, limite, recompensa ou probabilidade não aparece nas evidências, use o painel atual e mantenha a incerteza."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Gems review item: preserve the current screen or source date.",
+              "Gems decision item: compare the result with the next documented goal.",
+              "Gems boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Gems: O que verificar primeiro?",
+        "question": "O que registrar antes de usar Gems?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Gems."
       },
       {
-        "question": "Gems: Qual detalhe fornecido importa para a decisão?",
-        "answer": "O baú do grupo pode fornecer Gems segundo o guia."
+        "question": "Como Gems se liga à próxima meta?",
+        "answer": "Gems exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
       },
       {
-        "question": "Gems: O que segue sem confirmação?",
+        "question": "Quais valores de Gems exigem o painel atual?",
         "answer": "Preços, ofertas e melhor compra podem mudar e não estão confirmados."
       }
     ],
@@ -1618,7 +2125,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Jackpot Roll: guia focado em verificar o recurso no jogo antes de gastar, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de verificar o recurso no jogo antes de gastar. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Jackpot Roll como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta página liga a decisão de recurso ou reset ao painel atual e não trata um limite variável como permanente. Jackpot Roll por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -1627,7 +2134,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Jackpot Roll é tratado aqui como um tópico de progresso que deve ser verificado no jogo."
+            "text": "Jackpot Roll: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Jackpot Roll é tratado aqui como um tópico de progresso que deve ser verificado no jogo."
           }
         ]
       },
@@ -1637,7 +2144,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Jackpot Roll: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -1656,7 +2163,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Jackpot Roll: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -1679,19 +2186,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Requisitos, recompensas e odds exatas não foram confirmados."
           }
         ]
+      },
+      {
+        "id": "jackpot-roll-decision-record",
+        "title": "Jackpot Roll — Registro da decisão de recurso",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Jackpot Roll exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
+          },
+          {
+            "type": "paragraph",
+            "text": "Jackpot Roll: Se custo, limite, recompensa ou probabilidade não aparece nas evidências, use o painel atual e mantenha a incerteza."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Jackpot Roll review item: preserve the current screen or source date.",
+              "Jackpot Roll decision item: compare the result with the next documented goal.",
+              "Jackpot Roll boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Jackpot Roll: O que verificar primeiro?",
+        "question": "O que registrar antes de usar Jackpot Roll?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Jackpot Roll."
       },
       {
-        "question": "Jackpot Roll: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Luck deve ser avaliada separadamente do acesso ao recurso."
+        "question": "Como Jackpot Roll se liga à próxima meta?",
+        "answer": "Jackpot Roll exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
       },
       {
-        "question": "Jackpot Roll: O que segue sem confirmação?",
+        "question": "Quais valores de Jackpot Roll exigem o painel atual?",
         "answer": "Requisitos, recompensas e odds exatas não foram confirmados."
       }
     ],
@@ -1708,7 +2238,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Lucky Spins: guia focado em usar spins como recurso limitado, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de usar spins como recurso limitado. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Lucky Spins como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta página liga a decisão de recurso ou reset ao painel atual e não trata um limite variável como permanente. Lucky Spins por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -1717,7 +2247,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. UPDATE6 cita Lucky Spins como recompensa."
+            "text": "Lucky Spins: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. UPDATE6 cita Lucky Spins como recompensa."
           }
         ]
       },
@@ -1727,7 +2257,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Lucky Spins: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -1746,7 +2276,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Lucky Spins: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -1769,19 +2299,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Resultados, odds e disponibilidade atual não estão confirmados."
           }
         ]
+      },
+      {
+        "id": "lucky-spin-decision-record",
+        "title": "Lucky Spins — Registro da decisão de recurso",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Lucky Spins exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
+          },
+          {
+            "type": "paragraph",
+            "text": "Lucky Spins: Se custo, limite, recompensa ou probabilidade não aparece nas evidências, use o painel atual e mantenha a incerteza."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Lucky Spins review item: preserve the current screen or source date.",
+              "Lucky Spins decision item: compare the result with the next documented goal.",
+              "Lucky Spins boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Lucky Spins: O que verificar primeiro?",
+        "question": "O que registrar antes de usar Lucky Spins?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Lucky Spins."
       },
       {
-        "question": "Lucky Spins: Qual detalhe fornecido importa para a decisão?",
-        "answer": "O baú do grupo também pode fornecer spins."
+        "question": "Como Lucky Spins se liga à próxima meta?",
+        "answer": "Lucky Spins exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
       },
       {
-        "question": "Lucky Spins: O que segue sem confirmação?",
+        "question": "Quais valores de Lucky Spins exigem o painel atual?",
         "answer": "Resultados, odds e disponibilidade atual não estão confirmados."
       }
     ],
@@ -1798,7 +2351,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Rebirth: guia focado em preparar uma decisão de progressão de longo prazo, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de preparar uma decisão de progressão de longo prazo. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Rebirth como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta página liga a decisão de recurso ou reset ao painel atual e não trata um limite variável como permanente. Rebirth por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -1807,7 +2360,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Rebirth pertence à progressão de longo prazo."
+            "text": "Rebirth: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Rebirth pertence à progressão de longo prazo."
           }
         ]
       },
@@ -1817,7 +2370,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Rebirth: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -1836,7 +2389,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Rebirth: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -1844,6 +2397,23 @@ export const PT_BR_ARTICLE_COPY = {
             "items": [
               "Update 7 adicionou seis caminhos de upgrade de rebirth.",
               "Os efeitos do reset devem ser lidos no painel atual."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rebirth-documented-sequence",
+        "title": "Rebirth — Sequência fornecida e documentada",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ordered",
+            "items": [
+              "Espere até que as unidades equipadas consigam reconstruir a renda após o reset.",
+              "Gaste o dinheiro restante antes do rebirth, pois o saldo atual é reiniciado.",
+              "Unidades coletadas, grades e traits permanecem.",
+              "Receba um Rebirth Upgrade Point por rebirth no Update 7.",
+              "Distribua pontos nos seis caminhos de Rebirth Upgrade, reinicie Auto Roll e reconstrua a renda."
             ]
           }
         ]
@@ -1859,19 +2429,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Custos e efeitos de cada etapa não foram confirmados aqui."
           }
         ]
+      },
+      {
+        "id": "rebirth-decision-record",
+        "title": "Rebirth — Registro da decisão de recurso",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Rebirth exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
+          },
+          {
+            "type": "paragraph",
+            "text": "Rebirth: Se custo, limite, recompensa ou probabilidade não aparece nas evidências, use o painel atual e mantenha a incerteza."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Rebirth review item: preserve the current screen or source date.",
+              "Rebirth decision item: compare the result with the next documented goal.",
+              "Rebirth boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Rebirth: O que verificar primeiro?",
+        "question": "O que registrar antes de usar Rebirth?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Rebirth."
       },
       {
-        "question": "Rebirth: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Update 7 adicionou seis caminhos de upgrade de rebirth."
+        "question": "Como Rebirth se liga à próxima meta?",
+        "answer": "Rebirth exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
       },
       {
-        "question": "Rebirth: O que segue sem confirmação?",
+        "question": "Quais valores de Rebirth exigem o painel atual?",
         "answer": "Custos e efeitos de cada etapa não foram confirmados aqui."
       }
     ],
@@ -1880,7 +2473,12 @@ export const PT_BR_ARTICLE_COPY = {
       "anime-dice-rebirth:confirmed-1",
       "anime-dice-rebirth:confirmed-2",
       "anime-dice-rebirth:confirmed-3",
-      "anime-dice-rebirth:evidence-boundary"
+      "anime-dice-rebirth:evidence-boundary",
+      "anime-dice-rebirth:supplied-rebuild-ready",
+      "anime-dice-rebirth:supplied-cash-resets",
+      "anime-dice-rebirth:supplied-units-remain",
+      "anime-dice-rebirth:supplied-upgrade-point",
+      "anime-dice-rebirth:supplied-six-paths"
     ]
   },
   "anime-dice-max-rebirth": {
@@ -1888,7 +2486,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Rebirth máximo: guia focado em distinguir caminhos de upgrade de um limite final, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de distinguir caminhos de upgrade de um limite final. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Rebirth máximo como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta página liga a decisão de recurso ou reset ao painel atual e não trata um limite variável como permanente. Rebirth máximo por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -1897,7 +2495,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Update 7 documenta seis caminhos de upgrade."
+            "text": "Rebirth máximo: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Update 7 documenta seis caminhos de upgrade."
           }
         ]
       },
@@ -1907,7 +2505,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Rebirth máximo: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -1926,7 +2524,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Rebirth máximo: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -1949,19 +2547,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Não há máximo permanente de rebirth confirmado."
           }
         ]
+      },
+      {
+        "id": "max-rebirth-decision-record",
+        "title": "Rebirth máximo — Registro da decisão de recurso",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Rebirth máximo exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
+          },
+          {
+            "type": "paragraph",
+            "text": "Rebirth máximo: Se custo, limite, recompensa ou probabilidade não aparece nas evidências, use o painel atual e mantenha a incerteza."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Rebirth máximo review item: preserve the current screen or source date.",
+              "Rebirth máximo decision item: compare the result with the next documented goal.",
+              "Rebirth máximo boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Rebirth máximo: O que verificar primeiro?",
+        "question": "O que registrar antes de usar Rebirth máximo?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Rebirth máximo."
       },
       {
-        "question": "Rebirth máximo: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Quantidade de caminhos não significa número máximo de rebirths."
+        "question": "Como Rebirth máximo se liga à próxima meta?",
+        "answer": "Rebirth máximo exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
       },
       {
-        "question": "Rebirth máximo: O que segue sem confirmação?",
+        "question": "Quais valores de Rebirth máximo exigem o painel atual?",
         "answer": "Não há máximo permanente de rebirth confirmado."
       }
     ],
@@ -1978,7 +2599,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Loja de missões: guia focado em comparar recompensas e compras atuais, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de comparar recompensas e compras atuais. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Loja de missões como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta página liga a decisão de recurso ou reset ao painel atual e não trata um limite variável como permanente. Loja de missões por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -1987,7 +2608,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. A loja deve ser conferida dentro da versão atual."
+            "text": "Loja de missões: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. A loja deve ser conferida dentro da versão atual."
           }
         ]
       },
@@ -1997,7 +2618,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Loja de missões: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -2016,7 +2637,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Loja de missões: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -2039,19 +2660,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Estoque, preços e horário de atualização não estão confirmados."
           }
         ]
+      },
+      {
+        "id": "quest-shop-decision-record",
+        "title": "Loja de missões — Registro da decisão de recurso",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Loja de missões exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
+          },
+          {
+            "type": "paragraph",
+            "text": "Loja de missões: Se custo, limite, recompensa ou probabilidade não aparece nas evidências, use o painel atual e mantenha a incerteza."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Loja de missões review item: preserve the current screen or source date.",
+              "Loja de missões decision item: compare the result with the next documented goal.",
+              "Loja de missões boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Loja de missões: O que verificar primeiro?",
+        "question": "O que registrar antes de usar Loja de missões?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Loja de missões."
       },
       {
-        "question": "Loja de missões: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Gems, Tickets e spins são recursos diferentes."
+        "question": "Como Loja de missões se liga à próxima meta?",
+        "answer": "Loja de missões exige registrar saldo, texto do painel e próxima meta concreta. Isso torna a decisão reproduzível sem prometer uma escolha universal."
       },
       {
-        "question": "Loja de missões: O que segue sem confirmação?",
+        "question": "Quais valores de Loja de missões exigem o painel atual?",
         "answer": "Estoque, preços e horário de atualização não estão confirmados."
       }
     ],
@@ -2068,7 +2712,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Tower: guia focado em preparar equipe e recursos para uma tentativa, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de preparar equipe e recursos para uma tentativa. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Tower como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta referência separa preparação, tentativa e evidência de recompensa para não confundir um andar com drop garantido. Tower por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -2077,7 +2721,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. A equipe ativa deve ser revisada antes da entrada."
+            "text": "Tower: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. A equipe ativa deve ser revisada antes da entrada."
           }
         ]
       },
@@ -2087,7 +2731,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Tower: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -2106,7 +2750,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Tower: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -2114,6 +2758,23 @@ export const PT_BR_ARTICLE_COPY = {
             "items": [
               "Gear, Potions e Tickets são recursos de preparação distintos.",
               "As fontes fornecidas tratam Tower como progressão."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tower-documented-sequence",
+        "title": "Tower — Sequência fornecida e documentada",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ordered",
+            "items": [
+              "Entre no portal Towers no lobby central e escolha um desafio como Dragon Tower.",
+              "Use Equip Best antes de iniciar a luta.",
+              "Auto e Hide mantêm os andares liberados em andamento enquanto as recompensas são coletadas.",
+              "Dragon, Cursed, Pirate, Hidden Leaf e Slayer Towers têm Gear específico de cada Tower.",
+              "Melhore grades, traits, Damage e Health quando a equipe não superar o próximo andar."
             ]
           }
         ]
@@ -2129,19 +2790,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Andares, inimigos e rotação de recompensas podem mudar."
           }
         ]
+      },
+      {
+        "id": "tower-decision-record",
+        "title": "Tower — Registro da preparação da tentativa",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Tower exige anotar Tower escolhida, equipe ativa e item ou ticket usado. Depois, registre o andar alcançado e a recompensa visível."
+          },
+          {
+            "type": "paragraph",
+            "text": "Tower: Uma tentativa ou vídeo não prova taxa de drop. Use números documentados e trate recompensas rotativas como dependentes da versão."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Tower review item: preserve the current screen or source date.",
+              "Tower decision item: compare the result with the next documented goal.",
+              "Tower boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Tower: O que verificar primeiro?",
+        "question": "O que entra no checklist de Tower?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Tower."
       },
       {
-        "question": "Tower: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Gear, Potions e Tickets são recursos de preparação distintos."
+        "question": "Como revisar uma tentativa de Tower que parou?",
+        "answer": "Tower exige anotar Tower escolhida, equipe ativa e item ou ticket usado. Depois, registre o andar alcançado e a recompensa visível."
       },
       {
-        "question": "Tower: O que segue sem confirmação?",
+        "question": "Quais recompensas de Tower não são garantidas?",
         "answer": "Andares, inimigos e rotação de recompensas podem mudar."
       }
     ],
@@ -2150,7 +2834,12 @@ export const PT_BR_ARTICLE_COPY = {
       "anime-dice-tower:confirmed-1",
       "anime-dice-tower:confirmed-2",
       "anime-dice-tower:confirmed-3",
-      "anime-dice-tower:evidence-boundary"
+      "anime-dice-tower:evidence-boundary",
+      "anime-dice-tower:supplied-portal",
+      "anime-dice-tower:supplied-equip-best",
+      "anime-dice-tower:supplied-auto-hide",
+      "anime-dice-tower:supplied-tower-gear",
+      "anime-dice-tower:supplied-stuck-upgrades"
     ]
   },
   "anime-dice-gear": {
@@ -2158,7 +2847,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Gear: guia focado em comparar equipamento por origem e utilidade, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de comparar equipamento por origem e utilidade. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Gear como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta referência separa preparação, tentativa e evidência de recompensa para não confundir um andar com drop garantido. Gear por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -2167,7 +2856,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Gear está ligado à preparação de Tower nas fontes."
+            "text": "Gear: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Gear está ligado à preparação de Tower nas fontes."
           }
         ]
       },
@@ -2177,7 +2866,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Gear: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -2196,7 +2885,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Gear: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -2204,6 +2893,41 @@ export const PT_BR_ARTICLE_COPY = {
             "items": [
               "Cada item deve ser comparado com a unidade e a meta.",
               "A origem de obtenção deve permanecer ligada à fonte revisada."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gear-verified-data",
+        "title": "Gear — Dados fornecidos e verificados",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Gear",
+              "Documented effect and source"
+            ],
+            "rows": [
+              [
+                "Angel's Halo",
+                "+30% Luck, +5 Walk Speed; 0.02% from Dragon Tower andares 90+"
+              ],
+              [
+                "Sakuna's Sash",
+                "2x Damage, +30% Luck, +30% Gems; 0.02% from Cursed Tower andares 90+"
+              ],
+              [
+                "Enol's Drums",
+                "+40% Luck, 1.5x Cash; 0.02% from Pirate Tower andares 90+"
+              ],
+              [
+                "Obita's Mask",
+                "+40% Luck, +30% Gems; 0.02% from Hidden Leaf Tower andares 90+"
+              ],
+              [
+                "Mazun's Coat",
+                "+50% Luck, 2x Cash; 0.02% from Slayer Tower andares 90+"
+              ]
             ]
           }
         ]
@@ -2219,19 +2943,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Lista completa e modificadores ao vivo não estão confirmados."
           }
         ]
+      },
+      {
+        "id": "gear-decision-record",
+        "title": "Gear — Registro da preparação da tentativa",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Gear exige anotar Tower escolhida, equipe ativa e item ou ticket usado. Depois, registre o andar alcançado e a recompensa visível."
+          },
+          {
+            "type": "paragraph",
+            "text": "Gear: Uma tentativa ou vídeo não prova taxa de drop. Use números documentados e trate recompensas rotativas como dependentes da versão."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Gear review item: preserve the current screen or source date.",
+              "Gear decision item: compare the result with the next documented goal.",
+              "Gear boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Gear: O que verificar primeiro?",
+        "question": "O que entra no checklist de Gear?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Gear."
       },
       {
-        "question": "Gear: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Cada item deve ser comparado com a unidade e a meta."
+        "question": "Como revisar uma tentativa de Gear que parou?",
+        "answer": "Gear exige anotar Tower escolhida, equipe ativa e item ou ticket usado. Depois, registre o andar alcançado e a recompensa visível."
       },
       {
-        "question": "Gear: O que segue sem confirmação?",
+        "question": "Quais recompensas de Gear não são garantidas?",
         "answer": "Lista completa e modificadores ao vivo não estão confirmados."
       }
     ],
@@ -2240,7 +2987,12 @@ export const PT_BR_ARTICLE_COPY = {
       "anime-dice-gear:confirmed-1",
       "anime-dice-gear:confirmed-2",
       "anime-dice-gear:confirmed-3",
-      "anime-dice-gear:evidence-boundary"
+      "anime-dice-gear:evidence-boundary",
+      "anime-dice-gear:supplied-angels-halo",
+      "anime-dice-gear:supplied-sakunas-sash",
+      "anime-dice-gear:supplied-enols-drums",
+      "anime-dice-gear:supplied-obitas-mask",
+      "anime-dice-gear:supplied-mazuns-coat"
     ]
   },
   "anime-dice-potion": {
@@ -2248,7 +3000,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Potions: guia focado em decidir quando usar um recurso temporário, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de decidir quando usar um recurso temporário. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Potions como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta referência separa preparação, tentativa e evidência de recompensa para não confundir um andar com drop garantido. Potions por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -2257,7 +3009,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Potions são tratadas como preparação para Tower."
+            "text": "Potions: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Potions são tratadas como preparação para Tower."
           }
         ]
       },
@@ -2267,7 +3019,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Potions: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -2286,7 +3038,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Potions: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -2309,19 +3061,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Inventário, duração e efeitos exatos podem mudar."
           }
         ]
+      },
+      {
+        "id": "potion-decision-record",
+        "title": "Potions — Registro da preparação da tentativa",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Potions exige anotar Tower escolhida, equipe ativa e item ou ticket usado. Depois, registre o andar alcançado e a recompensa visível."
+          },
+          {
+            "type": "paragraph",
+            "text": "Potions: Uma tentativa ou vídeo não prova taxa de drop. Use números documentados e trate recompensas rotativas como dependentes da versão."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Potions review item: preserve the current screen or source date.",
+              "Potions decision item: compare the result with the next documented goal.",
+              "Potions boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Potions: O que verificar primeiro?",
+        "question": "O que entra no checklist de Potions?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Potions."
       },
       {
-        "question": "Potions: Qual detalhe fornecido importa para a decisão?",
-        "answer": "O texto atual do item deve ser lido antes do uso."
+        "question": "Como revisar uma tentativa de Potions que parou?",
+        "answer": "Potions exige anotar Tower escolhida, equipe ativa e item ou ticket usado. Depois, registre o andar alcançado e a recompensa visível."
       },
       {
-        "question": "Potions: O que segue sem confirmação?",
+        "question": "Quais recompensas de Potions não são garantidas?",
         "answer": "Inventário, duração e efeitos exatos podem mudar."
       }
     ],
@@ -2338,7 +3113,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Tickets: guia focado em rastrear Tickets antes de usar, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de rastrear Tickets antes de usar. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Tickets como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta referência separa preparação, tentativa e evidência de recompensa para não confundir um andar com drop garantido. Tickets por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -2347,7 +3122,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. UPDATE6 inclui Tickets na recompensa documentada."
+            "text": "Tickets: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. UPDATE6 inclui Tickets na recompensa documentada."
           }
         ]
       },
@@ -2357,7 +3132,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Tickets: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -2376,7 +3151,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Tickets: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -2399,19 +3174,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Custos, usos e disponibilidade em eventos não estão confirmados."
           }
         ]
+      },
+      {
+        "id": "tickets-decision-record",
+        "title": "Tickets — Registro da preparação da tentativa",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Tickets exige anotar Tower escolhida, equipe ativa e item ou ticket usado. Depois, registre o andar alcançado e a recompensa visível."
+          },
+          {
+            "type": "paragraph",
+            "text": "Tickets: Uma tentativa ou vídeo não prova taxa de drop. Use números documentados e trate recompensas rotativas como dependentes da versão."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Tickets review item: preserve the current screen or source date.",
+              "Tickets decision item: compare the result with the next documented goal.",
+              "Tickets boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Tickets: O que verificar primeiro?",
+        "question": "O que entra no checklist de Tickets?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Tickets."
       },
       {
-        "question": "Tickets: Qual detalhe fornecido importa para a decisão?",
-        "answer": "O uso deve ser confirmado na interface atual."
+        "question": "Como revisar uma tentativa de Tickets que parou?",
+        "answer": "Tickets exige anotar Tower escolhida, equipe ativa e item ou ticket usado. Depois, registre o andar alcançado e a recompensa visível."
       },
       {
-        "question": "Tickets: O que segue sem confirmação?",
+        "question": "Quais recompensas de Tickets não são garantidas?",
         "answer": "Custos, usos e disponibilidade em eventos não estão confirmados."
       }
     ],
@@ -2428,7 +3226,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Sistema de trocas: guia focado em verificar os dois lados de uma troca, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de verificar os dois lados de uma troca. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Sistema de trocas como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta planilha registra os dois lados, a data e as propriedades; uma oferta observada não vira preço fixo. Sistema de trocas por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -2437,7 +3235,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Confirme cada unidade ou item oferecido."
+            "text": "Sistema de trocas: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Confirme cada unidade ou item oferecido."
           }
         ]
       },
@@ -2447,7 +3245,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Sistema de trocas: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -2466,7 +3264,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Sistema de trocas: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -2489,19 +3287,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Disponibilidade de trading e demanda não são garantidas."
           }
         ]
+      },
+      {
+        "id": "trading-decision-record",
+        "title": "Sistema de trocas — Registro documentado da comparação",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Sistema de trocas começa com uma lista dos dois lados. Inclua rarity, grade, trait, mutation, nível, fonte e data antes de comparar."
+          },
+          {
+            "type": "paragraph",
+            "text": "Sistema de trocas: Ofertas observadas não são trocas concluídas. Rejeite urgência, confira a tela final e não transforme estimativa em preço garantido."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Sistema de trocas review item: preserve the current screen or source date.",
+              "Sistema de trocas decision item: compare the result with the next documented goal.",
+              "Sistema de trocas boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Sistema de trocas: O que verificar primeiro?",
+        "question": "O que anotar antes de decidir sobre Sistema de trocas?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Sistema de trocas."
       },
       {
-        "question": "Sistema de trocas: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Compare grade, trait, mutation e nível separadamente."
+        "question": "Por que uma oferta de Sistema de trocas não basta?",
+        "answer": "Sistema de trocas começa com uma lista dos dois lados. Inclua rarity, grade, trait, mutation, nível, fonte e data antes de comparar."
       },
       {
-        "question": "Sistema de trocas: O que segue sem confirmação?",
+        "question": "Qual preço de Sistema de trocas esta página rejeita?",
         "answer": "Disponibilidade de trading e demanda não são garantidas."
       }
     ],
@@ -2518,7 +3339,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Valor de troca: guia focado em comparar propostas sem copiar um preço isolado, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de comparar propostas sem copiar um preço isolado. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Valor de troca como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta planilha registra os dois lados, a data e as propriedades; uma oferta observada não vira preço fixo. Valor de troca por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -2527,7 +3348,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Identidade e rarity devem ser registradas."
+            "text": "Valor de troca: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Identidade e rarity devem ser registradas."
           }
         ]
       },
@@ -2537,7 +3358,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Valor de troca: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -2556,7 +3377,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Valor de troca: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -2579,19 +3400,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Não há conjunto de preços ao vivo verificado nas fontes."
           }
         ]
+      },
+      {
+        "id": "trade-value-decision-record",
+        "title": "Valor de troca — Registro documentado da comparação",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Valor de troca começa com uma lista dos dois lados. Inclua rarity, grade, trait, mutation, nível, fonte e data antes de comparar."
+          },
+          {
+            "type": "paragraph",
+            "text": "Valor de troca: Ofertas observadas não são trocas concluídas. Rejeite urgência, confira a tela final e não transforme estimativa em preço garantido."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Valor de troca review item: preserve the current screen or source date.",
+              "Valor de troca decision item: compare the result with the next documented goal.",
+              "Valor de troca boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Valor de troca: O que verificar primeiro?",
+        "question": "O que anotar antes de decidir sobre Valor de troca?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Valor de troca."
       },
       {
-        "question": "Valor de troca: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Grade, trait, mutation e nível alteram a comparação."
+        "question": "Por que uma oferta de Valor de troca não basta?",
+        "answer": "Valor de troca começa com uma lista dos dois lados. Inclua rarity, grade, trait, mutation, nível, fonte e data antes de comparar."
       },
       {
-        "question": "Valor de troca: O que segue sem confirmação?",
+        "question": "Qual preço de Valor de troca esta página rejeita?",
         "answer": "Não há conjunto de preços ao vivo verificado nas fontes."
       }
     ],
@@ -2608,7 +3452,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Planilha de avaliação: guia focado em organizar manualmente os dois lados de uma proposta, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de organizar manualmente os dois lados de uma proposta. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Planilha de avaliação como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta planilha registra os dois lados, a data e as propriedades; uma oferta observada não vira preço fixo. Planilha de avaliação por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -2617,7 +3461,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Liste todas as unidades de cada lado."
+            "text": "Planilha de avaliação: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Liste todas as unidades de cada lado."
           }
         ]
       },
@@ -2627,7 +3471,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Planilha de avaliação: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -2646,7 +3490,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Planilha de avaliação: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -2670,19 +3514,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "A página não afirma uma fórmula numérica de mercado."
           }
         ]
+      },
+      {
+        "id": "value-calculator-decision-record",
+        "title": "Planilha de avaliação — Registro documentado da comparação",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Planilha de avaliação começa com uma lista dos dois lados. Inclua rarity, grade, trait, mutation, nível, fonte e data antes de comparar."
+          },
+          {
+            "type": "paragraph",
+            "text": "Planilha de avaliação: Ofertas observadas não são trocas concluídas. Rejeite urgência, confira a tela final e não transforme estimativa em preço garantido."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Planilha de avaliação review item: preserve the current screen or source date.",
+              "Planilha de avaliação decision item: compare the result with the next documented goal.",
+              "Planilha de avaliação boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Planilha de avaliação: O que verificar primeiro?",
+        "question": "O que anotar antes de decidir sobre Planilha de avaliação?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Planilha de avaliação."
       },
       {
-        "question": "Planilha de avaliação: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Compare rarity, grade, trait, mutation e nível."
+        "question": "Por que uma oferta de Planilha de avaliação não basta?",
+        "answer": "Planilha de avaliação começa com uma lista dos dois lados. Inclua rarity, grade, trait, mutation, nível, fonte e data antes de comparar."
       },
       {
-        "question": "Planilha de avaliação: O que segue sem confirmação?",
+        "question": "Qual preço de Planilha de avaliação esta página rejeita?",
         "answer": "A página não afirma uma fórmula numérica de mercado."
       }
     ],
@@ -2700,7 +3567,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Mercado: guia focado em acompanhar demanda comunitária volátil, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de acompanhar demanda comunitária volátil. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Mercado como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta planilha registra os dois lados, a data e as propriedades; uma oferta observada não vira preço fixo. Mercado por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -2709,7 +3576,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Ofertas observadas não são iguais a trocas concluídas."
+            "text": "Mercado: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Ofertas observadas não são iguais a trocas concluídas."
           }
         ]
       },
@@ -2719,7 +3586,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Mercado: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -2738,7 +3605,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Mercado: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -2761,19 +3628,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Não existe feed ao vivo ou tabela oficial fixa nas fontes."
           }
         ]
+      },
+      {
+        "id": "market-decision-record",
+        "title": "Mercado — Registro documentado da comparação",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Mercado começa com uma lista dos dois lados. Inclua rarity, grade, trait, mutation, nível, fonte e data antes de comparar."
+          },
+          {
+            "type": "paragraph",
+            "text": "Mercado: Ofertas observadas não são trocas concluídas. Rejeite urgência, confira a tela final e não transforme estimativa em preço garantido."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Mercado review item: preserve the current screen or source date.",
+              "Mercado decision item: compare the result with the next documented goal.",
+              "Mercado boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Mercado: O que verificar primeiro?",
+        "question": "O que anotar antes de decidir sobre Mercado?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Mercado."
       },
       {
-        "question": "Mercado: Qual detalhe fornecido importa para a decisão?",
-        "answer": "A data é necessária porque a demanda muda."
+        "question": "Por que uma oferta de Mercado não basta?",
+        "answer": "Mercado começa com uma lista dos dois lados. Inclua rarity, grade, trait, mutation, nível, fonte e data antes de comparar."
       },
       {
-        "question": "Mercado: O que segue sem confirmação?",
+        "question": "Qual preço de Mercado esta página rejeita?",
         "answer": "Não existe feed ao vivo ou tabela oficial fixa nas fontes."
       }
     ],
@@ -2790,7 +3680,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Nova atualização: guia focado em identificar a mudança mais recente confirmada, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de identificar a mudança mais recente confirmada. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Nova atualização como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta página separa uma declaração oficial datada de previsão comunitária e registra o que era conhecido na revisão. Nova atualização por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -2799,7 +3689,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. A pesquisa fornecida identifica Update 7."
+            "text": "Nova atualização: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. A pesquisa fornecida identifica Update 7."
           }
         ]
       },
@@ -2809,7 +3699,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Nova atualização: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -2828,7 +3718,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Nova atualização: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -2851,19 +3741,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Uma versão posterior não foi confirmada pelas fontes fornecidas."
           }
         ]
+      },
+      {
+        "id": "new-update-decision-record",
+        "title": "Nova atualização — Registro datado de verificação",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Nova atualização precisa de anúncio original datado ou da experiência Roblox atual. Registre fonte, data e texto exato antes de resumir."
+          },
+          {
+            "type": "paragraph",
+            "text": "Nova atualização: Não misture rumor, repost ou título de vídeo ao registro confirmado. Sem data ou recurso oficial, a resposta continua desconhecida."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Nova atualização review item: preserve the current screen or source date.",
+              "Nova atualização decision item: compare the result with the next documented goal.",
+              "Nova atualização boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Nova atualização: O que verificar primeiro?",
+        "question": "Qual fonte datada confirma Nova atualização?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Nova atualização."
       },
       {
-        "question": "Nova atualização: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Update 7 adiciona rarity Galactic."
+        "question": "Como separar anúncio de rumor sobre Nova atualização?",
+        "answer": "Nova atualização precisa de anúncio original datado ou da experiência Roblox atual. Registre fonte, data e texto exato antes de resumir."
       },
       {
-        "question": "Nova atualização: O que segue sem confirmação?",
+        "question": "O que continua desconhecido sobre Nova atualização?",
         "answer": "Uma versão posterior não foi confirmada pelas fontes fornecidas."
       }
     ],
@@ -2880,7 +3793,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Próxima atualização: guia focado em separar anúncio oficial de especulação, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de separar anúncio oficial de especulação. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Próxima atualização como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta página separa uma declaração oficial datada de previsão comunitária e registra o que era conhecido na revisão. Próxima atualização por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -2889,7 +3802,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Página oficial e Discord verificado são os destinos de anúncio."
+            "text": "Próxima atualização: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Página oficial e Discord verificado são os destinos de anúncio."
           }
         ]
       },
@@ -2899,7 +3812,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Próxima atualização: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -2918,7 +3831,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Próxima atualização: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -2941,19 +3854,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Nenhuma data ou lista de recursos futura foi confirmada."
           }
         ]
+      },
+      {
+        "id": "next-update-decision-record",
+        "title": "Próxima atualização — Registro datado de verificação",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Próxima atualização precisa de anúncio original datado ou da experiência Roblox atual. Registre fonte, data e texto exato antes de resumir."
+          },
+          {
+            "type": "paragraph",
+            "text": "Próxima atualização: Não misture rumor, repost ou título de vídeo ao registro confirmado. Sem data ou recurso oficial, a resposta continua desconhecida."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Próxima atualização review item: preserve the current screen or source date.",
+              "Próxima atualização decision item: compare the result with the next documented goal.",
+              "Próxima atualização boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Próxima atualização: O que verificar primeiro?",
+        "question": "Qual fonte datada confirma Próxima atualização?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Próxima atualização."
       },
       {
-        "question": "Próxima atualização: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Rumor comunitário não equivale a anúncio do desenvolvedor."
+        "question": "Como separar anúncio de rumor sobre Próxima atualização?",
+        "answer": "Próxima atualização precisa de anúncio original datado ou da experiência Roblox atual. Registre fonte, data e texto exato antes de resumir."
       },
       {
-        "question": "Próxima atualização: O que segue sem confirmação?",
+        "question": "O que continua desconhecido sobre Próxima atualização?",
         "answer": "Nenhuma data ou lista de recursos futura foi confirmada."
       }
     ],
@@ -2970,7 +3906,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Update 7: guia focado em resumir apenas mudanças documentadas, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de resumir apenas mudanças documentadas. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Update 7 como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta página separa uma declaração oficial datada de previsão comunitária e registra o que era conhecido na revisão. Update 7 por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -2979,7 +3915,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Update 7 adiciona rarity Galactic."
+            "text": "Update 7: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Update 7 adiciona rarity Galactic."
           }
         ]
       },
@@ -2989,7 +3925,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Update 7: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -3008,7 +3944,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Update 7: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -3016,6 +3952,24 @@ export const PT_BR_ARTICLE_COPY = {
             "items": [
               "Foram adicionados seis caminhos de upgrade de rebirth.",
               "UPDATE7 é um código de recompensa documentado."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "update-7-documented-sequence",
+        "title": "Update 7 — Sequência fornecida e documentada",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ordered",
+            "items": [
+              "Galactic rarity",
+              "7 novas unidades",
+              "6 caminhos de upgrade de rebirth",
+              "um terceiro andar da base",
+              "uma nova Tower",
+              "troca de gamepasses"
             ]
           }
         ]
@@ -3031,19 +3985,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Valores de balanceamento além das fontes não são afirmados."
           }
         ]
+      },
+      {
+        "id": "update-7-decision-record",
+        "title": "Update 7 — Registro datado de verificação",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Update 7 precisa de anúncio original datado ou da experiência Roblox atual. Registre fonte, data e texto exato antes de resumir."
+          },
+          {
+            "type": "paragraph",
+            "text": "Update 7: Não misture rumor, repost ou título de vídeo ao registro confirmado. Sem data ou recurso oficial, a resposta continua desconhecida."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Update 7 review item: preserve the current screen or source date.",
+              "Update 7 decision item: compare the result with the next documented goal.",
+              "Update 7 boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Update 7: O que verificar primeiro?",
+        "question": "Qual fonte datada confirma Update 7?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Update 7."
       },
       {
-        "question": "Update 7: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Foram adicionados seis caminhos de upgrade de rebirth."
+        "question": "Como separar anúncio de rumor sobre Update 7?",
+        "answer": "Update 7 precisa de anúncio original datado ou da experiência Roblox atual. Registre fonte, data e texto exato antes de resumir."
       },
       {
-        "question": "Update 7: O que segue sem confirmação?",
+        "question": "O que continua desconhecido sobre Update 7?",
         "answer": "Valores de balanceamento além das fontes não são afirmados."
       }
     ],
@@ -3052,7 +4029,13 @@ export const PT_BR_ARTICLE_COPY = {
       "anime-dice-update-7:confirmed-1",
       "anime-dice-update-7:confirmed-2",
       "anime-dice-update-7:confirmed-3",
-      "anime-dice-update-7:evidence-boundary"
+      "anime-dice-update-7:evidence-boundary",
+      "anime-dice-update-7:supplied-galactic",
+      "anime-dice-update-7:supplied-seven-units",
+      "anime-dice-update-7:supplied-six-rebirth-paths",
+      "anime-dice-update-7:supplied-third-base-floor",
+      "anime-dice-update-7:supplied-new-tower",
+      "anime-dice-update-7:supplied-gamepass-trading"
     ]
   },
   "anime-dice-event": {
@@ -3060,7 +4043,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Eventos: guia focado em confirmar se existe evento atual, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de confirmar se existe evento atual. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Eventos como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta página separa uma declaração oficial datada de previsão comunitária e registra o que era conhecido na revisão. Eventos por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -3069,7 +4052,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Confira a página oficial e o Discord verificado."
+            "text": "Eventos: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Confira a página oficial e o Discord verificado."
           }
         ]
       },
@@ -3079,7 +4062,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Eventos: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -3098,7 +4081,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Eventos: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -3121,19 +4104,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Nenhum calendário de evento atual foi confirmado."
           }
         ]
+      },
+      {
+        "id": "event-decision-record",
+        "title": "Eventos — Registro datado de verificação",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Eventos precisa de anúncio original datado ou da experiência Roblox atual. Registre fonte, data e texto exato antes de resumir."
+          },
+          {
+            "type": "paragraph",
+            "text": "Eventos: Não misture rumor, repost ou título de vídeo ao registro confirmado. Sem data ou recurso oficial, a resposta continua desconhecida."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Eventos review item: preserve the current screen or source date.",
+              "Eventos decision item: compare the result with the next documented goal.",
+              "Eventos boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Eventos: O que verificar primeiro?",
+        "question": "Qual fonte datada confirma Eventos?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Eventos."
       },
       {
-        "question": "Eventos: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Data inicial e final devem aparecer no jogo ou anúncio original."
+        "question": "Como separar anúncio de rumor sobre Eventos?",
+        "answer": "Eventos precisa de anúncio original datado ou da experiência Roblox atual. Registre fonte, data e texto exato antes de resumir."
       },
       {
-        "question": "Eventos: O que segue sem confirmação?",
+        "question": "O que continua desconhecido sobre Eventos?",
         "answer": "Nenhum calendário de evento atual foi confirmado."
       }
     ],
@@ -3150,7 +4156,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Horário de evento de administrador: guia focado em validar data, hora e fuso de uma sessão alegada, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de validar data, hora e fuso de uma sessão alegada. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Horário de evento de administrador como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Esta página separa uma declaração oficial datada de previsão comunitária e registra o que era conhecido na revisão. Horário de evento de administrador por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -3159,7 +4165,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Procure anúncio datado em destino oficial verificado."
+            "text": "Horário de evento de administrador: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Procure anúncio datado em destino oficial verificado."
           }
         ]
       },
@@ -3169,7 +4175,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Horário de evento de administrador: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -3188,7 +4194,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Horário de evento de administrador: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -3211,19 +4217,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Nenhum horário recorrente foi confirmado pelas fontes."
           }
         ]
+      },
+      {
+        "id": "admin-abuse-time-decision-record",
+        "title": "Horário de evento de administrador — Registro datado de verificação",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Horário de evento de administrador precisa de anúncio original datado ou da experiência Roblox atual. Registre fonte, data e texto exato antes de resumir."
+          },
+          {
+            "type": "paragraph",
+            "text": "Horário de evento de administrador: Não misture rumor, repost ou título de vídeo ao registro confirmado. Sem data ou recurso oficial, a resposta continua desconhecida."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Horário de evento de administrador review item: preserve the current screen or source date.",
+              "Horário de evento de administrador decision item: compare the result with the next documented goal.",
+              "Horário de evento de administrador boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Horário de evento de administrador: O que verificar primeiro?",
+        "question": "Qual fonte datada confirma Horário de evento de administrador?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Horário de evento de administrador."
       },
       {
-        "question": "Horário de evento de administrador: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Data e fuso horário devem ser lidos juntos."
+        "question": "Como separar anúncio de rumor sobre Horário de evento de administrador?",
+        "answer": "Horário de evento de administrador precisa de anúncio original datado ou da experiência Roblox atual. Registre fonte, data e texto exato antes de resumir."
       },
       {
-        "question": "Horário de evento de administrador: O que segue sem confirmação?",
+        "question": "O que continua desconhecido sobre Horário de evento de administrador?",
         "answer": "Nenhum horário recorrente foi confirmado pelas fontes."
       }
     ],
@@ -3240,7 +4269,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Discord: guia focado em localizar o convite verificado da comunidade, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de localizar o convite verificado da comunidade. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Discord como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Este guia verifica propriedade do destino, link original e data antes de tratar uma página ou mensagem como oficial. Discord por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -3249,7 +4278,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. O catálogo aponta para discord.com/invite/ag5MCCu5aQ."
+            "text": "Discord: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. O catálogo aponta para discord.com/invite/ag5MCCu5aQ."
           }
         ]
       },
@@ -3259,7 +4288,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Discord: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -3278,7 +4307,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Discord: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -3301,19 +4330,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Cargos, canais e calendário atual podem mudar."
           }
         ]
+      },
+      {
+        "id": "discord-decision-record",
+        "title": "Discord — Verificação de confiança do destino",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Discord só é seguro após comparar o destino com o jogo, grupo do desenvolvedor ou Discord fornecido. Confira o domínio completo."
+          },
+          {
+            "type": "paragraph",
+            "text": "Discord: Mensagens ajudam a localizar dúvidas, mas cargos, votos e reposts não confirmam o desenvolvedor. Preserve URL e horário originais."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Discord review item: preserve the current screen or source date.",
+              "Discord decision item: compare the result with the next documented goal.",
+              "Discord boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Discord: O que verificar primeiro?",
+        "question": "Como verificar o destino de Discord?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Discord."
       },
       {
-        "question": "Discord: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Anúncios podem mudar e devem ser lidos no servidor atual."
+        "question": "Quais mensagens de Discord são apenas discussão?",
+        "answer": "Discord só é seguro após comparar o destino com o jogo, grupo do desenvolvedor ou Discord fornecido. Confira o domínio completo."
       },
       {
-        "question": "Discord: O que segue sem confirmação?",
+        "question": "Quando conferir novamente o link de Discord?",
         "answer": "Cargos, canais e calendário atual podem mudar."
       }
     ],
@@ -3330,7 +4382,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Reddit: guia focado em usar discussões comunitárias sem tratá-las como oficiais, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de usar discussões comunitárias sem tratá-las como oficiais. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Reddit como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Este guia verifica propriedade do destino, link original e data antes de tratar uma página ou mensagem como oficial. Reddit por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -3339,7 +4391,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Nenhum subreddit oficial foi confirmado nas fontes."
+            "text": "Reddit: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Nenhum subreddit oficial foi confirmado nas fontes."
           }
         ]
       },
@@ -3349,7 +4401,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Reddit: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -3368,7 +4420,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Reddit: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -3391,19 +4443,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Popularidade ou votos não transformam um post em anúncio oficial."
           }
         ]
+      },
+      {
+        "id": "reddit-decision-record",
+        "title": "Reddit — Verificação de confiança do destino",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Reddit só é seguro após comparar o destino com o jogo, grupo do desenvolvedor ou Discord fornecido. Confira o domínio completo."
+          },
+          {
+            "type": "paragraph",
+            "text": "Reddit: Mensagens ajudam a localizar dúvidas, mas cargos, votos e reposts não confirmam o desenvolvedor. Preserve URL e horário originais."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Reddit review item: preserve the current screen or source date.",
+              "Reddit decision item: compare the result with the next documented goal.",
+              "Reddit boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Reddit: O que verificar primeiro?",
+        "question": "Como verificar o destino de Reddit?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Reddit."
       },
       {
-        "question": "Reddit: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Posts podem ajudar a descobrir perguntas, não provar fatos."
+        "question": "Quais mensagens de Reddit são apenas discussão?",
+        "answer": "Reddit só é seguro após comparar o destino com o jogo, grupo do desenvolvedor ou Discord fornecido. Confira o domínio completo."
       },
       {
-        "question": "Reddit: O que segue sem confirmação?",
+        "question": "Quando conferir novamente o link de Reddit?",
         "answer": "Popularidade ou votos não transformam um post em anúncio oficial."
       }
     ],
@@ -3420,7 +4495,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Trello: guia focado em verificar um quadro antes de confiar nele, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de verificar um quadro antes de confiar nele. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Trello como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Este guia verifica propriedade do destino, link original e data antes de tratar uma página ou mensagem como oficial. Trello por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -3429,7 +4504,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Nenhum Trello oficial foi confirmado nas fontes."
+            "text": "Trello: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. Nenhum Trello oficial foi confirmado nas fontes."
           }
         ]
       },
@@ -3439,7 +4514,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Trello: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -3458,7 +4533,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Trello: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -3481,19 +4556,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Não apresentamos um link de Trello não verificado."
           }
         ]
+      },
+      {
+        "id": "trello-decision-record",
+        "title": "Trello — Verificação de confiança do destino",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Trello só é seguro após comparar o destino com o jogo, grupo do desenvolvedor ou Discord fornecido. Confira o domínio completo."
+          },
+          {
+            "type": "paragraph",
+            "text": "Trello: Mensagens ajudam a localizar dúvidas, mas cargos, votos e reposts não confirmam o desenvolvedor. Preserve URL e horário originais."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Trello review item: preserve the current screen or source date.",
+              "Trello decision item: compare the result with the next documented goal.",
+              "Trello boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Trello: O que verificar primeiro?",
+        "question": "Como verificar o destino de Trello?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Trello."
       },
       {
-        "question": "Trello: Qual detalhe fornecido importa para a decisão?",
-        "answer": "Confira proprietário e links vindos de canais oficiais."
+        "question": "Quais mensagens de Trello são apenas discussão?",
+        "answer": "Trello só é seguro após comparar o destino com o jogo, grupo do desenvolvedor ou Discord fornecido. Confira o domínio completo."
       },
       {
-        "question": "Trello: O que segue sem confirmação?",
+        "question": "Quando conferir novamente o link de Trello?",
         "answer": "Não apresentamos um link de Trello não verificado."
       }
     ],
@@ -3510,7 +4608,7 @@ export const PT_BR_ARTICLE_COPY = {
     "description": "Anime Dice: Grupo oficial: guia focado em confirmar a comunidade More & More Games, com fatos documentados e limites claros para dados variáveis.",
     "intro": [
       "Esta página trata especificamente de confirmar a comunidade More & More Games. Ela evita números, horários e resultados que não aparecem nas fontes fornecidas.",
-      "Use este artigo sobre Grupo oficial como apoio à decisão: identifique o controle ou afirmação, compare os fatos fornecidos e pare onde terminam as evidências."
+      "Este guia verifica propriedade do destino, link original e data antes de tratar uma página ou mensagem como oficial. Grupo oficial por isso usa seu próprio checklist e limite de evidências, sem copiar a resposta de outro tema."
     ],
     "sections": [
       {
@@ -3519,7 +4617,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Comece pelo controle, propriedade ou afirmação exata ligada ao tema. A comunidade Roblox verificada é More & More Games."
+            "text": "Grupo oficial: Comece pelo controle, propriedade ou afirmação exata ligada ao tema. A comunidade Roblox verificada é More & More Games."
           }
         ]
       },
@@ -3529,7 +4627,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
+            "text": "Grupo oficial: Siga esta sequência antes de mudar opções, gastar recursos ou aceitar uma afirmação."
           },
           {
             "type": "list",
@@ -3548,7 +4646,7 @@ export const PT_BR_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Mantenha estes fatos fornecidos visíveis na decisão."
+            "text": "Grupo oficial: Mantenha estes fatos fornecidos visíveis na decisão."
           },
           {
             "type": "list",
@@ -3571,19 +4669,42 @@ export const PT_BR_ARTICLE_COPY = {
             "body": "Recompensas e disponibilidade devem ser confirmadas no jogo."
           }
         ]
+      },
+      {
+        "id": "group-decision-record",
+        "title": "Grupo oficial — Verificação de confiança do destino",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Grupo oficial só é seguro após comparar o destino com o jogo, grupo do desenvolvedor ou Discord fornecido. Confira o domínio completo."
+          },
+          {
+            "type": "paragraph",
+            "text": "Grupo oficial: Mensagens ajudam a localizar dúvidas, mas cargos, votos e reposts não confirmam o desenvolvedor. Preserve URL e horário originais."
+          },
+          {
+            "type": "list",
+            "style": "unordered",
+            "items": [
+              "Grupo oficial review item: preserve the current screen or source date.",
+              "Grupo oficial decision item: compare the result with the next documented goal.",
+              "Grupo oficial boundary item: leave unsupported values explicitly unknown."
+            ]
+          }
+        ]
       }
     ],
     "faq": [
       {
-        "question": "Grupo oficial: O que verificar primeiro?",
+        "question": "Como verificar o destino de Grupo oficial?",
         "answer": "Abra o jogo ou o destino verificado relacionado a Grupo oficial."
       },
       {
-        "question": "Grupo oficial: Qual detalhe fornecido importa para a decisão?",
-        "answer": "O guia relata possíveis spins no baú do grupo."
+        "question": "Quais mensagens de Grupo oficial são apenas discussão?",
+        "answer": "Grupo oficial só é seguro após comparar o destino com o jogo, grupo do desenvolvedor ou Discord fornecido. Confira o domínio completo."
       },
       {
-        "question": "Grupo oficial: O que segue sem confirmação?",
+        "question": "Quando conferir novamente o link de Grupo oficial?",
         "answer": "Recompensas e disponibilidade devem ser confirmadas no jogo."
       }
     ],
