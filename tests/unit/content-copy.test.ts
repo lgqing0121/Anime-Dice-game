@@ -86,3 +86,21 @@ describe('English Codes and Guide content', () => {
     expect(validateLocalizedContent('en', guideIds)).toEqual([]);
   });
 });
+
+
+const unitsProgressionIds: ArticleId[] = [
+  'anime-dice-tier-list','anime-dice-units','anime-dice-traits','anime-dice-mutation','anime-dice-rarity',
+  'anime-dice-grades','anime-dice-max-level','anime-dice-luck','anime-dice-max-luck','anime-dice-gems',
+  'anime-dice-jackpot-roll','anime-dice-lucky-spin','anime-dice-rebirth','anime-dice-max-rebirth','anime-dice-quest-shop',
+];
+
+describe('English Units and Progression content', () => {
+  it('covers all fifteen intents with explicit uncertainty boundaries', () => {
+    for (const id of unitsProgressionIds) expect(EN_ARTICLE_COPY[id], id).toBeDefined();
+    const visible = JSON.stringify(unitsProgressionIds.map((id) => EN_ARTICLE_COPY[id]));
+    expect(visible).toContain('separate');
+    expect(visible).toContain('not confirmed');
+    expect(visible).not.toMatch(/guaranteed drop|exact probability|damage per second/i);
+    expect(validateLocalizedContent('en', unitsProgressionIds)).toEqual([]);
+  });
+});

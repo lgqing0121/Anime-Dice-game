@@ -87,3 +87,32 @@ export const EN_ARTICLE_COPY:Partial<Record<ArticleId,LocalizedArticle>>={
  [['What is the official group?','The verified community is More & More Games.'],['What can the chest give?','The reference says it may provide spins, gems, or rerolls.']]
 ),
 };
+
+function topicArticle(label:string,focus:string,facts:string[],limit:string):LocalizedArticle{
+ return guide(
+  `Anime Dice ${label} Guide`,
+  `Understand Anime Dice ${label.toLowerCase()} with a focused reference for ${focus}, practical checks, and clearly marked limits on unverified values.`,
+  `This Anime Dice ${label.toLowerCase()} page focuses on ${focus}. It separates the documented gameplay loop from values that can change or are not established by the supplied references.`,
+  ['Review the current team and resources.','Compare the relevant unit or progression property separately.','Confirm changeable details in the current game version.','Spend resources only after the comparison.'],
+  facts,
+  limit,
+  [['What should I check first?',`Start with the current team and compare ${focus} separately from unrelated systems.`],['Are exact values guaranteed?',`No. ${limit}`]]
+ );
+}
+Object.assign(EN_ARTICLE_COPY,{
+'anime-dice-tier-list':topicArticle('Tier List','how units fit a current team',['A useful ranking depends on the current game version.','Grade, trait, mutation, and level are separate considerations.','Equip Best is a starting check rather than a permanent ranking.'],'A universal permanent ranking is not confirmed, so no unsupported combat order is published.'),
+'anime-dice-units':topicArticle('Units','rolling, keeping, equipping, and improving characters',['Characters are obtained through the roll loop.','Keeper units deserve resources before temporary results.','Offline earnings are identified by the official game description.'],'Unit availability and balance can change; confirm the current roster in game.'),
+'anime-dice-traits':topicArticle('Traits','evaluating traits without confusing them with grades or mutations',['Traits are a separate unit property.','Trait Rerolls are named by the confirmed UPDATE6 reward.','A trait should be evaluated with the unit it belongs to.'],'Exact trait effects and rankings are not confirmed for every current version.'),
+'anime-dice-mutation':topicArticle('Mutation','recognizing mutation as a separate character property',['Mutations are part of the documented character loop.','Mutation, grade, and trait are separate labels.','A mutated result should be reviewed before selling.'],'Exact mutation odds and a complete live mutation list are not confirmed.'),
+'anime-dice-rarity':topicArticle('Rarity','comparing roll rarity with the rest of a unit',['Rarity helps describe a roll result.','Rarity does not replace grade, trait, mutation, or level checks.','Luck belongs to progression rather than being a unit rarity.'],'Exact roll probabilities are not confirmed by the supplied references.'),
+'anime-dice-grades':topicArticle('Grades','checking unit grades independently from traits',['Grades are separate from traits and mutations.','A grade should be read alongside the underlying unit.','Keep uncertain results until they have been compared.'],'A complete current grade table and exact modifiers are not confirmed.'),
+'anime-dice-max-level':topicArticle('Max Level','planning unit investment without inventing a cap',['Leveling resources are best focused on keeper units.','Level, grade, trait, and mutation remain separate.','A stronger roll can change which unit deserves investment.'],'One universal maximum level is not confirmed by the supplied references.'),
+'anime-dice-luck':topicArticle('Luck','prioritizing Luck as part of early progression',['Luck is a practical early upgrade priority.','Money and Luck can be improved before Roll Speed.','Luck does not guarantee a particular roll.'],'Exact probabilities at each Luck value are not confirmed.'),
+'anime-dice-max-luck':topicArticle('Max Luck','tracking upgrade limits without publishing an unsupported cap',['Luck is an upgrade priority in the supplied progression guide.','Rebirth and other systems can affect long-term progression.','Current upgrade panels are the authority for available steps.'],'A permanent universal maximum Luck value is not confirmed.'),
+'anime-dice-gems':topicArticle('Gems','protecting and spending a named progression resource',['Gems are included in the documented UPDATE6 rewards.','The group chest may provide gems according to the supplied guide.','Resources should be reserved for deliberate progression choices.'],'Current prices, offers, and best purchases are not confirmed and can change.'),
+'anime-dice-jackpot-roll':topicArticle('Jackpot Roll','checking the in-game roll feature without claiming odds',['Jackpot Roll is treated as a progression search intent.','Luck and normal rolling remain distinct considerations.','The current interface should be checked before spending resources.'],'Activation requirements, rewards, and exact odds are not confirmed.'),
+'anime-dice-lucky-spin':topicArticle('Lucky Spin','handling Lucky Spins as a limited resource',['Lucky Spins are named in the documented UPDATE6 reward.','The group chest may provide spins.','A spin result should be reviewed before selling units.'],'Exact outcomes, odds, and current availability are not confirmed.'),
+'anime-dice-rebirth':topicArticle('Rebirth','preparing for a long-term progression reset',['Rebirth belongs to long-term progression.','Update 7 is documented as adding six rebirth upgrade paths.','A reset decision should be checked against the current interface.'],'Exact costs and reset effects for every step are not confirmed here.'),
+'anime-dice-max-rebirth':topicArticle('Max Rebirth','checking rebirth limits without inventing a final cap',['Update 7 is documented as adding six rebirth upgrade paths.','A path count is not the same as a universal rebirth cap.','The current game panel should be used for limits.'],'A permanent maximum rebirth number is not confirmed.'),
+'anime-dice-quest-shop':topicArticle('Quest Shop','evaluating current quest rewards and purchases',['Quest progress and shop choices should be checked in game.','Gems, Tickets, and spins are separate named resources.','Prioritize purchases that support the current team plan.'],'Live inventory, prices, and refresh timing are not confirmed.'),
+} satisfies Partial<Record<ArticleId,LocalizedArticle>>);
