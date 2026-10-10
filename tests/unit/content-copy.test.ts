@@ -104,3 +104,19 @@ describe('English Units and Progression content', () => {
     expect(validateLocalizedContent('en', unitsProgressionIds)).toEqual([]);
   });
 });
+
+
+const towerTradingIds: ArticleId[] = [
+  'anime-dice-tower','anime-dice-gear','anime-dice-potion','anime-dice-tickets',
+  'anime-dice-trading','anime-dice-trade-value','anime-dice-value-calculator','anime-dice-market',
+];
+describe('English Tower and Trading content', () => {
+  it('covers eight intents without fabricated live values', () => {
+    for (const id of towerTradingIds) expect(EN_ARTICLE_COPY[id], id).toBeDefined();
+    const visible=JSON.stringify(towerTradingIds.map((id)=>EN_ARTICLE_COPY[id]));
+    expect(visible).toContain('reviewed');
+    expect(visible).toContain('not confirmed');
+    expect(visible).not.toMatch(/provides a live price feed|guaranteed value of|fully functional calculator/i);
+    expect(validateLocalizedContent('en',towerTradingIds)).toEqual([]);
+  });
+});
