@@ -1,108 +1,14 @@
-import {
-  DEFAULT_LOCALE,
-  SUPPORTED_LOCALES,
-  getSiteOrigin,
-  localeToHrefLang,
-  type Locale,
-} from '../config/site';
-import { GAME_FACTS } from '../data/game';
-import type { HomeCopy } from '../i18n';
-
-export interface AlternateLink {
-  hrefLang: string;
-  href: string;
-}
-
-const OG_LOCALES: Record<Locale, string> = {
-  en: 'en_US',
-  'pt-br': 'pt_BR',
-  es: 'es_ES',
-  id: 'id_ID',
-};
-
-function localeUrl(origin: string, locale: Locale): string {
-  return `${origin}/${locale}/`;
-}
-
-export function buildAlternates(originInput: string): AlternateLink[] {
-  const origin = getSiteOrigin(originInput, true);
-  return [
-    ...SUPPORTED_LOCALES.map((locale) => ({
-      hrefLang: localeToHrefLang(locale),
-      href: localeUrl(origin, locale),
-    })),
-    { hrefLang: 'x-default', href: localeUrl(origin, DEFAULT_LOCALE) },
-  ];
-}
-
-export function buildSeo(locale: Locale, originInput: string, copy: HomeCopy) {
-  const origin = getSiteOrigin(originInput, true);
-  const canonical = localeUrl(origin, locale);
-  return {
-    title: copy.meta.title,
-    description: copy.meta.description,
-    canonical,
-    alternates: buildAlternates(origin),
-    openGraph: {
-      type: 'website' as const,
-      locale: OG_LOCALES[locale],
-      url: canonical,
-      title: copy.meta.title,
-      description: copy.meta.description,
-      image: `${origin}/assets/anime-dice-hero.jpg`,
-    },
-  };
-}
-
-type JsonLdNode = Record<string, unknown>;
-
-export function buildHomeJsonLd(
-  locale: Locale,
-  originInput: string,
-  copy: HomeCopy,
-): JsonLdNode[] {
-  const origin = getSiteOrigin(originInput, true);
-  const url = localeUrl(origin, locale);
-  const language = localeToHrefLang(locale);
-
-  return [
-    {
-      '@context': 'https://schema.org',
-      '@type': 'WebSite',
-      '@id': `${origin}/#website`,
-      url: `${origin}/`,
-      name: 'Anime Dice Wiki',
-      inLanguage: language,
-    },
-    {
-      '@context': 'https://schema.org',
-      '@type': 'WebPage',
-      '@id': `${url}#webpage`,
-      url,
-      name: copy.meta.title,
-      description: copy.meta.description,
-      inLanguage: language,
-      dateModified: GAME_FACTS.reviewDate,
-      isPartOf: { '@id': `${origin}/#website` },
-    },
-    {
-      '@context': 'https://schema.org',
-      '@type': 'FAQPage',
-      '@id': `${url}#faq`,
-      url: `${url}#faq`,
-      inLanguage: language,
-      mainEntity: copy.faq.items.map((item) => ({
-        '@type': 'Question',
-        name: item.question,
-        acceptedAnswer: { '@type': 'Answer', text: item.answer },
-      })),
-    },
-  ];
-}
-
-export function assertSeoConfig(
-  configuredOrigin: string | undefined,
-  mode: 'production' | 'development',
-): string {
-  return getSiteOrigin(configuredOrigin, mode === 'production');
-}
+import{DEFAULT_LOCALE,SUPPORTED_LOCALES,getSiteOrigin,localeToHrefLang,type Locale}from'../config/site';import{GAME_FACTS}from'../data/game';import{ARTICLES,getArticleById}from'../data/articles';import{CATEGORIES}from'../data/categories';import{getHomeCopy,type HomeCopy}from'../i18n';import{getArticleCopy,getCategoryCopy}from'../i18n/content';import{getLegalCopy}from'../i18n/legal';import{getArticlePath,getCategoryPath,getEquivalentPath,type PageRef}from'./routes';
+export interface AlternateLink{hrefLang:string;href:string}const OG_LOCALES:Record<Locale,string>={en:'en_US','pt-br':'pt_BR',es:'es_ES',id:'id_ID'};type JsonLdNode=Record<string,any>;
+const absolute=(origin:string,path:string)=>`${origin}${path}`;
+export function buildPageAlternates(page:PageRef,originInput:string):AlternateLink[]{const origin=getSiteOrigin(originInput,true);return[...SUPPORTED_LOCALES.map(locale=>({hrefLang:localeToHrefLang(locale),href:absolute(origin,getEquivalentPath(locale,page))})),{hrefLang:'x-default',href:absolute(origin,getEquivalentPath(DEFAULT_LOCALE,page))}]}
+export function buildAlternates(originInput:string){return buildPageAlternates({kind:'home'},originInput)}
+function metadata(page:PageRef,locale:Locale){if(page.kind==='home'){const c=getHomeCopy(locale);return{title:c.meta.title,description:c.meta.description}}if(page.kind==='category'){const c=getCategoryCopy(locale,page.category);return{title:`${c.title} | Anime Dice Wiki`,description:c.description}}if(page.kind==='article'){const c=getArticleCopy(locale,page.article);return{title:`${c.title} | Anime Dice Wiki`,description:c.description}}const c=getLegalCopy(locale)[page.kind];return{title:`${c.title} | Anime Dice Wiki`,description:c.description}}
+export function buildPageSeo(page:PageRef,locale:Locale,originInput:string){const origin=getSiteOrigin(originInput,true),meta=metadata(page,locale),canonical=absolute(origin,getEquivalentPath(locale,page));return{...meta,canonical,alternates:buildPageAlternates(page,origin),openGraph:{type:page.kind==='article'?'article' as const:'website' as const,locale:OG_LOCALES[locale],url:canonical,title:meta.title,description:meta.description,image:`${origin}/assets/anime-dice-hero.jpg`}}}
+export function buildSeo(locale:Locale,originInput:string,copy:HomeCopy){const seo=buildPageSeo({kind:'home'},locale,originInput);return{...seo,title:copy.meta.title,description:copy.meta.description,openGraph:{...seo.openGraph,title:copy.meta.title,description:copy.meta.description}}}
+const faqNode=(url:string,language:string,items:Array<{question:string;answer:string}>):JsonLdNode=>({'@context':'https://schema.org','@type':'FAQPage','@id':`${url}#faq`,url:`${url}#faq`,inLanguage:language,mainEntity:items.map(item=>({'@type':'Question',name:item.question,acceptedAnswer:{'@type':'Answer',text:item.answer}}))});
+const breadcrumbs=(origin:string,locale:Locale,page:PageRef):JsonLdNode=>{const items=[{name:'Anime Dice Wiki',path:`/${locale}/`}];if(page.kind==='category')items.push({name:getCategoryCopy(locale,page.category).title,path:getCategoryPath(locale,page.category)});if(page.kind==='article'){const a=getArticleById(page.article);items.push({name:getCategoryCopy(locale,a.category).title,path:getCategoryPath(locale,a.category)},{name:getArticleCopy(locale,a.id).title,path:getArticlePath(locale,a)})}if(page.kind==='privacy'||page.kind==='terms')items.push({name:getLegalCopy(locale)[page.kind].title,path:getEquivalentPath(locale,page)});return{'@context':'https://schema.org','@type':'BreadcrumbList',inLanguage:localeToHrefLang(locale),itemListElement:items.map((item,index)=>({'@type':'ListItem',position:index+1,name:item.name,item:absolute(origin,item.path)}))}};
+export function buildPageJsonLd(page:PageRef,locale:Locale,originInput:string):JsonLdNode[]{const origin=getSiteOrigin(originInput,true),url=absolute(origin,getEquivalentPath(locale,page)),language=localeToHrefLang(locale),meta=metadata(page,locale);if(page.kind==='home'){const copy=getHomeCopy(locale);return[{'@context':'https://schema.org','@type':'WebSite','@id':`${origin}/#website`,url:`${origin}/`,name:'Anime Dice Wiki',inLanguage:language},{'@context':'https://schema.org','@type':'WebPage','@id':`${url}#webpage`,url,name:copy.meta.title,description:copy.meta.description,inLanguage:language,dateModified:GAME_FACTS.reviewDate,isPartOf:{'@id':`${origin}/#website`}},faqNode(url,language,copy.faq.items)]}if(page.kind==='category')return[{'@context':'https://schema.org','@type':'CollectionPage','@id':`${url}#webpage`,url,name:meta.title,description:meta.description,inLanguage:language,dateModified:GAME_FACTS.reviewDate},breadcrumbs(origin,locale,page)];if(page.kind==='article'){const article=getArticleById(page.article),copy=getArticleCopy(locale,page.article);return[{'@context':'https://schema.org','@type':'Article','@id':`${url}#article`,url,headline:copy.title,description:copy.description,inLanguage:language,dateModified:article.reviewedAt,mainEntityOfPage:url},breadcrumbs(origin,locale,page),faqNode(url,language,copy.faq)]}return[{'@context':'https://schema.org','@type':'WebPage','@id':`${url}#webpage`,url,name:meta.title,description:meta.description,inLanguage:language},breadcrumbs(origin,locale,page)]}
+export function buildHomeJsonLd(locale:Locale,originInput:string,_copy:HomeCopy){return buildPageJsonLd({kind:'home'},locale,originInput)}
+export function getIndexableRoutes():string[]{return SUPPORTED_LOCALES.flatMap(locale=>[`/${locale}/`,...CATEGORIES.map(category=>getCategoryPath(locale,category.id)),...ARTICLES.map(article=>getArticlePath(locale,article))])}
+export function assertSeoConfig(configuredOrigin:string|undefined,mode:'production'|'development'){return getSiteOrigin(configuredOrigin,mode==='production')}
