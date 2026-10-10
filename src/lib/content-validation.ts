@@ -1,6 +1,7 @@
 import { ARTICLE_IDS, CATEGORY_IDS, type ArticleId, type ArticleRecord, type CategoryRecord } from '../content/types';
 import { ARTICLES } from '../data/articles';
 import { CATEGORIES } from '../data/categories';
+import { ARTICLE_FACTS } from '../data/article-facts';
 
 interface CatalogInput { categories?: readonly CategoryRecord[]; articles?: readonly ArticleRecord[] }
 const expectedCounts = [1, 7, 7, 8, 4, 4, 5, 4];
@@ -76,12 +77,17 @@ export function validateReleaseContent(): string[] {
       try {
         const copy = getArticleCopy(locale, article.id);
         const english = getArticleCopy('en', article.id);
+        const expectedFactKeys = ARTICLE_FACTS[article.id].factKeys;
+        if (copy.factKeys.join('|') !== expectedFactKeys.join('|')) errors.push('Fact contract mismatch: '+locale+'/'+article.id);
+        if (article.id !== 'anime-dice-codes' && copy.sections.length < 4) errors.push('Insufficient substantive outline: '+locale+'/'+article.id);
         if (copy.sections.length !== english.sections.length || copy.faq.length !== english.faq.length) {
           errors.push(`Structure mismatch: ${locale}/${article.id}`);
         }
         const shape = copy.sections.map((section) => section.blocks.map((block) => block.type).join(',')).join('|');
         const englishShape = english.sections.map((section) => section.blocks.map((block) => block.type).join(',')).join('|');
         if (shape !== englishShape) errors.push('Block structure mismatch: '+locale+'/'+article.id);
+        const outlineSignature = copy.sections.map((section) => section.title.toLowerCase()).join('|');
+        if (article.id !== 'anime-dice-codes' && !outlineSignature.includes(copy.title.replace(/^Anime Dice:?\s*/i,'').toLowerCase())) errors.push('Non-specific article outline: '+locale+'/'+article.id);
         const sectionIds = copy.sections.map((section) => section.id).join('|');
         const englishSectionIds = english.sections.map((section) => section.id).join('|');
         if (sectionIds !== englishSectionIds) errors.push('Section ID mismatch: '+locale+'/'+article.id);

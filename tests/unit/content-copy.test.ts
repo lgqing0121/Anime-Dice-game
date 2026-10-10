@@ -147,7 +147,7 @@ describe('Portuguese content',()=>{
   expect(Object.keys(PT_BR_ARTICLE_COPY)).toHaveLength(40);
   for(const id of Object.keys(EN_ARTICLE_COPY) as ArticleId[]){
    expect(PT_BR_ARTICLE_COPY[id].title).not.toBe(EN_ARTICLE_COPY[id]!.title);
-   expect(PT_BR_ARTICLE_COPY[id].sections).toHaveLength(3);
+   expect(PT_BR_ARTICLE_COPY[id].sections).toHaveLength(id==='anime-dice-codes'?3:4);
   }
   expect(validateLocalizedContent('pt-br',Object.keys(PT_BR_ARTICLE_COPY) as ArticleId[])).toEqual([]);
  });

@@ -29,6 +29,6 @@ export type ContentBlock = ParagraphBlock | ListBlock | TableBlock | CalloutBloc
 export interface ArticleSection { id: string; title: string; blocks: ContentBlock[] }
 export interface LocalizedArticle {
   title: string; description: string; intro: string[]; sections: ArticleSection[];
-  faq: Array<{ question: string; answer: string }>; sourceNote: string;
+  faq: Array<{ question: string; answer: string }>; sourceNote: string; factKeys: string[];
 }
 export interface LocalizedCategory { title: string; description: string }
