@@ -1,4 +1,4 @@
 ---
-interface Props{note:string;sources:readonly string[];reviewedAt:string}const{note,sources,reviewedAt}=Astro.props;
+import type{Locale}from'../config/site';import{UI_COPY}from'../i18n/ui';interface Props{locale:Locale;note:string;sources:readonly string[];reviewedAt:string}const{locale,note,sources,reviewedAt}=Astro.props,ui=UI_COPY[locale];
 ---
-<section class="source-note"><h2>Sources and review</h2><p>{note}</p><p><strong>Reviewed:</strong> <time datetime={reviewedAt}>{reviewedAt}</time></p><ul>{sources.map((source,index)=><li><a href={source} target="_blank" rel="noreferrer">Source {index+1}</a></li>)}</ul></section>
+<section class="source-note"><h2>{ui.sourcesReview}</h2><p>{note}</p><p><strong>{ui.reviewed}:</strong> <time datetime={reviewedAt}>{reviewedAt}</time></p><ul>{sources.map((source,index)=><li><a href={source} target="_blank" rel="noreferrer">{ui.source} {index+1}</a></li>)}</ul></section>

@@ -18,8 +18,8 @@ for (const locale of locales) {
     await expect(page.locator('main h1')).toHaveCount(1);
     await expect(page.locator('[data-locale-label]')).toHaveText(locale.label);
     await expect(page.locator('[data-nav-link]')).toHaveCount(8);
-    await expect(page.locator('[data-nav-link]').nth(1)).toHaveAttribute('href', '#beginner-guide');
-    await expect(page.locator('[data-nav-link]').nth(4)).toHaveAttribute('href', '#towers');
+    await expect(page.locator('[data-nav-link]').nth(1)).toHaveAttribute('href', `/${locale.route}/guide/`);
+    await expect(page.locator('[data-nav-link]').nth(4)).toHaveAttribute('href', `/${locale.route}/tower/`);
 
     const heroImage = page.getByRole('img', { name: /Anime Dice/i });
     await expect(heroImage).toHaveAttribute('width', '500');
@@ -56,7 +56,7 @@ for (const locale of locales) {
     await expect(page.locator('[data-fan-disclaimer]')).toBeVisible();
 
     const internalHrefs = await page.locator('a[href^="/"]').evaluateAll((links) => links.map((link) => link.getAttribute('href')));
-    expect(internalHrefs.every((href) => /^\/(en|pt-br|es|id)\/$/.test(href ?? ''))).toBe(true);
+    expect(internalHrefs.every((href) => /^\/(en|pt-br|es|id)\//.test(href ?? ''))).toBe(true);
 
     if (testInfo.project.name === 'mobile') {
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth)).toBe(true);

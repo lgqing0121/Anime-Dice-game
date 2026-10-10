@@ -1,5 +1,4 @@
 ---
-import type{ArticleRecord}from'../content/types';import type{Locale}from'../config/site';import{getArticleCopy}from'../i18n/content';import{getArticlePath}from'../lib/routes';
-interface Props{locale:Locale;article:ArticleRecord}const{locale,article}=Astro.props;const copy=getArticleCopy(locale,article.id);
+import type{ArticleRecord}from'../content/types';import type{Locale}from'../config/site';import{getArticleCopy}from'../i18n/content';import{UI_COPY}from'../i18n/ui';import{getArticlePath}from'../lib/routes';interface Props{locale:Locale;article:ArticleRecord}const{locale,article}=Astro.props,copy=getArticleCopy(locale,article.id),ui=UI_COPY[locale];
 ---
-<article class="category-card"><p class="card-kicker">{article.keyword}</p><h2><a href={getArticlePath(locale,article)}>{copy.title}</a></h2><p>{copy.description}</p><a class="text-link" href={getArticlePath(locale,article)}>Read guide →</a></article>
+<article class="category-card"><p class="card-kicker">{article.keyword}</p><h2><a href={getArticlePath(locale,article)}>{copy.title}</a></h2><p>{copy.description}</p><a class="text-link" href={getArticlePath(locale,article)}>{ui.readGuide} →</a></article>

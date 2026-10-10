@@ -1,5 +1,4 @@
 ---
-import type{ArticleId}from'../content/types';import type{Locale}from'../config/site';import{getArticleCopy}from'../i18n/content';import{getArticlePath}from'../lib/routes';
-interface Props{locale:Locale;ids:readonly ArticleId[]}const{locale,ids}=Astro.props;
+import type{ArticleId}from'../content/types';import type{Locale}from'../config/site';import{getArticleCopy}from'../i18n/content';import{UI_COPY}from'../i18n/ui';import{getArticlePath}from'../lib/routes';interface Props{locale:Locale;ids:readonly ArticleId[]}const{locale,ids}=Astro.props;
 ---
-<section class="related-guides"><h2>Related guides</h2><div>{ids.map(id=><a href={getArticlePath(locale,id)}>{getArticleCopy(locale,id).title}<span aria-hidden="true">→</span></a>)}</div></section>
+<section class="related-guides"><h2>{UI_COPY[locale].related}</h2><div>{ids.map(id=><a href={getArticlePath(locale,id)}>{getArticleCopy(locale,id).title}<span aria-hidden="true">→</span></a>)}</div></section>

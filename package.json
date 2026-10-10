@@ -11,9 +11,14 @@
     "typecheck": "astro check",
     "test": "vitest run",
     "test:unit": "vitest run",
-    "test:e2e": "npm run build && playwright test"
+    "test:e2e": "npm run build && playwright test",
+    "release:check": "cross-env SITE_URL=https://animedicegamei.wiki npm run check"
   },
-  "keywords": ["anime-dice", "roblox", "wiki"],
+  "keywords": [
+    "anime-dice",
+    "roblox",
+    "wiki"
+  ],
   "license": "UNLICENSED",
   "type": "module",
   "dependencies": {

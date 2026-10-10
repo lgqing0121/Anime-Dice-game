@@ -1,4 +1,4 @@
 ---
-import type{ArticleSection}from'../content/types';interface Props{sections:ArticleSection[];label?:string}const{sections,label='On this page'}=Astro.props;
+import type{ArticleSection}from'../content/types';import type{Locale}from'../config/site';import{UI_COPY}from'../i18n/ui';interface Props{locale:Locale;sections:ArticleSection[]}const{locale,sections}=Astro.props;const label=UI_COPY[locale].toc;
 ---
 <nav class="toc" aria-label={label}><h2>{label}</h2><ol>{sections.map(section=><li><a href={`#${section.id}`}>{section.title}</a></li>)}</ol></nav>

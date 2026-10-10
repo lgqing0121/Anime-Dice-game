@@ -1,4 +1,4 @@
 ---
-interface Props{items:Array<{question:string;answer:string}>;title?:string}const{items,title='Frequently asked questions'}=Astro.props;
+import type{Locale}from'../config/site';import{UI_COPY}from'../i18n/ui';interface Props{locale:Locale;items:Array<{question:string;answer:string}>}const{locale,items}=Astro.props;
 ---
-<section class="article-faq" id="faq"><h2>{title}</h2><div class="faq-list">{items.map(item=><details><summary>{item.question}<span aria-hidden="true">+</span></summary><p>{item.answer}</p></details>)}</div></section>
+<section class="article-faq" id="faq"><h2>{UI_COPY[locale].faq}</h2><div class="faq-list">{items.map(item=><details><summary>{item.question}<span aria-hidden="true">+</span></summary><p>{item.answer}</p></details>)}</div></section>
