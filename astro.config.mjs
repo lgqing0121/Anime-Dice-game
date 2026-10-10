@@ -1,9 +1,8 @@
 import { defineConfig } from 'astro/config';
+import { assertProductionSite } from './src/config/production-origin';
 
 const site = process.env.SITE_URL?.trim();
-if (!site && process.argv.includes('build')) {
-  throw new Error('SITE_URL is required for production builds');
-}
+assertProductionSite(site, process.argv.includes('build'));
 
 export default defineConfig({
   output: 'static',

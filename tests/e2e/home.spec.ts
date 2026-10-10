@@ -88,7 +88,7 @@ test('root gateway falls back safely and preserves an explicit choice', async ({
   await page.addInitScript(() => Object.defineProperty(navigator, 'language', { configurable: true, value: 'zh-CN' }));
   await page.goto('/');
   await expect(page).toHaveURL(/\/en\/$/);
-  await page.locator('.language-picker select').selectOption('es');
+  await page.locator('footer [data-locale-choice="es"]').click();
   await expect(page).toHaveURL(/\/es\/$/);
   await page.goto('/');
   await expect(page).toHaveURL(/\/es\/$/);

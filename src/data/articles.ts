@@ -12,15 +12,47 @@ const CODES_GUIDE = 'https://www.dexerto.com/roblox/anime-dice-codes-3407675/';
 
 interface ArticleSeed { id: ArticleId; category: CategoryId; keyword: string; sources: readonly string[] }
 
-const sourceSets: Record<CategoryId, readonly string[]> = {
-  codes: [OFFICIAL_GAME, CODES_GUIDE, UPDATE_7_GUIDE],
-  guide: [OFFICIAL_GAME, PROGRESSION_GUIDE],
-  units: [OFFICIAL_GAME, DICE_GUIDE, TRAITS_GUIDE, PROGRESSION_GUIDE],
-  progression: [OFFICIAL_GAME, PROGRESSION_GUIDE, DICE_GUIDE, UPDATE_7_GUIDE],
-  tower: [OFFICIAL_GAME, PROGRESSION_GUIDE, GEAR_GUIDE],
-  trading: [OFFICIAL_GAME, UPDATE_7_GUIDE, OFFICIAL_DISCORD],
-  updates: [OFFICIAL_GAME, UPDATE_7_GUIDE, OFFICIAL_DISCORD],
-  community: [OFFICIAL_GAME, DEVELOPER_GROUP, OFFICIAL_DISCORD],
+const sourcesByArticle: Readonly<Record<ArticleId, readonly string[]>> = {
+  'anime-dice-codes':[OFFICIAL_GAME,CODES_GUIDE,UPDATE_7_GUIDE],
+  'anime-dice-guide':[OFFICIAL_GAME,PROGRESSION_GUIDE],
+  'anime-dice-tips':[OFFICIAL_GAME,PROGRESSION_GUIDE],
+  'anime-dice-auto-roll':[OFFICIAL_GAME,PROGRESSION_GUIDE],
+  'anime-dice-auto-sell':[OFFICIAL_GAME,PROGRESSION_GUIDE],
+  'anime-dice-how-to-level-up':[OFFICIAL_GAME,PROGRESSION_GUIDE],
+  'anime-dice-how-to-skip-cutscenes':[OFFICIAL_GAME,PROGRESSION_GUIDE],
+  'anime-dice-how-to-join-group':[OFFICIAL_GAME,DEVELOPER_GROUP,PROGRESSION_GUIDE],
+  'anime-dice-tier-list':[OFFICIAL_GAME,TRAITS_GUIDE,PROGRESSION_GUIDE],
+  'anime-dice-units':[OFFICIAL_GAME,PROGRESSION_GUIDE],
+  'anime-dice-traits':[OFFICIAL_GAME,TRAITS_GUIDE],
+  'anime-dice-mutation':[OFFICIAL_GAME,PROGRESSION_GUIDE],
+  'anime-dice-rarity':[OFFICIAL_GAME,DICE_GUIDE],
+  'anime-dice-grades':[OFFICIAL_GAME,PROGRESSION_GUIDE],
+  'anime-dice-max-level':[OFFICIAL_GAME,PROGRESSION_GUIDE],
+  'anime-dice-luck':[OFFICIAL_GAME,DICE_GUIDE,PROGRESSION_GUIDE],
+  'anime-dice-max-luck':[OFFICIAL_GAME,DICE_GUIDE,PROGRESSION_GUIDE],
+  'anime-dice-gems':[OFFICIAL_GAME,CODES_GUIDE,PROGRESSION_GUIDE],
+  'anime-dice-jackpot-roll':[OFFICIAL_GAME,PROGRESSION_GUIDE],
+  'anime-dice-lucky-spin':[OFFICIAL_GAME,CODES_GUIDE,PROGRESSION_GUIDE],
+  'anime-dice-rebirth':[OFFICIAL_GAME,UPDATE_7_GUIDE],
+  'anime-dice-max-rebirth':[OFFICIAL_GAME,UPDATE_7_GUIDE],
+  'anime-dice-quest-shop':[OFFICIAL_GAME,PROGRESSION_GUIDE],
+  'anime-dice-tower':[OFFICIAL_GAME,GEAR_GUIDE,PROGRESSION_GUIDE],
+  'anime-dice-gear':[OFFICIAL_GAME,GEAR_GUIDE],
+  'anime-dice-potion':[OFFICIAL_GAME,GEAR_GUIDE],
+  'anime-dice-tickets':[OFFICIAL_GAME,CODES_GUIDE,GEAR_GUIDE],
+  'anime-dice-trading':[OFFICIAL_GAME,OFFICIAL_DISCORD],
+  'anime-dice-trade-value':[OFFICIAL_GAME,OFFICIAL_DISCORD],
+  'anime-dice-value-calculator':[OFFICIAL_GAME,OFFICIAL_DISCORD],
+  'anime-dice-market':[OFFICIAL_GAME,OFFICIAL_DISCORD],
+  'anime-dice-new-update':[OFFICIAL_GAME,UPDATE_7_GUIDE,OFFICIAL_DISCORD],
+  'anime-dice-next-update':[OFFICIAL_GAME,OFFICIAL_DISCORD],
+  'anime-dice-update-7':[OFFICIAL_GAME,UPDATE_7_GUIDE,CODES_GUIDE],
+  'anime-dice-event':[OFFICIAL_GAME,OFFICIAL_DISCORD],
+  'anime-dice-admin-abuse-time':[OFFICIAL_GAME,OFFICIAL_DISCORD],
+  'anime-dice-discord':[OFFICIAL_GAME,OFFICIAL_DISCORD],
+  'anime-dice-reddit':[OFFICIAL_GAME],
+  'anime-dice-trello':[OFFICIAL_GAME],
+  'anime-dice-group':[OFFICIAL_GAME,DEVELOPER_GROUP,PROGRESSION_GUIDE],
 };
 
 const assignments: Readonly<Record<ArticleId, CategoryId>> = {
@@ -113,7 +145,7 @@ const seeds: readonly ArticleSeed[] = ARTICLE_IDS.map((id) => ({
   id,
   category: assignments[id],
   keyword: keywords[id],
-  sources: sourceSets[assignments[id]],
+  sources: sourcesByArticle[id],
 }));
 
 function buildRelatedIds(seed: ArticleSeed): ArticleId[] {

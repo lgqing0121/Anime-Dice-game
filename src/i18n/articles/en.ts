@@ -3,7 +3,7 @@ const sourceNote='Reviewed against the linked official game page and the editori
 type Faq=[string,string];
 function guide(title:string,description:string,intro:string,steps:string[],facts:string[],limit:string,faqs:Faq[]):LocalizedArticle{return{
  title,description,
- intro:[intro,'This guide stays within the supplied game information, separates confirmed controls from changeable details, and avoids unsupported numbers or promises.'],
+ intro:[intro,...facts.slice(0,1)],
  sections:[
   {id:'steps',title:'What to do',blocks:[{type:'list',style:'ordered',items:steps}]},
   {id:'confirmed-details',title:'Confirmed details',blocks:[{type:'list',style:'unordered',items:facts}]},
@@ -93,7 +93,7 @@ function topicArticle(label:string,focus:string,facts:string[],limit:string):Loc
   `Anime Dice ${label} Guide`,
   `Understand Anime Dice ${label.toLowerCase()} with a focused reference for ${focus}, practical checks, and clearly marked limits on unverified values.`,
   `This Anime Dice ${label.toLowerCase()} page focuses on ${focus}. It separates the documented gameplay loop from values that can change or are not established by the supplied references.`,
-  ['Review the current team and resources.','Compare the relevant unit or progression property separately.','Confirm changeable details in the current game version.','Spend resources only after the comparison.'],
+  [`Open the current game panel or verified source related to ${focus}.`,`Start with this documented point: ${facts[0]}`,`Compare this separately: ${facts[1]}`,`Before acting, account for this point: ${facts[2]}`],
   facts,
   limit,
   [['What should I check first?',`Start with the current team and compare ${focus} separately from unrelated systems.`],['Are exact values guaranteed?',`No. ${limit}`]]
@@ -136,7 +136,7 @@ Object.assign(EN_ARTICLE_COPY,{
 'anime-dice-update-7':topicArticle('Update 7','reviewing the sourced Update 7 changes',['Update 7 adds Galactic rarity.','The update adds six rebirth upgrade paths.','UPDATE7 is a documented reward code.'],'Exact balance values beyond the supplied Update 7 source are not verified.'),
 'anime-dice-event':topicArticle('Event','checking whether a current event has official confirmation',['Check the official game page and verified Discord.','Confirm start and end information in the current game.','Treat community posts as unverified until matched to an official destination.'],'No current event schedule is verified by the supplied sources.'),
 'anime-dice-admin-abuse-time':topicArticle('Admin Abuse Time','checking a claimed session without publishing a false schedule',['Look for a dated announcement in verified official destinations.','Confirm timezone and date together.','Ignore reposts that do not link to the original announcement.'],'No recurring admin event time is verified by the supplied sources.'),
-'anime-dice-discord':topicArticle('Discord','finding the verified community invite safely',['Use the verified Discord invite linked by this site.','Check announcement context and timestamps.','Do not trust lookalike invites from unrelated pages.'],'Channel names and current announcements can change after review.'),
+'anime-dice-discord':topicArticle('Discord','finding the verified community invite safely',['Use the verified invite discord.com/invite/ag5MCCu5aQ linked by this site.','Check announcement context and timestamps.','Do not trust lookalike invites from unrelated pages.'],'Channel names and current announcements can change after review.'),
 'anime-dice-reddit':topicArticle('Reddit','evaluating community posts when no official page is established',['Compare claims with the official game page.','Look for a direct developer source.','Treat user posts as community discussion rather than confirmation.'],'An official Anime Dice Reddit community is not verified by the supplied sources.'),
 'anime-dice-trello':topicArticle('Trello','checking board claims without endorsing an imitation',['Verify any board from an official developer destination.','Check board ownership and update history.','Do not enter account details on a lookalike page.'],'An official Anime Dice Trello board is not verified by the supplied sources.'),
 'anime-dice-group':topicArticle('Group','using the verified More & More Games Roblox community',['The verified developer community is More & More Games.','The group chest may provide spins, gems, or rerolls.','Join through the verified Roblox destination.'],'Chest availability and exact rewards can change and should be checked in game.'),
