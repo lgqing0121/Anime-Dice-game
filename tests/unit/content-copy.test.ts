@@ -120,3 +120,20 @@ describe('English Tower and Trading content', () => {
     expect(validateLocalizedContent('en',towerTradingIds)).toEqual([]);
   });
 });
+
+
+const updatesCommunityIds: ArticleId[]=[
+'anime-dice-new-update','anime-dice-next-update','anime-dice-update-7','anime-dice-event','anime-dice-admin-abuse-time',
+'anime-dice-discord','anime-dice-reddit','anime-dice-trello','anime-dice-group',
+];
+describe('English Updates and Community content',()=>{
+ it('covers nine volatile intents without invented schedules',()=>{
+  for(const id of updatesCommunityIds)expect(EN_ARTICLE_COPY[id],id).toBeDefined();
+  const visible=JSON.stringify(updatesCommunityIds.map((id)=>EN_ARTICLE_COPY[id]));
+  expect(visible).toContain('Update 7');
+  expect(visible).toContain('not verified');
+  expect(visible).not.toMatch(/will release on|admin event starts at|official Reddit is|official Trello is/i);
+  expect(validateLocalizedContent('en',updatesCommunityIds)).toEqual([]);
+ });
+ it('completes all forty English articles',()=>expect(Object.keys(EN_ARTICLE_COPY)).toHaveLength(40));
+});
