@@ -1,0 +1,4 @@
+---
+interface Props{note:string;sources:readonly string[];reviewedAt:string}const{note,sources,reviewedAt}=Astro.props;
+---
+<section class="source-note"><h2>Sources and review</h2><p>{note}</p><p><strong>Reviewed:</strong> <time datetime={reviewedAt}>{reviewedAt}</time></p><ul>{sources.map((source,index)=><li><a href={source} target="_blank" rel="noreferrer">Source {index+1}</a></li>)}</ul></section>

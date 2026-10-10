@@ -1,0 +1,4 @@
+---
+import type{ArticleSection}from'../content/types';interface Props{sections:ArticleSection[];label?:string}const{sections,label='On this page'}=Astro.props;
+---
+<nav class="toc" aria-label={label}><h2>{label}</h2><ol>{sections.map(section=><li><a href={`#${section.id}`}>{section.title}</a></li>)}</ol></nav>
