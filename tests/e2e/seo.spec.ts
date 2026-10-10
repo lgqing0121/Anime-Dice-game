@@ -6,7 +6,7 @@ const publicOrigin = 'https://anime-dice.test';
 test('sitemap and robots expose only the four localized homepages', async ({ request }) => {
   const sitemap = await request.get('/sitemap.xml');
   expect(sitemap.status()).toBe(200);
-  expect(sitemap.headers()['content-type']).toContain('application/xml');
+  expect(sitemap.headers()['content-type']).toMatch(/^(?:application|text)\/xml/);
   const xml = await sitemap.text();
   const locations = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1]);
   expect(locations).toEqual(SUPPORTED_LOCALES.map((locale) => `${publicOrigin}/${locale}/`));

@@ -2,6 +2,7 @@ import type { HomeCopy } from './types';
 
 export const ptBr: HomeCopy = {
   localeName: 'Português do Brasil',
+  common: { primaryNavigation: 'Navegação principal', mobileNavigation: 'Navegação móvel', advertisement: 'Publicidade', active: 'Ativo', wiki: 'Wiki', links: 'Links', gameSnapshot: 'Resumo do jogo' },
   meta: { title: 'Dado de Anime Wiki — Códigos, Dados e Traits', description: 'Domine Anime Dice no Roblox com códigos verificados, dados e Luck, traits de unidades, Tower Gear, rebirth e guias atuais de progressão para jogadores.' },
   nav: { codes: 'Códigos', guide: 'Guia', units: 'Unidades', progression: 'Progressão', tower: 'Torre', trading: 'Trocas', updates: 'Atualizações', community: 'Comunidade' },
   a11y: { openMenu: 'Abrir navegação', closeMenu: 'Fechar navegação', toggleTheme: 'Alternar tema', language: 'Escolher idioma' },
@@ -21,7 +22,7 @@ export const ptBr: HomeCopy = {
   about: { title: 'O que é Anime Dice?', paragraphs: [
     'Anime Dice é um simulador incremental gratuito no Roblox da More & More Games. Role personagens inspirados em anime, coloque unidades no terreno, ganhe dinheiro e compre dados mais fortes que melhoram Luck.',
     'A progressão também inclui traits, mutations, rebirths, Towers, rankings, trocas e renda offline. UPD 7 adiciona raridade Galactic, sete unidades, seis caminhos de rebirth, terceiro andar da base e uma nova Tower.',
-  ], statLabels: ['Desenvolvedor', 'Plataforma', 'Gênero', 'Visitas', 'Favoritos', 'Aprovação', 'Tamanho do servidor', 'Atualização atual', 'Caminhos de rebirth'], cta: 'Explorar todos os guias' },
+  ], statLabels: ['Desenvolvedor', 'Plataforma', 'Gênero', 'Visitas', 'Favoritos', 'Aprovação', 'Tamanho do servidor', 'Atualização atual', 'Caminhos de rebirth'], genreValue: 'Simulador RNG incremental', playersLabel: 'jogadores', cta: 'Explorar todos os guias' },
   modules: { eyebrow: 'Explore a wiki', title: 'Explore os guias de Anime Dice', subtitle: 'Use fatos verificados para planejar cada roll, melhoria, reset e partida de Tower.', items: [
     { id: 'codes', name: 'Códigos de Anime Dice', description: 'Resgate códigos revisados de Lucky Spins, Trait Rerolls, Tickets e Gems.', highlights: ['Pacote gratuito de recompensas da UPD 7.', 'Lucky Spins, Trait Rerolls, Tickets e Gems.'] },
     { id: 'guide', name: 'Guia iniciante de Anime Dice', description: 'Crie um ciclo estável de rolar, colocar, ganhar e melhorar.', highlights: ['Preencha todos os pedestais.', 'Mantenha Auto ativo.', 'Use Equip Best antes de vender.', 'Melhore Money e Luck primeiro.', 'Guarde recursos raros para unidades duradouras.'] },

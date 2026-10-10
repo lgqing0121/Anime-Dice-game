@@ -1,1 +1,6 @@
-<aside class="ad-slot" aria-label="Advertisement"><span>Advertisement</span></aside>
+---
+import type { HomeCopy } from '../i18n';
+interface Props { copy: HomeCopy }
+const { copy } = Astro.props;
+---
+<aside class="ad-slot" aria-label={copy.common.advertisement}><span>{copy.common.advertisement}</span></aside>

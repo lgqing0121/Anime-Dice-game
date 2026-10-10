@@ -105,3 +105,18 @@ a { color:inherit; text-decoration:none; } button,select { font:inherit; } img {
 [data-theme="light"] .module-card,[data-theme="light"] .fact-grid > div,[data-theme="light"] .faq-list details,[data-theme="light"] .code-entry { background:#f7f8fc; }
 [data-theme="light"] .hero-description,[data-theme="light"] .about-copy,[data-theme="light"] .trend-list a { color:#34394a; }
 [data-theme="light"] .site-footer { background:#e8eaf2; }
+
+/* Readable type scale and complete theme pairs. */
+.desktop-nav a,.locale-label,.mobile-navigation a,.ad-slot,.button,.sidebar-card li a,.count,.checked-date,.sidebar-link,.tag,.mini-badge,.update-card time,.text-link,.fact-grid dt,.footer-grid nav a,.footer-description { font-size:14px; }
+.hero-description,.journey-card p,.about-copy,.module-heading p,.module-highlight p,.faq-list summary,.faq-list details p,.footer-grid > div > p { font-size:16px; }
+.sidebar-card h2,.code-entry code { font-size:16px; }
+.code-entry p,.review-note,.stat-chips span { font-size:14px; }
+.journey-card { background:var(--surface-2); }
+.final-cta { color:#fff; background-color:#211a45; background-image:radial-gradient(circle at 85% 0,rgb(34 211 238 / 18%),transparent 16rem),linear-gradient(135deg,#2b1c55,#17152c); }
+.final-cta p { color:#ded9ed; font-size:16px; }
+[data-theme="light"] .stat-chips span { color:#4c556b; }
+[data-theme="light"] .code-entry code { color:#5b21b6; }
+[data-theme="light"] .module-highlight strong { color:#4c1d95; }
+[data-theme="light"] .journey-card h3,[data-theme="light"] .journey-card p { color:#303548; }
+[data-theme="light"] .final-cta h2 { color:#fff; }
+[data-theme="light"] .final-cta .button-ghost { border-color:#c4b5fd; color:#fff; }

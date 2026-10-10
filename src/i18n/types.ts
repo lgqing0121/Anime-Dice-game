@@ -2,6 +2,10 @@ import type { NavigationItem } from '../config/navigation';
 
 export interface HomeCopy {
   localeName: string;
+  common: {
+    primaryNavigation: string; mobileNavigation: string; advertisement: string;
+    active: string; wiki: string; links: string; gameSnapshot: string;
+  };
   meta: { title: string; description: string };
   nav: Record<NavigationItem['id'], string>;
   a11y: { openMenu: string; closeMenu: string; toggleTheme: string; language: string };
@@ -19,7 +23,7 @@ export interface HomeCopy {
   updates: { eyebrow: string; title: string; items: Array<{ tag: string; date: string; title: string }>; browse: string };
   journey: { eyebrow: string; title: string; cards: Array<{ number: string; title: string; description: string }> };
   trending: { eyebrow: string; title: string; items: string[] };
-  about: { title: string; paragraphs: string[]; statLabels: string[]; cta: string };
+  about: { title: string; paragraphs: string[]; statLabels: string[]; genreValue: string; playersLabel: string; cta: string };
   modules: {
     eyebrow: string;
     title: string;

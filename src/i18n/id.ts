@@ -2,6 +2,7 @@ import type { HomeCopy } from './types';
 
 export const id: HomeCopy = {
   localeName: 'Bahasa Indonesia',
+  common: { primaryNavigation: 'Navigasi utama', mobileNavigation: 'Navigasi seluler', advertisement: 'Iklan', active: 'Aktif', wiki: 'Wiki', links: 'Tautan', gameSnapshot: 'Ringkasan game' },
   meta: { title: 'Dadu Anime Wiki — Kode, Dadu, Trait & Panduan', description: 'Kuasai Anime Dice di Roblox lewat kode terverifikasi, upgrade dadu dan Luck, trait unit, Tower Gear, rencana rebirth, serta panduan progres terbaru.' },
   nav: { codes: 'Kode', guide: 'Panduan', units: 'Unit', progression: 'Progres', tower: 'Tower', trading: 'Trading', updates: 'Pembaruan', community: 'Komunitas' },
   a11y: { openMenu: 'Buka navigasi', closeMenu: 'Tutup navigasi', toggleTheme: 'Ganti tema', language: 'Pilih bahasa' },
@@ -21,7 +22,7 @@ export const id: HomeCopy = {
   about: { title: 'Apa itu Anime Dice?', paragraphs: [
     'Anime Dice adalah simulator inkremental Roblox gratis dari More & More Games. Lempar karakter terinspirasi anime, tempatkan unit di plot, hasilkan uang, lalu beli dadu lebih kuat yang meningkatkan Luck.',
     'Progres juga mencakup traits, mutations, rebirths, Towers, papan peringkat, trading, dan penghasilan offline. UPD 7 menambah kelangkaan Galactic, tujuh unit, enam jalur rebirth, lantai basis ketiga, dan Tower baru.',
-  ], statLabels: ['Pengembang', 'Platform', 'Genre', 'Kunjungan', 'Favorit', 'Persetujuan', 'Ukuran server', 'Pembaruan saat ini', 'Jalur rebirth'], cta: 'Jelajahi semua panduan' },
+  ], statLabels: ['Pengembang', 'Platform', 'Genre', 'Kunjungan', 'Favorit', 'Persetujuan', 'Ukuran server', 'Pembaruan saat ini', 'Jalur rebirth'], genreValue: 'Simulator RNG inkremental', playersLabel: 'pemain', cta: 'Jelajahi semua panduan' },
   modules: { eyebrow: 'Jelajahi wiki', title: 'Jelajahi panduan Anime Dice', subtitle: 'Gunakan fakta terverifikasi untuk merencanakan setiap roll, upgrade, reset, dan perjalanan Tower.', items: [
     { id: 'codes', name: 'Kode Anime Dice', description: 'Klaim kode yang ditinjau untuk Lucky Spins, Trait Rerolls, Tickets, dan Gems.', highlights: ['Paket hadiah gratis UPD 7.', 'Lucky Spins, Trait Rerolls, Tickets dan Gems.'] },
     { id: 'guide', name: 'Panduan pemula Anime Dice', description: 'Bangun siklus roll, pasang, hasilkan, dan upgrade yang stabil.', highlights: ['Isi semua pedestal.', 'Biarkan Auto aktif.', 'Pakai Equip Best sebelum menjual.', 'Upgrade Money dan Luck dahulu.', 'Simpan sumber daya langka untuk unit tahan lama.'] },

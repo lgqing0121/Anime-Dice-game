@@ -11,6 +11,8 @@ export function detectLocale(language: string): Locale {
 export function routeLanguageGateway(): void {
   let saved: string | null = null;
   try { saved = localStorage.getItem('preferredLocale'); } catch {}
-  const locale = SUPPORTED_LOCALES.includes(saved as Locale) ? saved as Locale : detectLocale(navigator.language);
+  const locale = saved === null
+    ? detectLocale(navigator.language)
+    : SUPPORTED_LOCALES.includes(saved as Locale) ? saved as Locale : DEFAULT_LOCALE;
   location.replace(`/${locale}/`);
 }

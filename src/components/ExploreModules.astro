@@ -22,8 +22,8 @@ const anchorIds: Record<string, string> = {
           <div class="module-highlights">
             {module.highlights.map((highlight, index) => (
               <div class="module-highlight">
-                <div><strong>{highlight.label}</strong>{highlight.badge && <span class="mini-badge">{highlight.badge}</span>}</div>
-                <p>{localized.highlights[index] ?? highlight.detail}</p>
+                <div><strong>{highlight.label}</strong>{highlight.badge && <span class="mini-badge">{copy.common.active}</span>}</div>
+                <p>{localized.highlights[index]}</p>
               </div>
             ))}
           </div>

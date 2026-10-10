@@ -6,12 +6,12 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "check": "npm run typecheck && npm run test:unit && npm run build && npm run test:e2e",
+    "check": "npm run typecheck && npm run test:unit && npm run test:e2e",
     "preview": "astro preview",
     "typecheck": "astro check",
     "test": "vitest run",
     "test:unit": "vitest run",
-    "test:e2e": "playwright test"
+    "test:e2e": "npm run build && playwright test"
   },
   "keywords": ["anime-dice", "roblox", "wiki"],
   "license": "UNLICENSED",

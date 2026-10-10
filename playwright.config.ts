@@ -5,9 +5,9 @@ export default defineConfig({
   fullyParallel: false,
   use: { baseURL: 'http://127.0.0.1:4321' },
   webServer: {
-    command: 'npm run dev -- --host 127.0.0.1',
+    command: 'npm run preview -- --host 127.0.0.1 --port 4321',
     url: 'http://127.0.0.1:4321/en/',
-    reuseExistingServer: true,
+    reuseExistingServer: false,
   },
   projects: [
     { name: 'desktop', use: { ...devices['Desktop Chrome'] } },

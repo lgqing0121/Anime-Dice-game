@@ -4,8 +4,8 @@ import type { HomeCopy } from '../i18n';
 interface Props { copy: HomeCopy }
 const { copy } = Astro.props;
 const values = [
-  GAME_FACTS.developer, GAME_FACTS.platform, GAME_FACTS.genre, GAME_FACTS.snapshot.visits,
-  GAME_FACTS.snapshot.favorites, GAME_FACTS.snapshot.approval, GAME_FACTS.snapshot.serverSize,
+  GAME_FACTS.developer, GAME_FACTS.platform, copy.about.genreValue, GAME_FACTS.snapshot.visits,
+  GAME_FACTS.snapshot.favorites, GAME_FACTS.snapshot.approval, `${GAME_FACTS.snapshot.serverSize.match(/\d+/)?.[0]} ${copy.about.playersLabel}`,
   GAME_FACTS.currentUpdate, GAME_FACTS.rebirthPaths,
 ];
 ---

@@ -2,6 +2,7 @@ import type { HomeCopy } from './types';
 
 export const en: HomeCopy = {
   localeName: 'English',
+  common: { primaryNavigation: 'Primary navigation', mobileNavigation: 'Mobile navigation', advertisement: 'Advertisement', active: 'Active', wiki: 'Wiki', links: 'Links', gameSnapshot: 'Game snapshot' },
   meta: {
     title: 'Anime Dice Wiki — Codes, Dice, Traits & Guides',
     description: 'Master Anime Dice on Roblox with verified codes, dice and Luck upgrades, unit traits, Tower Gear, rebirth planning, and current progression guides.',
@@ -40,7 +41,7 @@ export const en: HomeCopy = {
       'Anime Dice is a free Roblox incremental simulator from More & More Games. Roll for anime-inspired characters, place useful units on your plot, earn cash, and buy stronger dice that improve Luck.',
       'Progression also includes traits, mutations, rebirths, Towers, leaderboards, trading, and offline income. UPD 7 adds Galactic rarity, seven units, six rebirth paths, a third base floor, and a new Tower.',
     ],
-    statLabels: ['Developer', 'Platform', 'Genre', 'Visits', 'Favorites', 'Approval', 'Server Size', 'Current Update', 'Rebirth Paths'], cta: 'Explore All Guides',
+    statLabels: ['Developer', 'Platform', 'Genre', 'Visits', 'Favorites', 'Approval', 'Server Size', 'Current Update', 'Rebirth Paths'], genreValue: 'Incremental RNG Simulator', playersLabel: 'Players', cta: 'Explore All Guides',
   },
   modules: {
     eyebrow: 'Explore the Wiki', title: 'Explore Anime Dice Guides', subtitle: 'Use verified facts to plan every roll, upgrade, reset, and Tower run.',

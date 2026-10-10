@@ -34,6 +34,8 @@ export function validateFacts(input: ValidationInput = {}): string[] {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(facts.reviewDate)) {
     errors.push('Review date must use ISO format');
   }
+  if (!facts.developer.trim()) errors.push('Developer is required');
+  if (!facts.currentUpdate.trim()) errors.push('Current update is required');
 
   if (facts.sidebarCodes.length !== 2 || facts.sidebarCodes[0]?.code !== 'UPDATE7' || facts.sidebarCodes[1]?.code !== 'UPDATE6') {
     errors.push('Sidebar codes must match the conservative approved list');

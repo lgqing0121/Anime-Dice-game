@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { SUPPORTED_LOCALES, type Locale } from '../../src/config/site';
-import { assertCompleteCopy, getHomeCopy } from '../../src/i18n';
+import { assertCompleteCopy, getHomeCopy, type HomeCopy } from '../../src/i18n';
 
 const preservedEntities = [
   'Anime Dice',
@@ -56,5 +56,24 @@ describe('homepage translations', () => {
     broken.hero.description = '';
     expect(assertCompleteCopy(broken)).toContain('hero.description is empty');
     expect(() => getHomeCopy('fr' as Locale)).toThrow(/Unsupported locale/);
+  });
+
+  it('rejects missing keys and shortened translated module details', () => {
+    const missing = structuredClone(getHomeCopy('en')) as Partial<HomeCopy>;
+    delete missing.hero;
+    expect(assertCompleteCopy(missing as HomeCopy)).toContain('hero is missing');
+
+    const shortened = structuredClone(getHomeCopy('es'));
+    shortened.modules.items[3].highlights.pop();
+    expect(assertCompleteCopy(shortened)).toContain('modules.items[3].highlights length must be 5');
+  });
+
+  it('keeps critical factual quantities equivalent across locales', () => {
+    const scale = { en: /1 quintillion/i, 'pt-br': /1 quintilhão/i, es: /1 trillón/i, id: /1 kuintiliun/i };
+    for (const locale of SUPPORTED_LOCALES) {
+      const dice = getHomeCopy(locale).modules.items.find((item) => item.id === 'dice')!;
+      expect(dice.highlights[3], locale).toMatch(scale[locale]);
+      expect(dice.highlights[4], locale).toMatch(/5(?:[.,]000){3}/);
+    }
   });
 });

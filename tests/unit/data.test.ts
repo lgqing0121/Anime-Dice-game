@@ -64,5 +64,8 @@ describe('shared Anime Dice facts', () => {
       links: { ...GAME_FACTS.links, game: 'http://example.test/game' },
     };
     expect(validateFacts({ facts: insecureFacts })).toContain('All source URLs must use HTTPS');
+
+    expect(validateFacts({ facts: { ...GAME_FACTS, developer: '' } })).toContain('Developer is required');
+    expect(validateFacts({ facts: { ...GAME_FACTS, currentUpdate: '' } })).toContain('Current update is required');
   });
 });

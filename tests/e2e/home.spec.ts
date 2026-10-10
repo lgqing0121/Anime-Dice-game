@@ -18,6 +18,8 @@ for (const locale of locales) {
     await expect(page.locator('main h1')).toHaveCount(1);
     await expect(page.locator('[data-locale-label]')).toHaveText(locale.label);
     await expect(page.locator('[data-nav-link]')).toHaveCount(8);
+    await expect(page.locator('[data-nav-link]').nth(1)).toHaveAttribute('href', '#beginner-guide');
+    await expect(page.locator('[data-nav-link]').nth(4)).toHaveAttribute('href', '#towers');
 
     const heroImage = page.getByRole('img', { name: /Anime Dice/i });
     await expect(heroImage).toHaveAttribute('width', '500');
@@ -90,6 +92,15 @@ test('root gateway falls back safely and preserves an explicit choice', async ({
   await expect(page).toHaveURL(/\/es\/$/);
   await page.goto('/');
   await expect(page).toHaveURL(/\/es\/$/);
+
+  await page.evaluate(() => localStorage.setItem('preferredLocale', 'broken'));
+  await page.goto('/');
+  await expect(page).toHaveURL(/\/en\/$/);
+
+  await page.locator('footer [data-locale-choice="pt-br"]').click();
+  await expect(page).toHaveURL(/\/pt-br\/$/);
+  await page.goto('/');
+  await expect(page).toHaveURL(/\/pt-br\/$/);
 });
 
 test('root gateway exposes locale links without JavaScript', async ({ browser }) => {
@@ -99,4 +110,39 @@ test('root gateway exposes locale links without JavaScript', async ({ browser })
   expect(response?.status()).toBe(200);
   await expect(page.locator('[data-gateway-locales] a')).toHaveCount(4);
   await context.close();
+});
+
+test('light theme keeps core text readable and type meets minimum sizes', async ({ page }) => {
+  await page.goto('/en/');
+  await page.locator('[data-theme-toggle]').click();
+  const metrics = await page.evaluate(() => {
+    const luminance = (color: string) => {
+      const rgb = color.match(/\d+/g)!.slice(0, 3).map(Number).map((value) => {
+        const channel = value / 255;
+        return channel <= 0.03928 ? channel / 12.92 : ((channel + 0.055) / 1.055) ** 2.4;
+      });
+      return 0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2];
+    };
+    const contrast = (selector: string) => {
+      const element = document.querySelector(selector)!;
+      const style = getComputedStyle(element);
+      let parent: Element | null = element;
+      let background = 'rgb(255, 255, 255)';
+      while (parent) {
+        const candidate = getComputedStyle(parent).backgroundColor;
+        if (!candidate.endsWith(', 0)') && candidate !== 'transparent') { background = candidate; break; }
+        parent = parent.parentElement;
+      }
+      const values = [luminance(style.color), luminance(background)].sort((a, b) => b - a);
+      return (values[0] + 0.05) / (values[1] + 0.05);
+    };
+    return {
+      contrasts: ['.journey-card h3', '.stat-chips span', '.code-entry code', '.final-cta h2'].map(contrast),
+      body: parseFloat(getComputedStyle(document.querySelector('.journey-card p')!).fontSize),
+      control: parseFloat(getComputedStyle(document.querySelector('.button')!).fontSize),
+    };
+  });
+  expect(Math.min(...metrics.contrasts)).toBeGreaterThanOrEqual(4.5);
+  expect(metrics.body).toBeGreaterThanOrEqual(16);
+  expect(metrics.control).toBeGreaterThanOrEqual(14);
 });

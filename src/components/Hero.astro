@@ -11,7 +11,7 @@ const { copy } = Astro.props;
     <img src="/assets/anime-dice-hero.jpg" alt="Anime Dice Roblox gameplay" width="500" height="280" /><span class="play-badge" aria-hidden="true">▶</span>
   </a>
   <p class="hero-description">{copy.hero.description}</p>
-  <div class="stat-chips" aria-label="Game snapshot">{copy.hero.stats.map((stat) => <span>{stat}</span>)}</div>
-  <div class="hero-actions"><a data-hero-action class="button button-primary" href="#guide">{copy.hero.primaryCta}</a><a data-hero-action class="button button-secondary" href="#progression">{copy.hero.secondaryCta}</a><a data-hero-action class="button button-ghost" href="#codes">{copy.hero.tertiaryCta}</a></div>
+  <div class="stat-chips" aria-label={copy.common.gameSnapshot}>{copy.hero.stats.map((stat) => <span>{stat}</span>)}</div>
+  <div class="hero-actions"><a data-hero-action class="button button-primary" href="#beginner-guide">{copy.hero.primaryCta}</a><a data-hero-action class="button button-secondary" href="#progression">{copy.hero.secondaryCta}</a><a data-hero-action class="button button-ghost" href="#codes">{copy.hero.tertiaryCta}</a></div>
   <p class="review-note">{copy.hero.reviewedLabel}</p>
 </section>

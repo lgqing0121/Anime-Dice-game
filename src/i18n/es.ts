@@ -2,6 +2,7 @@ import type { HomeCopy } from './types';
 
 export const es: HomeCopy = {
   localeName: 'Español',
+  common: { primaryNavigation: 'Navegación principal', mobileNavigation: 'Navegación móvil', advertisement: 'Publicidad', active: 'Activo', wiki: 'Wiki', links: 'Enlaces', gameSnapshot: 'Resumen del juego' },
   meta: { title: 'Dado de anime Wiki — Códigos, Dados y Traits', description: 'Domina Anime Dice en Roblox con códigos verificados, dados y Luck, traits de unidades, Tower Gear, rebirth y guías actuales de progresión para jugadores.' },
   nav: { codes: 'Códigos', guide: 'Guía', units: 'Unidades', progression: 'Progresión', tower: 'Torre', trading: 'Intercambios', updates: 'Novedades', community: 'Comunidad' },
   a11y: { openMenu: 'Abrir navegación', closeMenu: 'Cerrar navegación', toggleTheme: 'Cambiar tema', language: 'Elegir idioma' },
@@ -21,12 +22,12 @@ export const es: HomeCopy = {
   about: { title: '¿Qué es Anime Dice?', paragraphs: [
     'Anime Dice es un simulador incremental gratuito de Roblox creado por More & More Games. Lanza personajes inspirados en anime, coloca unidades en tu parcela, gana dinero y compra dados más fuertes que mejoran Luck.',
     'La progresión también incluye traits, mutations, rebirths, Towers, clasificaciones, intercambios e ingresos sin conexión. UPD 7 añade rareza Galactic, siete unidades, seis rutas de rebirth, tercer piso de base y una Tower nueva.',
-  ], statLabels: ['Desarrollador', 'Plataforma', 'Género', 'Visitas', 'Favoritos', 'Aprobación', 'Tamaño del servidor', 'Actualización actual', 'Rutas de rebirth'], cta: 'Explorar todas las guías' },
+  ], statLabels: ['Desarrollador', 'Plataforma', 'Género', 'Visitas', 'Favoritos', 'Aprobación', 'Tamaño del servidor', 'Actualización actual', 'Rutas de rebirth'], genreValue: 'Simulador RNG incremental', playersLabel: 'jugadores', cta: 'Explorar todas las guías' },
   modules: { eyebrow: 'Explora la wiki', title: 'Explora las guías de Anime Dice', subtitle: 'Usa datos verificados para planear cada roll, mejora, reinicio y partida de Tower.', items: [
     { id: 'codes', name: 'Códigos de Anime Dice', description: 'Canjea códigos revisados por Lucky Spins, Trait Rerolls, Tickets y Gems.', highlights: ['Paquete gratuito de recompensas de UPD 7.', 'Lucky Spins, Trait Rerolls, Tickets y Gems.'] },
     { id: 'guide', name: 'Guía inicial de Anime Dice', description: 'Crea un ciclo estable de lanzar, colocar, ganar y mejorar.', highlights: ['Llena todos los pedestales.', 'Mantén Auto activo.', 'Usa Equip Best antes de vender.', 'Mejora Money y Luck primero.', 'Guarda recursos raros para unidades duraderas.'] },
     { id: 'tier-list', name: 'Tier list de Anime Dice', description: 'Compara rarezas documentadas y niveles de Dice Shop.', highlights: ['Galactic, Heavenly y Secret II.', 'Secret I y Celestial.', 'Exotic, Divine y Mythical.', 'De Common a Legendary.'] },
-    { id: 'dice', name: 'Lista de dados de Anime Dice', description: 'Sigue precios y Luck desde Normal hasta Radiant.', highlights: ['Normal: $1 y 2x Luck.', 'Storm: $200 millones y 400x Luck.', 'Light: $12 mil millones y 1.500x Luck.', 'Prismatic: $1 quintillón y 1.000.000x Luck.', 'Radiant: $100 octillones y 5.000.000.000x Luck.'] },
+    { id: 'dice', name: 'Lista de dados de Anime Dice', description: 'Sigue precios y Luck desde Normal hasta Radiant.', highlights: ['Normal: $1 y 2x Luck.', 'Storm: $200 millones y 400x Luck.', 'Light: $12 mil millones y 1.500x Luck.', 'Prismatic: $1 trillón y 1.000.000x Luck.', 'Radiant: $100 octillones y 5.000.000.000x Luck.'] },
     { id: 'traits', name: 'Guía de Traits de Anime Dice', description: 'Compara multiplicadores generales y probabilidades mostradas.', highlights: ['Eternal: 27x.', 'Transcendent: 15x al 0,006%.', 'Monarch: 8x al 0,025%.', 'Shogun: 5x al 0,12%.', 'Samurai: 3x al 0,5%.'] },
     { id: 'rebirth', name: 'Guía de Rebirth de Anime Dice', description: 'Reinicia en el momento correcto y gasta Upgrade Points permanentes.', highlights: ['Confirma una recuperación rápida.', 'Gasta el dinero restante.', 'Conserva unidades, grades y traits.', 'Obtén un Upgrade Point.', 'Elige entre seis rutas.'] },
     { id: 'gears', name: 'Guía de Gear de Anime Dice', description: 'Compara Tower Gear raro y bonificaciones permanentes.', highlights: ["Angel's Halo: +30% Luck.", "Sakuna's Sash: 2x Damage.", "Enol's Drums: +40% Luck.", "Obita's Mask: +40% Luck.", "Mazun's Coat: +50% Luck."] },
