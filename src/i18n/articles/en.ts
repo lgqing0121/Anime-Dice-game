@@ -87,8 +87,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Guide for New Players",
     "description": "Learn the verified Anime Dice gameplay loop, from rolling and equipping a team to upgrades, keeper units, mutations, and offline earnings.",
     "intro": [
-      "Anime Dice centers on rolling for characters, comparing results, and improving a team over time. Stronger rolls become keeper units while upgrades make later sessions more efficient.",
-      "The supplied evidence establishes the following points: Grades and traits are separate systems. Mutations can affect unit evaluation. Progress speed varies, so no guaranteed timeline is stated."
+      "Anime Dice centers on rolling for characters, comparing results, and improving a team over time. Stronger rolls become keeper units while upgrades make later sessions more efficient."
     ],
     "sections": [
       {
@@ -107,7 +106,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Mutations can affect unit evaluation. The official description confirms offline earnings."
+            "text": "Mutations can affect unit evaluation."
           },
           {
             "type": "list",
@@ -127,15 +126,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: The official description confirms offline earnings."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Mutations can affect unit evaluation.",
-              "The official description confirms offline earnings."
-            ]
+            "text": "The official description confirms offline earnings."
           }
         ]
       },
@@ -150,42 +141,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Progress speed varies, so no guaranteed timeline is stated."
           }
         ]
-      },
-      {
-        "id": "guide-decision-record",
-        "title": "Guide for New Players — A repeatable control check",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Grades and traits are separate systems. Mutations can affect unit evaluation. The official description confirms offline earnings."
-          },
-          {
-            "type": "paragraph",
-            "text": "Progress speed varies, so no guaranteed timeline is stated."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Grades and traits are separate systems.",
-              "Mutations can affect unit evaluation.",
-              "The official description confirms offline earnings."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Where is the documented Guide for New Players control?",
-        "answer": "Grades and traits are separate systems. Mutations can affect unit evaluation. The official description confirms offline earnings."
+        "question": "What does the supplied evidence confirm about Anime Dice Guide for New Players?",
+        "answer": "Grades and traits are separate systems."
       },
       {
-        "question": "What visible result confirms Guide for New Players worked?",
+        "question": "Which two checks should be read together for Anime Dice Guide for New Players?",
         "answer": "Mutations can affect unit evaluation. The official description confirms offline earnings."
       },
       {
-        "question": "When should the Guide for New Players instructions be rechecked?",
+        "question": "What remains unconfirmed about Anime Dice Guide for New Players?",
         "answer": "Progress speed varies, so no guaranteed timeline is stated."
       }
     ],
@@ -201,8 +169,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Tips for Faster Progress",
     "description": "Use practical Anime Dice tips for upgrade order, unit safety, automated rolling, selling thresholds, and more consistent resource decisions.",
     "intro": [
-      "Reliable progress comes from reducing wasted rolls and protecting results that improve the team. A repeatable routine is safer than spending every resource immediately.",
-      "The supplied evidence establishes the following points: Money and Luck are strong early priorities. Roll Speed helps after the economy is stable. Rare outcomes and a fixed progression pace cannot be promised."
+      "Reliable progress comes from reducing wasted rolls and protecting results that improve the team. A repeatable routine is safer than spending every resource immediately."
     ],
     "sections": [
       {
@@ -221,7 +188,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Roll Speed helps after the economy is stable. Grade, trait, and mutation need separate checks."
+            "text": "Roll Speed helps after the economy is stable."
           },
           {
             "type": "list",
@@ -241,15 +208,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Grade, trait, and mutation need separate checks."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Roll Speed helps after the economy is stable.",
-              "Grade, trait, and mutation need separate checks."
-            ]
+            "text": "Grade, trait, and mutation need separate checks."
           }
         ]
       },
@@ -264,42 +223,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Rare outcomes and a fixed progression pace cannot be promised."
           }
         ]
-      },
-      {
-        "id": "tips-decision-record",
-        "title": "Tips for Faster Progress — A repeatable control check",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Money and Luck are strong early priorities. Roll Speed helps after the economy is stable. Grade, trait, and mutation need separate checks."
-          },
-          {
-            "type": "paragraph",
-            "text": "Rare outcomes and a fixed progression pace cannot be promised."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Money and Luck are strong early priorities.",
-              "Roll Speed helps after the economy is stable.",
-              "Grade, trait, and mutation need separate checks."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Where is the documented Tips for Faster Progress control?",
-        "answer": "Money and Luck are strong early priorities. Roll Speed helps after the economy is stable. Grade, trait, and mutation need separate checks."
+        "question": "What does the supplied evidence confirm about Anime Dice Tips for Faster Progress?",
+        "answer": "Money and Luck are strong early priorities."
       },
       {
-        "question": "What visible result confirms Tips for Faster Progress worked?",
+        "question": "Which two checks should be read together for Anime Dice Tips for Faster Progress?",
         "answer": "Roll Speed helps after the economy is stable. Grade, trait, and mutation need separate checks."
       },
       {
-        "question": "When should the Tips for Faster Progress instructions be rechecked?",
+        "question": "What remains unconfirmed about Anime Dice Tips for Faster Progress?",
         "answer": "Rare outcomes and a fixed progression pace cannot be promised."
       }
     ],
@@ -315,8 +251,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Auto Roll Guide",
     "description": "Turn on Anime Dice Auto Roll from the Roll panel, use Hide to reduce the visible animation, and combine it with safer team checks.",
     "intro": [
-      "Anime Dice includes an Auto control in the Roll interface. It continues the normal rolling loop without selecting the roll action every time during a longer session.",
-      "The supplied evidence establishes the following points: Hide affects the repeated roll presentation. Rolls continue while that animation is hidden. Hide is not evidence of a universal option for unrelated scenes."
+      "Anime Dice includes an Auto control in the Roll interface. It continues the normal rolling loop without selecting the roll action every time during a longer session."
     ],
     "sections": [
       {
@@ -335,7 +270,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Rolls continue while that animation is hidden. Keeper units should still be reviewed."
+            "text": "Rolls continue while that animation is hidden."
           },
           {
             "type": "list",
@@ -355,15 +290,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Keeper units should still be reviewed."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Rolls continue while that animation is hidden.",
-              "Keeper units should still be reviewed."
-            ]
+            "text": "Keeper units should still be reviewed."
           }
         ]
       },
@@ -378,42 +305,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Hide is not evidence of a universal option for unrelated scenes."
           }
         ]
-      },
-      {
-        "id": "auto-roll-decision-record",
-        "title": "Auto Roll — A repeatable control check",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Hide affects the repeated roll presentation. Rolls continue while that animation is hidden. Keeper units should still be reviewed."
-          },
-          {
-            "type": "paragraph",
-            "text": "Hide is not evidence of a universal option for unrelated scenes."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Hide affects the repeated roll presentation.",
-              "Rolls continue while that animation is hidden.",
-              "Keeper units should still be reviewed."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Where is the documented Auto Roll control?",
-        "answer": "Hide affects the repeated roll presentation. Rolls continue while that animation is hidden. Keeper units should still be reviewed."
+        "question": "What does the supplied evidence confirm about Anime Dice Auto Roll Guide?",
+        "answer": "Hide affects the repeated roll presentation."
       },
       {
-        "question": "What visible result confirms Auto Roll worked?",
+        "question": "Which two checks should be read together for Anime Dice Auto Roll Guide?",
         "answer": "Rolls continue while that animation is hidden. Keeper units should still be reviewed."
       },
       {
-        "question": "When should the Auto Roll instructions be rechecked?",
+        "question": "What remains unconfirmed about Anime Dice Auto Roll Guide?",
         "answer": "Hide is not evidence of a universal option for unrelated scenes."
       }
     ],
@@ -429,8 +333,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Auto Sell Settings",
     "description": "Configure Anime Dice Auto Sell at the Sell Units stand, choose a cautious threshold, and protect team upgrades before clearing extras.",
     "intro": [
-      "Auto Sell reduces inventory cleanup, but an aggressive threshold can remove a useful result. The documented settings are available from the Sell Units stand in the game area.",
-      "The supplied evidence establishes the following points: Grades, traits, and mutations can matter independently. The threshold should stay below units you actively use. Keep an uncertain unit until its properties have been compared."
+      "Auto Sell reduces inventory cleanup, but an aggressive threshold can remove a useful result. The documented settings are available from the Sell Units stand in the game area."
     ],
     "sections": [
       {
@@ -449,7 +352,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: The threshold should stay below units you actively use. Recheck the setting as the team improves."
+            "text": "The threshold should stay below units you actively use."
           },
           {
             "type": "list",
@@ -469,15 +372,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Recheck the setting as the team improves."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "The threshold should stay below units you actively use.",
-              "Recheck the setting as the team improves."
-            ]
+            "text": "Recheck the setting as the team improves."
           }
         ]
       },
@@ -492,42 +387,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Keep an uncertain unit until its properties have been compared."
           }
         ]
-      },
-      {
-        "id": "auto-sell-decision-record",
-        "title": "Auto Sell Settings — A repeatable control check",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Grades, traits, and mutations can matter independently. The threshold should stay below units you actively use. Recheck the setting as the team improves."
-          },
-          {
-            "type": "paragraph",
-            "text": "Keep an uncertain unit until its properties have been compared."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Grades, traits, and mutations can matter independently.",
-              "The threshold should stay below units you actively use.",
-              "Recheck the setting as the team improves."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Where is the documented Auto Sell Settings control?",
-        "answer": "Grades, traits, and mutations can matter independently. The threshold should stay below units you actively use. Recheck the setting as the team improves."
+        "question": "What does the supplied evidence confirm about Anime Dice Auto Sell Settings?",
+        "answer": "Grades, traits, and mutations can matter independently."
       },
       {
-        "question": "What visible result confirms Auto Sell Settings worked?",
+        "question": "Which two checks should be read together for Anime Dice Auto Sell Settings?",
         "answer": "The threshold should stay below units you actively use. Recheck the setting as the team improves."
       },
       {
-        "question": "When should the Auto Sell Settings instructions be rechecked?",
+        "question": "What remains unconfirmed about Anime Dice Auto Sell Settings?",
         "answer": "Keep an uncertain unit until its properties have been compared."
       }
     ],
@@ -543,8 +415,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice: How to Level Up Units",
     "description": "Plan Anime Dice unit leveling around keeper units, separate levels from grades and traits, and avoid wasting resources on temporary results.",
     "intro": [
-      "Unit leveling is most useful when resources go to characters that remain on the active team. Rolling can replace an early result, so upgrading every unit evenly can slow progress.",
-      "The supplied evidence establishes the following points: Level is one part of unit evaluation. Grades and traits are separate systems. The supplied references do not establish one universal maximum level, so no number is invented."
+      "Unit leveling is most useful when resources go to characters that remain on the active team. Rolling can replace an early result, so upgrading every unit evenly can slow progress."
     ],
     "sections": [
       {
@@ -563,7 +434,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Grades and traits are separate systems. A stronger roll may replace an early keeper."
+            "text": "Grades and traits are separate systems."
           },
           {
             "type": "list",
@@ -583,15 +454,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: A stronger roll may replace an early keeper."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Grades and traits are separate systems.",
-              "A stronger roll may replace an early keeper."
-            ]
+            "text": "A stronger roll may replace an early keeper."
           }
         ]
       },
@@ -606,42 +469,19 @@ export const EN_ARTICLE_COPY = {
             "body": "The supplied references do not establish one universal maximum level, so no number is invented."
           }
         ]
-      },
-      {
-        "id": "how-to-level-up-decision-record",
-        "title": "How to Level Up Units — A repeatable control check",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Level is one part of unit evaluation. Grades and traits are separate systems. A stronger roll may replace an early keeper."
-          },
-          {
-            "type": "paragraph",
-            "text": "The supplied references do not establish one universal maximum level, so no number is invented."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Level is one part of unit evaluation.",
-              "Grades and traits are separate systems.",
-              "A stronger roll may replace an early keeper."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Where is the documented How to Level Up Units control?",
-        "answer": "Level is one part of unit evaluation. Grades and traits are separate systems. A stronger roll may replace an early keeper."
+        "question": "What does the supplied evidence confirm about Anime Dice: How to Level Up Units?",
+        "answer": "Level is one part of unit evaluation."
       },
       {
-        "question": "What visible result confirms How to Level Up Units worked?",
+        "question": "Which two checks should be read together for Anime Dice: How to Level Up Units?",
         "answer": "Grades and traits are separate systems. A stronger roll may replace an early keeper."
       },
       {
-        "question": "When should the How to Level Up Units instructions be rechecked?",
+        "question": "What remains unconfirmed about Anime Dice: How to Level Up Units?",
         "answer": "The supplied references do not establish one universal maximum level, so no number is invented."
       }
     ],
@@ -657,8 +497,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice: How to Hide Roll Animations",
     "description": "Use the verified Anime Dice Hide control for roll animations and understand why this guide does not claim a universal cutscene toggle exists.",
     "intro": [
-      "Players searching to skip Anime Dice cutscenes are often trying to remove the repeated roll animation. The documented control for that specific need is Hide inside the Roll interface.",
-      "The supplied evidence establishes the following points: Hide covers the roll presentation. It does not stop the rolling process. No supplied source confirms a setting that skips every intro, update, event, or story scene."
+      "Players searching to skip Anime Dice cutscenes are often trying to remove the repeated roll animation. The documented control for that specific need is Hide inside the Roll interface."
     ],
     "sections": [
       {
@@ -677,7 +516,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: It does not stop the rolling process. Other scenes can have different controls."
+            "text": "It does not stop the rolling process."
           },
           {
             "type": "list",
@@ -697,15 +536,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Other scenes can have different controls."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "It does not stop the rolling process.",
-              "Other scenes can have different controls."
-            ]
+            "text": "Other scenes can have different controls."
           }
         ]
       },
@@ -720,42 +551,19 @@ export const EN_ARTICLE_COPY = {
             "body": "No supplied source confirms a setting that skips every intro, update, event, or story scene."
           }
         ]
-      },
-      {
-        "id": "how-to-skip-cutscenes-decision-record",
-        "title": "How to Hide Roll Animations — A repeatable control check",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Hide covers the roll presentation. It does not stop the rolling process. Other scenes can have different controls."
-          },
-          {
-            "type": "paragraph",
-            "text": "No supplied source confirms a setting that skips every intro, update, event, or story scene."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Hide covers the roll presentation.",
-              "It does not stop the rolling process.",
-              "Other scenes can have different controls."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Where is the documented How to Hide Roll Animations control?",
-        "answer": "Hide covers the roll presentation. It does not stop the rolling process. Other scenes can have different controls."
+        "question": "What does the supplied evidence confirm about Anime Dice: How to Hide Roll Animations?",
+        "answer": "Hide covers the roll presentation."
       },
       {
-        "question": "What visible result confirms How to Hide Roll Animations worked?",
+        "question": "Which two checks should be read together for Anime Dice: How to Hide Roll Animations?",
         "answer": "It does not stop the rolling process. Other scenes can have different controls."
       },
       {
-        "question": "When should the How to Hide Roll Animations instructions be rechecked?",
+        "question": "What remains unconfirmed about Anime Dice: How to Hide Roll Animations?",
         "answer": "No supplied source confirms a setting that skips every intro, update, event, or story scene."
       }
     ],
@@ -771,8 +579,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice: How to Join the Official Group",
     "description": "Find and join the verified Anime Dice developer group, avoid impersonation pages, and understand the cautiously documented group chest rewards.",
     "intro": [
-      "Anime Dice is connected to the Roblox community More & More Games. Joining through the verified developer link is safer than choosing a similarly named group from search results.",
-      "The supplied evidence establishes the following points: The supplied guide says the chest may provide spins. Gems or rerolls may also be available. Avoid lookalike communities and confirm the Roblox destination before joining."
+      "Anime Dice is connected to the Roblox community More & More Games. Joining through the verified developer link is safer than choosing a similarly named group from search results."
     ],
     "sections": [
       {
@@ -791,7 +598,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Gems or rerolls may also be available. Exact availability should be checked in game."
+            "text": "Gems or rerolls may also be available."
           },
           {
             "type": "list",
@@ -811,15 +618,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Exact availability should be checked in game."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Gems or rerolls may also be available.",
-              "Exact availability should be checked in game."
-            ]
+            "text": "Exact availability should be checked in game."
           }
         ]
       },
@@ -834,42 +633,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Avoid lookalike communities and confirm the Roblox destination before joining."
           }
         ]
-      },
-      {
-        "id": "how-to-join-group-decision-record",
-        "title": "How to Join the Official Group — A repeatable control check",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: The supplied guide says the chest may provide spins. Gems or rerolls may also be available. Exact availability should be checked in game."
-          },
-          {
-            "type": "paragraph",
-            "text": "Avoid lookalike communities and confirm the Roblox destination before joining."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "The supplied guide says the chest may provide spins.",
-              "Gems or rerolls may also be available.",
-              "Exact availability should be checked in game."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Where is the documented How to Join the Official Group control?",
-        "answer": "The supplied guide says the chest may provide spins. Gems or rerolls may also be available. Exact availability should be checked in game."
+        "question": "What does the supplied evidence confirm about Anime Dice: How to Join the Official Group?",
+        "answer": "The supplied guide says the chest may provide spins."
       },
       {
-        "question": "What visible result confirms How to Join the Official Group worked?",
+        "question": "Which two checks should be read together for Anime Dice: How to Join the Official Group?",
         "answer": "Gems or rerolls may also be available. Exact availability should be checked in game."
       },
       {
-        "question": "When should the How to Join the Official Group instructions be rechecked?",
+        "question": "What remains unconfirmed about Anime Dice: How to Join the Official Group?",
         "answer": "Avoid lookalike communities and confirm the Roblox destination before joining."
       }
     ],
@@ -885,8 +661,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Tier List Guide",
     "description": "Understand Anime Dice tier list with a focused reference for how units fit a current team, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice tier list page focuses on how units fit a current team. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: A useful ranking depends on the current game version. Grade, trait, mutation, and level are separate considerations. A universal permanent ranking is not confirmed, so no unsupported combat order is published."
+      "This Anime Dice tier list page focuses on how units fit a current team. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -905,17 +680,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Grade, trait, mutation, and level are separate considerations. Equip Best is a starting check rather than a permanent ranking."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to how units fit a current team.",
-              "Start with this documented point: A useful ranking depends on the current game version.",
-              "Compare this separately: Grade, trait, mutation, and level are separate considerations.",
-              "Before acting, account for this point: Equip Best is a starting check rather than a permanent ranking."
-            ]
+            "text": "Grade, trait, mutation, and level are separate considerations."
           }
         ]
       },
@@ -925,15 +690,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Equip Best is a starting check rather than a permanent ranking."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Grade, trait, mutation, and level are separate considerations.",
-              "Equip Best is a starting check rather than a permanent ranking."
-            ]
+            "text": "Equip Best is a starting check rather than a permanent ranking."
           }
         ]
       },
@@ -966,42 +723,19 @@ export const EN_ARTICLE_COPY = {
             "body": "A universal permanent ranking is not confirmed, so no unsupported combat order is published."
           }
         ]
-      },
-      {
-        "id": "tier-list-decision-record",
-        "title": "Tier List — A complete unit comparison",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: A useful ranking depends on the current game version. Grade, trait, mutation, and level are separate considerations. Equip Best is a starting check rather than a permanent ranking."
-          },
-          {
-            "type": "paragraph",
-            "text": "A universal permanent ranking is not confirmed, so no unsupported combat order is published."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "A useful ranking depends on the current game version.",
-              "Grade, trait, mutation, and level are separate considerations.",
-              "Equip Best is a starting check rather than a permanent ranking."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Which properties belong in a Tier List comparison?",
-        "answer": "A useful ranking depends on the current game version. Grade, trait, mutation, and level are separate considerations. Equip Best is a starting check rather than a permanent ranking."
+        "question": "What does the supplied evidence confirm about Anime Dice Tier List Guide?",
+        "answer": "A useful ranking depends on the current game version."
       },
       {
-        "question": "What should be protected before selling a Tier List result?",
+        "question": "Which two checks should be read together for Anime Dice Tier List Guide?",
         "answer": "Grade, trait, mutation, and level are separate considerations. Equip Best is a starting check rather than a permanent ranking."
       },
       {
-        "question": "Which Tier List values are not established here?",
+        "question": "What remains unconfirmed about Anime Dice Tier List Guide?",
         "answer": "A universal permanent ranking is not confirmed, so no unsupported combat order is published."
       }
     ],
@@ -1017,8 +751,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Units Guide",
     "description": "Understand Anime Dice units with a focused reference for rolling, keeping, equipping, and improving characters, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice units page focuses on rolling, keeping, equipping, and improving characters. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Characters are obtained through the roll loop. Keeper units deserve resources before temporary results. Unit availability and balance can change; confirm the current roster in game."
+      "This Anime Dice units page focuses on rolling, keeping, equipping, and improving characters. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -1037,17 +770,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Keeper units deserve resources before temporary results. Offline earnings are identified by the official game description."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to rolling, keeping, equipping, and improving characters.",
-              "Start with this documented point: Characters are obtained through the roll loop.",
-              "Compare this separately: Keeper units deserve resources before temporary results.",
-              "Before acting, account for this point: Offline earnings are identified by the official game description."
-            ]
+            "text": "Keeper units deserve resources before temporary results."
           }
         ]
       },
@@ -1057,15 +780,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Offline earnings are identified by the official game description."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Keeper units deserve resources before temporary results.",
-              "Offline earnings are identified by the official game description."
-            ]
+            "text": "Offline earnings are identified by the official game description."
           }
         ]
       },
@@ -1080,42 +795,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Unit availability and balance can change; confirm the current roster in game."
           }
         ]
-      },
-      {
-        "id": "units-decision-record",
-        "title": "Units — A complete unit comparison",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Characters are obtained through the roll loop. Keeper units deserve resources before temporary results. Offline earnings are identified by the official game description."
-          },
-          {
-            "type": "paragraph",
-            "text": "Unit availability and balance can change; confirm the current roster in game."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Characters are obtained through the roll loop.",
-              "Keeper units deserve resources before temporary results.",
-              "Offline earnings are identified by the official game description."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Which properties belong in a Units comparison?",
-        "answer": "Characters are obtained through the roll loop. Keeper units deserve resources before temporary results. Offline earnings are identified by the official game description."
+        "question": "What does the supplied evidence confirm about Anime Dice Units Guide?",
+        "answer": "Characters are obtained through the roll loop."
       },
       {
-        "question": "What should be protected before selling a Units result?",
+        "question": "Which two checks should be read together for Anime Dice Units Guide?",
         "answer": "Keeper units deserve resources before temporary results. Offline earnings are identified by the official game description."
       },
       {
-        "question": "Which Units values are not established here?",
+        "question": "What remains unconfirmed about Anime Dice Units Guide?",
         "answer": "Unit availability and balance can change; confirm the current roster in game."
       }
     ],
@@ -1131,8 +823,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Traits Guide",
     "description": "Understand Anime Dice traits with a focused reference for evaluating traits without confusing them with grades or mutations, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice traits page focuses on evaluating traits without confusing them with grades or mutations. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Traits are a separate unit property. Trait Rerolls are named by the confirmed UPDATE6 reward. Exact trait effects and rankings are not confirmed for every current version."
+      "This Anime Dice traits page focuses on evaluating traits without confusing them with grades or mutations. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -1151,17 +842,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Trait Rerolls are named by the confirmed UPDATE6 reward. A trait should be evaluated with the unit it belongs to."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to evaluating traits without confusing them with grades or mutations.",
-              "Start with this documented point: Traits are a separate unit property.",
-              "Compare this separately: Trait Rerolls are named by the confirmed UPDATE6 reward.",
-              "Before acting, account for this point: A trait should be evaluated with the unit it belongs to."
-            ]
+            "text": "Trait Rerolls are named by the confirmed UPDATE6 reward."
           }
         ]
       },
@@ -1171,15 +852,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: A trait should be evaluated with the unit it belongs to."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Trait Rerolls are named by the confirmed UPDATE6 reward.",
-              "A trait should be evaluated with the unit it belongs to."
-            ]
+            "text": "A trait should be evaluated with the unit it belongs to."
           }
         ]
       },
@@ -1235,42 +908,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Exact trait effects and rankings are not confirmed for every current version."
           }
         ]
-      },
-      {
-        "id": "traits-decision-record",
-        "title": "Traits — A complete unit comparison",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Traits are a separate unit property. Trait Rerolls are named by the confirmed UPDATE6 reward. A trait should be evaluated with the unit it belongs to."
-          },
-          {
-            "type": "paragraph",
-            "text": "Exact trait effects and rankings are not confirmed for every current version."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Traits are a separate unit property.",
-              "Trait Rerolls are named by the confirmed UPDATE6 reward.",
-              "A trait should be evaluated with the unit it belongs to."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Which properties belong in a Traits comparison?",
-        "answer": "Traits are a separate unit property. Trait Rerolls are named by the confirmed UPDATE6 reward. A trait should be evaluated with the unit it belongs to."
+        "question": "What does the supplied evidence confirm about Anime Dice Traits Guide?",
+        "answer": "Traits are a separate unit property."
       },
       {
-        "question": "What should be protected before selling a Traits result?",
+        "question": "Which two checks should be read together for Anime Dice Traits Guide?",
         "answer": "Trait Rerolls are named by the confirmed UPDATE6 reward. A trait should be evaluated with the unit it belongs to."
       },
       {
-        "question": "Which Traits values are not established here?",
+        "question": "What remains unconfirmed about Anime Dice Traits Guide?",
         "answer": "Exact trait effects and rankings are not confirmed for every current version."
       }
     ],
@@ -1291,8 +941,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Mutation Guide",
     "description": "Understand Anime Dice mutation with a focused reference for recognizing mutation as a separate character property, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice mutation page focuses on recognizing mutation as a separate character property. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Mutations are part of the documented character loop. Mutation, grade, and trait are separate labels. Exact mutation odds and a complete live mutation list are not confirmed."
+      "This Anime Dice mutation page focuses on recognizing mutation as a separate character property. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -1311,17 +960,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Mutation, grade, and trait are separate labels. A mutated result should be reviewed before selling."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to recognizing mutation as a separate character property.",
-              "Start with this documented point: Mutations are part of the documented character loop.",
-              "Compare this separately: Mutation, grade, and trait are separate labels.",
-              "Before acting, account for this point: A mutated result should be reviewed before selling."
-            ]
+            "text": "Mutation, grade, and trait are separate labels."
           }
         ]
       },
@@ -1331,15 +970,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: A mutated result should be reviewed before selling."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Mutation, grade, and trait are separate labels.",
-              "A mutated result should be reviewed before selling."
-            ]
+            "text": "A mutated result should be reviewed before selling."
           }
         ]
       },
@@ -1354,42 +985,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Exact mutation odds and a complete live mutation list are not confirmed."
           }
         ]
-      },
-      {
-        "id": "mutation-decision-record",
-        "title": "Mutation — A complete unit comparison",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Mutations are part of the documented character loop. Mutation, grade, and trait are separate labels. A mutated result should be reviewed before selling."
-          },
-          {
-            "type": "paragraph",
-            "text": "Exact mutation odds and a complete live mutation list are not confirmed."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Mutations are part of the documented character loop.",
-              "Mutation, grade, and trait are separate labels.",
-              "A mutated result should be reviewed before selling."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Which properties belong in a Mutation comparison?",
-        "answer": "Mutations are part of the documented character loop. Mutation, grade, and trait are separate labels. A mutated result should be reviewed before selling."
+        "question": "What does the supplied evidence confirm about Anime Dice Mutation Guide?",
+        "answer": "Mutations are part of the documented character loop."
       },
       {
-        "question": "What should be protected before selling a Mutation result?",
+        "question": "Which two checks should be read together for Anime Dice Mutation Guide?",
         "answer": "Mutation, grade, and trait are separate labels. A mutated result should be reviewed before selling."
       },
       {
-        "question": "Which Mutation values are not established here?",
+        "question": "What remains unconfirmed about Anime Dice Mutation Guide?",
         "answer": "Exact mutation odds and a complete live mutation list are not confirmed."
       }
     ],
@@ -1405,8 +1013,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Rarity Guide",
     "description": "Understand Anime Dice rarity with a focused reference for comparing roll rarity with the rest of a unit, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice rarity page focuses on comparing roll rarity with the rest of a unit. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Rarity helps describe a roll result. Rarity does not replace grade, trait, mutation, or level checks. Exact roll probabilities are not confirmed by the supplied references."
+      "This Anime Dice rarity page focuses on comparing roll rarity with the rest of a unit. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -1425,17 +1032,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Rarity does not replace grade, trait, mutation, or level checks. Luck belongs to progression rather than being a unit rarity."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to comparing roll rarity with the rest of a unit.",
-              "Start with this documented point: Rarity helps describe a roll result.",
-              "Compare this separately: Rarity does not replace grade, trait, mutation, or level checks.",
-              "Before acting, account for this point: Luck belongs to progression rather than being a unit rarity."
-            ]
+            "text": "Rarity does not replace grade, trait, mutation, or level checks."
           }
         ]
       },
@@ -1445,15 +1042,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Luck belongs to progression rather than being a unit rarity."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Rarity does not replace grade, trait, mutation, or level checks.",
-              "Luck belongs to progression rather than being a unit rarity."
-            ]
+            "text": "Luck belongs to progression rather than being a unit rarity."
           }
         ]
       },
@@ -1468,42 +1057,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Exact roll probabilities are not confirmed by the supplied references."
           }
         ]
-      },
-      {
-        "id": "rarity-decision-record",
-        "title": "Rarity — A complete unit comparison",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Rarity helps describe a roll result. Rarity does not replace grade, trait, mutation, or level checks. Luck belongs to progression rather than being a unit rarity."
-          },
-          {
-            "type": "paragraph",
-            "text": "Exact roll probabilities are not confirmed by the supplied references."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Rarity helps describe a roll result.",
-              "Rarity does not replace grade, trait, mutation, or level checks.",
-              "Luck belongs to progression rather than being a unit rarity."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Which properties belong in a Rarity comparison?",
-        "answer": "Rarity helps describe a roll result. Rarity does not replace grade, trait, mutation, or level checks. Luck belongs to progression rather than being a unit rarity."
+        "question": "What does the supplied evidence confirm about Anime Dice Rarity Guide?",
+        "answer": "Rarity helps describe a roll result."
       },
       {
-        "question": "What should be protected before selling a Rarity result?",
+        "question": "Which two checks should be read together for Anime Dice Rarity Guide?",
         "answer": "Rarity does not replace grade, trait, mutation, or level checks. Luck belongs to progression rather than being a unit rarity."
       },
       {
-        "question": "Which Rarity values are not established here?",
+        "question": "What remains unconfirmed about Anime Dice Rarity Guide?",
         "answer": "Exact roll probabilities are not confirmed by the supplied references."
       }
     ],
@@ -1519,8 +1085,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Grades Guide",
     "description": "Understand Anime Dice grades with a focused reference for checking unit grades independently from traits, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice grades page focuses on checking unit grades independently from traits. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Grades are separate from traits and mutations. A grade should be read alongside the underlying unit. A complete current grade table and exact modifiers are not confirmed."
+      "This Anime Dice grades page focuses on checking unit grades independently from traits. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -1539,17 +1104,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: A grade should be read alongside the underlying unit. Keep uncertain results until they have been compared."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to checking unit grades independently from traits.",
-              "Start with this documented point: Grades are separate from traits and mutations.",
-              "Compare this separately: A grade should be read alongside the underlying unit.",
-              "Before acting, account for this point: Keep uncertain results until they have been compared."
-            ]
+            "text": "A grade should be read alongside the underlying unit."
           }
         ]
       },
@@ -1559,15 +1114,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Keep uncertain results until they have been compared."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "A grade should be read alongside the underlying unit.",
-              "Keep uncertain results until they have been compared."
-            ]
+            "text": "Keep uncertain results until they have been compared."
           }
         ]
       },
@@ -1582,42 +1129,19 @@ export const EN_ARTICLE_COPY = {
             "body": "A complete current grade table and exact modifiers are not confirmed."
           }
         ]
-      },
-      {
-        "id": "grades-decision-record",
-        "title": "Grades — A complete unit comparison",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Grades are separate from traits and mutations. A grade should be read alongside the underlying unit. Keep uncertain results until they have been compared."
-          },
-          {
-            "type": "paragraph",
-            "text": "A complete current grade table and exact modifiers are not confirmed."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Grades are separate from traits and mutations.",
-              "A grade should be read alongside the underlying unit.",
-              "Keep uncertain results until they have been compared."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Which properties belong in a Grades comparison?",
-        "answer": "Grades are separate from traits and mutations. A grade should be read alongside the underlying unit. Keep uncertain results until they have been compared."
+        "question": "What does the supplied evidence confirm about Anime Dice Grades Guide?",
+        "answer": "Grades are separate from traits and mutations."
       },
       {
-        "question": "What should be protected before selling a Grades result?",
+        "question": "Which two checks should be read together for Anime Dice Grades Guide?",
         "answer": "A grade should be read alongside the underlying unit. Keep uncertain results until they have been compared."
       },
       {
-        "question": "Which Grades values are not established here?",
+        "question": "What remains unconfirmed about Anime Dice Grades Guide?",
         "answer": "A complete current grade table and exact modifiers are not confirmed."
       }
     ],
@@ -1633,8 +1157,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Max Level Guide",
     "description": "Understand Anime Dice max level with a focused reference for planning unit investment without inventing a cap, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice max level page focuses on planning unit investment without inventing a cap. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Leveling resources are best focused on keeper units. Level, grade, trait, and mutation remain separate. One universal maximum level is not confirmed by the supplied references."
+      "This Anime Dice max level page focuses on planning unit investment without inventing a cap. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -1653,17 +1176,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Level, grade, trait, and mutation remain separate. A stronger roll can change which unit deserves investment."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to planning unit investment without inventing a cap.",
-              "Start with this documented point: Leveling resources are best focused on keeper units.",
-              "Compare this separately: Level, grade, trait, and mutation remain separate.",
-              "Before acting, account for this point: A stronger roll can change which unit deserves investment."
-            ]
+            "text": "Level, grade, trait, and mutation remain separate."
           }
         ]
       },
@@ -1673,15 +1186,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: A stronger roll can change which unit deserves investment."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Level, grade, trait, and mutation remain separate.",
-              "A stronger roll can change which unit deserves investment."
-            ]
+            "text": "A stronger roll can change which unit deserves investment."
           }
         ]
       },
@@ -1696,42 +1201,19 @@ export const EN_ARTICLE_COPY = {
             "body": "One universal maximum level is not confirmed by the supplied references."
           }
         ]
-      },
-      {
-        "id": "max-level-decision-record",
-        "title": "Max Level — A complete unit comparison",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Leveling resources are best focused on keeper units. Level, grade, trait, and mutation remain separate. A stronger roll can change which unit deserves investment."
-          },
-          {
-            "type": "paragraph",
-            "text": "One universal maximum level is not confirmed by the supplied references."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Leveling resources are best focused on keeper units.",
-              "Level, grade, trait, and mutation remain separate.",
-              "A stronger roll can change which unit deserves investment."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Which properties belong in a Max Level comparison?",
-        "answer": "Leveling resources are best focused on keeper units. Level, grade, trait, and mutation remain separate. A stronger roll can change which unit deserves investment."
+        "question": "What does the supplied evidence confirm about Anime Dice Max Level Guide?",
+        "answer": "Leveling resources are best focused on keeper units."
       },
       {
-        "question": "What should be protected before selling a Max Level result?",
+        "question": "Which two checks should be read together for Anime Dice Max Level Guide?",
         "answer": "Level, grade, trait, and mutation remain separate. A stronger roll can change which unit deserves investment."
       },
       {
-        "question": "Which Max Level values are not established here?",
+        "question": "What remains unconfirmed about Anime Dice Max Level Guide?",
         "answer": "One universal maximum level is not confirmed by the supplied references."
       }
     ],
@@ -1747,8 +1229,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Luck Guide",
     "description": "Understand Anime Dice luck with a focused reference for prioritizing Luck as part of early progression, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice luck page focuses on prioritizing Luck as part of early progression. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Luck is a practical early upgrade priority. Money and Luck can be improved before Roll Speed. Exact probabilities at each Luck value are not confirmed."
+      "This Anime Dice luck page focuses on prioritizing Luck as part of early progression. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -1767,17 +1248,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Money and Luck can be improved before Roll Speed. Luck does not guarantee a particular roll."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to prioritizing Luck as part of early progression.",
-              "Start with this documented point: Luck is a practical early upgrade priority.",
-              "Compare this separately: Money and Luck can be improved before Roll Speed.",
-              "Before acting, account for this point: Luck does not guarantee a particular roll."
-            ]
+            "text": "Money and Luck can be improved before Roll Speed."
           }
         ]
       },
@@ -1787,15 +1258,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Luck does not guarantee a particular roll."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Money and Luck can be improved before Roll Speed.",
-              "Luck does not guarantee a particular roll."
-            ]
+            "text": "Luck does not guarantee a particular roll."
           }
         ]
       },
@@ -1857,42 +1320,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Exact probabilities at each Luck value are not confirmed."
           }
         ]
-      },
-      {
-        "id": "luck-decision-record",
-        "title": "Luck — A resource decision record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Luck is a practical early upgrade priority. Money and Luck can be improved before Roll Speed. Luck does not guarantee a particular roll."
-          },
-          {
-            "type": "paragraph",
-            "text": "Exact probabilities at each Luck value are not confirmed."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Luck is a practical early upgrade priority.",
-              "Money and Luck can be improved before Roll Speed.",
-              "Luck does not guarantee a particular roll."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What should be recorded before using Luck?",
-        "answer": "Luck is a practical early upgrade priority. Money and Luck can be improved before Roll Speed. Luck does not guarantee a particular roll."
+        "question": "What does the supplied evidence confirm about Anime Dice Luck Guide?",
+        "answer": "Luck is a practical early upgrade priority."
       },
       {
-        "question": "How does Luck connect to the next upgrade goal?",
+        "question": "Which two checks should be read together for Anime Dice Luck Guide?",
         "answer": "Money and Luck can be improved before Roll Speed. Luck does not guarantee a particular roll."
       },
       {
-        "question": "Which Luck values still require the live panel?",
+        "question": "What remains unconfirmed about Anime Dice Luck Guide?",
         "answer": "Exact probabilities at each Luck value are not confirmed."
       }
     ],
@@ -1913,8 +1353,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Max Luck Guide",
     "description": "Understand Anime Dice max luck with a focused reference for tracking upgrade limits without publishing an unsupported cap, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice max luck page focuses on tracking upgrade limits without publishing an unsupported cap. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Luck is an upgrade priority in the supplied progression guide. Rebirth and other systems can affect long-term progression. A permanent universal maximum Luck value is not confirmed."
+      "This Anime Dice max luck page focuses on tracking upgrade limits without publishing an unsupported cap. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -1933,17 +1372,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Rebirth and other systems can affect long-term progression. Current upgrade panels are the authority for available steps."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to tracking upgrade limits without publishing an unsupported cap.",
-              "Start with this documented point: Luck is an upgrade priority in the supplied progression guide.",
-              "Compare this separately: Rebirth and other systems can affect long-term progression.",
-              "Before acting, account for this point: Current upgrade panels are the authority for available steps."
-            ]
+            "text": "Rebirth and other systems can affect long-term progression."
           }
         ]
       },
@@ -1953,15 +1382,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Current upgrade panels are the authority for available steps."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Rebirth and other systems can affect long-term progression.",
-              "Current upgrade panels are the authority for available steps."
-            ]
+            "text": "Current upgrade panels are the authority for available steps."
           }
         ]
       },
@@ -1976,42 +1397,19 @@ export const EN_ARTICLE_COPY = {
             "body": "A permanent universal maximum Luck value is not confirmed."
           }
         ]
-      },
-      {
-        "id": "max-luck-decision-record",
-        "title": "Max Luck — A resource decision record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Luck is an upgrade priority in the supplied progression guide. Rebirth and other systems can affect long-term progression. Current upgrade panels are the authority for available steps."
-          },
-          {
-            "type": "paragraph",
-            "text": "A permanent universal maximum Luck value is not confirmed."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Luck is an upgrade priority in the supplied progression guide.",
-              "Rebirth and other systems can affect long-term progression.",
-              "Current upgrade panels are the authority for available steps."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What should be recorded before using Max Luck?",
-        "answer": "Luck is an upgrade priority in the supplied progression guide. Rebirth and other systems can affect long-term progression. Current upgrade panels are the authority for available steps."
+        "question": "What does the supplied evidence confirm about Anime Dice Max Luck Guide?",
+        "answer": "Luck is an upgrade priority in the supplied progression guide."
       },
       {
-        "question": "How does Max Luck connect to the next upgrade goal?",
+        "question": "Which two checks should be read together for Anime Dice Max Luck Guide?",
         "answer": "Rebirth and other systems can affect long-term progression. Current upgrade panels are the authority for available steps."
       },
       {
-        "question": "Which Max Luck values still require the live panel?",
+        "question": "What remains unconfirmed about Anime Dice Max Luck Guide?",
         "answer": "A permanent universal maximum Luck value is not confirmed."
       }
     ],
@@ -2027,8 +1425,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Gems Guide",
     "description": "Understand Anime Dice gems with a focused reference for protecting and spending a named progression resource, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice gems page focuses on protecting and spending a named progression resource. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Gems are included in the documented UPDATE6 rewards. The group chest may provide gems according to the supplied guide. Current prices, offers, and best purchases are not confirmed and can change."
+      "This Anime Dice gems page focuses on protecting and spending a named progression resource. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -2047,17 +1444,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: The group chest may provide gems according to the supplied guide. Resources should be reserved for deliberate progression choices."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to protecting and spending a named progression resource.",
-              "Start with this documented point: Gems are included in the documented UPDATE6 rewards.",
-              "Compare this separately: The group chest may provide gems according to the supplied guide.",
-              "Before acting, account for this point: Resources should be reserved for deliberate progression choices."
-            ]
+            "text": "The group chest may provide gems according to the supplied guide."
           }
         ]
       },
@@ -2067,15 +1454,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Resources should be reserved for deliberate progression choices."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "The group chest may provide gems according to the supplied guide.",
-              "Resources should be reserved for deliberate progression choices."
-            ]
+            "text": "Resources should be reserved for deliberate progression choices."
           }
         ]
       },
@@ -2090,42 +1469,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Current prices, offers, and best purchases are not confirmed and can change."
           }
         ]
-      },
-      {
-        "id": "gems-decision-record",
-        "title": "Gems — A resource decision record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Gems are included in the documented UPDATE6 rewards. The group chest may provide gems according to the supplied guide. Resources should be reserved for deliberate progression choices."
-          },
-          {
-            "type": "paragraph",
-            "text": "Current prices, offers, and best purchases are not confirmed and can change."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Gems are included in the documented UPDATE6 rewards.",
-              "The group chest may provide gems according to the supplied guide.",
-              "Resources should be reserved for deliberate progression choices."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What should be recorded before using Gems?",
-        "answer": "Gems are included in the documented UPDATE6 rewards. The group chest may provide gems according to the supplied guide. Resources should be reserved for deliberate progression choices."
+        "question": "What does the supplied evidence confirm about Anime Dice Gems Guide?",
+        "answer": "Gems are included in the documented UPDATE6 rewards."
       },
       {
-        "question": "How does Gems connect to the next upgrade goal?",
+        "question": "Which two checks should be read together for Anime Dice Gems Guide?",
         "answer": "The group chest may provide gems according to the supplied guide. Resources should be reserved for deliberate progression choices."
       },
       {
-        "question": "Which Gems values still require the live panel?",
+        "question": "What remains unconfirmed about Anime Dice Gems Guide?",
         "answer": "Current prices, offers, and best purchases are not confirmed and can change."
       }
     ],
@@ -2141,8 +1497,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Jackpot Roll Guide",
     "description": "Understand Anime Dice jackpot roll with a focused reference for checking the in-game roll feature without claiming odds, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice jackpot roll page focuses on checking the in-game roll feature without claiming odds. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Jackpot Roll is treated as a progression search intent. Luck and normal rolling remain distinct considerations. Activation requirements, rewards, and exact odds are not confirmed."
+      "This Anime Dice jackpot roll page focuses on checking the in-game roll feature without claiming odds. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -2161,17 +1516,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Luck and normal rolling remain distinct considerations. The current interface should be checked before spending resources."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to checking the in-game roll feature without claiming odds.",
-              "Start with this documented point: Jackpot Roll is treated as a progression search intent.",
-              "Compare this separately: Luck and normal rolling remain distinct considerations.",
-              "Before acting, account for this point: The current interface should be checked before spending resources."
-            ]
+            "text": "Luck and normal rolling remain distinct considerations."
           }
         ]
       },
@@ -2181,15 +1526,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: The current interface should be checked before spending resources."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Luck and normal rolling remain distinct considerations.",
-              "The current interface should be checked before spending resources."
-            ]
+            "text": "The current interface should be checked before spending resources."
           }
         ]
       },
@@ -2204,42 +1541,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Activation requirements, rewards, and exact odds are not confirmed."
           }
         ]
-      },
-      {
-        "id": "jackpot-roll-decision-record",
-        "title": "Jackpot Roll — A resource decision record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Jackpot Roll is treated as a progression search intent. Luck and normal rolling remain distinct considerations. The current interface should be checked before spending resources."
-          },
-          {
-            "type": "paragraph",
-            "text": "Activation requirements, rewards, and exact odds are not confirmed."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Jackpot Roll is treated as a progression search intent.",
-              "Luck and normal rolling remain distinct considerations.",
-              "The current interface should be checked before spending resources."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What should be recorded before using Jackpot Roll?",
-        "answer": "Jackpot Roll is treated as a progression search intent. Luck and normal rolling remain distinct considerations. The current interface should be checked before spending resources."
+        "question": "What does the supplied evidence confirm about Anime Dice Jackpot Roll Guide?",
+        "answer": "Jackpot Roll is treated as a progression search intent."
       },
       {
-        "question": "How does Jackpot Roll connect to the next upgrade goal?",
+        "question": "Which two checks should be read together for Anime Dice Jackpot Roll Guide?",
         "answer": "Luck and normal rolling remain distinct considerations. The current interface should be checked before spending resources."
       },
       {
-        "question": "Which Jackpot Roll values still require the live panel?",
+        "question": "What remains unconfirmed about Anime Dice Jackpot Roll Guide?",
         "answer": "Activation requirements, rewards, and exact odds are not confirmed."
       }
     ],
@@ -2255,8 +1569,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Lucky Spin Guide",
     "description": "Understand Anime Dice lucky spin with a focused reference for handling Lucky Spins as a limited resource, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice lucky spin page focuses on handling Lucky Spins as a limited resource. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Lucky Spins are named in the documented UPDATE6 reward. The group chest may provide spins. Exact outcomes, odds, and current availability are not confirmed."
+      "This Anime Dice lucky spin page focuses on handling Lucky Spins as a limited resource. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -2275,17 +1588,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: The group chest may provide spins. A spin result should be reviewed before selling units."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to handling Lucky Spins as a limited resource.",
-              "Start with this documented point: Lucky Spins are named in the documented UPDATE6 reward.",
-              "Compare this separately: The group chest may provide spins.",
-              "Before acting, account for this point: A spin result should be reviewed before selling units."
-            ]
+            "text": "The group chest may provide spins."
           }
         ]
       },
@@ -2295,15 +1598,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: A spin result should be reviewed before selling units."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "The group chest may provide spins.",
-              "A spin result should be reviewed before selling units."
-            ]
+            "text": "A spin result should be reviewed before selling units."
           }
         ]
       },
@@ -2318,42 +1613,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Exact outcomes, odds, and current availability are not confirmed."
           }
         ]
-      },
-      {
-        "id": "lucky-spin-decision-record",
-        "title": "Lucky Spin — A resource decision record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Lucky Spins are named in the documented UPDATE6 reward. The group chest may provide spins. A spin result should be reviewed before selling units."
-          },
-          {
-            "type": "paragraph",
-            "text": "Exact outcomes, odds, and current availability are not confirmed."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Lucky Spins are named in the documented UPDATE6 reward.",
-              "The group chest may provide spins.",
-              "A spin result should be reviewed before selling units."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What should be recorded before using Lucky Spin?",
-        "answer": "Lucky Spins are named in the documented UPDATE6 reward. The group chest may provide spins. A spin result should be reviewed before selling units."
+        "question": "What does the supplied evidence confirm about Anime Dice Lucky Spin Guide?",
+        "answer": "Lucky Spins are named in the documented UPDATE6 reward."
       },
       {
-        "question": "How does Lucky Spin connect to the next upgrade goal?",
+        "question": "Which two checks should be read together for Anime Dice Lucky Spin Guide?",
         "answer": "The group chest may provide spins. A spin result should be reviewed before selling units."
       },
       {
-        "question": "Which Lucky Spin values still require the live panel?",
+        "question": "What remains unconfirmed about Anime Dice Lucky Spin Guide?",
         "answer": "Exact outcomes, odds, and current availability are not confirmed."
       }
     ],
@@ -2369,8 +1641,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Rebirth Guide",
     "description": "Understand Anime Dice rebirth with a focused reference for preparing for a long-term progression reset, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice rebirth page focuses on preparing for a long-term progression reset. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Rebirth belongs to long-term progression. Update 7 is documented as adding six rebirth upgrade paths. Exact costs and reset effects for every step are not confirmed here."
+      "This Anime Dice rebirth page focuses on preparing for a long-term progression reset. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -2389,17 +1660,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Update 7 is documented as adding six rebirth upgrade paths. A reset decision should be checked against the current interface."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to preparing for a long-term progression reset.",
-              "Start with this documented point: Rebirth belongs to long-term progression.",
-              "Compare this separately: Update 7 is documented as adding six rebirth upgrade paths.",
-              "Before acting, account for this point: A reset decision should be checked against the current interface."
-            ]
+            "text": "Update 7 is documented as adding six rebirth upgrade paths."
           }
         ]
       },
@@ -2409,15 +1670,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: A reset decision should be checked against the current interface."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Update 7 is documented as adding six rebirth upgrade paths.",
-              "A reset decision should be checked against the current interface."
-            ]
+            "text": "A reset decision should be checked against the current interface."
           }
         ]
       },
@@ -2449,42 +1702,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Exact costs and reset effects for every step are not confirmed here."
           }
         ]
-      },
-      {
-        "id": "rebirth-decision-record",
-        "title": "Rebirth — A resource decision record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Rebirth belongs to long-term progression. Update 7 is documented as adding six rebirth upgrade paths. A reset decision should be checked against the current interface."
-          },
-          {
-            "type": "paragraph",
-            "text": "Exact costs and reset effects for every step are not confirmed here."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Rebirth belongs to long-term progression.",
-              "Update 7 is documented as adding six rebirth upgrade paths.",
-              "A reset decision should be checked against the current interface."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What should be recorded before using Rebirth?",
-        "answer": "Rebirth belongs to long-term progression. Update 7 is documented as adding six rebirth upgrade paths. A reset decision should be checked against the current interface."
+        "question": "What does the supplied evidence confirm about Anime Dice Rebirth Guide?",
+        "answer": "Rebirth belongs to long-term progression."
       },
       {
-        "question": "How does Rebirth connect to the next upgrade goal?",
+        "question": "Which two checks should be read together for Anime Dice Rebirth Guide?",
         "answer": "Update 7 is documented as adding six rebirth upgrade paths. A reset decision should be checked against the current interface."
       },
       {
-        "question": "Which Rebirth values still require the live panel?",
+        "question": "What remains unconfirmed about Anime Dice Rebirth Guide?",
         "answer": "Exact costs and reset effects for every step are not confirmed here."
       }
     ],
@@ -2505,8 +1735,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Max Rebirth Guide",
     "description": "Understand Anime Dice max rebirth with a focused reference for checking rebirth limits without inventing a final cap, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice max rebirth page focuses on checking rebirth limits without inventing a final cap. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Update 7 is documented as adding six rebirth upgrade paths. A path count is not the same as a universal rebirth cap. A permanent maximum rebirth number is not confirmed."
+      "This Anime Dice max rebirth page focuses on checking rebirth limits without inventing a final cap. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -2525,17 +1754,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: A path count is not the same as a universal rebirth cap. The current game panel should be used for limits."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to checking rebirth limits without inventing a final cap.",
-              "Start with this documented point: Update 7 is documented as adding six rebirth upgrade paths.",
-              "Compare this separately: A path count is not the same as a universal rebirth cap.",
-              "Before acting, account for this point: The current game panel should be used for limits."
-            ]
+            "text": "A path count is not the same as a universal rebirth cap."
           }
         ]
       },
@@ -2545,15 +1764,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: The current game panel should be used for limits."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "A path count is not the same as a universal rebirth cap.",
-              "The current game panel should be used for limits."
-            ]
+            "text": "The current game panel should be used for limits."
           }
         ]
       },
@@ -2568,42 +1779,19 @@ export const EN_ARTICLE_COPY = {
             "body": "A permanent maximum rebirth number is not confirmed."
           }
         ]
-      },
-      {
-        "id": "max-rebirth-decision-record",
-        "title": "Max Rebirth — A resource decision record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Update 7 is documented as adding six rebirth upgrade paths. A path count is not the same as a universal rebirth cap. The current game panel should be used for limits."
-          },
-          {
-            "type": "paragraph",
-            "text": "A permanent maximum rebirth number is not confirmed."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Update 7 is documented as adding six rebirth upgrade paths.",
-              "A path count is not the same as a universal rebirth cap.",
-              "The current game panel should be used for limits."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What should be recorded before using Max Rebirth?",
-        "answer": "Update 7 is documented as adding six rebirth upgrade paths. A path count is not the same as a universal rebirth cap. The current game panel should be used for limits."
+        "question": "What does the supplied evidence confirm about Anime Dice Max Rebirth Guide?",
+        "answer": "Update 7 is documented as adding six rebirth upgrade paths."
       },
       {
-        "question": "How does Max Rebirth connect to the next upgrade goal?",
+        "question": "Which two checks should be read together for Anime Dice Max Rebirth Guide?",
         "answer": "A path count is not the same as a universal rebirth cap. The current game panel should be used for limits."
       },
       {
-        "question": "Which Max Rebirth values still require the live panel?",
+        "question": "What remains unconfirmed about Anime Dice Max Rebirth Guide?",
         "answer": "A permanent maximum rebirth number is not confirmed."
       }
     ],
@@ -2619,8 +1807,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Quest Shop Guide",
     "description": "Understand Anime Dice quest shop with a focused reference for evaluating current quest rewards and purchases, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice quest shop page focuses on evaluating current quest rewards and purchases. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Quest progress and shop choices should be checked in game. Gems, Tickets, and spins are separate named resources. Live inventory, prices, and refresh timing are not confirmed."
+      "This Anime Dice quest shop page focuses on evaluating current quest rewards and purchases. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -2639,17 +1826,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Gems, Tickets, and spins are separate named resources. Prioritize purchases that support the current team plan."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to evaluating current quest rewards and purchases.",
-              "Start with this documented point: Quest progress and shop choices should be checked in game.",
-              "Compare this separately: Gems, Tickets, and spins are separate named resources.",
-              "Before acting, account for this point: Prioritize purchases that support the current team plan."
-            ]
+            "text": "Gems, Tickets, and spins are separate named resources."
           }
         ]
       },
@@ -2659,15 +1836,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Prioritize purchases that support the current team plan."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Gems, Tickets, and spins are separate named resources.",
-              "Prioritize purchases that support the current team plan."
-            ]
+            "text": "Prioritize purchases that support the current team plan."
           }
         ]
       },
@@ -2682,42 +1851,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Live inventory, prices, and refresh timing are not confirmed."
           }
         ]
-      },
-      {
-        "id": "quest-shop-decision-record",
-        "title": "Quest Shop — A resource decision record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Quest progress and shop choices should be checked in game. Gems, Tickets, and spins are separate named resources. Prioritize purchases that support the current team plan."
-          },
-          {
-            "type": "paragraph",
-            "text": "Live inventory, prices, and refresh timing are not confirmed."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Quest progress and shop choices should be checked in game.",
-              "Gems, Tickets, and spins are separate named resources.",
-              "Prioritize purchases that support the current team plan."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What should be recorded before using Quest Shop?",
-        "answer": "Quest progress and shop choices should be checked in game. Gems, Tickets, and spins are separate named resources. Prioritize purchases that support the current team plan."
+        "question": "What does the supplied evidence confirm about Anime Dice Quest Shop Guide?",
+        "answer": "Quest progress and shop choices should be checked in game."
       },
       {
-        "question": "How does Quest Shop connect to the next upgrade goal?",
+        "question": "Which two checks should be read together for Anime Dice Quest Shop Guide?",
         "answer": "Gems, Tickets, and spins are separate named resources. Prioritize purchases that support the current team plan."
       },
       {
-        "question": "Which Quest Shop values still require the live panel?",
+        "question": "What remains unconfirmed about Anime Dice Quest Shop Guide?",
         "answer": "Live inventory, prices, and refresh timing are not confirmed."
       }
     ],
@@ -2733,8 +1879,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Tower Guide",
     "description": "Understand Anime Dice tower with a focused reference for preparing a team and resources before entering the Tower, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice tower page focuses on preparing a team and resources before entering the Tower. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Review the active team before a run. Gear, potions, and Tickets are separate preparation resources. Current floors, enemies, and reward rotations are not confirmed."
+      "This Anime Dice tower page focuses on preparing a team and resources before entering the Tower. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -2753,17 +1898,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Gear, potions, and Tickets are separate preparation resources. Tower details were reviewed with the supplied progression sources."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to preparing a team and resources before entering the Tower.",
-              "Start with this documented point: Review the active team before a run.",
-              "Compare this separately: Gear, potions, and Tickets are separate preparation resources.",
-              "Before acting, account for this point: Tower details were reviewed with the supplied progression sources."
-            ]
+            "text": "Gear, potions, and Tickets are separate preparation resources."
           }
         ]
       },
@@ -2773,15 +1908,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Tower details were reviewed with the supplied progression sources."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Gear, potions, and Tickets are separate preparation resources.",
-              "Tower details were reviewed with the supplied progression sources."
-            ]
+            "text": "Tower details were reviewed with the supplied progression sources."
           }
         ]
       },
@@ -2813,42 +1940,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Current floors, enemies, and reward rotations are not confirmed."
           }
         ]
-      },
-      {
-        "id": "tower-decision-record",
-        "title": "Tower — A run preparation record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Review the active team before a run. Gear, potions, and Tickets are separate preparation resources. Tower details were reviewed with the supplied progression sources."
-          },
-          {
-            "type": "paragraph",
-            "text": "Current floors, enemies, and reward rotations are not confirmed."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Review the active team before a run.",
-              "Gear, potions, and Tickets are separate preparation resources.",
-              "Tower details were reviewed with the supplied progression sources."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What belongs in a Tower run checklist?",
-        "answer": "Review the active team before a run. Gear, potions, and Tickets are separate preparation resources. Tower details were reviewed with the supplied progression sources."
+        "question": "What does the supplied evidence confirm about Anime Dice Tower Guide?",
+        "answer": "Review the active team before a run."
       },
       {
-        "question": "How should a failed Tower run be reviewed?",
+        "question": "Which two checks should be read together for Anime Dice Tower Guide?",
         "answer": "Gear, potions, and Tickets are separate preparation resources. Tower details were reviewed with the supplied progression sources."
       },
       {
-        "question": "Which Tower rewards are not guaranteed?",
+        "question": "What remains unconfirmed about Anime Dice Tower Guide?",
         "answer": "Current floors, enemies, and reward rotations are not confirmed."
       }
     ],
@@ -2869,8 +1973,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Gear Guide",
     "description": "Understand Anime Dice gear with a focused reference for comparing gear by its documented source and fit, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice gear page focuses on comparing gear by its documented source and fit. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Gear belongs to Tower preparation in the supplied sources. Compare a gear item with the unit and goal it supports. A complete live gear list and exact modifiers are not confirmed."
+      "This Anime Dice gear page focuses on comparing gear by its documented source and fit. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -2889,17 +1992,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Compare a gear item with the unit and goal it supports. Keep acquisition notes tied to reviewed sources."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to comparing gear by its documented source and fit.",
-              "Start with this documented point: Gear belongs to Tower preparation in the supplied sources.",
-              "Compare this separately: Compare a gear item with the unit and goal it supports.",
-              "Before acting, account for this point: Keep acquisition notes tied to reviewed sources."
-            ]
+            "text": "Compare a gear item with the unit and goal it supports."
           }
         ]
       },
@@ -2909,15 +2002,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Keep acquisition notes tied to reviewed sources."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Compare a gear item with the unit and goal it supports.",
-              "Keep acquisition notes tied to reviewed sources."
-            ]
+            "text": "Keep acquisition notes tied to reviewed sources."
           }
         ]
       },
@@ -2967,42 +2052,19 @@ export const EN_ARTICLE_COPY = {
             "body": "A complete live gear list and exact modifiers are not confirmed."
           }
         ]
-      },
-      {
-        "id": "gear-decision-record",
-        "title": "Gear — A run preparation record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Gear belongs to Tower preparation in the supplied sources. Compare a gear item with the unit and goal it supports. Keep acquisition notes tied to reviewed sources."
-          },
-          {
-            "type": "paragraph",
-            "text": "A complete live gear list and exact modifiers are not confirmed."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Gear belongs to Tower preparation in the supplied sources.",
-              "Compare a gear item with the unit and goal it supports.",
-              "Keep acquisition notes tied to reviewed sources."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What belongs in a Gear run checklist?",
-        "answer": "Gear belongs to Tower preparation in the supplied sources. Compare a gear item with the unit and goal it supports. Keep acquisition notes tied to reviewed sources."
+        "question": "What does the supplied evidence confirm about Anime Dice Gear Guide?",
+        "answer": "Gear belongs to Tower preparation in the supplied sources."
       },
       {
-        "question": "How should a failed Gear run be reviewed?",
+        "question": "Which two checks should be read together for Anime Dice Gear Guide?",
         "answer": "Compare a gear item with the unit and goal it supports. Keep acquisition notes tied to reviewed sources."
       },
       {
-        "question": "Which Gear rewards are not guaranteed?",
+        "question": "What remains unconfirmed about Anime Dice Gear Guide?",
         "answer": "A complete live gear list and exact modifiers are not confirmed."
       }
     ],
@@ -3023,8 +2085,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Potion Guide",
     "description": "Understand Anime Dice potion with a focused reference for deciding when a temporary resource supports a run, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice potion page focuses on deciding when a temporary resource supports a run. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Potions are treated as a Tower preparation resource. Check the current item text before use. Live potion inventory, duration, and exact effects are not confirmed."
+      "This Anime Dice potion page focuses on deciding when a temporary resource supports a run. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -3043,17 +2104,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Check the current item text before use. Save limited items for a defined progression goal."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to deciding when a temporary resource supports a run.",
-              "Start with this documented point: Potions are treated as a Tower preparation resource.",
-              "Compare this separately: Check the current item text before use.",
-              "Before acting, account for this point: Save limited items for a defined progression goal."
-            ]
+            "text": "Check the current item text before use."
           }
         ]
       },
@@ -3063,15 +2114,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Save limited items for a defined progression goal."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Check the current item text before use.",
-              "Save limited items for a defined progression goal."
-            ]
+            "text": "Save limited items for a defined progression goal."
           }
         ]
       },
@@ -3086,42 +2129,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Live potion inventory, duration, and exact effects are not confirmed."
           }
         ]
-      },
-      {
-        "id": "potion-decision-record",
-        "title": "Potion — A run preparation record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Potions are treated as a Tower preparation resource. Check the current item text before use. Save limited items for a defined progression goal."
-          },
-          {
-            "type": "paragraph",
-            "text": "Live potion inventory, duration, and exact effects are not confirmed."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Potions are treated as a Tower preparation resource.",
-              "Check the current item text before use.",
-              "Save limited items for a defined progression goal."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What belongs in a Potion run checklist?",
-        "answer": "Potions are treated as a Tower preparation resource. Check the current item text before use. Save limited items for a defined progression goal."
+        "question": "What does the supplied evidence confirm about Anime Dice Potion Guide?",
+        "answer": "Potions are treated as a Tower preparation resource."
       },
       {
-        "question": "How should a failed Potion run be reviewed?",
+        "question": "Which two checks should be read together for Anime Dice Potion Guide?",
         "answer": "Check the current item text before use. Save limited items for a defined progression goal."
       },
       {
-        "question": "Which Potion rewards are not guaranteed?",
+        "question": "What remains unconfirmed about Anime Dice Potion Guide?",
         "answer": "Live potion inventory, duration, and exact effects are not confirmed."
       }
     ],
@@ -3137,8 +2157,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Tickets Guide",
     "description": "Understand Anime Dice tickets with a focused reference for tracking a named resource before Tower or event use, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice tickets page focuses on tracking a named resource before Tower or event use. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Tickets are included in the documented UPDATE6 reward. Ticket use should be checked in the current interface. Current costs, uses, and event availability are not confirmed."
+      "This Anime Dice tickets page focuses on tracking a named resource before Tower or event use. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -3157,17 +2176,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Ticket use should be checked in the current interface. Reviewed sources do not support an unlimited supply claim."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to tracking a named resource before Tower or event use.",
-              "Start with this documented point: Tickets are included in the documented UPDATE6 reward.",
-              "Compare this separately: Ticket use should be checked in the current interface.",
-              "Before acting, account for this point: Reviewed sources do not support an unlimited supply claim."
-            ]
+            "text": "Ticket use should be checked in the current interface."
           }
         ]
       },
@@ -3177,15 +2186,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Reviewed sources do not support an unlimited supply claim."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Ticket use should be checked in the current interface.",
-              "Reviewed sources do not support an unlimited supply claim."
-            ]
+            "text": "Reviewed sources do not support an unlimited supply claim."
           }
         ]
       },
@@ -3200,42 +2201,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Current costs, uses, and event availability are not confirmed."
           }
         ]
-      },
-      {
-        "id": "tickets-decision-record",
-        "title": "Tickets — A run preparation record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Tickets are included in the documented UPDATE6 reward. Ticket use should be checked in the current interface. Reviewed sources do not support an unlimited supply claim."
-          },
-          {
-            "type": "paragraph",
-            "text": "Current costs, uses, and event availability are not confirmed."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Tickets are included in the documented UPDATE6 reward.",
-              "Ticket use should be checked in the current interface.",
-              "Reviewed sources do not support an unlimited supply claim."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What belongs in a Tickets run checklist?",
-        "answer": "Tickets are included in the documented UPDATE6 reward. Ticket use should be checked in the current interface. Reviewed sources do not support an unlimited supply claim."
+        "question": "What does the supplied evidence confirm about Anime Dice Tickets Guide?",
+        "answer": "Tickets are included in the documented UPDATE6 reward."
       },
       {
-        "question": "How should a failed Tickets run be reviewed?",
+        "question": "Which two checks should be read together for Anime Dice Tickets Guide?",
         "answer": "Ticket use should be checked in the current interface. Reviewed sources do not support an unlimited supply claim."
       },
       {
-        "question": "Which Tickets rewards are not guaranteed?",
+        "question": "What remains unconfirmed about Anime Dice Tickets Guide?",
         "answer": "Current costs, uses, and event availability are not confirmed."
       }
     ],
@@ -3251,8 +2229,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Trading Guide",
     "description": "Understand Anime Dice trading with a focused reference for checking both sides of a player exchange safely, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice trading page focuses on checking both sides of a player exchange safely. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Confirm the item or unit offered on both sides. Recheck grade, trait, mutation, and level separately. Trading availability and live demand are volatile and not confirmed as permanent."
+      "This Anime Dice trading page focuses on checking both sides of a player exchange safely. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -3271,17 +2248,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Recheck grade, trait, mutation, and level separately. Use verified official destinations for current community context."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to checking both sides of a player exchange safely.",
-              "Start with this documented point: Confirm the item or unit offered on both sides.",
-              "Compare this separately: Recheck grade, trait, mutation, and level separately.",
-              "Before acting, account for this point: Use verified official destinations for current community context."
-            ]
+            "text": "Recheck grade, trait, mutation, and level separately."
           }
         ]
       },
@@ -3291,15 +2258,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Use verified official destinations for current community context."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Recheck grade, trait, mutation, and level separately.",
-              "Use verified official destinations for current community context."
-            ]
+            "text": "Use verified official destinations for current community context."
           }
         ]
       },
@@ -3314,42 +2273,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Trading availability and live demand are volatile and not confirmed as permanent."
           }
         ]
-      },
-      {
-        "id": "trading-decision-record",
-        "title": "Trading — A documented comparison record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Confirm the item or unit offered on both sides. Recheck grade, trait, mutation, and level separately. Use verified official destinations for current community context."
-          },
-          {
-            "type": "paragraph",
-            "text": "Trading availability and live demand are volatile and not confirmed as permanent."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Confirm the item or unit offered on both sides.",
-              "Recheck grade, trait, mutation, and level separately.",
-              "Use verified official destinations for current community context."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What must be written down before a Trading decision?",
-        "answer": "Confirm the item or unit offered on both sides. Recheck grade, trait, mutation, and level separately. Use verified official destinations for current community context."
+        "question": "What does the supplied evidence confirm about Anime Dice Trading Guide?",
+        "answer": "Confirm the item or unit offered on both sides."
       },
       {
-        "question": "Why is one observed Trading offer insufficient?",
+        "question": "Which two checks should be read together for Anime Dice Trading Guide?",
         "answer": "Recheck grade, trait, mutation, and level separately. Use verified official destinations for current community context."
       },
       {
-        "question": "Which Trading price claim does this page reject?",
+        "question": "What remains unconfirmed about Anime Dice Trading Guide?",
         "answer": "Trading availability and live demand are volatile and not confirmed as permanent."
       }
     ],
@@ -3365,8 +2301,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Trade Value Guide",
     "description": "Understand Anime Dice trade value with a focused reference for building a transparent comparison rather than copying a price claim, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice trade value page focuses on building a transparent comparison rather than copying a price claim. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Compare unit identity and rarity. Review grade, trait, mutation, and level separately. No verified live price dataset is supplied, so guaranteed values are not published."
+      "This Anime Dice trade value page focuses on building a transparent comparison rather than copying a price claim. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -3385,17 +2320,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Review grade, trait, mutation, and level separately. Record the review date and source of any community estimate."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to building a transparent comparison rather than copying a price claim.",
-              "Start with this documented point: Compare unit identity and rarity.",
-              "Compare this separately: Review grade, trait, mutation, and level separately.",
-              "Before acting, account for this point: Record the review date and source of any community estimate."
-            ]
+            "text": "Review grade, trait, mutation, and level separately."
           }
         ]
       },
@@ -3405,15 +2330,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Record the review date and source of any community estimate."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Review grade, trait, mutation, and level separately.",
-              "Record the review date and source of any community estimate."
-            ]
+            "text": "Record the review date and source of any community estimate."
           }
         ]
       },
@@ -3428,42 +2345,19 @@ export const EN_ARTICLE_COPY = {
             "body": "No verified live price dataset is supplied, so guaranteed values are not published."
           }
         ]
-      },
-      {
-        "id": "trade-value-decision-record",
-        "title": "Trade Value — A documented comparison record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Compare unit identity and rarity. Review grade, trait, mutation, and level separately. Record the review date and source of any community estimate."
-          },
-          {
-            "type": "paragraph",
-            "text": "No verified live price dataset is supplied, so guaranteed values are not published."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Compare unit identity and rarity.",
-              "Review grade, trait, mutation, and level separately.",
-              "Record the review date and source of any community estimate."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What must be written down before a Trade Value decision?",
-        "answer": "Compare unit identity and rarity. Review grade, trait, mutation, and level separately. Record the review date and source of any community estimate."
+        "question": "What does the supplied evidence confirm about Anime Dice Trade Value Guide?",
+        "answer": "Compare unit identity and rarity."
       },
       {
-        "question": "Why is one observed Trade Value offer insufficient?",
+        "question": "Which two checks should be read together for Anime Dice Trade Value Guide?",
         "answer": "Review grade, trait, mutation, and level separately. Record the review date and source of any community estimate."
       },
       {
-        "question": "Which Trade Value price claim does this page reject?",
+        "question": "What remains unconfirmed about Anime Dice Trade Value Guide?",
         "answer": "No verified live price dataset is supplied, so guaranteed values are not published."
       }
     ],
@@ -3479,8 +2373,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Value Calculator Guide",
     "description": "Understand Anime Dice value calculator with a focused reference for using a manual evaluation worksheet for a proposed deal, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice value calculator page focuses on using a manual evaluation worksheet for a proposed deal. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: List each unit on both sides. Compare rarity, grade, trait, mutation, and level. Reject pressure to finish before verification."
+      "This Anime Dice value calculator page focuses on using a manual evaluation worksheet for a proposed deal. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -3499,17 +2392,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Compare rarity, grade, trait, mutation, and level. Note the source and date for any community estimate."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to using a manual evaluation worksheet for a proposed deal.",
-              "Start with this documented point: List each unit on both sides.",
-              "Compare this separately: Compare rarity, grade, trait, mutation, and level.",
-              "Before acting, account for this point: Note the source and date for any community estimate."
-            ]
+            "text": "Compare rarity, grade, trait, mutation, and level."
           }
         ]
       },
@@ -3519,16 +2402,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Note the source and date for any community estimate."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Compare rarity, grade, trait, mutation, and level.",
-              "Note the source and date for any community estimate.",
-              "Reject pressure to finish before verification."
-            ]
+            "text": "Note the source and date for any community estimate."
           }
         ]
       },
@@ -3543,42 +2417,19 @@ export const EN_ARTICLE_COPY = {
             "body": "This page is a transparent worksheet; a numeric market formula is not confirmed."
           }
         ]
-      },
-      {
-        "id": "value-calculator-decision-record",
-        "title": "Value Calculator — A documented comparison record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: List each unit on both sides. Compare rarity, grade, trait, mutation, and level. Note the source and date for any community estimate."
-          },
-          {
-            "type": "paragraph",
-            "text": "Reject pressure to finish before verification."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "List each unit on both sides.",
-              "Compare rarity, grade, trait, mutation, and level.",
-              "Note the source and date for any community estimate."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What must be written down before a Value Calculator decision?",
-        "answer": "List each unit on both sides. Compare rarity, grade, trait, mutation, and level. Note the source and date for any community estimate."
+        "question": "What does the supplied evidence confirm about Anime Dice Value Calculator Guide?",
+        "answer": "List each unit on both sides."
       },
       {
-        "question": "Why is one observed Value Calculator offer insufficient?",
+        "question": "Which two checks should be read together for Anime Dice Value Calculator Guide?",
         "answer": "Compare rarity, grade, trait, mutation, and level. Note the source and date for any community estimate."
       },
       {
-        "question": "Which Value Calculator price claim does this page reject?",
+        "question": "What remains unconfirmed about Anime Dice Value Calculator Guide?",
         "answer": "Reject pressure to finish before verification."
       }
     ],
@@ -3595,8 +2446,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Market Guide",
     "description": "Understand Anime Dice market with a focused reference for monitoring changeable community demand cautiously, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice market page focuses on monitoring changeable community demand cautiously. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Separate observed offers from completed exchanges. Record dates because demand can move. There is no verified live market feed or authoritative fixed price list in the supplied sources."
+      "This Anime Dice market page focuses on monitoring changeable community demand cautiously. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -3615,17 +2465,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Record dates because demand can move. Compare multiple verified community observations."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to monitoring changeable community demand cautiously.",
-              "Start with this documented point: Separate observed offers from completed exchanges.",
-              "Compare this separately: Record dates because demand can move.",
-              "Before acting, account for this point: Compare multiple verified community observations."
-            ]
+            "text": "Record dates because demand can move."
           }
         ]
       },
@@ -3635,15 +2475,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Compare multiple verified community observations."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Record dates because demand can move.",
-              "Compare multiple verified community observations."
-            ]
+            "text": "Compare multiple verified community observations."
           }
         ]
       },
@@ -3658,42 +2490,19 @@ export const EN_ARTICLE_COPY = {
             "body": "There is no verified live market feed or authoritative fixed price list in the supplied sources."
           }
         ]
-      },
-      {
-        "id": "market-decision-record",
-        "title": "Market — A documented comparison record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Separate observed offers from completed exchanges. Record dates because demand can move. Compare multiple verified community observations."
-          },
-          {
-            "type": "paragraph",
-            "text": "There is no verified live market feed or authoritative fixed price list in the supplied sources."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Separate observed offers from completed exchanges.",
-              "Record dates because demand can move.",
-              "Compare multiple verified community observations."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "What must be written down before a Market decision?",
-        "answer": "Separate observed offers from completed exchanges. Record dates because demand can move. Compare multiple verified community observations."
+        "question": "What does the supplied evidence confirm about Anime Dice Market Guide?",
+        "answer": "Separate observed offers from completed exchanges."
       },
       {
-        "question": "Why is one observed Market offer insufficient?",
+        "question": "Which two checks should be read together for Anime Dice Market Guide?",
         "answer": "Record dates because demand can move. Compare multiple verified community observations."
       },
       {
-        "question": "Which Market price claim does this page reject?",
+        "question": "What remains unconfirmed about Anime Dice Market Guide?",
         "answer": "There is no verified live market feed or authoritative fixed price list in the supplied sources."
       }
     ],
@@ -3709,8 +2518,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice New Update Guide",
     "description": "Understand Anime Dice new update with a focused reference for checking the latest confirmed change instead of guessing, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice new update page focuses on checking the latest confirmed change instead of guessing. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: The supplied research identifies Update 7. Update 7 adds Galactic rarity and six rebirth upgrade paths. A newer release is not verified by the supplied sources; check official destinations."
+      "This Anime Dice new update page focuses on checking the latest confirmed change instead of guessing. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -3729,17 +2537,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Update 7 adds Galactic rarity and six rebirth upgrade paths. The article record was reviewed on October 5, 2026."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to checking the latest confirmed change instead of guessing.",
-              "Start with this documented point: The supplied research identifies Update 7.",
-              "Compare this separately: Update 7 adds Galactic rarity and six rebirth upgrade paths.",
-              "Before acting, account for this point: The article record was reviewed on October 5, 2026."
-            ]
+            "text": "Update 7 adds Galactic rarity and six rebirth upgrade paths."
           }
         ]
       },
@@ -3749,15 +2547,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: The article record was reviewed on October 5, 2026."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Update 7 adds Galactic rarity and six rebirth upgrade paths.",
-              "The article record was reviewed on October 5, 2026."
-            ]
+            "text": "The article record was reviewed on October 5, 2026."
           }
         ]
       },
@@ -3772,42 +2562,19 @@ export const EN_ARTICLE_COPY = {
             "body": "A newer release is not verified by the supplied sources; check official destinations."
           }
         ]
-      },
-      {
-        "id": "new-update-decision-record",
-        "title": "New Update — A dated verification record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: The supplied research identifies Update 7. Update 7 adds Galactic rarity and six rebirth upgrade paths. The article record was reviewed on October 5, 2026."
-          },
-          {
-            "type": "paragraph",
-            "text": "A newer release is not verified by the supplied sources; check official destinations."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "The supplied research identifies Update 7.",
-              "Update 7 adds Galactic rarity and six rebirth upgrade paths.",
-              "The article record was reviewed on October 5, 2026."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Which dated source can confirm New Update?",
-        "answer": "The supplied research identifies Update 7. Update 7 adds Galactic rarity and six rebirth upgrade paths. The article record was reviewed on October 5, 2026."
+        "question": "What does the supplied evidence confirm about Anime Dice New Update Guide?",
+        "answer": "The supplied research identifies Update 7."
       },
       {
-        "question": "How is a New Update announcement separated from rumor?",
+        "question": "Which two checks should be read together for Anime Dice New Update Guide?",
         "answer": "Update 7 adds Galactic rarity and six rebirth upgrade paths. The article record was reviewed on October 5, 2026."
       },
       {
-        "question": "What remains unknown about New Update?",
+        "question": "What remains unconfirmed about Anime Dice New Update Guide?",
         "answer": "A newer release is not verified by the supplied sources; check official destinations."
       }
     ],
@@ -3823,8 +2590,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Next Update Guide",
     "description": "Understand Anime Dice next update with a focused reference for verifying future news without predicting a date, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice next update page focuses on verifying future news without predicting a date. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Use the official Roblox game page and verified Discord for announcements. Separate a developer announcement from community speculation. No next-update date or feature list is verified by the supplied sources."
+      "This Anime Dice next update page focuses on verifying future news without predicting a date. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -3843,17 +2609,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Separate a developer announcement from community speculation. Record the date when information is checked."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to verifying future news without predicting a date.",
-              "Start with this documented point: Use the official Roblox game page and verified Discord for announcements.",
-              "Compare this separately: Separate a developer announcement from community speculation.",
-              "Before acting, account for this point: Record the date when information is checked."
-            ]
+            "text": "Separate a developer announcement from community speculation."
           }
         ]
       },
@@ -3863,15 +2619,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Record the date when information is checked."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Separate a developer announcement from community speculation.",
-              "Record the date when information is checked."
-            ]
+            "text": "Record the date when information is checked."
           }
         ]
       },
@@ -3886,42 +2634,19 @@ export const EN_ARTICLE_COPY = {
             "body": "No next-update date or feature list is verified by the supplied sources."
           }
         ]
-      },
-      {
-        "id": "next-update-decision-record",
-        "title": "Next Update — A dated verification record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Use the official Roblox game page and verified Discord for announcements. Separate a developer announcement from community speculation. Record the date when information is checked."
-          },
-          {
-            "type": "paragraph",
-            "text": "No next-update date or feature list is verified by the supplied sources."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Use the official Roblox game page and verified Discord for announcements.",
-              "Separate a developer announcement from community speculation.",
-              "Record the date when information is checked."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Which dated source can confirm Next Update?",
-        "answer": "Use the official Roblox game page and verified Discord for announcements. Separate a developer announcement from community speculation. Record the date when information is checked."
+        "question": "What does the supplied evidence confirm about Anime Dice Next Update Guide?",
+        "answer": "Use the official Roblox game page and verified Discord for announcements."
       },
       {
-        "question": "How is a Next Update announcement separated from rumor?",
+        "question": "Which two checks should be read together for Anime Dice Next Update Guide?",
         "answer": "Separate a developer announcement from community speculation. Record the date when information is checked."
       },
       {
-        "question": "What remains unknown about Next Update?",
+        "question": "What remains unconfirmed about Anime Dice Next Update Guide?",
         "answer": "No next-update date or feature list is verified by the supplied sources."
       }
     ],
@@ -3937,8 +2662,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Update 7 Guide",
     "description": "Understand Anime Dice update 7 with a focused reference for reviewing the sourced Update 7 changes, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice update 7 page focuses on reviewing the sourced Update 7 changes. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Update 7 adds Galactic rarity. The update adds six rebirth upgrade paths. Exact balance values beyond the supplied Update 7 source are not verified."
+      "This Anime Dice update 7 page focuses on reviewing the sourced Update 7 changes. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -3957,17 +2681,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: The update adds six rebirth upgrade paths. UPDATE7 is a documented reward code."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to reviewing the sourced Update 7 changes.",
-              "Start with this documented point: Update 7 adds Galactic rarity.",
-              "Compare this separately: The update adds six rebirth upgrade paths.",
-              "Before acting, account for this point: UPDATE7 is a documented reward code."
-            ]
+            "text": "The update adds six rebirth upgrade paths."
           }
         ]
       },
@@ -3977,15 +2691,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: UPDATE7 is a documented reward code."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "The update adds six rebirth upgrade paths.",
-              "UPDATE7 is a documented reward code."
-            ]
+            "text": "UPDATE7 is a documented reward code."
           }
         ]
       },
@@ -4018,42 +2724,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Exact balance values beyond the supplied Update 7 source are not verified."
           }
         ]
-      },
-      {
-        "id": "update-7-decision-record",
-        "title": "Update 7 — A dated verification record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Update 7 adds Galactic rarity. The update adds six rebirth upgrade paths. UPDATE7 is a documented reward code."
-          },
-          {
-            "type": "paragraph",
-            "text": "Exact balance values beyond the supplied Update 7 source are not verified."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Update 7 adds Galactic rarity.",
-              "The update adds six rebirth upgrade paths.",
-              "UPDATE7 is a documented reward code."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Which dated source can confirm Update 7?",
-        "answer": "Update 7 adds Galactic rarity. The update adds six rebirth upgrade paths. UPDATE7 is a documented reward code."
+        "question": "What does the supplied evidence confirm about Anime Dice Update 7 Guide?",
+        "answer": "Update 7 adds Galactic rarity."
       },
       {
-        "question": "How is a Update 7 announcement separated from rumor?",
+        "question": "Which two checks should be read together for Anime Dice Update 7 Guide?",
         "answer": "The update adds six rebirth upgrade paths. UPDATE7 is a documented reward code."
       },
       {
-        "question": "What remains unknown about Update 7?",
+        "question": "What remains unconfirmed about Anime Dice Update 7 Guide?",
         "answer": "Exact balance values beyond the supplied Update 7 source are not verified."
       }
     ],
@@ -4075,8 +2758,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Event Guide",
     "description": "Understand Anime Dice event with a focused reference for checking whether a current event has official confirmation, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice event page focuses on checking whether a current event has official confirmation. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Check the official game page and verified Discord. Confirm start and end information in the current game. No current event schedule is verified by the supplied sources."
+      "This Anime Dice event page focuses on checking whether a current event has official confirmation. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -4095,17 +2777,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Confirm start and end information in the current game. Treat community posts as unverified until matched to an official destination."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to checking whether a current event has official confirmation.",
-              "Start with this documented point: Check the official game page and verified Discord.",
-              "Compare this separately: Confirm start and end information in the current game.",
-              "Before acting, account for this point: Treat community posts as unverified until matched to an official destination."
-            ]
+            "text": "Confirm start and end information in the current game."
           }
         ]
       },
@@ -4115,15 +2787,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Treat community posts as unverified until matched to an official destination."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Confirm start and end information in the current game.",
-              "Treat community posts as unverified until matched to an official destination."
-            ]
+            "text": "Treat community posts as unverified until matched to an official destination."
           }
         ]
       },
@@ -4138,42 +2802,19 @@ export const EN_ARTICLE_COPY = {
             "body": "No current event schedule is verified by the supplied sources."
           }
         ]
-      },
-      {
-        "id": "event-decision-record",
-        "title": "Event — A dated verification record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Check the official game page and verified Discord. Confirm start and end information in the current game. Treat community posts as unverified until matched to an official destination."
-          },
-          {
-            "type": "paragraph",
-            "text": "No current event schedule is verified by the supplied sources."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Check the official game page and verified Discord.",
-              "Confirm start and end information in the current game.",
-              "Treat community posts as unverified until matched to an official destination."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Which dated source can confirm Event?",
-        "answer": "Check the official game page and verified Discord. Confirm start and end information in the current game. Treat community posts as unverified until matched to an official destination."
+        "question": "What does the supplied evidence confirm about Anime Dice Event Guide?",
+        "answer": "Check the official game page and verified Discord."
       },
       {
-        "question": "How is a Event announcement separated from rumor?",
+        "question": "Which two checks should be read together for Anime Dice Event Guide?",
         "answer": "Confirm start and end information in the current game. Treat community posts as unverified until matched to an official destination."
       },
       {
-        "question": "What remains unknown about Event?",
+        "question": "What remains unconfirmed about Anime Dice Event Guide?",
         "answer": "No current event schedule is verified by the supplied sources."
       }
     ],
@@ -4189,8 +2830,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Admin Abuse Time Guide",
     "description": "Understand Anime Dice admin abuse time with a focused reference for checking a claimed session without publishing a false schedule, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice admin abuse time page focuses on checking a claimed session without publishing a false schedule. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Look for a dated announcement in verified official destinations. Confirm timezone and date together. No recurring admin event time is verified by the supplied sources."
+      "This Anime Dice admin abuse time page focuses on checking a claimed session without publishing a false schedule. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -4209,17 +2849,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Confirm timezone and date together. Ignore reposts that do not link to the original announcement."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to checking a claimed session without publishing a false schedule.",
-              "Start with this documented point: Look for a dated announcement in verified official destinations.",
-              "Compare this separately: Confirm timezone and date together.",
-              "Before acting, account for this point: Ignore reposts that do not link to the original announcement."
-            ]
+            "text": "Confirm timezone and date together."
           }
         ]
       },
@@ -4229,15 +2859,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Ignore reposts that do not link to the original announcement."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Confirm timezone and date together.",
-              "Ignore reposts that do not link to the original announcement."
-            ]
+            "text": "Ignore reposts that do not link to the original announcement."
           }
         ]
       },
@@ -4252,42 +2874,19 @@ export const EN_ARTICLE_COPY = {
             "body": "No recurring admin event time is verified by the supplied sources."
           }
         ]
-      },
-      {
-        "id": "admin-abuse-time-decision-record",
-        "title": "Admin Abuse Time — A dated verification record",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Look for a dated announcement in verified official destinations. Confirm timezone and date together. Ignore reposts that do not link to the original announcement."
-          },
-          {
-            "type": "paragraph",
-            "text": "No recurring admin event time is verified by the supplied sources."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Look for a dated announcement in verified official destinations.",
-              "Confirm timezone and date together.",
-              "Ignore reposts that do not link to the original announcement."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Which dated source can confirm Admin Abuse Time?",
-        "answer": "Look for a dated announcement in verified official destinations. Confirm timezone and date together. Ignore reposts that do not link to the original announcement."
+        "question": "What does the supplied evidence confirm about Anime Dice Admin Abuse Time Guide?",
+        "answer": "Look for a dated announcement in verified official destinations."
       },
       {
-        "question": "How is a Admin Abuse Time announcement separated from rumor?",
+        "question": "Which two checks should be read together for Anime Dice Admin Abuse Time Guide?",
         "answer": "Confirm timezone and date together. Ignore reposts that do not link to the original announcement."
       },
       {
-        "question": "What remains unknown about Admin Abuse Time?",
+        "question": "What remains unconfirmed about Anime Dice Admin Abuse Time Guide?",
         "answer": "No recurring admin event time is verified by the supplied sources."
       }
     ],
@@ -4303,8 +2902,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Discord Guide",
     "description": "Understand Anime Dice discord with a focused reference for finding the verified community invite safely, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice discord page focuses on finding the verified community invite safely. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Use the verified invite discord.com/invite/ag5MCCu5aQ linked by this site. Check announcement context and timestamps. Channel names and current announcements can change after review."
+      "This Anime Dice discord page focuses on finding the verified community invite safely. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -4323,17 +2921,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Check announcement context and timestamps. Do not trust lookalike invites from unrelated pages."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to finding the verified community invite safely.",
-              "Start with this documented point: Use the verified invite discord.com/invite/ag5MCCu5aQ linked by this site.",
-              "Compare this separately: Check announcement context and timestamps.",
-              "Before acting, account for this point: Do not trust lookalike invites from unrelated pages."
-            ]
+            "text": "Check announcement context and timestamps."
           }
         ]
       },
@@ -4343,15 +2931,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Do not trust lookalike invites from unrelated pages."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Check announcement context and timestamps.",
-              "Do not trust lookalike invites from unrelated pages."
-            ]
+            "text": "Do not trust lookalike invites from unrelated pages."
           }
         ]
       },
@@ -4366,42 +2946,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Channel names and current announcements can change after review."
           }
         ]
-      },
-      {
-        "id": "discord-decision-record",
-        "title": "Discord — A destination trust check",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Use the verified invite discord.com/invite/ag5MCCu5aQ linked by this site. Check announcement context and timestamps. Do not trust lookalike invites from unrelated pages."
-          },
-          {
-            "type": "paragraph",
-            "text": "Channel names and current announcements can change after review."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Use the verified invite discord.com/invite/ag5MCCu5aQ linked by this site.",
-              "Check announcement context and timestamps.",
-              "Do not trust lookalike invites from unrelated pages."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "How is the Discord destination verified?",
-        "answer": "Use the verified invite discord.com/invite/ag5MCCu5aQ linked by this site. Check announcement context and timestamps. Do not trust lookalike invites from unrelated pages."
+        "question": "What does the supplied evidence confirm about Anime Dice Discord Guide?",
+        "answer": "Use the verified invite discord.com/invite/ag5MCCu5aQ linked by this site."
       },
       {
-        "question": "Which Discord messages count only as community discussion?",
+        "question": "Which two checks should be read together for Anime Dice Discord Guide?",
         "answer": "Check announcement context and timestamps. Do not trust lookalike invites from unrelated pages."
       },
       {
-        "question": "When should the Discord link be checked again?",
+        "question": "What remains unconfirmed about Anime Dice Discord Guide?",
         "answer": "Channel names and current announcements can change after review."
       }
     ],
@@ -4417,8 +2974,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Reddit Guide",
     "description": "Understand Anime Dice reddit with a focused reference for evaluating community posts when no official page is established, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice reddit page focuses on evaluating community posts when no official page is established. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Compare claims with the official game page. Look for a direct developer source. An official Anime Dice Reddit community is not verified by the supplied sources."
+      "This Anime Dice reddit page focuses on evaluating community posts when no official page is established. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -4437,17 +2993,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Look for a direct developer source. Treat user posts as community discussion rather than confirmation."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to evaluating community posts when no official page is established.",
-              "Start with this documented point: Compare claims with the official game page.",
-              "Compare this separately: Look for a direct developer source.",
-              "Before acting, account for this point: Treat user posts as community discussion rather than confirmation."
-            ]
+            "text": "Look for a direct developer source."
           }
         ]
       },
@@ -4457,15 +3003,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Treat user posts as community discussion rather than confirmation."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Look for a direct developer source.",
-              "Treat user posts as community discussion rather than confirmation."
-            ]
+            "text": "Treat user posts as community discussion rather than confirmation."
           }
         ]
       },
@@ -4480,42 +3018,19 @@ export const EN_ARTICLE_COPY = {
             "body": "An official Anime Dice Reddit community is not verified by the supplied sources."
           }
         ]
-      },
-      {
-        "id": "reddit-decision-record",
-        "title": "Reddit — A destination trust check",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Compare claims with the official game page. Look for a direct developer source. Treat user posts as community discussion rather than confirmation."
-          },
-          {
-            "type": "paragraph",
-            "text": "An official Anime Dice Reddit community is not verified by the supplied sources."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Compare claims with the official game page.",
-              "Look for a direct developer source.",
-              "Treat user posts as community discussion rather than confirmation."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "How is the Reddit destination verified?",
-        "answer": "Compare claims with the official game page. Look for a direct developer source. Treat user posts as community discussion rather than confirmation."
+        "question": "What does the supplied evidence confirm about Anime Dice Reddit Guide?",
+        "answer": "Compare claims with the official game page."
       },
       {
-        "question": "Which Reddit messages count only as community discussion?",
+        "question": "Which two checks should be read together for Anime Dice Reddit Guide?",
         "answer": "Look for a direct developer source. Treat user posts as community discussion rather than confirmation."
       },
       {
-        "question": "When should the Reddit link be checked again?",
+        "question": "What remains unconfirmed about Anime Dice Reddit Guide?",
         "answer": "An official Anime Dice Reddit community is not verified by the supplied sources."
       }
     ],
@@ -4531,8 +3046,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Trello Guide",
     "description": "Understand Anime Dice trello with a focused reference for checking board claims without endorsing an imitation, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice trello page focuses on checking board claims without endorsing an imitation. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: Verify any board from an official developer destination. Check board ownership and update history. An official Anime Dice Trello board is not verified by the supplied sources."
+      "This Anime Dice trello page focuses on checking board claims without endorsing an imitation. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -4551,17 +3065,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: Check board ownership and update history. Do not enter account details on a lookalike page."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to checking board claims without endorsing an imitation.",
-              "Start with this documented point: Verify any board from an official developer destination.",
-              "Compare this separately: Check board ownership and update history.",
-              "Before acting, account for this point: Do not enter account details on a lookalike page."
-            ]
+            "text": "Check board ownership and update history."
           }
         ]
       },
@@ -4571,15 +3075,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Do not enter account details on a lookalike page."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Check board ownership and update history.",
-              "Do not enter account details on a lookalike page."
-            ]
+            "text": "Do not enter account details on a lookalike page."
           }
         ]
       },
@@ -4594,42 +3090,19 @@ export const EN_ARTICLE_COPY = {
             "body": "An official Anime Dice Trello board is not verified by the supplied sources."
           }
         ]
-      },
-      {
-        "id": "trello-decision-record",
-        "title": "Trello — A destination trust check",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: Verify any board from an official developer destination. Check board ownership and update history. Do not enter account details on a lookalike page."
-          },
-          {
-            "type": "paragraph",
-            "text": "An official Anime Dice Trello board is not verified by the supplied sources."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Verify any board from an official developer destination.",
-              "Check board ownership and update history.",
-              "Do not enter account details on a lookalike page."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "How is the Trello destination verified?",
-        "answer": "Verify any board from an official developer destination. Check board ownership and update history. Do not enter account details on a lookalike page."
+        "question": "What does the supplied evidence confirm about Anime Dice Trello Guide?",
+        "answer": "Verify any board from an official developer destination."
       },
       {
-        "question": "Which Trello messages count only as community discussion?",
+        "question": "Which two checks should be read together for Anime Dice Trello Guide?",
         "answer": "Check board ownership and update history. Do not enter account details on a lookalike page."
       },
       {
-        "question": "When should the Trello link be checked again?",
+        "question": "What remains unconfirmed about Anime Dice Trello Guide?",
         "answer": "An official Anime Dice Trello board is not verified by the supplied sources."
       }
     ],
@@ -4645,8 +3118,7 @@ export const EN_ARTICLE_COPY = {
     "title": "Anime Dice Group Guide",
     "description": "Understand Anime Dice group with a focused reference for using the verified More & More Games Roblox community, practical checks, and clearly marked limits on unverified values.",
     "intro": [
-      "This Anime Dice group page focuses on using the verified More & More Games Roblox community. It separates the documented gameplay loop from values that can change or are not established by the supplied references.",
-      "The supplied evidence establishes the following points: The verified developer community is More & More Games. The group chest may provide spins, gems, or rerolls. Chest availability and exact rewards can change and should be checked in game."
+      "This Anime Dice group page focuses on using the verified More & More Games Roblox community. It separates the documented gameplay loop from values that can change or are not established by the supplied references."
     ],
     "sections": [
       {
@@ -4665,17 +3137,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Read these two facts together before acting: The group chest may provide spins, gems, or rerolls. Join through the verified Roblox destination."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Open the current game panel or verified source related to using the verified More & More Games Roblox community.",
-              "Start with this documented point: The verified developer community is More & More Games.",
-              "Compare this separately: The group chest may provide spins, gems, or rerolls.",
-              "Before acting, account for this point: Join through the verified Roblox destination."
-            ]
+            "text": "The group chest may provide spins, gems, or rerolls."
           }
         ]
       },
@@ -4685,15 +3147,7 @@ export const EN_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Evidence point: Join through the verified Roblox destination."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "The group chest may provide spins, gems, or rerolls.",
-              "Join through the verified Roblox destination."
-            ]
+            "text": "Join through the verified Roblox destination."
           }
         ]
       },
@@ -4708,42 +3162,19 @@ export const EN_ARTICLE_COPY = {
             "body": "Chest availability and exact rewards can change and should be checked in game."
           }
         ]
-      },
-      {
-        "id": "group-decision-record",
-        "title": "Group — A destination trust check",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The decision rests on the documented relationship between these points: The verified developer community is More & More Games. The group chest may provide spins, gems, or rerolls. Join through the verified Roblox destination."
-          },
-          {
-            "type": "paragraph",
-            "text": "Chest availability and exact rewards can change and should be checked in game."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "The verified developer community is More & More Games.",
-              "The group chest may provide spins, gems, or rerolls.",
-              "Join through the verified Roblox destination."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "How is the Group destination verified?",
-        "answer": "The verified developer community is More & More Games. The group chest may provide spins, gems, or rerolls. Join through the verified Roblox destination."
+        "question": "What does the supplied evidence confirm about Anime Dice Group Guide?",
+        "answer": "The verified developer community is More & More Games."
       },
       {
-        "question": "Which Group messages count only as community discussion?",
+        "question": "Which two checks should be read together for Anime Dice Group Guide?",
         "answer": "The group chest may provide spins, gems, or rerolls. Join through the verified Roblox destination."
       },
       {
-        "question": "When should the Group link be checked again?",
+        "question": "What remains unconfirmed about Anime Dice Group Guide?",
         "answer": "Chest availability and exact rewards can change and should be checked in game."
       }
     ],

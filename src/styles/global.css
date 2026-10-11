@@ -129,6 +129,6 @@ a { color:inherit; text-decoration:none; } button,select { font:inherit; } img {
 @media (max-width:360px) { .header-inner { gap:8px; } .language-picker,.locale-label { display:none; } }
 
 /* Keep long localized labels inside their cards during browser zoom. */
-.faq-list details,.faq-list summary,.article-section li,.article-faq h2,.related-guides h2,.related-guides a { min-width:0; overflow-wrap:anywhere; }
+.faq-list details,.faq-list summary,.article-section h2,.article-section li,.article-faq h2,.article-callout,.article-callout strong,.toc li,.toc a,.related-guides h2,.related-guides a { min-width:0; overflow-wrap:anywhere; word-break:break-word; }
 .faq-list summary { display:grid; grid-template-columns:minmax(0,1fr) auto; }
 .article-section ol,.article-section ul { padding-left:1.25em; }

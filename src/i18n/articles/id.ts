@@ -87,8 +87,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Panduan pemula",
     "description": "Anime Dice: Panduan pemula: panduan khusus untuk alur roll, equip, dan upgrade tim, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas alur roll, equip, dan upgrade tim. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Roll menghasilkan karakter untuk dibandingkan. Equip Best membantu meninjau tim saat ini. Waktu progres berbeda-beda dan tidak dijamin."
+      "Halaman ini khusus membahas alur roll, equip, dan upgrade tim. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -107,7 +106,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Equip Best membantu meninjau tim saat ini. Money dan Luck adalah prioritas awal yang praktis."
+            "text": "Equip Best membantu meninjau tim saat ini."
           },
           {
             "type": "list",
@@ -126,15 +125,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Money dan Luck adalah prioritas awal yang praktis."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Equip Best membantu meninjau tim saat ini.",
-              "Money dan Luck adalah prioritas awal yang praktis."
-            ]
+            "text": "Money dan Luck adalah prioritas awal yang praktis."
           }
         ]
       },
@@ -149,42 +140,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Waktu progres berbeda-beda dan tidak dijamin."
           }
         ]
-      },
-      {
-        "id": "guide-decision-record",
-        "title": "Panduan pemula — Pemeriksaan kontrol yang dapat diulang",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Roll menghasilkan karakter untuk dibandingkan. Equip Best membantu meninjau tim saat ini. Money dan Luck adalah prioritas awal yang praktis."
-          },
-          {
-            "type": "paragraph",
-            "text": "Waktu progres berbeda-beda dan tidak dijamin."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Roll menghasilkan karakter untuk dibandingkan.",
-              "Equip Best membantu meninjau tim saat ini.",
-              "Money dan Luck adalah prioritas awal yang praktis."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Di mana kontrol Panduan pemula yang terdokumentasi?",
-        "answer": "Roll menghasilkan karakter untuk dibandingkan. Equip Best membantu meninjau tim saat ini. Money dan Luck adalah prioritas awal yang praktis."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Panduan pemula?",
+        "answer": "Roll menghasilkan karakter untuk dibandingkan."
       },
       {
-        "question": "Hasil apa yang mengonfirmasi Panduan pemula?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Panduan pemula?",
         "answer": "Equip Best membantu meninjau tim saat ini. Money dan Luck adalah prioritas awal yang praktis."
       },
       {
-        "question": "Kapan petunjuk Panduan pemula perlu ditinjau?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Panduan pemula?",
         "answer": "Waktu progres berbeda-beda dan tidak dijamin."
       }
     ],
@@ -200,8 +168,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Tips progres",
     "description": "Anime Dice: Tips progres: panduan khusus untuk rutinitas roll dan pembersihan yang aman, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas rutinitas roll dan pembersihan yang aman. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Lindungi unit berguna sebelum menjual. Periksa grade, trait, dan mutation secara terpisah. Hasil langka dan kecepatan progres tetap tidak dapat dijanjikan."
+      "Halaman ini khusus membahas rutinitas roll dan pembersihan yang aman. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -220,7 +187,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Periksa grade, trait, dan mutation secara terpisah. Roll Speed lebih berguna setelah Money dan Luck stabil."
+            "text": "Periksa grade, trait, dan mutation secara terpisah."
           },
           {
             "type": "list",
@@ -239,15 +206,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Roll Speed lebih berguna setelah Money dan Luck stabil."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Periksa grade, trait, dan mutation secara terpisah.",
-              "Roll Speed lebih berguna setelah Money dan Luck stabil."
-            ]
+            "text": "Roll Speed lebih berguna setelah Money dan Luck stabil."
           }
         ]
       },
@@ -262,42 +221,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Hasil langka dan kecepatan progres tetap tidak dapat dijanjikan."
           }
         ]
-      },
-      {
-        "id": "tips-decision-record",
-        "title": "Tips progres — Pemeriksaan kontrol yang dapat diulang",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Lindungi unit berguna sebelum menjual. Periksa grade, trait, dan mutation secara terpisah. Roll Speed lebih berguna setelah Money dan Luck stabil."
-          },
-          {
-            "type": "paragraph",
-            "text": "Hasil langka dan kecepatan progres tetap tidak dapat dijanjikan."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Lindungi unit berguna sebelum menjual.",
-              "Periksa grade, trait, dan mutation secara terpisah.",
-              "Roll Speed lebih berguna setelah Money dan Luck stabil."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Di mana kontrol Tips progres yang terdokumentasi?",
-        "answer": "Lindungi unit berguna sebelum menjual. Periksa grade, trait, dan mutation secara terpisah. Roll Speed lebih berguna setelah Money dan Luck stabil."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Tips progres?",
+        "answer": "Lindungi unit berguna sebelum menjual."
       },
       {
-        "question": "Hasil apa yang mengonfirmasi Tips progres?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Tips progres?",
         "answer": "Periksa grade, trait, dan mutation secara terpisah. Roll Speed lebih berguna setelah Money dan Luck stabil."
       },
       {
-        "question": "Kapan petunjuk Tips progres perlu ditinjau?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Tips progres?",
         "answer": "Hasil langka dan kecepatan progres tetap tidak dapat dijanjikan."
       }
     ],
@@ -313,8 +249,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Auto Roll",
     "description": "Anime Dice: Auto Roll: panduan khusus untuk kontrol Auto pada panel Roll, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas kontrol Auto pada panel Roll. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Auto mengulang roll tanpa klik setiap kali. Hide menyembunyikan animasi Roll berulang. Hide tidak membuktikan opsi universal untuk adegan lain."
+      "Halaman ini khusus membahas kontrol Auto pada panel Roll. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -333,7 +268,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Hide menyembunyikan animasi Roll berulang. Roll tetap berjalan saat animasi disembunyikan."
+            "text": "Hide menyembunyikan animasi Roll berulang."
           },
           {
             "type": "list",
@@ -352,15 +287,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Roll tetap berjalan saat animasi disembunyikan."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Hide menyembunyikan animasi Roll berulang.",
-              "Roll tetap berjalan saat animasi disembunyikan."
-            ]
+            "text": "Roll tetap berjalan saat animasi disembunyikan."
           }
         ]
       },
@@ -375,42 +302,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Hide tidak membuktikan opsi universal untuk adegan lain."
           }
         ]
-      },
-      {
-        "id": "auto-roll-decision-record",
-        "title": "Auto Roll — Pemeriksaan kontrol yang dapat diulang",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Auto mengulang roll tanpa klik setiap kali. Hide menyembunyikan animasi Roll berulang. Roll tetap berjalan saat animasi disembunyikan."
-          },
-          {
-            "type": "paragraph",
-            "text": "Hide tidak membuktikan opsi universal untuk adegan lain."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Auto mengulang roll tanpa klik setiap kali.",
-              "Hide menyembunyikan animasi Roll berulang.",
-              "Roll tetap berjalan saat animasi disembunyikan."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Di mana kontrol Auto Roll yang terdokumentasi?",
-        "answer": "Auto mengulang roll tanpa klik setiap kali. Hide menyembunyikan animasi Roll berulang. Roll tetap berjalan saat animasi disembunyikan."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Auto Roll?",
+        "answer": "Auto mengulang roll tanpa klik setiap kali."
       },
       {
-        "question": "Hasil apa yang mengonfirmasi Auto Roll?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Auto Roll?",
         "answer": "Hide menyembunyikan animasi Roll berulang. Roll tetap berjalan saat animasi disembunyikan."
       },
       {
-        "question": "Kapan petunjuk Auto Roll perlu ditinjau?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Auto Roll?",
         "answer": "Hide tidak membuktikan opsi universal untuk adegan lain."
       }
     ],
@@ -426,8 +330,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Auto Sell",
     "description": "Anime Dice: Auto Sell: panduan khusus untuk pengaturan di stan Sell Units, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas pengaturan di stan Sell Units. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Stan menyediakan “Edit auto sell settings!”. Gunakan Equip Best sebelum menetapkan ambang. Simpan unit yang meragukan sampai selesai dibandingkan."
+      "Halaman ini khusus membahas pengaturan di stan Sell Units. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -446,7 +349,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Gunakan Equip Best sebelum menetapkan ambang. Grade, trait, dan mutation dapat memengaruhi kegunaan."
+            "text": "Gunakan Equip Best sebelum menetapkan ambang."
           },
           {
             "type": "list",
@@ -465,15 +368,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Grade, trait, dan mutation dapat memengaruhi kegunaan."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Gunakan Equip Best sebelum menetapkan ambang.",
-              "Grade, trait, dan mutation dapat memengaruhi kegunaan."
-            ]
+            "text": "Grade, trait, dan mutation dapat memengaruhi kegunaan."
           }
         ]
       },
@@ -488,42 +383,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Simpan unit yang meragukan sampai selesai dibandingkan."
           }
         ]
-      },
-      {
-        "id": "auto-sell-decision-record",
-        "title": "Auto Sell — Pemeriksaan kontrol yang dapat diulang",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Stan menyediakan “Edit auto sell settings!”. Gunakan Equip Best sebelum menetapkan ambang. Grade, trait, dan mutation dapat memengaruhi kegunaan."
-          },
-          {
-            "type": "paragraph",
-            "text": "Simpan unit yang meragukan sampai selesai dibandingkan."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Stan menyediakan “Edit auto sell settings!”.",
-              "Gunakan Equip Best sebelum menetapkan ambang.",
-              "Grade, trait, dan mutation dapat memengaruhi kegunaan."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Di mana kontrol Auto Sell yang terdokumentasi?",
-        "answer": "Stan menyediakan “Edit auto sell settings!”. Gunakan Equip Best sebelum menetapkan ambang. Grade, trait, dan mutation dapat memengaruhi kegunaan."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Auto Sell?",
+        "answer": "Stan menyediakan “Edit auto sell settings!”."
       },
       {
-        "question": "Hasil apa yang mengonfirmasi Auto Sell?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Auto Sell?",
         "answer": "Gunakan Equip Best sebelum menetapkan ambang. Grade, trait, dan mutation dapat memengaruhi kegunaan."
       },
       {
-        "question": "Kapan petunjuk Auto Sell perlu ditinjau?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Auto Sell?",
         "answer": "Simpan unit yang meragukan sampai selesai dibandingkan."
       }
     ],
@@ -539,8 +411,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Cara menaikkan level",
     "description": "Anime Dice: Cara menaikkan level: panduan khusus untuk memakai resource hanya pada unit yang dipertahankan, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas memakai resource hanya pada unit yang dipertahankan. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Level hanya satu bagian evaluasi. Roll yang lebih baik dapat mengganti unit awal. Sumber tidak mengonfirmasi level maksimum universal."
+      "Halaman ini khusus membahas memakai resource hanya pada unit yang dipertahankan. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -559,7 +430,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Roll yang lebih baik dapat mengganti unit awal. Grade, trait, dan mutation adalah sistem terpisah."
+            "text": "Roll yang lebih baik dapat mengganti unit awal."
           },
           {
             "type": "list",
@@ -578,15 +449,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Grade, trait, dan mutation adalah sistem terpisah."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Roll yang lebih baik dapat mengganti unit awal.",
-              "Grade, trait, dan mutation adalah sistem terpisah."
-            ]
+            "text": "Grade, trait, dan mutation adalah sistem terpisah."
           }
         ]
       },
@@ -601,42 +464,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Sumber tidak mengonfirmasi level maksimum universal."
           }
         ]
-      },
-      {
-        "id": "how-to-level-up-decision-record",
-        "title": "Cara menaikkan level — Pemeriksaan kontrol yang dapat diulang",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Level hanya satu bagian evaluasi. Roll yang lebih baik dapat mengganti unit awal. Grade, trait, dan mutation adalah sistem terpisah."
-          },
-          {
-            "type": "paragraph",
-            "text": "Sumber tidak mengonfirmasi level maksimum universal."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Level hanya satu bagian evaluasi.",
-              "Roll yang lebih baik dapat mengganti unit awal.",
-              "Grade, trait, dan mutation adalah sistem terpisah."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Di mana kontrol Cara menaikkan level yang terdokumentasi?",
-        "answer": "Level hanya satu bagian evaluasi. Roll yang lebih baik dapat mengganti unit awal. Grade, trait, dan mutation adalah sistem terpisah."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Cara menaikkan level?",
+        "answer": "Level hanya satu bagian evaluasi."
       },
       {
-        "question": "Hasil apa yang mengonfirmasi Cara menaikkan level?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Cara menaikkan level?",
         "answer": "Roll yang lebih baik dapat mengganti unit awal. Grade, trait, dan mutation adalah sistem terpisah."
       },
       {
-        "question": "Kapan petunjuk Cara menaikkan level perlu ditinjau?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Cara menaikkan level?",
         "answer": "Sumber tidak mengonfirmasi level maksimum universal."
       }
     ],
@@ -652,8 +492,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Cara menyembunyikan animasi",
     "description": "Anime Dice: Cara menyembunyikan animasi: panduan khusus untuk kontrol Hide untuk animasi Roll, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas kontrol Hide untuk animasi Roll. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Hide tersedia di antarmuka Roll. Roll dapat lanjut tanpa animasi berulang. Tidak ada sumber yang mengonfirmasi tombol untuk melewati semua adegan."
+      "Halaman ini khusus membahas kontrol Hide untuk animasi Roll. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -672,7 +511,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Roll dapat lanjut tanpa animasi berulang. Adegan lain mungkin memiliki kontrol berbeda."
+            "text": "Roll dapat lanjut tanpa animasi berulang."
           },
           {
             "type": "list",
@@ -691,15 +530,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Adegan lain mungkin memiliki kontrol berbeda."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Roll dapat lanjut tanpa animasi berulang.",
-              "Adegan lain mungkin memiliki kontrol berbeda."
-            ]
+            "text": "Adegan lain mungkin memiliki kontrol berbeda."
           }
         ]
       },
@@ -714,42 +545,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Tidak ada sumber yang mengonfirmasi tombol untuk melewati semua adegan."
           }
         ]
-      },
-      {
-        "id": "how-to-skip-cutscenes-decision-record",
-        "title": "Cara menyembunyikan animasi — Pemeriksaan kontrol yang dapat diulang",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Hide tersedia di antarmuka Roll. Roll dapat lanjut tanpa animasi berulang. Adegan lain mungkin memiliki kontrol berbeda."
-          },
-          {
-            "type": "paragraph",
-            "text": "Tidak ada sumber yang mengonfirmasi tombol untuk melewati semua adegan."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Hide tersedia di antarmuka Roll.",
-              "Roll dapat lanjut tanpa animasi berulang.",
-              "Adegan lain mungkin memiliki kontrol berbeda."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Di mana kontrol Cara menyembunyikan animasi yang terdokumentasi?",
-        "answer": "Hide tersedia di antarmuka Roll. Roll dapat lanjut tanpa animasi berulang. Adegan lain mungkin memiliki kontrol berbeda."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Cara menyembunyikan animasi?",
+        "answer": "Hide tersedia di antarmuka Roll."
       },
       {
-        "question": "Hasil apa yang mengonfirmasi Cara menyembunyikan animasi?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Cara menyembunyikan animasi?",
         "answer": "Roll dapat lanjut tanpa animasi berulang. Adegan lain mungkin memiliki kontrol berbeda."
       },
       {
-        "question": "Kapan petunjuk Cara menyembunyikan animasi perlu ditinjau?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Cara menyembunyikan animasi?",
         "answer": "Tidak ada sumber yang mengonfirmasi tombol untuk melewati semua adegan."
       }
     ],
@@ -765,8 +573,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Cara bergabung ke grup",
     "description": "Anime Dice: Cara bergabung ke grup: panduan khusus untuk komunitas terverifikasi More & More Games, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas komunitas terverifikasi More & More Games. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Grup yang terkait adalah More & More Games. Referensi menyebut peti dapat memberi spins. Periksa tujuan Roblox dan hindari grup tiruan."
+      "Halaman ini khusus membahas komunitas terverifikasi More & More Games. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -785,7 +592,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Referensi menyebut peti dapat memberi spins. Gems atau rerolls juga mungkin tersedia."
+            "text": "Referensi menyebut peti dapat memberi spins."
           },
           {
             "type": "list",
@@ -804,15 +611,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Gems atau rerolls juga mungkin tersedia."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Referensi menyebut peti dapat memberi spins.",
-              "Gems atau rerolls juga mungkin tersedia."
-            ]
+            "text": "Gems atau rerolls juga mungkin tersedia."
           }
         ]
       },
@@ -827,42 +626,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Periksa tujuan Roblox dan hindari grup tiruan."
           }
         ]
-      },
-      {
-        "id": "how-to-join-group-decision-record",
-        "title": "Cara bergabung ke grup — Pemeriksaan kontrol yang dapat diulang",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Grup yang terkait adalah More & More Games. Referensi menyebut peti dapat memberi spins. Gems atau rerolls juga mungkin tersedia."
-          },
-          {
-            "type": "paragraph",
-            "text": "Periksa tujuan Roblox dan hindari grup tiruan."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Grup yang terkait adalah More & More Games.",
-              "Referensi menyebut peti dapat memberi spins.",
-              "Gems atau rerolls juga mungkin tersedia."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Di mana kontrol Cara bergabung ke grup yang terdokumentasi?",
-        "answer": "Grup yang terkait adalah More & More Games. Referensi menyebut peti dapat memberi spins. Gems atau rerolls juga mungkin tersedia."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Cara bergabung ke grup?",
+        "answer": "Grup yang terkait adalah More & More Games."
       },
       {
-        "question": "Hasil apa yang mengonfirmasi Cara bergabung ke grup?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Cara bergabung ke grup?",
         "answer": "Referensi menyebut peti dapat memberi spins. Gems atau rerolls juga mungkin tersedia."
       },
       {
-        "question": "Kapan petunjuk Cara bergabung ke grup perlu ditinjau?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Cara bergabung ke grup?",
         "answer": "Periksa tujuan Roblox dan hindari grup tiruan."
       }
     ],
@@ -878,8 +654,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Tier list unit",
     "description": "Anime Dice: Tier list unit: panduan khusus untuk menilai unit dalam tim saat ini, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas menilai unit dalam tim saat ini. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Peringkat bergantung pada versi game. Grade, trait, mutation, dan level mengubah evaluasi. Tidak ada peringkat universal yang terkonfirmasi."
+      "Halaman ini khusus membahas menilai unit dalam tim saat ini. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -898,16 +673,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Grade, trait, mutation, dan level mengubah evaluasi. Equip Best adalah pemeriksaan awal, bukan peringkat tetap."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Tier list unit.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Peringkat bergantung pada versi game.",
-              "Sebelum memutuskan, bandingkan juga: Grade, trait, mutation, dan level mengubah evaluasi."
-            ]
+            "text": "Grade, trait, mutation, dan level mengubah evaluasi."
           }
         ]
       },
@@ -917,15 +683,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Equip Best adalah pemeriksaan awal, bukan peringkat tetap."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Grade, trait, mutation, dan level mengubah evaluasi.",
-              "Equip Best adalah pemeriksaan awal, bukan peringkat tetap."
-            ]
+            "text": "Equip Best adalah pemeriksaan awal, bukan peringkat tetap."
           }
         ]
       },
@@ -958,42 +716,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Tidak ada peringkat universal yang terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "tier-list-decision-record",
-        "title": "Tier list unit — Perbandingan unit lengkap",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Peringkat bergantung pada versi game. Grade, trait, mutation, dan level mengubah evaluasi. Equip Best adalah pemeriksaan awal, bukan peringkat tetap."
-          },
-          {
-            "type": "paragraph",
-            "text": "Tidak ada peringkat universal yang terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Peringkat bergantung pada versi game.",
-              "Grade, trait, mutation, dan level mengubah evaluasi.",
-              "Equip Best adalah pemeriksaan awal, bukan peringkat tetap."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Properti apa yang masuk perbandingan Tier list unit?",
-        "answer": "Peringkat bergantung pada versi game. Grade, trait, mutation, dan level mengubah evaluasi. Equip Best adalah pemeriksaan awal, bukan peringkat tetap."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Tier list unit?",
+        "answer": "Peringkat bergantung pada versi game."
       },
       {
-        "question": "Apa yang dilindungi sebelum menjual hasil Tier list unit?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Tier list unit?",
         "answer": "Grade, trait, mutation, dan level mengubah evaluasi. Equip Best adalah pemeriksaan awal, bukan peringkat tetap."
       },
       {
-        "question": "Nilai Tier list unit apa yang belum ditetapkan?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Tier list unit?",
         "answer": "Tidak ada peringkat universal yang terkonfirmasi."
       }
     ],
@@ -1009,8 +744,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Unit",
     "description": "Anime Dice: Unit: panduan khusus untuk melakukan roll, menyimpan, equip, dan upgrade karakter, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas melakukan roll, menyimpan, equip, dan upgrade karakter. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Karakter diperoleh melalui alur Roll. Unit keeper layak mendapat resource sebelum unit sementara. Ketersediaan dan balance dapat berubah."
+      "Halaman ini khusus membahas melakukan roll, menyimpan, equip, dan upgrade karakter. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -1029,16 +763,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Unit keeper layak mendapat resource sebelum unit sementara. Deskripsi resmi mengonfirmasi pendapatan offline."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Unit.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Karakter diperoleh melalui alur Roll.",
-              "Sebelum memutuskan, bandingkan juga: Unit keeper layak mendapat resource sebelum unit sementara."
-            ]
+            "text": "Unit keeper layak mendapat resource sebelum unit sementara."
           }
         ]
       },
@@ -1048,15 +773,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Deskripsi resmi mengonfirmasi pendapatan offline."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Unit keeper layak mendapat resource sebelum unit sementara.",
-              "Deskripsi resmi mengonfirmasi pendapatan offline."
-            ]
+            "text": "Deskripsi resmi mengonfirmasi pendapatan offline."
           }
         ]
       },
@@ -1071,42 +788,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Ketersediaan dan balance dapat berubah."
           }
         ]
-      },
-      {
-        "id": "units-decision-record",
-        "title": "Unit — Perbandingan unit lengkap",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Karakter diperoleh melalui alur Roll. Unit keeper layak mendapat resource sebelum unit sementara. Deskripsi resmi mengonfirmasi pendapatan offline."
-          },
-          {
-            "type": "paragraph",
-            "text": "Ketersediaan dan balance dapat berubah."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Karakter diperoleh melalui alur Roll.",
-              "Unit keeper layak mendapat resource sebelum unit sementara.",
-              "Deskripsi resmi mengonfirmasi pendapatan offline."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Properti apa yang masuk perbandingan Unit?",
-        "answer": "Karakter diperoleh melalui alur Roll. Unit keeper layak mendapat resource sebelum unit sementara. Deskripsi resmi mengonfirmasi pendapatan offline."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Unit?",
+        "answer": "Karakter diperoleh melalui alur Roll."
       },
       {
-        "question": "Apa yang dilindungi sebelum menjual hasil Unit?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Unit?",
         "answer": "Unit keeper layak mendapat resource sebelum unit sementara. Deskripsi resmi mengonfirmasi pendapatan offline."
       },
       {
-        "question": "Nilai Unit apa yang belum ditetapkan?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Unit?",
         "answer": "Ketersediaan dan balance dapat berubah."
       }
     ],
@@ -1122,8 +816,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Trait",
     "description": "Anime Dice: Trait: panduan khusus untuk menilai trait tanpa mencampurnya dengan atribut lain, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas menilai trait tanpa mencampurnya dengan atribut lain. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Trait adalah properti unit yang terpisah. UPDATE6 mencatat Trait Rerolls sebagai hadiah. Efek dan peringkat lengkap tiap versi belum terkonfirmasi."
+      "Halaman ini khusus membahas menilai trait tanpa mencampurnya dengan atribut lain. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -1142,16 +835,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: UPDATE6 mencatat Trait Rerolls sebagai hadiah. Trait harus dibaca bersama unit pemiliknya."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Trait.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Trait adalah properti unit yang terpisah.",
-              "Sebelum memutuskan, bandingkan juga: UPDATE6 mencatat Trait Rerolls sebagai hadiah."
-            ]
+            "text": "UPDATE6 mencatat Trait Rerolls sebagai hadiah."
           }
         ]
       },
@@ -1161,15 +845,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Trait harus dibaca bersama unit pemiliknya."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "UPDATE6 mencatat Trait Rerolls sebagai hadiah.",
-              "Trait harus dibaca bersama unit pemiliknya."
-            ]
+            "text": "Trait harus dibaca bersama unit pemiliknya."
           }
         ]
       },
@@ -1225,42 +901,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Efek dan peringkat lengkap tiap versi belum terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "traits-decision-record",
-        "title": "Trait — Perbandingan unit lengkap",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Trait adalah properti unit yang terpisah. UPDATE6 mencatat Trait Rerolls sebagai hadiah. Trait harus dibaca bersama unit pemiliknya."
-          },
-          {
-            "type": "paragraph",
-            "text": "Efek dan peringkat lengkap tiap versi belum terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Trait adalah properti unit yang terpisah.",
-              "UPDATE6 mencatat Trait Rerolls sebagai hadiah.",
-              "Trait harus dibaca bersama unit pemiliknya."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Properti apa yang masuk perbandingan Trait?",
-        "answer": "Trait adalah properti unit yang terpisah. UPDATE6 mencatat Trait Rerolls sebagai hadiah. Trait harus dibaca bersama unit pemiliknya."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Trait?",
+        "answer": "Trait adalah properti unit yang terpisah."
       },
       {
-        "question": "Apa yang dilindungi sebelum menjual hasil Trait?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Trait?",
         "answer": "UPDATE6 mencatat Trait Rerolls sebagai hadiah. Trait harus dibaca bersama unit pemiliknya."
       },
       {
-        "question": "Nilai Trait apa yang belum ditetapkan?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Trait?",
         "answer": "Efek dan peringkat lengkap tiap versi belum terkonfirmasi."
       }
     ],
@@ -1281,8 +934,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Mutation",
     "description": "Anime Dice: Mutation: panduan khusus untuk mengenali mutation sebagai properti terpisah, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas mengenali mutation sebagai properti terpisah. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Mutation termasuk dalam alur karakter yang terdokumentasi. Mutation, grade, dan trait adalah label berbeda. Peluang dan daftar mutation lengkap belum terkonfirmasi."
+      "Halaman ini khusus membahas mengenali mutation sebagai properti terpisah. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -1301,16 +953,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Mutation, grade, dan trait adalah label berbeda. Tinjau unit bermutation sebelum menjual."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Mutation.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Mutation termasuk dalam alur karakter yang terdokumentasi.",
-              "Sebelum memutuskan, bandingkan juga: Mutation, grade, dan trait adalah label berbeda."
-            ]
+            "text": "Mutation, grade, dan trait adalah label berbeda."
           }
         ]
       },
@@ -1320,15 +963,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Tinjau unit bermutation sebelum menjual."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Mutation, grade, dan trait adalah label berbeda.",
-              "Tinjau unit bermutation sebelum menjual."
-            ]
+            "text": "Tinjau unit bermutation sebelum menjual."
           }
         ]
       },
@@ -1343,42 +978,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Peluang dan daftar mutation lengkap belum terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "mutation-decision-record",
-        "title": "Mutation — Perbandingan unit lengkap",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Mutation termasuk dalam alur karakter yang terdokumentasi. Mutation, grade, dan trait adalah label berbeda. Tinjau unit bermutation sebelum menjual."
-          },
-          {
-            "type": "paragraph",
-            "text": "Peluang dan daftar mutation lengkap belum terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Mutation termasuk dalam alur karakter yang terdokumentasi.",
-              "Mutation, grade, dan trait adalah label berbeda.",
-              "Tinjau unit bermutation sebelum menjual."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Properti apa yang masuk perbandingan Mutation?",
-        "answer": "Mutation termasuk dalam alur karakter yang terdokumentasi. Mutation, grade, dan trait adalah label berbeda. Tinjau unit bermutation sebelum menjual."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Mutation?",
+        "answer": "Mutation termasuk dalam alur karakter yang terdokumentasi."
       },
       {
-        "question": "Apa yang dilindungi sebelum menjual hasil Mutation?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Mutation?",
         "answer": "Mutation, grade, dan trait adalah label berbeda. Tinjau unit bermutation sebelum menjual."
       },
       {
-        "question": "Nilai Mutation apa yang belum ditetapkan?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Mutation?",
         "answer": "Peluang dan daftar mutation lengkap belum terkonfirmasi."
       }
     ],
@@ -1394,8 +1006,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Rarity",
     "description": "Anime Dice: Rarity: panduan khusus untuk membandingkan rarity dengan properti lain, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas membandingkan rarity dengan properti lain. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Rarity menjelaskan hasil roll. Rarity tidak menggantikan grade, trait, mutation, atau level. Peluang tepat setiap rarity belum terkonfirmasi."
+      "Halaman ini khusus membahas membandingkan rarity dengan properti lain. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -1414,16 +1025,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Rarity tidak menggantikan grade, trait, mutation, atau level. Luck adalah progres, bukan rarity unit."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Rarity.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Rarity menjelaskan hasil roll.",
-              "Sebelum memutuskan, bandingkan juga: Rarity tidak menggantikan grade, trait, mutation, atau level."
-            ]
+            "text": "Rarity tidak menggantikan grade, trait, mutation, atau level."
           }
         ]
       },
@@ -1433,15 +1035,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Luck adalah progres, bukan rarity unit."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Rarity tidak menggantikan grade, trait, mutation, atau level.",
-              "Luck adalah progres, bukan rarity unit."
-            ]
+            "text": "Luck adalah progres, bukan rarity unit."
           }
         ]
       },
@@ -1456,42 +1050,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Peluang tepat setiap rarity belum terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "rarity-decision-record",
-        "title": "Rarity — Perbandingan unit lengkap",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Rarity menjelaskan hasil roll. Rarity tidak menggantikan grade, trait, mutation, atau level. Luck adalah progres, bukan rarity unit."
-          },
-          {
-            "type": "paragraph",
-            "text": "Peluang tepat setiap rarity belum terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Rarity menjelaskan hasil roll.",
-              "Rarity tidak menggantikan grade, trait, mutation, atau level.",
-              "Luck adalah progres, bukan rarity unit."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Properti apa yang masuk perbandingan Rarity?",
-        "answer": "Rarity menjelaskan hasil roll. Rarity tidak menggantikan grade, trait, mutation, atau level. Luck adalah progres, bukan rarity unit."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Rarity?",
+        "answer": "Rarity menjelaskan hasil roll."
       },
       {
-        "question": "Apa yang dilindungi sebelum menjual hasil Rarity?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Rarity?",
         "answer": "Rarity tidak menggantikan grade, trait, mutation, atau level. Luck adalah progres, bukan rarity unit."
       },
       {
-        "question": "Nilai Rarity apa yang belum ditetapkan?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Rarity?",
         "answer": "Peluang tepat setiap rarity belum terkonfirmasi."
       }
     ],
@@ -1507,8 +1078,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Grade",
     "description": "Anime Dice: Grade: panduan khusus untuk membaca grade secara terpisah, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas membaca grade secara terpisah. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Grade berbeda dari trait dan mutation. Bandingkan grade dengan unit dasarnya. Tabel dan modifier grade lengkap belum terkonfirmasi."
+      "Halaman ini khusus membahas membaca grade secara terpisah. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -1527,16 +1097,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Bandingkan grade dengan unit dasarnya. Simpan hasil yang meragukan sampai selesai ditinjau."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Grade.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Grade berbeda dari trait dan mutation.",
-              "Sebelum memutuskan, bandingkan juga: Bandingkan grade dengan unit dasarnya."
-            ]
+            "text": "Bandingkan grade dengan unit dasarnya."
           }
         ]
       },
@@ -1546,15 +1107,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Simpan hasil yang meragukan sampai selesai ditinjau."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Bandingkan grade dengan unit dasarnya.",
-              "Simpan hasil yang meragukan sampai selesai ditinjau."
-            ]
+            "text": "Simpan hasil yang meragukan sampai selesai ditinjau."
           }
         ]
       },
@@ -1569,42 +1122,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Tabel dan modifier grade lengkap belum terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "grades-decision-record",
-        "title": "Grade — Perbandingan unit lengkap",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Grade berbeda dari trait dan mutation. Bandingkan grade dengan unit dasarnya. Simpan hasil yang meragukan sampai selesai ditinjau."
-          },
-          {
-            "type": "paragraph",
-            "text": "Tabel dan modifier grade lengkap belum terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Grade berbeda dari trait dan mutation.",
-              "Bandingkan grade dengan unit dasarnya.",
-              "Simpan hasil yang meragukan sampai selesai ditinjau."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Properti apa yang masuk perbandingan Grade?",
-        "answer": "Grade berbeda dari trait dan mutation. Bandingkan grade dengan unit dasarnya. Simpan hasil yang meragukan sampai selesai ditinjau."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Grade?",
+        "answer": "Grade berbeda dari trait dan mutation."
       },
       {
-        "question": "Apa yang dilindungi sebelum menjual hasil Grade?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Grade?",
         "answer": "Bandingkan grade dengan unit dasarnya. Simpan hasil yang meragukan sampai selesai ditinjau."
       },
       {
-        "question": "Nilai Grade apa yang belum ditetapkan?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Grade?",
         "answer": "Tabel dan modifier grade lengkap belum terkonfirmasi."
       }
     ],
@@ -1620,8 +1150,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Level maksimum",
     "description": "Anime Dice: Level maksimum: panduan khusus untuk merencanakan investasi tanpa mengarang batas, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas merencanakan investasi tanpa mengarang batas. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Resource level lebih berguna pada unit keeper. Level tetap terpisah dari grade, trait, dan mutation. Sumber tidak menetapkan level maksimum universal."
+      "Halaman ini khusus membahas merencanakan investasi tanpa mengarang batas. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -1640,16 +1169,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Level tetap terpisah dari grade, trait, dan mutation. Roll baru dapat mengubah prioritas investasi."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Level maksimum.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Resource level lebih berguna pada unit keeper.",
-              "Sebelum memutuskan, bandingkan juga: Level tetap terpisah dari grade, trait, dan mutation."
-            ]
+            "text": "Level tetap terpisah dari grade, trait, dan mutation."
           }
         ]
       },
@@ -1659,15 +1179,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Roll baru dapat mengubah prioritas investasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Level tetap terpisah dari grade, trait, dan mutation.",
-              "Roll baru dapat mengubah prioritas investasi."
-            ]
+            "text": "Roll baru dapat mengubah prioritas investasi."
           }
         ]
       },
@@ -1682,42 +1194,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Sumber tidak menetapkan level maksimum universal."
           }
         ]
-      },
-      {
-        "id": "max-level-decision-record",
-        "title": "Level maksimum — Perbandingan unit lengkap",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Resource level lebih berguna pada unit keeper. Level tetap terpisah dari grade, trait, dan mutation. Roll baru dapat mengubah prioritas investasi."
-          },
-          {
-            "type": "paragraph",
-            "text": "Sumber tidak menetapkan level maksimum universal."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Resource level lebih berguna pada unit keeper.",
-              "Level tetap terpisah dari grade, trait, dan mutation.",
-              "Roll baru dapat mengubah prioritas investasi."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Properti apa yang masuk perbandingan Level maksimum?",
-        "answer": "Resource level lebih berguna pada unit keeper. Level tetap terpisah dari grade, trait, dan mutation. Roll baru dapat mengubah prioritas investasi."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Level maksimum?",
+        "answer": "Resource level lebih berguna pada unit keeper."
       },
       {
-        "question": "Apa yang dilindungi sebelum menjual hasil Level maksimum?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Level maksimum?",
         "answer": "Level tetap terpisah dari grade, trait, dan mutation. Roll baru dapat mengubah prioritas investasi."
       },
       {
-        "question": "Nilai Level maksimum apa yang belum ditetapkan?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Level maksimum?",
         "answer": "Sumber tidak menetapkan level maksimum universal."
       }
     ],
@@ -1733,8 +1222,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Luck",
     "description": "Anime Dice: Luck: panduan khusus untuk memprioritaskan Luck pada progres awal, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas memprioritaskan Luck pada progres awal. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Luck adalah prioritas awal yang praktis. Money dan Luck dapat didahulukan sebelum Roll Speed. Peluang pada setiap nilai Luck belum terkonfirmasi."
+      "Halaman ini khusus membahas memprioritaskan Luck pada progres awal. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -1753,16 +1241,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Money dan Luck dapat didahulukan sebelum Roll Speed. Luck tidak menjamin unit tertentu."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Luck.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Luck adalah prioritas awal yang praktis.",
-              "Sebelum memutuskan, bandingkan juga: Money dan Luck dapat didahulukan sebelum Roll Speed."
-            ]
+            "text": "Money dan Luck dapat didahulukan sebelum Roll Speed."
           }
         ]
       },
@@ -1772,15 +1251,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Luck tidak menjamin unit tertentu."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Money dan Luck dapat didahulukan sebelum Roll Speed.",
-              "Luck tidak menjamin unit tertentu."
-            ]
+            "text": "Luck tidak menjamin unit tertentu."
           }
         ]
       },
@@ -1842,42 +1313,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Peluang pada setiap nilai Luck belum terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "luck-decision-record",
-        "title": "Luck — Catatan keputusan resource",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Luck adalah prioritas awal yang praktis. Money dan Luck dapat didahulukan sebelum Roll Speed. Luck tidak menjamin unit tertentu."
-          },
-          {
-            "type": "paragraph",
-            "text": "Peluang pada setiap nilai Luck belum terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Luck adalah prioritas awal yang praktis.",
-              "Money dan Luck dapat didahulukan sebelum Roll Speed.",
-              "Luck tidak menjamin unit tertentu."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang dicatat sebelum memakai Luck?",
-        "answer": "Luck adalah prioritas awal yang praktis. Money dan Luck dapat didahulukan sebelum Roll Speed. Luck tidak menjamin unit tertentu."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Luck?",
+        "answer": "Luck adalah prioritas awal yang praktis."
       },
       {
-        "question": "Bagaimana Luck terhubung dengan tujuan berikutnya?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Luck?",
         "answer": "Money dan Luck dapat didahulukan sebelum Roll Speed. Luck tidak menjamin unit tertentu."
       },
       {
-        "question": "Nilai Luck apa yang memerlukan panel saat ini?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Luck?",
         "answer": "Peluang pada setiap nilai Luck belum terkonfirmasi."
       }
     ],
@@ -1898,8 +1346,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Luck maksimum",
     "description": "Anime Dice: Luck maksimum: panduan khusus untuk memeriksa batas di panel upgrade saat ini, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas memeriksa batas di panel upgrade saat ini. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Luck tercatat sebagai prioritas progres. Rebirth dapat memengaruhi progres jangka panjang. Tidak ada nilai maksimum permanen yang terkonfirmasi."
+      "Halaman ini khusus membahas memeriksa batas di panel upgrade saat ini. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -1918,16 +1365,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Rebirth dapat memengaruhi progres jangka panjang. Panel saat ini menunjukkan langkah yang tersedia."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Luck maksimum.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Luck tercatat sebagai prioritas progres.",
-              "Sebelum memutuskan, bandingkan juga: Rebirth dapat memengaruhi progres jangka panjang."
-            ]
+            "text": "Rebirth dapat memengaruhi progres jangka panjang."
           }
         ]
       },
@@ -1937,15 +1375,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Panel saat ini menunjukkan langkah yang tersedia."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Rebirth dapat memengaruhi progres jangka panjang.",
-              "Panel saat ini menunjukkan langkah yang tersedia."
-            ]
+            "text": "Panel saat ini menunjukkan langkah yang tersedia."
           }
         ]
       },
@@ -1960,42 +1390,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Tidak ada nilai maksimum permanen yang terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "max-luck-decision-record",
-        "title": "Luck maksimum — Catatan keputusan resource",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Luck tercatat sebagai prioritas progres. Rebirth dapat memengaruhi progres jangka panjang. Panel saat ini menunjukkan langkah yang tersedia."
-          },
-          {
-            "type": "paragraph",
-            "text": "Tidak ada nilai maksimum permanen yang terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Luck tercatat sebagai prioritas progres.",
-              "Rebirth dapat memengaruhi progres jangka panjang.",
-              "Panel saat ini menunjukkan langkah yang tersedia."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang dicatat sebelum memakai Luck maksimum?",
-        "answer": "Luck tercatat sebagai prioritas progres. Rebirth dapat memengaruhi progres jangka panjang. Panel saat ini menunjukkan langkah yang tersedia."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Luck maksimum?",
+        "answer": "Luck tercatat sebagai prioritas progres."
       },
       {
-        "question": "Bagaimana Luck maksimum terhubung dengan tujuan berikutnya?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Luck maksimum?",
         "answer": "Rebirth dapat memengaruhi progres jangka panjang. Panel saat ini menunjukkan langkah yang tersedia."
       },
       {
-        "question": "Nilai Luck maksimum apa yang memerlukan panel saat ini?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Luck maksimum?",
         "answer": "Tidak ada nilai maksimum permanen yang terkonfirmasi."
       }
     ],
@@ -2011,8 +1418,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Gems",
     "description": "Anime Dice: Gems: panduan khusus untuk menyimpan dan memakai resource progres, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas menyimpan dan memakai resource progres. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: UPDATE6 menyertakan Gems dalam hadiah. Peti grup dapat memberi Gems menurut panduan. Harga, penawaran, dan pembelian terbaik dapat berubah."
+      "Halaman ini khusus membahas menyimpan dan memakai resource progres. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -2031,16 +1437,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Peti grup dapat memberi Gems menurut panduan. Pengeluaran sebaiknya mendukung tujuan progres."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Gems.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: UPDATE6 menyertakan Gems dalam hadiah.",
-              "Sebelum memutuskan, bandingkan juga: Peti grup dapat memberi Gems menurut panduan."
-            ]
+            "text": "Peti grup dapat memberi Gems menurut panduan."
           }
         ]
       },
@@ -2050,15 +1447,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Pengeluaran sebaiknya mendukung tujuan progres."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Peti grup dapat memberi Gems menurut panduan.",
-              "Pengeluaran sebaiknya mendukung tujuan progres."
-            ]
+            "text": "Pengeluaran sebaiknya mendukung tujuan progres."
           }
         ]
       },
@@ -2073,42 +1462,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Harga, penawaran, dan pembelian terbaik dapat berubah."
           }
         ]
-      },
-      {
-        "id": "gems-decision-record",
-        "title": "Gems — Catatan keputusan resource",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: UPDATE6 menyertakan Gems dalam hadiah. Peti grup dapat memberi Gems menurut panduan. Pengeluaran sebaiknya mendukung tujuan progres."
-          },
-          {
-            "type": "paragraph",
-            "text": "Harga, penawaran, dan pembelian terbaik dapat berubah."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "UPDATE6 menyertakan Gems dalam hadiah.",
-              "Peti grup dapat memberi Gems menurut panduan.",
-              "Pengeluaran sebaiknya mendukung tujuan progres."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang dicatat sebelum memakai Gems?",
-        "answer": "UPDATE6 menyertakan Gems dalam hadiah. Peti grup dapat memberi Gems menurut panduan. Pengeluaran sebaiknya mendukung tujuan progres."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Gems?",
+        "answer": "UPDATE6 menyertakan Gems dalam hadiah."
       },
       {
-        "question": "Bagaimana Gems terhubung dengan tujuan berikutnya?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Gems?",
         "answer": "Peti grup dapat memberi Gems menurut panduan. Pengeluaran sebaiknya mendukung tujuan progres."
       },
       {
-        "question": "Nilai Gems apa yang memerlukan panel saat ini?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Gems?",
         "answer": "Harga, penawaran, dan pembelian terbaik dapat berubah."
       }
     ],
@@ -2124,8 +1490,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Jackpot Roll",
     "description": "Anime Dice: Jackpot Roll: panduan khusus untuk memeriksa fitur sebelum memakai resource, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas memeriksa fitur sebelum memakai resource. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Jackpot Roll diperlakukan di sini sebagai topik progres yang harus diperiksa di dalam game. Luck dinilai terpisah dari akses fitur. Syarat, hadiah, dan peluang tepat belum terkonfirmasi."
+      "Halaman ini khusus membahas memeriksa fitur sebelum memakai resource. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -2144,16 +1509,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Luck dinilai terpisah dari akses fitur. Antarmuka saat ini menentukan aktivasi dan biaya."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Jackpot Roll.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Jackpot Roll diperlakukan di sini sebagai topik progres yang harus diperiksa di dalam game.",
-              "Sebelum memutuskan, bandingkan juga: Luck dinilai terpisah dari akses fitur."
-            ]
+            "text": "Luck dinilai terpisah dari akses fitur."
           }
         ]
       },
@@ -2163,15 +1519,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Antarmuka saat ini menentukan aktivasi dan biaya."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Luck dinilai terpisah dari akses fitur.",
-              "Antarmuka saat ini menentukan aktivasi dan biaya."
-            ]
+            "text": "Antarmuka saat ini menentukan aktivasi dan biaya."
           }
         ]
       },
@@ -2186,42 +1534,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Syarat, hadiah, dan peluang tepat belum terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "jackpot-roll-decision-record",
-        "title": "Jackpot Roll — Catatan keputusan resource",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Jackpot Roll diperlakukan di sini sebagai topik progres yang harus diperiksa di dalam game. Luck dinilai terpisah dari akses fitur. Antarmuka saat ini menentukan aktivasi dan biaya."
-          },
-          {
-            "type": "paragraph",
-            "text": "Syarat, hadiah, dan peluang tepat belum terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Jackpot Roll diperlakukan di sini sebagai topik progres yang harus diperiksa di dalam game.",
-              "Luck dinilai terpisah dari akses fitur.",
-              "Antarmuka saat ini menentukan aktivasi dan biaya."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang dicatat sebelum memakai Jackpot Roll?",
-        "answer": "Jackpot Roll diperlakukan di sini sebagai topik progres yang harus diperiksa di dalam game. Luck dinilai terpisah dari akses fitur. Antarmuka saat ini menentukan aktivasi dan biaya."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Jackpot Roll?",
+        "answer": "Jackpot Roll diperlakukan di sini sebagai topik progres yang harus diperiksa di dalam game."
       },
       {
-        "question": "Bagaimana Jackpot Roll terhubung dengan tujuan berikutnya?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Jackpot Roll?",
         "answer": "Luck dinilai terpisah dari akses fitur. Antarmuka saat ini menentukan aktivasi dan biaya."
       },
       {
-        "question": "Nilai Jackpot Roll apa yang memerlukan panel saat ini?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Jackpot Roll?",
         "answer": "Syarat, hadiah, dan peluang tepat belum terkonfirmasi."
       }
     ],
@@ -2237,8 +1562,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Lucky Spins",
     "description": "Anime Dice: Lucky Spins: panduan khusus untuk memakai spins sebagai resource terbatas, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas memakai spins sebagai resource terbatas. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: UPDATE6 menyebut Lucky Spins sebagai hadiah. Peti grup juga dapat memberi spins. Hasil, peluang, dan ketersediaan saat ini belum terkonfirmasi."
+      "Halaman ini khusus membahas memakai spins sebagai resource terbatas. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -2257,16 +1581,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Peti grup juga dapat memberi spins. Tinjau hasil sebelum menjual unit."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Lucky Spins.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: UPDATE6 menyebut Lucky Spins sebagai hadiah.",
-              "Sebelum memutuskan, bandingkan juga: Peti grup juga dapat memberi spins."
-            ]
+            "text": "Peti grup juga dapat memberi spins."
           }
         ]
       },
@@ -2276,15 +1591,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Tinjau hasil sebelum menjual unit."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Peti grup juga dapat memberi spins.",
-              "Tinjau hasil sebelum menjual unit."
-            ]
+            "text": "Tinjau hasil sebelum menjual unit."
           }
         ]
       },
@@ -2299,42 +1606,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Hasil, peluang, dan ketersediaan saat ini belum terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "lucky-spin-decision-record",
-        "title": "Lucky Spins — Catatan keputusan resource",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: UPDATE6 menyebut Lucky Spins sebagai hadiah. Peti grup juga dapat memberi spins. Tinjau hasil sebelum menjual unit."
-          },
-          {
-            "type": "paragraph",
-            "text": "Hasil, peluang, dan ketersediaan saat ini belum terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "UPDATE6 menyebut Lucky Spins sebagai hadiah.",
-              "Peti grup juga dapat memberi spins.",
-              "Tinjau hasil sebelum menjual unit."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang dicatat sebelum memakai Lucky Spins?",
-        "answer": "UPDATE6 menyebut Lucky Spins sebagai hadiah. Peti grup juga dapat memberi spins. Tinjau hasil sebelum menjual unit."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Lucky Spins?",
+        "answer": "UPDATE6 menyebut Lucky Spins sebagai hadiah."
       },
       {
-        "question": "Bagaimana Lucky Spins terhubung dengan tujuan berikutnya?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Lucky Spins?",
         "answer": "Peti grup juga dapat memberi spins. Tinjau hasil sebelum menjual unit."
       },
       {
-        "question": "Nilai Lucky Spins apa yang memerlukan panel saat ini?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Lucky Spins?",
         "answer": "Hasil, peluang, dan ketersediaan saat ini belum terkonfirmasi."
       }
     ],
@@ -2350,8 +1634,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Rebirth",
     "description": "Anime Dice: Rebirth: panduan khusus untuk menyiapkan keputusan progres jangka panjang, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas menyiapkan keputusan progres jangka panjang. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Rebirth termasuk progres jangka panjang. Update 7 menambah enam jalur upgrade rebirth. Biaya dan dampak setiap langkah belum dikonfirmasi di sini."
+      "Halaman ini khusus membahas menyiapkan keputusan progres jangka panjang. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -2370,16 +1653,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Update 7 menambah enam jalur upgrade rebirth. Baca dampak reset di panel saat ini."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Rebirth.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Rebirth termasuk progres jangka panjang.",
-              "Sebelum memutuskan, bandingkan juga: Update 7 menambah enam jalur upgrade rebirth."
-            ]
+            "text": "Update 7 menambah enam jalur upgrade rebirth."
           }
         ]
       },
@@ -2389,15 +1663,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Baca dampak reset di panel saat ini."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Update 7 menambah enam jalur upgrade rebirth.",
-              "Baca dampak reset di panel saat ini."
-            ]
+            "text": "Baca dampak reset di panel saat ini."
           }
         ]
       },
@@ -2429,42 +1695,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Biaya dan dampak setiap langkah belum dikonfirmasi di sini."
           }
         ]
-      },
-      {
-        "id": "rebirth-decision-record",
-        "title": "Rebirth — Catatan keputusan resource",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Rebirth termasuk progres jangka panjang. Update 7 menambah enam jalur upgrade rebirth. Baca dampak reset di panel saat ini."
-          },
-          {
-            "type": "paragraph",
-            "text": "Biaya dan dampak setiap langkah belum dikonfirmasi di sini."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Rebirth termasuk progres jangka panjang.",
-              "Update 7 menambah enam jalur upgrade rebirth.",
-              "Baca dampak reset di panel saat ini."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang dicatat sebelum memakai Rebirth?",
-        "answer": "Rebirth termasuk progres jangka panjang. Update 7 menambah enam jalur upgrade rebirth. Baca dampak reset di panel saat ini."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Rebirth?",
+        "answer": "Rebirth termasuk progres jangka panjang."
       },
       {
-        "question": "Bagaimana Rebirth terhubung dengan tujuan berikutnya?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Rebirth?",
         "answer": "Update 7 menambah enam jalur upgrade rebirth. Baca dampak reset di panel saat ini."
       },
       {
-        "question": "Nilai Rebirth apa yang memerlukan panel saat ini?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Rebirth?",
         "answer": "Biaya dan dampak setiap langkah belum dikonfirmasi di sini."
       }
     ],
@@ -2485,8 +1728,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Rebirth maksimum",
     "description": "Anime Dice: Rebirth maksimum: panduan khusus untuk membedakan jalur upgrade dari batas akhir, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas membedakan jalur upgrade dari batas akhir. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Update 7 mencatat enam jalur upgrade. Jumlah jalur bukan berarti jumlah rebirth maksimum. Tidak ada maksimum rebirth permanen yang terkonfirmasi."
+      "Halaman ini khusus membahas membedakan jalur upgrade dari batas akhir. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -2505,16 +1747,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Jumlah jalur bukan berarti jumlah rebirth maksimum. Gunakan panel saat ini untuk memeriksa batas."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Rebirth maksimum.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Update 7 mencatat enam jalur upgrade.",
-              "Sebelum memutuskan, bandingkan juga: Jumlah jalur bukan berarti jumlah rebirth maksimum."
-            ]
+            "text": "Jumlah jalur bukan berarti jumlah rebirth maksimum."
           }
         ]
       },
@@ -2524,15 +1757,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Gunakan panel saat ini untuk memeriksa batas."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Jumlah jalur bukan berarti jumlah rebirth maksimum.",
-              "Gunakan panel saat ini untuk memeriksa batas."
-            ]
+            "text": "Gunakan panel saat ini untuk memeriksa batas."
           }
         ]
       },
@@ -2547,42 +1772,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Tidak ada maksimum rebirth permanen yang terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "max-rebirth-decision-record",
-        "title": "Rebirth maksimum — Catatan keputusan resource",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Update 7 mencatat enam jalur upgrade. Jumlah jalur bukan berarti jumlah rebirth maksimum. Gunakan panel saat ini untuk memeriksa batas."
-          },
-          {
-            "type": "paragraph",
-            "text": "Tidak ada maksimum rebirth permanen yang terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Update 7 mencatat enam jalur upgrade.",
-              "Jumlah jalur bukan berarti jumlah rebirth maksimum.",
-              "Gunakan panel saat ini untuk memeriksa batas."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang dicatat sebelum memakai Rebirth maksimum?",
-        "answer": "Update 7 mencatat enam jalur upgrade. Jumlah jalur bukan berarti jumlah rebirth maksimum. Gunakan panel saat ini untuk memeriksa batas."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Rebirth maksimum?",
+        "answer": "Update 7 mencatat enam jalur upgrade."
       },
       {
-        "question": "Bagaimana Rebirth maksimum terhubung dengan tujuan berikutnya?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Rebirth maksimum?",
         "answer": "Jumlah jalur bukan berarti jumlah rebirth maksimum. Gunakan panel saat ini untuk memeriksa batas."
       },
       {
-        "question": "Nilai Rebirth maksimum apa yang memerlukan panel saat ini?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Rebirth maksimum?",
         "answer": "Tidak ada maksimum rebirth permanen yang terkonfirmasi."
       }
     ],
@@ -2598,8 +1800,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Quest Shop",
     "description": "Anime Dice: Quest Shop: panduan khusus untuk membandingkan hadiah dan pembelian saat ini, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas membandingkan hadiah dan pembelian saat ini. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Periksa toko pada versi game saat ini. Gems, Tickets, dan spins adalah resource berbeda. Stok, harga, dan waktu refresh belum terkonfirmasi."
+      "Halaman ini khusus membahas membandingkan hadiah dan pembelian saat ini. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -2618,16 +1819,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Gems, Tickets, dan spins adalah resource berbeda. Pilih pembelian yang mendukung rencana tim."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Quest Shop.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Periksa toko pada versi game saat ini.",
-              "Sebelum memutuskan, bandingkan juga: Gems, Tickets, dan spins adalah resource berbeda."
-            ]
+            "text": "Gems, Tickets, dan spins adalah resource berbeda."
           }
         ]
       },
@@ -2637,15 +1829,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Pilih pembelian yang mendukung rencana tim."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Gems, Tickets, dan spins adalah resource berbeda.",
-              "Pilih pembelian yang mendukung rencana tim."
-            ]
+            "text": "Pilih pembelian yang mendukung rencana tim."
           }
         ]
       },
@@ -2660,42 +1844,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Stok, harga, dan waktu refresh belum terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "quest-shop-decision-record",
-        "title": "Quest Shop — Catatan keputusan resource",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Periksa toko pada versi game saat ini. Gems, Tickets, dan spins adalah resource berbeda. Pilih pembelian yang mendukung rencana tim."
-          },
-          {
-            "type": "paragraph",
-            "text": "Stok, harga, dan waktu refresh belum terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Periksa toko pada versi game saat ini.",
-              "Gems, Tickets, dan spins adalah resource berbeda.",
-              "Pilih pembelian yang mendukung rencana tim."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang dicatat sebelum memakai Quest Shop?",
-        "answer": "Periksa toko pada versi game saat ini. Gems, Tickets, dan spins adalah resource berbeda. Pilih pembelian yang mendukung rencana tim."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Quest Shop?",
+        "answer": "Periksa toko pada versi game saat ini."
       },
       {
-        "question": "Bagaimana Quest Shop terhubung dengan tujuan berikutnya?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Quest Shop?",
         "answer": "Gems, Tickets, dan spins adalah resource berbeda. Pilih pembelian yang mendukung rencana tim."
       },
       {
-        "question": "Nilai Quest Shop apa yang memerlukan panel saat ini?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Quest Shop?",
         "answer": "Stok, harga, dan waktu refresh belum terkonfirmasi."
       }
     ],
@@ -2711,8 +1872,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Tower",
     "description": "Anime Dice: Tower: panduan khusus untuk menyiapkan tim dan resource sebelum masuk, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas menyiapkan tim dan resource sebelum masuk. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Tinjau tim aktif sebelum mencoba. Gear, Potions, dan Tickets adalah resource berbeda. Lantai, musuh, dan rotasi hadiah dapat berubah."
+      "Halaman ini khusus membahas menyiapkan tim dan resource sebelum masuk. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -2731,16 +1891,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Gear, Potions, dan Tickets adalah resource berbeda. Sumber menempatkan Tower sebagai progres."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Tower.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Tinjau tim aktif sebelum mencoba.",
-              "Sebelum memutuskan, bandingkan juga: Gear, Potions, dan Tickets adalah resource berbeda."
-            ]
+            "text": "Gear, Potions, dan Tickets adalah resource berbeda."
           }
         ]
       },
@@ -2750,15 +1901,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Sumber menempatkan Tower sebagai progres."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Gear, Potions, dan Tickets adalah resource berbeda.",
-              "Sumber menempatkan Tower sebagai progres."
-            ]
+            "text": "Sumber menempatkan Tower sebagai progres."
           }
         ]
       },
@@ -2790,42 +1933,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Lantai, musuh, dan rotasi hadiah dapat berubah."
           }
         ]
-      },
-      {
-        "id": "tower-decision-record",
-        "title": "Tower — Catatan persiapan percobaan",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Tinjau tim aktif sebelum mencoba. Gear, Potions, dan Tickets adalah resource berbeda. Sumber menempatkan Tower sebagai progres."
-          },
-          {
-            "type": "paragraph",
-            "text": "Lantai, musuh, dan rotasi hadiah dapat berubah."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Tinjau tim aktif sebelum mencoba.",
-              "Gear, Potions, dan Tickets adalah resource berbeda.",
-              "Sumber menempatkan Tower sebagai progres."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang masuk checklist Tower?",
-        "answer": "Tinjau tim aktif sebelum mencoba. Gear, Potions, dan Tickets adalah resource berbeda. Sumber menempatkan Tower sebagai progres."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Tower?",
+        "answer": "Tinjau tim aktif sebelum mencoba."
       },
       {
-        "question": "Bagaimana meninjau percobaan Tower yang gagal?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Tower?",
         "answer": "Gear, Potions, dan Tickets adalah resource berbeda. Sumber menempatkan Tower sebagai progres."
       },
       {
-        "question": "Hadiah Tower apa yang tidak terjamin?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Tower?",
         "answer": "Lantai, musuh, dan rotasi hadiah dapat berubah."
       }
     ],
@@ -2846,8 +1966,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Gear",
     "description": "Anime Dice: Gear: panduan khusus untuk membandingkan gear berdasarkan sumber dan fungsi, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas membandingkan gear berdasarkan sumber dan fungsi. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Gear terkait persiapan Tower dalam sumber. Bandingkan item dengan unit dan tujuan. Daftar dan modifier live belum terkonfirmasi."
+      "Halaman ini khusus membahas membandingkan gear berdasarkan sumber dan fungsi. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -2866,16 +1985,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Bandingkan item dengan unit dan tujuan. Catat cara memperoleh berdasarkan sumber yang ditinjau."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Gear.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Gear terkait persiapan Tower dalam sumber.",
-              "Sebelum memutuskan, bandingkan juga: Bandingkan item dengan unit dan tujuan."
-            ]
+            "text": "Bandingkan item dengan unit dan tujuan."
           }
         ]
       },
@@ -2885,15 +1995,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Catat cara memperoleh berdasarkan sumber yang ditinjau."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Bandingkan item dengan unit dan tujuan.",
-              "Catat cara memperoleh berdasarkan sumber yang ditinjau."
-            ]
+            "text": "Catat cara memperoleh berdasarkan sumber yang ditinjau."
           }
         ]
       },
@@ -2943,42 +2045,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Daftar dan modifier live belum terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "gear-decision-record",
-        "title": "Gear — Catatan persiapan percobaan",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Gear terkait persiapan Tower dalam sumber. Bandingkan item dengan unit dan tujuan. Catat cara memperoleh berdasarkan sumber yang ditinjau."
-          },
-          {
-            "type": "paragraph",
-            "text": "Daftar dan modifier live belum terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Gear terkait persiapan Tower dalam sumber.",
-              "Bandingkan item dengan unit dan tujuan.",
-              "Catat cara memperoleh berdasarkan sumber yang ditinjau."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang masuk checklist Gear?",
-        "answer": "Gear terkait persiapan Tower dalam sumber. Bandingkan item dengan unit dan tujuan. Catat cara memperoleh berdasarkan sumber yang ditinjau."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Gear?",
+        "answer": "Gear terkait persiapan Tower dalam sumber."
       },
       {
-        "question": "Bagaimana meninjau percobaan Gear yang gagal?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Gear?",
         "answer": "Bandingkan item dengan unit dan tujuan. Catat cara memperoleh berdasarkan sumber yang ditinjau."
       },
       {
-        "question": "Hadiah Gear apa yang tidak terjamin?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Gear?",
         "answer": "Daftar dan modifier live belum terkonfirmasi."
       }
     ],
@@ -2999,8 +2078,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Potion",
     "description": "Anime Dice: Potion: panduan khusus untuk memutuskan kapan memakai resource sementara, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas memutuskan kapan memakai resource sementara. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Potion diperlakukan sebagai persiapan Tower. Baca teks item saat ini sebelum memakai. Stok, durasi, dan efek tepat dapat berubah."
+      "Halaman ini khusus membahas memutuskan kapan memakai resource sementara. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -3019,16 +2097,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Baca teks item saat ini sebelum memakai. Simpan item terbatas untuk tujuan tertentu."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Potion.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Potion diperlakukan sebagai persiapan Tower.",
-              "Sebelum memutuskan, bandingkan juga: Baca teks item saat ini sebelum memakai."
-            ]
+            "text": "Baca teks item saat ini sebelum memakai."
           }
         ]
       },
@@ -3038,15 +2107,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Simpan item terbatas untuk tujuan tertentu."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Baca teks item saat ini sebelum memakai.",
-              "Simpan item terbatas untuk tujuan tertentu."
-            ]
+            "text": "Simpan item terbatas untuk tujuan tertentu."
           }
         ]
       },
@@ -3061,42 +2122,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Stok, durasi, dan efek tepat dapat berubah."
           }
         ]
-      },
-      {
-        "id": "potion-decision-record",
-        "title": "Potion — Catatan persiapan percobaan",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Potion diperlakukan sebagai persiapan Tower. Baca teks item saat ini sebelum memakai. Simpan item terbatas untuk tujuan tertentu."
-          },
-          {
-            "type": "paragraph",
-            "text": "Stok, durasi, dan efek tepat dapat berubah."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Potion diperlakukan sebagai persiapan Tower.",
-              "Baca teks item saat ini sebelum memakai.",
-              "Simpan item terbatas untuk tujuan tertentu."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang masuk checklist Potion?",
-        "answer": "Potion diperlakukan sebagai persiapan Tower. Baca teks item saat ini sebelum memakai. Simpan item terbatas untuk tujuan tertentu."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Potion?",
+        "answer": "Potion diperlakukan sebagai persiapan Tower."
       },
       {
-        "question": "Bagaimana meninjau percobaan Potion yang gagal?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Potion?",
         "answer": "Baca teks item saat ini sebelum memakai. Simpan item terbatas untuk tujuan tertentu."
       },
       {
-        "question": "Hadiah Potion apa yang tidak terjamin?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Potion?",
         "answer": "Stok, durasi, dan efek tepat dapat berubah."
       }
     ],
@@ -3112,8 +2150,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Tickets",
     "description": "Anime Dice: Tickets: panduan khusus untuk mencatat Tickets sebelum digunakan, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas mencatat Tickets sebelum digunakan. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: UPDATE6 menyertakan Tickets dalam hadiah. Periksa fungsi pada antarmuka saat ini. Biaya, penggunaan, dan ketersediaan belum terkonfirmasi."
+      "Halaman ini khusus membahas mencatat Tickets sebelum digunakan. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -3132,16 +2169,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Periksa fungsi pada antarmuka saat ini. Tidak ada sumber yang mendukung suplai tanpa batas."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Tickets.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: UPDATE6 menyertakan Tickets dalam hadiah.",
-              "Sebelum memutuskan, bandingkan juga: Periksa fungsi pada antarmuka saat ini."
-            ]
+            "text": "Periksa fungsi pada antarmuka saat ini."
           }
         ]
       },
@@ -3151,15 +2179,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Tidak ada sumber yang mendukung suplai tanpa batas."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Periksa fungsi pada antarmuka saat ini.",
-              "Tidak ada sumber yang mendukung suplai tanpa batas."
-            ]
+            "text": "Tidak ada sumber yang mendukung suplai tanpa batas."
           }
         ]
       },
@@ -3174,42 +2194,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Biaya, penggunaan, dan ketersediaan belum terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "tickets-decision-record",
-        "title": "Tickets — Catatan persiapan percobaan",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: UPDATE6 menyertakan Tickets dalam hadiah. Periksa fungsi pada antarmuka saat ini. Tidak ada sumber yang mendukung suplai tanpa batas."
-          },
-          {
-            "type": "paragraph",
-            "text": "Biaya, penggunaan, dan ketersediaan belum terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "UPDATE6 menyertakan Tickets dalam hadiah.",
-              "Periksa fungsi pada antarmuka saat ini.",
-              "Tidak ada sumber yang mendukung suplai tanpa batas."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang masuk checklist Tickets?",
-        "answer": "UPDATE6 menyertakan Tickets dalam hadiah. Periksa fungsi pada antarmuka saat ini. Tidak ada sumber yang mendukung suplai tanpa batas."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Tickets?",
+        "answer": "UPDATE6 menyertakan Tickets dalam hadiah."
       },
       {
-        "question": "Bagaimana meninjau percobaan Tickets yang gagal?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Tickets?",
         "answer": "Periksa fungsi pada antarmuka saat ini. Tidak ada sumber yang mendukung suplai tanpa batas."
       },
       {
-        "question": "Hadiah Tickets apa yang tidak terjamin?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Tickets?",
         "answer": "Biaya, penggunaan, dan ketersediaan belum terkonfirmasi."
       }
     ],
@@ -3225,8 +2222,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Sistem trading",
     "description": "Anime Dice: Sistem trading: panduan khusus untuk memeriksa kedua sisi pertukaran, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas memeriksa kedua sisi pertukaran. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Konfirmasi setiap unit atau item yang ditawarkan. Bandingkan grade, trait, mutation, dan level secara terpisah. Ketersediaan trading dan permintaan tidak permanen."
+      "Halaman ini khusus membahas memeriksa kedua sisi pertukaran. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -3245,16 +2241,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Bandingkan grade, trait, mutation, dan level secara terpisah. Gunakan tujuan terverifikasi untuk konteks komunitas."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Sistem trading.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Konfirmasi setiap unit atau item yang ditawarkan.",
-              "Sebelum memutuskan, bandingkan juga: Bandingkan grade, trait, mutation, dan level secara terpisah."
-            ]
+            "text": "Bandingkan grade, trait, mutation, dan level secara terpisah."
           }
         ]
       },
@@ -3264,15 +2251,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Gunakan tujuan terverifikasi untuk konteks komunitas."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Bandingkan grade, trait, mutation, dan level secara terpisah.",
-              "Gunakan tujuan terverifikasi untuk konteks komunitas."
-            ]
+            "text": "Gunakan tujuan terverifikasi untuk konteks komunitas."
           }
         ]
       },
@@ -3287,42 +2266,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Ketersediaan trading dan permintaan tidak permanen."
           }
         ]
-      },
-      {
-        "id": "trading-decision-record",
-        "title": "Sistem trading — Catatan perbandingan terdokumentasi",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Konfirmasi setiap unit atau item yang ditawarkan. Bandingkan grade, trait, mutation, dan level secara terpisah. Gunakan tujuan terverifikasi untuk konteks komunitas."
-          },
-          {
-            "type": "paragraph",
-            "text": "Ketersediaan trading dan permintaan tidak permanen."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Konfirmasi setiap unit atau item yang ditawarkan.",
-              "Bandingkan grade, trait, mutation, dan level secara terpisah.",
-              "Gunakan tujuan terverifikasi untuk konteks komunitas."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang dicatat sebelum keputusan Sistem trading?",
-        "answer": "Konfirmasi setiap unit atau item yang ditawarkan. Bandingkan grade, trait, mutation, dan level secara terpisah. Gunakan tujuan terverifikasi untuk konteks komunitas."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Sistem trading?",
+        "answer": "Konfirmasi setiap unit atau item yang ditawarkan."
       },
       {
-        "question": "Mengapa satu penawaran Sistem trading tidak cukup?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Sistem trading?",
         "answer": "Bandingkan grade, trait, mutation, dan level secara terpisah. Gunakan tujuan terverifikasi untuk konteks komunitas."
       },
       {
-        "question": "Harga Sistem trading apa yang ditolak halaman ini?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Sistem trading?",
         "answer": "Ketersediaan trading dan permintaan tidak permanen."
       }
     ],
@@ -3338,8 +2294,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Trade value",
     "description": "Anime Dice: Trade value: panduan khusus untuk membandingkan penawaran tanpa menyalin satu harga, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas membandingkan penawaran tanpa menyalin satu harga. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Catat identitas dan rarity. Grade, trait, mutation, dan level mengubah perbandingan. Tidak ada data harga live terverifikasi."
+      "Halaman ini khusus membahas membandingkan penawaran tanpa menyalin satu harga. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -3358,16 +2313,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Grade, trait, mutation, dan level mengubah perbandingan. Setiap perkiraan membutuhkan sumber dan tanggal."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Trade value.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Catat identitas dan rarity.",
-              "Sebelum memutuskan, bandingkan juga: Grade, trait, mutation, dan level mengubah perbandingan."
-            ]
+            "text": "Grade, trait, mutation, dan level mengubah perbandingan."
           }
         ]
       },
@@ -3377,15 +2323,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Setiap perkiraan membutuhkan sumber dan tanggal."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Grade, trait, mutation, dan level mengubah perbandingan.",
-              "Setiap perkiraan membutuhkan sumber dan tanggal."
-            ]
+            "text": "Setiap perkiraan membutuhkan sumber dan tanggal."
           }
         ]
       },
@@ -3400,42 +2338,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Tidak ada data harga live terverifikasi."
           }
         ]
-      },
-      {
-        "id": "trade-value-decision-record",
-        "title": "Trade value — Catatan perbandingan terdokumentasi",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Catat identitas dan rarity. Grade, trait, mutation, dan level mengubah perbandingan. Setiap perkiraan membutuhkan sumber dan tanggal."
-          },
-          {
-            "type": "paragraph",
-            "text": "Tidak ada data harga live terverifikasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Catat identitas dan rarity.",
-              "Grade, trait, mutation, dan level mengubah perbandingan.",
-              "Setiap perkiraan membutuhkan sumber dan tanggal."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang dicatat sebelum keputusan Trade value?",
-        "answer": "Catat identitas dan rarity. Grade, trait, mutation, dan level mengubah perbandingan. Setiap perkiraan membutuhkan sumber dan tanggal."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Trade value?",
+        "answer": "Catat identitas dan rarity."
       },
       {
-        "question": "Mengapa satu penawaran Trade value tidak cukup?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Trade value?",
         "answer": "Grade, trait, mutation, dan level mengubah perbandingan. Setiap perkiraan membutuhkan sumber dan tanggal."
       },
       {
-        "question": "Harga Trade value apa yang ditolak halaman ini?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Trade value?",
         "answer": "Tidak ada data harga live terverifikasi."
       }
     ],
@@ -3451,8 +2366,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Lembar evaluasi value",
     "description": "Anime Dice: Lembar evaluasi value: panduan khusus untuk menyusun kedua sisi penawaran secara manual, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas menyusun kedua sisi penawaran secara manual. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Daftar semua unit pada kedua sisi. Bandingkan rarity, grade, trait, mutation, dan level. Tolak tekanan untuk menyelesaikan pertukaran sebelum verifikasi."
+      "Halaman ini khusus membahas menyusun kedua sisi penawaran secara manual. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -3471,16 +2385,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Bandingkan rarity, grade, trait, mutation, dan level. Catat sumber dan tanggal perkiraan komunitas."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Lembar evaluasi value.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Daftar semua unit pada kedua sisi.",
-              "Sebelum memutuskan, bandingkan juga: Bandingkan rarity, grade, trait, mutation, dan level."
-            ]
+            "text": "Bandingkan rarity, grade, trait, mutation, dan level."
           }
         ]
       },
@@ -3490,16 +2395,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Catat sumber dan tanggal perkiraan komunitas."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Bandingkan rarity, grade, trait, mutation, dan level.",
-              "Catat sumber dan tanggal perkiraan komunitas.",
-              "Tolak tekanan untuk menyelesaikan pertukaran sebelum verifikasi."
-            ]
+            "text": "Catat sumber dan tanggal perkiraan komunitas."
           }
         ]
       },
@@ -3514,42 +2410,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Halaman ini tidak mengklaim formula pasar numerik."
           }
         ]
-      },
-      {
-        "id": "value-calculator-decision-record",
-        "title": "Lembar evaluasi value — Catatan perbandingan terdokumentasi",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Daftar semua unit pada kedua sisi. Bandingkan rarity, grade, trait, mutation, dan level. Catat sumber dan tanggal perkiraan komunitas."
-          },
-          {
-            "type": "paragraph",
-            "text": "Tolak tekanan untuk menyelesaikan pertukaran sebelum verifikasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Daftar semua unit pada kedua sisi.",
-              "Bandingkan rarity, grade, trait, mutation, dan level.",
-              "Catat sumber dan tanggal perkiraan komunitas."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang dicatat sebelum keputusan Lembar evaluasi value?",
-        "answer": "Daftar semua unit pada kedua sisi. Bandingkan rarity, grade, trait, mutation, dan level. Catat sumber dan tanggal perkiraan komunitas."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Lembar evaluasi value?",
+        "answer": "Daftar semua unit pada kedua sisi."
       },
       {
-        "question": "Mengapa satu penawaran Lembar evaluasi value tidak cukup?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Lembar evaluasi value?",
         "answer": "Bandingkan rarity, grade, trait, mutation, dan level. Catat sumber dan tanggal perkiraan komunitas."
       },
       {
-        "question": "Harga Lembar evaluasi value apa yang ditolak halaman ini?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Lembar evaluasi value?",
         "answer": "Tolak tekanan untuk menyelesaikan pertukaran sebelum verifikasi."
       }
     ],
@@ -3566,8 +2439,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Market",
     "description": "Anime Dice: Market: panduan khusus untuk memantau permintaan komunitas yang berubah, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas memantau permintaan komunitas yang berubah. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Penawaran terlihat bukan transaksi selesai. Tanggal penting karena permintaan berubah. Tidak ada feed live atau daftar harga resmi tetap."
+      "Halaman ini khusus membahas memantau permintaan komunitas yang berubah. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -3586,16 +2458,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Tanggal penting karena permintaan berubah. Bandingkan beberapa pengamatan yang dapat diverifikasi."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Market.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Penawaran terlihat bukan transaksi selesai.",
-              "Sebelum memutuskan, bandingkan juga: Tanggal penting karena permintaan berubah."
-            ]
+            "text": "Tanggal penting karena permintaan berubah."
           }
         ]
       },
@@ -3605,15 +2468,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Bandingkan beberapa pengamatan yang dapat diverifikasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Tanggal penting karena permintaan berubah.",
-              "Bandingkan beberapa pengamatan yang dapat diverifikasi."
-            ]
+            "text": "Bandingkan beberapa pengamatan yang dapat diverifikasi."
           }
         ]
       },
@@ -3628,42 +2483,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Tidak ada feed live atau daftar harga resmi tetap."
           }
         ]
-      },
-      {
-        "id": "market-decision-record",
-        "title": "Market — Catatan perbandingan terdokumentasi",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Penawaran terlihat bukan transaksi selesai. Tanggal penting karena permintaan berubah. Bandingkan beberapa pengamatan yang dapat diverifikasi."
-          },
-          {
-            "type": "paragraph",
-            "text": "Tidak ada feed live atau daftar harga resmi tetap."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Penawaran terlihat bukan transaksi selesai.",
-              "Tanggal penting karena permintaan berubah.",
-              "Bandingkan beberapa pengamatan yang dapat diverifikasi."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Apa yang dicatat sebelum keputusan Market?",
-        "answer": "Penawaran terlihat bukan transaksi selesai. Tanggal penting karena permintaan berubah. Bandingkan beberapa pengamatan yang dapat diverifikasi."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Market?",
+        "answer": "Penawaran terlihat bukan transaksi selesai."
       },
       {
-        "question": "Mengapa satu penawaran Market tidak cukup?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Market?",
         "answer": "Tanggal penting karena permintaan berubah. Bandingkan beberapa pengamatan yang dapat diverifikasi."
       },
       {
-        "question": "Harga Market apa yang ditolak halaman ini?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Market?",
         "answer": "Tidak ada feed live atau daftar harga resmi tetap."
       }
     ],
@@ -3679,8 +2511,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Update terbaru",
     "description": "Anime Dice: Update terbaru: panduan khusus untuk mengidentifikasi perubahan terbaru yang terkonfirmasi, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas mengidentifikasi perubahan terbaru yang terkonfirmasi. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Riset yang diberikan mengidentifikasi Update 7. Update 7 menambah rarity Galactic. Versi yang lebih baru belum dikonfirmasi."
+      "Halaman ini khusus membahas mengidentifikasi perubahan terbaru yang terkonfirmasi. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -3699,16 +2530,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Update 7 menambah rarity Galactic. Update ini juga menambah enam jalur rebirth."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Update terbaru.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Riset yang diberikan mengidentifikasi Update 7.",
-              "Sebelum memutuskan, bandingkan juga: Update 7 menambah rarity Galactic."
-            ]
+            "text": "Update 7 menambah rarity Galactic."
           }
         ]
       },
@@ -3718,15 +2540,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Update ini juga menambah enam jalur rebirth."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Update 7 menambah rarity Galactic.",
-              "Update ini juga menambah enam jalur rebirth."
-            ]
+            "text": "Update ini juga menambah enam jalur rebirth."
           }
         ]
       },
@@ -3741,42 +2555,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Versi yang lebih baru belum dikonfirmasi."
           }
         ]
-      },
-      {
-        "id": "new-update-decision-record",
-        "title": "Update terbaru — Catatan verifikasi bertanggal",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Riset yang diberikan mengidentifikasi Update 7. Update 7 menambah rarity Galactic. Update ini juga menambah enam jalur rebirth."
-          },
-          {
-            "type": "paragraph",
-            "text": "Versi yang lebih baru belum dikonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Riset yang diberikan mengidentifikasi Update 7.",
-              "Update 7 menambah rarity Galactic.",
-              "Update ini juga menambah enam jalur rebirth."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Sumber bertanggal apa yang mengonfirmasi Update terbaru?",
-        "answer": "Riset yang diberikan mengidentifikasi Update 7. Update 7 menambah rarity Galactic. Update ini juga menambah enam jalur rebirth."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Update terbaru?",
+        "answer": "Riset yang diberikan mengidentifikasi Update 7."
       },
       {
-        "question": "Bagaimana pengumuman Update terbaru dipisahkan dari rumor?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Update terbaru?",
         "answer": "Update 7 menambah rarity Galactic. Update ini juga menambah enam jalur rebirth."
       },
       {
-        "question": "Apa yang belum diketahui tentang Update terbaru?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Update terbaru?",
         "answer": "Versi yang lebih baru belum dikonfirmasi."
       }
     ],
@@ -3792,8 +2583,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Update berikutnya",
     "description": "Anime Dice: Update berikutnya: panduan khusus untuk memisahkan pengumuman dari spekulasi, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas memisahkan pengumuman dari spekulasi. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Halaman resmi dan Discord terverifikasi adalah tujuan pengumuman. Rumor bukan pengumuman developer. Tidak ada tanggal atau fitur update berikutnya yang terkonfirmasi."
+      "Halaman ini khusus membahas memisahkan pengumuman dari spekulasi. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -3812,16 +2602,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Rumor bukan pengumuman developer. Setiap pemeriksaan harus mencatat tanggal."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Update berikutnya.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Halaman resmi dan Discord terverifikasi adalah tujuan pengumuman.",
-              "Sebelum memutuskan, bandingkan juga: Rumor bukan pengumuman developer."
-            ]
+            "text": "Rumor bukan pengumuman developer."
           }
         ]
       },
@@ -3831,15 +2612,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Setiap pemeriksaan harus mencatat tanggal."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Rumor bukan pengumuman developer.",
-              "Setiap pemeriksaan harus mencatat tanggal."
-            ]
+            "text": "Setiap pemeriksaan harus mencatat tanggal."
           }
         ]
       },
@@ -3854,42 +2627,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Tidak ada tanggal atau fitur update berikutnya yang terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "next-update-decision-record",
-        "title": "Update berikutnya — Catatan verifikasi bertanggal",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Halaman resmi dan Discord terverifikasi adalah tujuan pengumuman. Rumor bukan pengumuman developer. Setiap pemeriksaan harus mencatat tanggal."
-          },
-          {
-            "type": "paragraph",
-            "text": "Tidak ada tanggal atau fitur update berikutnya yang terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Halaman resmi dan Discord terverifikasi adalah tujuan pengumuman.",
-              "Rumor bukan pengumuman developer.",
-              "Setiap pemeriksaan harus mencatat tanggal."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Sumber bertanggal apa yang mengonfirmasi Update berikutnya?",
-        "answer": "Halaman resmi dan Discord terverifikasi adalah tujuan pengumuman. Rumor bukan pengumuman developer. Setiap pemeriksaan harus mencatat tanggal."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Update berikutnya?",
+        "answer": "Halaman resmi dan Discord terverifikasi adalah tujuan pengumuman."
       },
       {
-        "question": "Bagaimana pengumuman Update berikutnya dipisahkan dari rumor?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Update berikutnya?",
         "answer": "Rumor bukan pengumuman developer. Setiap pemeriksaan harus mencatat tanggal."
       },
       {
-        "question": "Apa yang belum diketahui tentang Update berikutnya?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Update berikutnya?",
         "answer": "Tidak ada tanggal atau fitur update berikutnya yang terkonfirmasi."
       }
     ],
@@ -3905,8 +2655,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Update 7",
     "description": "Anime Dice: Update 7: panduan khusus untuk merangkum hanya perubahan terdokumentasi, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas merangkum hanya perubahan terdokumentasi. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Update 7 menambah rarity Galactic. Update ini menambah enam jalur upgrade rebirth. Nilai balance di luar sumber tidak dinyatakan."
+      "Halaman ini khusus membahas merangkum hanya perubahan terdokumentasi. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -3925,16 +2674,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Update ini menambah enam jalur upgrade rebirth. UPDATE7 adalah kode hadiah terdokumentasi."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Update 7.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Update 7 menambah rarity Galactic.",
-              "Sebelum memutuskan, bandingkan juga: Update ini menambah enam jalur upgrade rebirth."
-            ]
+            "text": "Update ini menambah enam jalur upgrade rebirth."
           }
         ]
       },
@@ -3944,15 +2684,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: UPDATE7 adalah kode hadiah terdokumentasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Update ini menambah enam jalur upgrade rebirth.",
-              "UPDATE7 adalah kode hadiah terdokumentasi."
-            ]
+            "text": "UPDATE7 adalah kode hadiah terdokumentasi."
           }
         ]
       },
@@ -3985,42 +2717,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Nilai balance di luar sumber tidak dinyatakan."
           }
         ]
-      },
-      {
-        "id": "update-7-decision-record",
-        "title": "Update 7 — Catatan verifikasi bertanggal",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Update 7 menambah rarity Galactic. Update ini menambah enam jalur upgrade rebirth. UPDATE7 adalah kode hadiah terdokumentasi."
-          },
-          {
-            "type": "paragraph",
-            "text": "Nilai balance di luar sumber tidak dinyatakan."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Update 7 menambah rarity Galactic.",
-              "Update ini menambah enam jalur upgrade rebirth.",
-              "UPDATE7 adalah kode hadiah terdokumentasi."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Sumber bertanggal apa yang mengonfirmasi Update 7?",
-        "answer": "Update 7 menambah rarity Galactic. Update ini menambah enam jalur upgrade rebirth. UPDATE7 adalah kode hadiah terdokumentasi."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Update 7?",
+        "answer": "Update 7 menambah rarity Galactic."
       },
       {
-        "question": "Bagaimana pengumuman Update 7 dipisahkan dari rumor?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Update 7?",
         "answer": "Update ini menambah enam jalur upgrade rebirth. UPDATE7 adalah kode hadiah terdokumentasi."
       },
       {
-        "question": "Apa yang belum diketahui tentang Update 7?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Update 7?",
         "answer": "Nilai balance di luar sumber tidak dinyatakan."
       }
     ],
@@ -4042,8 +2751,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Event",
     "description": "Anime Dice: Event: panduan khusus untuk memastikan apakah event sedang berlangsung, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas memastikan apakah event sedang berlangsung. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Periksa halaman resmi dan Discord terverifikasi. Waktu mulai dan selesai harus ada di game atau pengumuman asli. Tidak ada jadwal event terkini yang terkonfirmasi."
+      "Halaman ini khusus membahas memastikan apakah event sedang berlangsung. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -4062,16 +2770,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Waktu mulai dan selesai harus ada di game atau pengumuman asli. Posting komunitas memerlukan dukungan sumber resmi."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Event.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Periksa halaman resmi dan Discord terverifikasi.",
-              "Sebelum memutuskan, bandingkan juga: Waktu mulai dan selesai harus ada di game atau pengumuman asli."
-            ]
+            "text": "Waktu mulai dan selesai harus ada di game atau pengumuman asli."
           }
         ]
       },
@@ -4081,15 +2780,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Posting komunitas memerlukan dukungan sumber resmi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Waktu mulai dan selesai harus ada di game atau pengumuman asli.",
-              "Posting komunitas memerlukan dukungan sumber resmi."
-            ]
+            "text": "Posting komunitas memerlukan dukungan sumber resmi."
           }
         ]
       },
@@ -4104,42 +2795,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Tidak ada jadwal event terkini yang terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "event-decision-record",
-        "title": "Event — Catatan verifikasi bertanggal",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Periksa halaman resmi dan Discord terverifikasi. Waktu mulai dan selesai harus ada di game atau pengumuman asli. Posting komunitas memerlukan dukungan sumber resmi."
-          },
-          {
-            "type": "paragraph",
-            "text": "Tidak ada jadwal event terkini yang terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Periksa halaman resmi dan Discord terverifikasi.",
-              "Waktu mulai dan selesai harus ada di game atau pengumuman asli.",
-              "Posting komunitas memerlukan dukungan sumber resmi."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Sumber bertanggal apa yang mengonfirmasi Event?",
-        "answer": "Periksa halaman resmi dan Discord terverifikasi. Waktu mulai dan selesai harus ada di game atau pengumuman asli. Posting komunitas memerlukan dukungan sumber resmi."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Event?",
+        "answer": "Periksa halaman resmi dan Discord terverifikasi."
       },
       {
-        "question": "Bagaimana pengumuman Event dipisahkan dari rumor?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Event?",
         "answer": "Waktu mulai dan selesai harus ada di game atau pengumuman asli. Posting komunitas memerlukan dukungan sumber resmi."
       },
       {
-        "question": "Apa yang belum diketahui tentang Event?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Event?",
         "answer": "Tidak ada jadwal event terkini yang terkonfirmasi."
       }
     ],
@@ -4155,8 +2823,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Waktu event admin",
     "description": "Anime Dice: Waktu event admin: panduan khusus untuk memvalidasi tanggal, waktu, dan zona sesi, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas memvalidasi tanggal, waktu, dan zona sesi. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Cari pengumuman bertanggal di tujuan resmi. Baca tanggal dan zona waktu bersama-sama. Tidak ada jadwal berulang yang terkonfirmasi."
+      "Halaman ini khusus membahas memvalidasi tanggal, waktu, dan zona sesi. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -4175,16 +2842,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Baca tanggal dan zona waktu bersama-sama. Abaikan repost tanpa tautan asli."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Waktu event admin.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Cari pengumuman bertanggal di tujuan resmi.",
-              "Sebelum memutuskan, bandingkan juga: Baca tanggal dan zona waktu bersama-sama."
-            ]
+            "text": "Baca tanggal dan zona waktu bersama-sama."
           }
         ]
       },
@@ -4194,15 +2852,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Abaikan repost tanpa tautan asli."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Baca tanggal dan zona waktu bersama-sama.",
-              "Abaikan repost tanpa tautan asli."
-            ]
+            "text": "Abaikan repost tanpa tautan asli."
           }
         ]
       },
@@ -4217,42 +2867,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Tidak ada jadwal berulang yang terkonfirmasi."
           }
         ]
-      },
-      {
-        "id": "admin-abuse-time-decision-record",
-        "title": "Waktu event admin — Catatan verifikasi bertanggal",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Cari pengumuman bertanggal di tujuan resmi. Baca tanggal dan zona waktu bersama-sama. Abaikan repost tanpa tautan asli."
-          },
-          {
-            "type": "paragraph",
-            "text": "Tidak ada jadwal berulang yang terkonfirmasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Cari pengumuman bertanggal di tujuan resmi.",
-              "Baca tanggal dan zona waktu bersama-sama.",
-              "Abaikan repost tanpa tautan asli."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Sumber bertanggal apa yang mengonfirmasi Waktu event admin?",
-        "answer": "Cari pengumuman bertanggal di tujuan resmi. Baca tanggal dan zona waktu bersama-sama. Abaikan repost tanpa tautan asli."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Waktu event admin?",
+        "answer": "Cari pengumuman bertanggal di tujuan resmi."
       },
       {
-        "question": "Bagaimana pengumuman Waktu event admin dipisahkan dari rumor?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Waktu event admin?",
         "answer": "Baca tanggal dan zona waktu bersama-sama. Abaikan repost tanpa tautan asli."
       },
       {
-        "question": "Apa yang belum diketahui tentang Waktu event admin?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Waktu event admin?",
         "answer": "Tidak ada jadwal berulang yang terkonfirmasi."
       }
     ],
@@ -4268,8 +2895,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Discord",
     "description": "Anime Dice: Discord: panduan khusus untuk menggunakan undangan komunitas terverifikasi, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas menggunakan undangan komunitas terverifikasi. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Katalog memakai discord.com/invite/ag5MCCu5aQ. Channel dan pengumuman dapat berubah. Role, channel, dan jadwal saat ini dapat berubah."
+      "Halaman ini khusus membahas menggunakan undangan komunitas terverifikasi. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -4288,16 +2914,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Channel dan pengumuman dapat berubah. Jangan bagikan password atau token kepada moderator."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Discord.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Katalog memakai discord.com/invite/ag5MCCu5aQ.",
-              "Sebelum memutuskan, bandingkan juga: Channel dan pengumuman dapat berubah."
-            ]
+            "text": "Channel dan pengumuman dapat berubah."
           }
         ]
       },
@@ -4307,15 +2924,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Jangan bagikan password atau token kepada moderator."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Channel dan pengumuman dapat berubah.",
-              "Jangan bagikan password atau token kepada moderator."
-            ]
+            "text": "Jangan bagikan password atau token kepada moderator."
           }
         ]
       },
@@ -4330,42 +2939,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Role, channel, dan jadwal saat ini dapat berubah."
           }
         ]
-      },
-      {
-        "id": "discord-decision-record",
-        "title": "Discord — Pemeriksaan kepercayaan tujuan",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Katalog memakai discord.com/invite/ag5MCCu5aQ. Channel dan pengumuman dapat berubah. Jangan bagikan password atau token kepada moderator."
-          },
-          {
-            "type": "paragraph",
-            "text": "Role, channel, dan jadwal saat ini dapat berubah."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Katalog memakai discord.com/invite/ag5MCCu5aQ.",
-              "Channel dan pengumuman dapat berubah.",
-              "Jangan bagikan password atau token kepada moderator."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Bagaimana tujuan Discord diverifikasi?",
-        "answer": "Katalog memakai discord.com/invite/ag5MCCu5aQ. Channel dan pengumuman dapat berubah. Jangan bagikan password atau token kepada moderator."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Discord?",
+        "answer": "Katalog memakai discord.com/invite/ag5MCCu5aQ."
       },
       {
-        "question": "Pesan Discord mana yang hanya diskusi?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Discord?",
         "answer": "Channel dan pengumuman dapat berubah. Jangan bagikan password atau token kepada moderator."
       },
       {
-        "question": "Kapan tautan Discord diperiksa lagi?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Discord?",
         "answer": "Role, channel, dan jadwal saat ini dapat berubah."
       }
     ],
@@ -4381,8 +2967,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Reddit",
     "description": "Anime Dice: Reddit: panduan khusus untuk memakai diskusi tanpa menganggapnya resmi, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas memakai diskusi tanpa menganggapnya resmi. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Tidak ada subreddit resmi yang terkonfirmasi. Posting membantu menemukan pertanyaan, bukan membuktikan fakta. Vote tidak menjadikan posting sebagai pengumuman resmi."
+      "Halaman ini khusus membahas memakai diskusi tanpa menganggapnya resmi. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -4401,16 +2986,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Posting membantu menemukan pertanyaan, bukan membuktikan fakta. Bandingkan klaim dengan tujuan resmi."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Reddit.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Tidak ada subreddit resmi yang terkonfirmasi.",
-              "Sebelum memutuskan, bandingkan juga: Posting membantu menemukan pertanyaan, bukan membuktikan fakta."
-            ]
+            "text": "Posting membantu menemukan pertanyaan, bukan membuktikan fakta."
           }
         ]
       },
@@ -4420,15 +2996,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Bandingkan klaim dengan tujuan resmi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Posting membantu menemukan pertanyaan, bukan membuktikan fakta.",
-              "Bandingkan klaim dengan tujuan resmi."
-            ]
+            "text": "Bandingkan klaim dengan tujuan resmi."
           }
         ]
       },
@@ -4443,42 +3011,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Vote tidak menjadikan posting sebagai pengumuman resmi."
           }
         ]
-      },
-      {
-        "id": "reddit-decision-record",
-        "title": "Reddit — Pemeriksaan kepercayaan tujuan",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Tidak ada subreddit resmi yang terkonfirmasi. Posting membantu menemukan pertanyaan, bukan membuktikan fakta. Bandingkan klaim dengan tujuan resmi."
-          },
-          {
-            "type": "paragraph",
-            "text": "Vote tidak menjadikan posting sebagai pengumuman resmi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Tidak ada subreddit resmi yang terkonfirmasi.",
-              "Posting membantu menemukan pertanyaan, bukan membuktikan fakta.",
-              "Bandingkan klaim dengan tujuan resmi."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Bagaimana tujuan Reddit diverifikasi?",
-        "answer": "Tidak ada subreddit resmi yang terkonfirmasi. Posting membantu menemukan pertanyaan, bukan membuktikan fakta. Bandingkan klaim dengan tujuan resmi."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Reddit?",
+        "answer": "Tidak ada subreddit resmi yang terkonfirmasi."
       },
       {
-        "question": "Pesan Reddit mana yang hanya diskusi?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Reddit?",
         "answer": "Posting membantu menemukan pertanyaan, bukan membuktikan fakta. Bandingkan klaim dengan tujuan resmi."
       },
       {
-        "question": "Kapan tautan Reddit diperiksa lagi?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Reddit?",
         "answer": "Vote tidak menjadikan posting sebagai pengumuman resmi."
       }
     ],
@@ -4494,8 +3039,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Trello",
     "description": "Anime Dice: Trello: panduan khusus untuk memverifikasi board sebelum mempercayainya, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas memverifikasi board sebelum mempercayainya. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Tidak ada Trello resmi yang terkonfirmasi. Periksa pemilik dan tautan dari channel resmi. Kami tidak menerbitkan tautan Trello yang belum diverifikasi."
+      "Halaman ini khusus membahas memverifikasi board sebelum mempercayainya. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -4514,16 +3058,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Periksa pemilik dan tautan dari channel resmi. Board buatan fan dapat tidak lengkap atau kedaluwarsa."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Trello.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Tidak ada Trello resmi yang terkonfirmasi.",
-              "Sebelum memutuskan, bandingkan juga: Periksa pemilik dan tautan dari channel resmi."
-            ]
+            "text": "Periksa pemilik dan tautan dari channel resmi."
           }
         ]
       },
@@ -4533,15 +3068,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Board buatan fan dapat tidak lengkap atau kedaluwarsa."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Periksa pemilik dan tautan dari channel resmi.",
-              "Board buatan fan dapat tidak lengkap atau kedaluwarsa."
-            ]
+            "text": "Board buatan fan dapat tidak lengkap atau kedaluwarsa."
           }
         ]
       },
@@ -4556,42 +3083,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Kami tidak menerbitkan tautan Trello yang belum diverifikasi."
           }
         ]
-      },
-      {
-        "id": "trello-decision-record",
-        "title": "Trello — Pemeriksaan kepercayaan tujuan",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Tidak ada Trello resmi yang terkonfirmasi. Periksa pemilik dan tautan dari channel resmi. Board buatan fan dapat tidak lengkap atau kedaluwarsa."
-          },
-          {
-            "type": "paragraph",
-            "text": "Kami tidak menerbitkan tautan Trello yang belum diverifikasi."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Tidak ada Trello resmi yang terkonfirmasi.",
-              "Periksa pemilik dan tautan dari channel resmi.",
-              "Board buatan fan dapat tidak lengkap atau kedaluwarsa."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Bagaimana tujuan Trello diverifikasi?",
-        "answer": "Tidak ada Trello resmi yang terkonfirmasi. Periksa pemilik dan tautan dari channel resmi. Board buatan fan dapat tidak lengkap atau kedaluwarsa."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Trello?",
+        "answer": "Tidak ada Trello resmi yang terkonfirmasi."
       },
       {
-        "question": "Pesan Trello mana yang hanya diskusi?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Trello?",
         "answer": "Periksa pemilik dan tautan dari channel resmi. Board buatan fan dapat tidak lengkap atau kedaluwarsa."
       },
       {
-        "question": "Kapan tautan Trello diperiksa lagi?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Trello?",
         "answer": "Kami tidak menerbitkan tautan Trello yang belum diverifikasi."
       }
     ],
@@ -4607,8 +3111,7 @@ export const ID_ARTICLE_COPY = {
     "title": "Anime Dice: Grup resmi",
     "description": "Anime Dice: Grup resmi: panduan khusus untuk mengonfirmasi More & More Games, dengan fakta terdokumentasi dan batas jelas untuk data yang berubah.",
     "intro": [
-      "Halaman ini khusus membahas mengonfirmasi More & More Games. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat.",
-      "Bukti yang diberikan menetapkan poin berikut: Komunitas Roblox terverifikasi adalah More & More Games. Panduan menyebut kemungkinan spins dari peti. Konfirmasi hadiah dan ketersediaan di dalam game."
+      "Halaman ini khusus membahas mengonfirmasi More & More Games. Angka, jadwal, dan hasil yang tidak ada dalam sumber tidak dibuat-buat."
     ],
     "sections": [
       {
@@ -4627,16 +3130,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Baca dua fakta ini bersama-sama sebelum bertindak: Panduan menyebut kemungkinan spins dari peti. Gems atau rerolls juga mungkin tersedia."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Buka game atau tujuan terverifikasi yang berkaitan dengan Grup resmi.",
-              "Gunakan poin ini sebagai pemeriksaan pertama: Komunitas Roblox terverifikasi adalah More & More Games.",
-              "Sebelum memutuskan, bandingkan juga: Panduan menyebut kemungkinan spins dari peti."
-            ]
+            "text": "Panduan menyebut kemungkinan spins dari peti."
           }
         ]
       },
@@ -4646,15 +3140,7 @@ export const ID_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Poin bukti: Gems atau rerolls juga mungkin tersedia."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Panduan menyebut kemungkinan spins dari peti.",
-              "Gems atau rerolls juga mungkin tersedia."
-            ]
+            "text": "Gems atau rerolls juga mungkin tersedia."
           }
         ]
       },
@@ -4669,42 +3155,19 @@ export const ID_ARTICLE_COPY = {
             "body": "Konfirmasi hadiah dan ketersediaan di dalam game."
           }
         ]
-      },
-      {
-        "id": "group-decision-record",
-        "title": "Grup resmi — Pemeriksaan kepercayaan tujuan",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Keputusan bergantung pada hubungan terdokumentasi antara poin-poin ini: Komunitas Roblox terverifikasi adalah More & More Games. Panduan menyebut kemungkinan spins dari peti. Gems atau rerolls juga mungkin tersedia."
-          },
-          {
-            "type": "paragraph",
-            "text": "Konfirmasi hadiah dan ketersediaan di dalam game."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Komunitas Roblox terverifikasi adalah More & More Games.",
-              "Panduan menyebut kemungkinan spins dari peti.",
-              "Gems atau rerolls juga mungkin tersedia."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "Bagaimana tujuan Grup resmi diverifikasi?",
-        "answer": "Komunitas Roblox terverifikasi adalah More & More Games. Panduan menyebut kemungkinan spins dari peti. Gems atau rerolls juga mungkin tersedia."
+        "question": "Apa yang dikonfirmasi bukti yang diberikan tentang Anime Dice: Grup resmi?",
+        "answer": "Komunitas Roblox terverifikasi adalah More & More Games."
       },
       {
-        "question": "Pesan Grup resmi mana yang hanya diskusi?",
+        "question": "Dua pemeriksaan apa yang harus dibaca bersama untuk Anime Dice: Grup resmi?",
         "answer": "Panduan menyebut kemungkinan spins dari peti. Gems atau rerolls juga mungkin tersedia."
       },
       {
-        "question": "Kapan tautan Grup resmi diperiksa lagi?",
+        "question": "Apa yang masih belum dikonfirmasi tentang Anime Dice: Grup resmi?",
         "answer": "Konfirmasi hadiah dan ketersediaan di dalam game."
       }
     ],

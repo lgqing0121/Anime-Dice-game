@@ -87,8 +87,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Guía para principiantes",
     "description": "Anime Dice: Guía para principiantes: guía centrada en el ciclo de tirar, equipar y mejorar el equipo, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de el ciclo de tirar, equipar y mejorar el equipo. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Roll obtiene personajes para compararlos. Equip Best ayuda a revisar el equipo actual. El tiempo de progreso varía y no está garantizado."
+      "Esta página trata específicamente de el ciclo de tirar, equipar y mejorar el equipo. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -107,7 +106,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Equip Best ayuda a revisar el equipo actual. Money y Luck son prioridades iniciales prácticas."
+            "text": "Equip Best ayuda a revisar el equipo actual."
           },
           {
             "type": "list",
@@ -126,15 +125,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Money y Luck son prioridades iniciales prácticas."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Equip Best ayuda a revisar el equipo actual.",
-              "Money y Luck son prioridades iniciales prácticas."
-            ]
+            "text": "Money y Luck son prioridades iniciales prácticas."
           }
         ]
       },
@@ -149,42 +140,19 @@ export const ES_ARTICLE_COPY = {
             "body": "El tiempo de progreso varía y no está garantizado."
           }
         ]
-      },
-      {
-        "id": "guide-decision-record",
-        "title": "Guía para principiantes — Comprobación repetible del control",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Roll obtiene personajes para compararlos. Equip Best ayuda a revisar el equipo actual. Money y Luck son prioridades iniciales prácticas."
-          },
-          {
-            "type": "paragraph",
-            "text": "El tiempo de progreso varía y no está garantizado."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Roll obtiene personajes para compararlos.",
-              "Equip Best ayuda a revisar el equipo actual.",
-              "Money y Luck son prioridades iniciales prácticas."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Dónde está el control documentado de Guía para principiantes?",
-        "answer": "Roll obtiene personajes para compararlos. Equip Best ayuda a revisar el equipo actual. Money y Luck son prioridades iniciales prácticas."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Guía para principiantes?",
+        "answer": "Roll obtiene personajes para compararlos."
       },
       {
-        "question": "¿Qué resultado visible confirma Guía para principiantes?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Guía para principiantes?",
         "answer": "Equip Best ayuda a revisar el equipo actual. Money y Luck son prioridades iniciales prácticas."
       },
       {
-        "question": "¿Cuándo deben revisarse las instrucciones de Guía para principiantes?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Guía para principiantes?",
         "answer": "El tiempo de progreso varía y no está garantizado."
       }
     ],
@@ -200,8 +168,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Consejos de progresión",
     "description": "Anime Dice: Consejos de progresión: guía centrada en una rutina segura de tiradas y limpieza, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de una rutina segura de tiradas y limpieza. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Protege unidades útiles antes de vender. Revisa grade, trait y mutation por separado. No se prometen resultados raros ni una velocidad fija."
+      "Esta página trata específicamente de una rutina segura de tiradas y limpieza. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -220,7 +187,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Revisa grade, trait y mutation por separado. Roll Speed resulta más útil tras estabilizar Money y Luck."
+            "text": "Revisa grade, trait y mutation por separado."
           },
           {
             "type": "list",
@@ -239,15 +206,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Roll Speed resulta más útil tras estabilizar Money y Luck."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Revisa grade, trait y mutation por separado.",
-              "Roll Speed resulta más útil tras estabilizar Money y Luck."
-            ]
+            "text": "Roll Speed resulta más útil tras estabilizar Money y Luck."
           }
         ]
       },
@@ -262,42 +221,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No se prometen resultados raros ni una velocidad fija."
           }
         ]
-      },
-      {
-        "id": "tips-decision-record",
-        "title": "Consejos de progresión — Comprobación repetible del control",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Protege unidades útiles antes de vender. Revisa grade, trait y mutation por separado. Roll Speed resulta más útil tras estabilizar Money y Luck."
-          },
-          {
-            "type": "paragraph",
-            "text": "No se prometen resultados raros ni una velocidad fija."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Protege unidades útiles antes de vender.",
-              "Revisa grade, trait y mutation por separado.",
-              "Roll Speed resulta más útil tras estabilizar Money y Luck."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Dónde está el control documentado de Consejos de progresión?",
-        "answer": "Protege unidades útiles antes de vender. Revisa grade, trait y mutation por separado. Roll Speed resulta más útil tras estabilizar Money y Luck."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Consejos de progresión?",
+        "answer": "Protege unidades útiles antes de vender."
       },
       {
-        "question": "¿Qué resultado visible confirma Consejos de progresión?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Consejos de progresión?",
         "answer": "Revisa grade, trait y mutation por separado. Roll Speed resulta más útil tras estabilizar Money y Luck."
       },
       {
-        "question": "¿Cuándo deben revisarse las instrucciones de Consejos de progresión?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Consejos de progresión?",
         "answer": "No se prometen resultados raros ni una velocidad fija."
       }
     ],
@@ -313,8 +249,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Tiradas automáticas",
     "description": "Anime Dice: Tiradas automáticas: guía centrada en el control Auto del panel Roll, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de el control Auto del panel Roll. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Auto repite las tiradas sin pulsar cada vez. Hide oculta la animación repetida de Roll. Hide no confirma una opción universal para otras escenas."
+      "Esta página trata específicamente de el control Auto del panel Roll. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -333,7 +268,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Hide oculta la animación repetida de Roll. Las tiradas continúan con la animación oculta."
+            "text": "Hide oculta la animación repetida de Roll."
           },
           {
             "type": "list",
@@ -352,15 +287,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Las tiradas continúan con la animación oculta."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Hide oculta la animación repetida de Roll.",
-              "Las tiradas continúan con la animación oculta."
-            ]
+            "text": "Las tiradas continúan con la animación oculta."
           }
         ]
       },
@@ -375,42 +302,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Hide no confirma una opción universal para otras escenas."
           }
         ]
-      },
-      {
-        "id": "auto-roll-decision-record",
-        "title": "Tiradas automáticas — Comprobación repetible del control",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Auto repite las tiradas sin pulsar cada vez. Hide oculta la animación repetida de Roll. Las tiradas continúan con la animación oculta."
-          },
-          {
-            "type": "paragraph",
-            "text": "Hide no confirma una opción universal para otras escenas."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Auto repite las tiradas sin pulsar cada vez.",
-              "Hide oculta la animación repetida de Roll.",
-              "Las tiradas continúan con la animación oculta."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Dónde está el control documentado de Tiradas automáticas?",
-        "answer": "Auto repite las tiradas sin pulsar cada vez. Hide oculta la animación repetida de Roll. Las tiradas continúan con la animación oculta."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Tiradas automáticas?",
+        "answer": "Auto repite las tiradas sin pulsar cada vez."
       },
       {
-        "question": "¿Qué resultado visible confirma Tiradas automáticas?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Tiradas automáticas?",
         "answer": "Hide oculta la animación repetida de Roll. Las tiradas continúan con la animación oculta."
       },
       {
-        "question": "¿Cuándo deben revisarse las instrucciones de Tiradas automáticas?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Tiradas automáticas?",
         "answer": "Hide no confirma una opción universal para otras escenas."
       }
     ],
@@ -426,8 +330,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Venta automática",
     "description": "Anime Dice: Venta automática: guía centrada en los ajustes del puesto Sell Units, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de los ajustes del puesto Sell Units. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: El puesto ofrece “Edit auto sell settings!”. Usa Equip Best antes de fijar el umbral. Conserva unidades dudosas hasta compararlas."
+      "Esta página trata específicamente de los ajustes del puesto Sell Units. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -446,7 +349,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Usa Equip Best antes de fijar el umbral. Grade, trait y mutation pueden cambiar la utilidad."
+            "text": "Usa Equip Best antes de fijar el umbral."
           },
           {
             "type": "list",
@@ -465,15 +368,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Grade, trait y mutation pueden cambiar la utilidad."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Usa Equip Best antes de fijar el umbral.",
-              "Grade, trait y mutation pueden cambiar la utilidad."
-            ]
+            "text": "Grade, trait y mutation pueden cambiar la utilidad."
           }
         ]
       },
@@ -488,42 +383,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Conserva unidades dudosas hasta compararlas."
           }
         ]
-      },
-      {
-        "id": "auto-sell-decision-record",
-        "title": "Venta automática — Comprobación repetible del control",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: El puesto ofrece “Edit auto sell settings!”. Usa Equip Best antes de fijar el umbral. Grade, trait y mutation pueden cambiar la utilidad."
-          },
-          {
-            "type": "paragraph",
-            "text": "Conserva unidades dudosas hasta compararlas."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "El puesto ofrece “Edit auto sell settings!”.",
-              "Usa Equip Best antes de fijar el umbral.",
-              "Grade, trait y mutation pueden cambiar la utilidad."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Dónde está el control documentado de Venta automática?",
-        "answer": "El puesto ofrece “Edit auto sell settings!”. Usa Equip Best antes de fijar el umbral. Grade, trait y mutation pueden cambiar la utilidad."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Venta automática?",
+        "answer": "El puesto ofrece “Edit auto sell settings!”."
       },
       {
-        "question": "¿Qué resultado visible confirma Venta automática?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Venta automática?",
         "answer": "Usa Equip Best antes de fijar el umbral. Grade, trait y mutation pueden cambiar la utilidad."
       },
       {
-        "question": "¿Cuándo deben revisarse las instrucciones de Venta automática?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Venta automática?",
         "answer": "Conserva unidades dudosas hasta compararlas."
       }
     ],
@@ -539,8 +411,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Cómo subir de nivel",
     "description": "Anime Dice: Cómo subir de nivel: guía centrada en invertir recursos solo en unidades duraderas, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de invertir recursos solo en unidades duraderas. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: El nivel es una parte de la evaluación. Una tirada mejor puede reemplazar una unidad inicial. Las fuentes no confirman un nivel máximo universal."
+      "Esta página trata específicamente de invertir recursos solo en unidades duraderas. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -559,7 +430,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Una tirada mejor puede reemplazar una unidad inicial. Grade, trait y mutation son sistemas separados."
+            "text": "Una tirada mejor puede reemplazar una unidad inicial."
           },
           {
             "type": "list",
@@ -578,15 +449,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Grade, trait y mutation son sistemas separados."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Una tirada mejor puede reemplazar una unidad inicial.",
-              "Grade, trait y mutation son sistemas separados."
-            ]
+            "text": "Grade, trait y mutation son sistemas separados."
           }
         ]
       },
@@ -601,42 +464,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Las fuentes no confirman un nivel máximo universal."
           }
         ]
-      },
-      {
-        "id": "how-to-level-up-decision-record",
-        "title": "Cómo subir de nivel — Comprobación repetible del control",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: El nivel es una parte de la evaluación. Una tirada mejor puede reemplazar una unidad inicial. Grade, trait y mutation son sistemas separados."
-          },
-          {
-            "type": "paragraph",
-            "text": "Las fuentes no confirman un nivel máximo universal."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "El nivel es una parte de la evaluación.",
-              "Una tirada mejor puede reemplazar una unidad inicial.",
-              "Grade, trait y mutation son sistemas separados."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Dónde está el control documentado de Cómo subir de nivel?",
-        "answer": "El nivel es una parte de la evaluación. Una tirada mejor puede reemplazar una unidad inicial. Grade, trait y mutation son sistemas separados."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Cómo subir de nivel?",
+        "answer": "El nivel es una parte de la evaluación."
       },
       {
-        "question": "¿Qué resultado visible confirma Cómo subir de nivel?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Cómo subir de nivel?",
         "answer": "Una tirada mejor puede reemplazar una unidad inicial. Grade, trait y mutation son sistemas separados."
       },
       {
-        "question": "¿Cuándo deben revisarse las instrucciones de Cómo subir de nivel?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Cómo subir de nivel?",
         "answer": "Las fuentes no confirman un nivel máximo universal."
       }
     ],
@@ -652,8 +492,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Cómo ocultar animaciones",
     "description": "Anime Dice: Cómo ocultar animaciones: guía centrada en el control Hide de la animación de Roll, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de el control Hide de la animación de Roll. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Hide está en la interfaz de Roll. La tirada sigue sin la animación repetida. No hay fuente que confirme un botón para omitir todas las escenas."
+      "Esta página trata específicamente de el control Hide de la animación de Roll. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -672,7 +511,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: La tirada sigue sin la animación repetida. Otras escenas pueden tener controles distintos."
+            "text": "La tirada sigue sin la animación repetida."
           },
           {
             "type": "list",
@@ -691,15 +530,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Otras escenas pueden tener controles distintos."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "La tirada sigue sin la animación repetida.",
-              "Otras escenas pueden tener controles distintos."
-            ]
+            "text": "Otras escenas pueden tener controles distintos."
           }
         ]
       },
@@ -714,42 +545,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No hay fuente que confirme un botón para omitir todas las escenas."
           }
         ]
-      },
-      {
-        "id": "how-to-skip-cutscenes-decision-record",
-        "title": "Cómo ocultar animaciones — Comprobación repetible del control",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Hide está en la interfaz de Roll. La tirada sigue sin la animación repetida. Otras escenas pueden tener controles distintos."
-          },
-          {
-            "type": "paragraph",
-            "text": "No hay fuente que confirme un botón para omitir todas las escenas."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Hide está en la interfaz de Roll.",
-              "La tirada sigue sin la animación repetida.",
-              "Otras escenas pueden tener controles distintos."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Dónde está el control documentado de Cómo ocultar animaciones?",
-        "answer": "Hide está en la interfaz de Roll. La tirada sigue sin la animación repetida. Otras escenas pueden tener controles distintos."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Cómo ocultar animaciones?",
+        "answer": "Hide está en la interfaz de Roll."
       },
       {
-        "question": "¿Qué resultado visible confirma Cómo ocultar animaciones?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Cómo ocultar animaciones?",
         "answer": "La tirada sigue sin la animación repetida. Otras escenas pueden tener controles distintos."
       },
       {
-        "question": "¿Cuándo deben revisarse las instrucciones de Cómo ocultar animaciones?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Cómo ocultar animaciones?",
         "answer": "No hay fuente que confirme un botón para omitir todas las escenas."
       }
     ],
@@ -765,8 +573,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Cómo unirse al grupo",
     "description": "Anime Dice: Cómo unirse al grupo: guía centrada en la comunidad verificada More & More Games, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de la comunidad verificada More & More Games. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: El grupo vinculado es More & More Games. La referencia indica que el cofre puede dar spins. Verifica el destino de Roblox y evita imitaciones."
+      "Esta página trata específicamente de la comunidad verificada More & More Games. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -785,7 +592,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: La referencia indica que el cofre puede dar spins. También puede ofrecer Gems o rerolls."
+            "text": "La referencia indica que el cofre puede dar spins."
           },
           {
             "type": "list",
@@ -804,15 +611,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: También puede ofrecer Gems o rerolls."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "La referencia indica que el cofre puede dar spins.",
-              "También puede ofrecer Gems o rerolls."
-            ]
+            "text": "También puede ofrecer Gems o rerolls."
           }
         ]
       },
@@ -827,42 +626,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Verifica el destino de Roblox y evita imitaciones."
           }
         ]
-      },
-      {
-        "id": "how-to-join-group-decision-record",
-        "title": "Cómo unirse al grupo — Comprobación repetible del control",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: El grupo vinculado es More & More Games. La referencia indica que el cofre puede dar spins. También puede ofrecer Gems o rerolls."
-          },
-          {
-            "type": "paragraph",
-            "text": "Verifica el destino de Roblox y evita imitaciones."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "El grupo vinculado es More & More Games.",
-              "La referencia indica que el cofre puede dar spins.",
-              "También puede ofrecer Gems o rerolls."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Dónde está el control documentado de Cómo unirse al grupo?",
-        "answer": "El grupo vinculado es More & More Games. La referencia indica que el cofre puede dar spins. También puede ofrecer Gems o rerolls."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Cómo unirse al grupo?",
+        "answer": "El grupo vinculado es More & More Games."
       },
       {
-        "question": "¿Qué resultado visible confirma Cómo unirse al grupo?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Cómo unirse al grupo?",
         "answer": "La referencia indica que el cofre puede dar spins. También puede ofrecer Gems o rerolls."
       },
       {
-        "question": "¿Cuándo deben revisarse las instrucciones de Cómo unirse al grupo?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Cómo unirse al grupo?",
         "answer": "Verifica el destino de Roblox y evita imitaciones."
       }
     ],
@@ -878,8 +654,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Tier list de unidades",
     "description": "Anime Dice: Tier list de unidades: guía centrada en evaluar cada unidad dentro del equipo actual, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de evaluar cada unidad dentro del equipo actual. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: El ranking depende de la versión del juego. Grade, trait, mutation y nivel cambian la evaluación. No existe un ranking universal confirmado."
+      "Esta página trata específicamente de evaluar cada unidad dentro del equipo actual. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -898,16 +673,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Grade, trait, mutation y nivel cambian la evaluación. Equip Best es un inicio, no un ranking permanente."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Tier list de unidades.",
-              "Usa este punto como primera comprobación: El ranking depende de la versión del juego.",
-              "Antes de decidir, compara también: Grade, trait, mutation y nivel cambian la evaluación."
-            ]
+            "text": "Grade, trait, mutation y nivel cambian la evaluación."
           }
         ]
       },
@@ -917,15 +683,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Equip Best es un inicio, no un ranking permanente."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Grade, trait, mutation y nivel cambian la evaluación.",
-              "Equip Best es un inicio, no un ranking permanente."
-            ]
+            "text": "Equip Best es un inicio, no un ranking permanente."
           }
         ]
       },
@@ -958,42 +716,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No existe un ranking universal confirmado."
           }
         ]
-      },
-      {
-        "id": "tier-list-decision-record",
-        "title": "Tier list de unidades — Comparación completa de la unidad",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: El ranking depende de la versión del juego. Grade, trait, mutation y nivel cambian la evaluación. Equip Best es un inicio, no un ranking permanente."
-          },
-          {
-            "type": "paragraph",
-            "text": "No existe un ranking universal confirmado."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "El ranking depende de la versión del juego.",
-              "Grade, trait, mutation y nivel cambian la evaluación.",
-              "Equip Best es un inicio, no un ranking permanente."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué propiedades entran en la comparación de Tier list de unidades?",
-        "answer": "El ranking depende de la versión del juego. Grade, trait, mutation y nivel cambian la evaluación. Equip Best es un inicio, no un ranking permanente."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Tier list de unidades?",
+        "answer": "El ranking depende de la versión del juego."
       },
       {
-        "question": "¿Qué se protege antes de vender un resultado de Tier list de unidades?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Tier list de unidades?",
         "answer": "Grade, trait, mutation y nivel cambian la evaluación. Equip Best es un inicio, no un ranking permanente."
       },
       {
-        "question": "¿Qué valores de Tier list de unidades no están establecidos?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Tier list de unidades?",
         "answer": "No existe un ranking universal confirmado."
       }
     ],
@@ -1009,8 +744,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Unidades",
     "description": "Anime Dice: Unidades: guía centrada en tirar, conservar, equipar y mejorar personajes, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de tirar, conservar, equipar y mejorar personajes. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Los personajes llegan mediante el ciclo de Roll. Las unidades permanentes merecen recursos antes que las temporales. Disponibilidad y balance pueden cambiar."
+      "Esta página trata específicamente de tirar, conservar, equipar y mejorar personajes. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -1029,16 +763,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Las unidades permanentes merecen recursos antes que las temporales. La descripción oficial confirma ganancias offline."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Unidades.",
-              "Usa este punto como primera comprobación: Los personajes llegan mediante el ciclo de Roll.",
-              "Antes de decidir, compara también: Las unidades permanentes merecen recursos antes que las temporales."
-            ]
+            "text": "Las unidades permanentes merecen recursos antes que las temporales."
           }
         ]
       },
@@ -1048,15 +773,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: La descripción oficial confirma ganancias offline."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Las unidades permanentes merecen recursos antes que las temporales.",
-              "La descripción oficial confirma ganancias offline."
-            ]
+            "text": "La descripción oficial confirma ganancias offline."
           }
         ]
       },
@@ -1071,42 +788,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Disponibilidad y balance pueden cambiar."
           }
         ]
-      },
-      {
-        "id": "units-decision-record",
-        "title": "Unidades — Comparación completa de la unidad",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Los personajes llegan mediante el ciclo de Roll. Las unidades permanentes merecen recursos antes que las temporales. La descripción oficial confirma ganancias offline."
-          },
-          {
-            "type": "paragraph",
-            "text": "Disponibilidad y balance pueden cambiar."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Los personajes llegan mediante el ciclo de Roll.",
-              "Las unidades permanentes merecen recursos antes que las temporales.",
-              "La descripción oficial confirma ganancias offline."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué propiedades entran en la comparación de Unidades?",
-        "answer": "Los personajes llegan mediante el ciclo de Roll. Las unidades permanentes merecen recursos antes que las temporales. La descripción oficial confirma ganancias offline."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Unidades?",
+        "answer": "Los personajes llegan mediante el ciclo de Roll."
       },
       {
-        "question": "¿Qué se protege antes de vender un resultado de Unidades?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Unidades?",
         "answer": "Las unidades permanentes merecen recursos antes que las temporales. La descripción oficial confirma ganancias offline."
       },
       {
-        "question": "¿Qué valores de Unidades no están establecidos?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Unidades?",
         "answer": "Disponibilidad y balance pueden cambiar."
       }
     ],
@@ -1122,8 +816,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Traits",
     "description": "Anime Dice: Traits: guía centrada en evaluar trait sin confundirlo con otros atributos, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de evaluar trait sin confundirlo con otros atributos. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Trait es una propiedad separada. UPDATE6 documenta Trait Rerolls como recompensa. No están confirmados todos los efectos y rankings actuales."
+      "Esta página trata específicamente de evaluar trait sin confundirlo con otros atributos. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -1142,16 +835,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: UPDATE6 documenta Trait Rerolls como recompensa. El trait debe leerse junto a su unidad."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Traits.",
-              "Usa este punto como primera comprobación: Trait es una propiedad separada.",
-              "Antes de decidir, compara también: UPDATE6 documenta Trait Rerolls como recompensa."
-            ]
+            "text": "UPDATE6 documenta Trait Rerolls como recompensa."
           }
         ]
       },
@@ -1161,15 +845,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: El trait debe leerse junto a su unidad."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "UPDATE6 documenta Trait Rerolls como recompensa.",
-              "El trait debe leerse junto a su unidad."
-            ]
+            "text": "El trait debe leerse junto a su unidad."
           }
         ]
       },
@@ -1225,42 +901,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No están confirmados todos los efectos y rankings actuales."
           }
         ]
-      },
-      {
-        "id": "traits-decision-record",
-        "title": "Traits — Comparación completa de la unidad",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Trait es una propiedad separada. UPDATE6 documenta Trait Rerolls como recompensa. El trait debe leerse junto a su unidad."
-          },
-          {
-            "type": "paragraph",
-            "text": "No están confirmados todos los efectos y rankings actuales."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Trait es una propiedad separada.",
-              "UPDATE6 documenta Trait Rerolls como recompensa.",
-              "El trait debe leerse junto a su unidad."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué propiedades entran en la comparación de Traits?",
-        "answer": "Trait es una propiedad separada. UPDATE6 documenta Trait Rerolls como recompensa. El trait debe leerse junto a su unidad."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Traits?",
+        "answer": "Trait es una propiedad separada."
       },
       {
-        "question": "¿Qué se protege antes de vender un resultado de Traits?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Traits?",
         "answer": "UPDATE6 documenta Trait Rerolls como recompensa. El trait debe leerse junto a su unidad."
       },
       {
-        "question": "¿Qué valores de Traits no están establecidos?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Traits?",
         "answer": "No están confirmados todos los efectos y rankings actuales."
       }
     ],
@@ -1281,8 +934,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Mutations",
     "description": "Anime Dice: Mutations: guía centrada en reconocer mutation como propiedad separada, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de reconocer mutation como propiedad separada. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Mutation forma parte del ciclo documentado. Mutation, grade y trait son etiquetas distintas. No están confirmadas las probabilidades ni la lista completa."
+      "Esta página trata específicamente de reconocer mutation como propiedad separada. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -1301,16 +953,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Mutation, grade y trait son etiquetas distintas. Revisa una unidad con mutation antes de venderla."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Mutations.",
-              "Usa este punto como primera comprobación: Mutation forma parte del ciclo documentado.",
-              "Antes de decidir, compara también: Mutation, grade y trait son etiquetas distintas."
-            ]
+            "text": "Mutation, grade y trait son etiquetas distintas."
           }
         ]
       },
@@ -1320,15 +963,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Revisa una unidad con mutation antes de venderla."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Mutation, grade y trait son etiquetas distintas.",
-              "Revisa una unidad con mutation antes de venderla."
-            ]
+            "text": "Revisa una unidad con mutation antes de venderla."
           }
         ]
       },
@@ -1343,42 +978,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No están confirmadas las probabilidades ni la lista completa."
           }
         ]
-      },
-      {
-        "id": "mutation-decision-record",
-        "title": "Mutations — Comparación completa de la unidad",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Mutation forma parte del ciclo documentado. Mutation, grade y trait son etiquetas distintas. Revisa una unidad con mutation antes de venderla."
-          },
-          {
-            "type": "paragraph",
-            "text": "No están confirmadas las probabilidades ni la lista completa."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Mutation forma parte del ciclo documentado.",
-              "Mutation, grade y trait son etiquetas distintas.",
-              "Revisa una unidad con mutation antes de venderla."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué propiedades entran en la comparación de Mutations?",
-        "answer": "Mutation forma parte del ciclo documentado. Mutation, grade y trait son etiquetas distintas. Revisa una unidad con mutation antes de venderla."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Mutations?",
+        "answer": "Mutation forma parte del ciclo documentado."
       },
       {
-        "question": "¿Qué se protege antes de vender un resultado de Mutations?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Mutations?",
         "answer": "Mutation, grade y trait son etiquetas distintas. Revisa una unidad con mutation antes de venderla."
       },
       {
-        "question": "¿Qué valores de Mutations no están establecidos?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Mutations?",
         "answer": "No están confirmadas las probabilidades ni la lista completa."
       }
     ],
@@ -1394,8 +1006,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Rarezas",
     "description": "Anime Dice: Rarezas: guía centrada en comparar rarity con las demás propiedades, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de comparar rarity con las demás propiedades. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Rarity describe el resultado de una tirada. No sustituye grade, trait, mutation o nivel. Las probabilidades exactas no están confirmadas."
+      "Esta página trata específicamente de comparar rarity con las demás propiedades. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -1414,16 +1025,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: No sustituye grade, trait, mutation o nivel. Luck pertenece a la progresión, no a la rarity de una unidad."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Rarezas.",
-              "Usa este punto como primera comprobación: Rarity describe el resultado de una tirada.",
-              "Antes de decidir, compara también: No sustituye grade, trait, mutation o nivel."
-            ]
+            "text": "No sustituye grade, trait, mutation o nivel."
           }
         ]
       },
@@ -1433,15 +1035,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Luck pertenece a la progresión, no a la rarity de una unidad."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "No sustituye grade, trait, mutation o nivel.",
-              "Luck pertenece a la progresión, no a la rarity de una unidad."
-            ]
+            "text": "Luck pertenece a la progresión, no a la rarity de una unidad."
           }
         ]
       },
@@ -1456,42 +1050,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Las probabilidades exactas no están confirmadas."
           }
         ]
-      },
-      {
-        "id": "rarity-decision-record",
-        "title": "Rarezas — Comparación completa de la unidad",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Rarity describe el resultado de una tirada. No sustituye grade, trait, mutation o nivel. Luck pertenece a la progresión, no a la rarity de una unidad."
-          },
-          {
-            "type": "paragraph",
-            "text": "Las probabilidades exactas no están confirmadas."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Rarity describe el resultado de una tirada.",
-              "No sustituye grade, trait, mutation o nivel.",
-              "Luck pertenece a la progresión, no a la rarity de una unidad."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué propiedades entran en la comparación de Rarezas?",
-        "answer": "Rarity describe el resultado de una tirada. No sustituye grade, trait, mutation o nivel. Luck pertenece a la progresión, no a la rarity de una unidad."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Rarezas?",
+        "answer": "Rarity describe el resultado de una tirada."
       },
       {
-        "question": "¿Qué se protege antes de vender un resultado de Rarezas?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Rarezas?",
         "answer": "No sustituye grade, trait, mutation o nivel. Luck pertenece a la progresión, no a la rarity de una unidad."
       },
       {
-        "question": "¿Qué valores de Rarezas no están establecidos?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Rarezas?",
         "answer": "Las probabilidades exactas no están confirmadas."
       }
     ],
@@ -1507,8 +1078,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Grados",
     "description": "Anime Dice: Grados: guía centrada en leer grade de forma independiente, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de leer grade de forma independiente. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Grade es distinto de trait y mutation. Compáralo con la unidad base. La tabla completa y modificadores actuales no están confirmados."
+      "Esta página trata específicamente de leer grade de forma independiente. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -1527,16 +1097,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Compáralo con la unidad base. Conserva resultados dudosos hasta revisarlos."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Grados.",
-              "Usa este punto como primera comprobación: Grade es distinto de trait y mutation.",
-              "Antes de decidir, compara también: Compáralo con la unidad base."
-            ]
+            "text": "Compáralo con la unidad base."
           }
         ]
       },
@@ -1546,15 +1107,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Conserva resultados dudosos hasta revisarlos."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Compáralo con la unidad base.",
-              "Conserva resultados dudosos hasta revisarlos."
-            ]
+            "text": "Conserva resultados dudosos hasta revisarlos."
           }
         ]
       },
@@ -1569,42 +1122,19 @@ export const ES_ARTICLE_COPY = {
             "body": "La tabla completa y modificadores actuales no están confirmados."
           }
         ]
-      },
-      {
-        "id": "grades-decision-record",
-        "title": "Grados — Comparación completa de la unidad",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Grade es distinto de trait y mutation. Compáralo con la unidad base. Conserva resultados dudosos hasta revisarlos."
-          },
-          {
-            "type": "paragraph",
-            "text": "La tabla completa y modificadores actuales no están confirmados."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Grade es distinto de trait y mutation.",
-              "Compáralo con la unidad base.",
-              "Conserva resultados dudosos hasta revisarlos."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué propiedades entran en la comparación de Grados?",
-        "answer": "Grade es distinto de trait y mutation. Compáralo con la unidad base. Conserva resultados dudosos hasta revisarlos."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Grados?",
+        "answer": "Grade es distinto de trait y mutation."
       },
       {
-        "question": "¿Qué se protege antes de vender un resultado de Grados?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Grados?",
         "answer": "Compáralo con la unidad base. Conserva resultados dudosos hasta revisarlos."
       },
       {
-        "question": "¿Qué valores de Grados no están establecidos?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Grados?",
         "answer": "La tabla completa y modificadores actuales no están confirmados."
       }
     ],
@@ -1620,8 +1150,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Nivel máximo",
     "description": "Anime Dice: Nivel máximo: guía centrada en planear inversión sin inventar un límite, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de planear inversión sin inventar un límite. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Los recursos de nivel rinden mejor en unidades permanentes. Nivel sigue separado de grade, trait y mutation. Las fuentes no establecen un máximo universal."
+      "Esta página trata específicamente de planear inversión sin inventar un límite. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -1640,16 +1169,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Nivel sigue separado de grade, trait y mutation. Una nueva tirada puede cambiar la prioridad."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Nivel máximo.",
-              "Usa este punto como primera comprobación: Los recursos de nivel rinden mejor en unidades permanentes.",
-              "Antes de decidir, compara también: Nivel sigue separado de grade, trait y mutation."
-            ]
+            "text": "Nivel sigue separado de grade, trait y mutation."
           }
         ]
       },
@@ -1659,15 +1179,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Una nueva tirada puede cambiar la prioridad."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Nivel sigue separado de grade, trait y mutation.",
-              "Una nueva tirada puede cambiar la prioridad."
-            ]
+            "text": "Una nueva tirada puede cambiar la prioridad."
           }
         ]
       },
@@ -1682,42 +1194,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Las fuentes no establecen un máximo universal."
           }
         ]
-      },
-      {
-        "id": "max-level-decision-record",
-        "title": "Nivel máximo — Comparación completa de la unidad",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Los recursos de nivel rinden mejor en unidades permanentes. Nivel sigue separado de grade, trait y mutation. Una nueva tirada puede cambiar la prioridad."
-          },
-          {
-            "type": "paragraph",
-            "text": "Las fuentes no establecen un máximo universal."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Los recursos de nivel rinden mejor en unidades permanentes.",
-              "Nivel sigue separado de grade, trait y mutation.",
-              "Una nueva tirada puede cambiar la prioridad."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué propiedades entran en la comparación de Nivel máximo?",
-        "answer": "Los recursos de nivel rinden mejor en unidades permanentes. Nivel sigue separado de grade, trait y mutation. Una nueva tirada puede cambiar la prioridad."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Nivel máximo?",
+        "answer": "Los recursos de nivel rinden mejor en unidades permanentes."
       },
       {
-        "question": "¿Qué se protege antes de vender un resultado de Nivel máximo?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Nivel máximo?",
         "answer": "Nivel sigue separado de grade, trait y mutation. Una nueva tirada puede cambiar la prioridad."
       },
       {
-        "question": "¿Qué valores de Nivel máximo no están establecidos?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Nivel máximo?",
         "answer": "Las fuentes no establecen un máximo universal."
       }
     ],
@@ -1733,8 +1222,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Luck",
     "description": "Anime Dice: Luck: guía centrada en priorizar Luck al inicio, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de priorizar Luck al inicio. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Luck es una prioridad inicial práctica. Money y Luck pueden preceder a Roll Speed. No están confirmadas las probabilidades de cada valor."
+      "Esta página trata específicamente de priorizar Luck al inicio. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -1753,16 +1241,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Money y Luck pueden preceder a Roll Speed. Luck no garantiza una unidad concreta."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Luck.",
-              "Usa este punto como primera comprobación: Luck es una prioridad inicial práctica.",
-              "Antes de decidir, compara también: Money y Luck pueden preceder a Roll Speed."
-            ]
+            "text": "Money y Luck pueden preceder a Roll Speed."
           }
         ]
       },
@@ -1772,15 +1251,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Luck no garantiza una unidad concreta."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Money y Luck pueden preceder a Roll Speed.",
-              "Luck no garantiza una unidad concreta."
-            ]
+            "text": "Luck no garantiza una unidad concreta."
           }
         ]
       },
@@ -1842,42 +1313,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No están confirmadas las probabilidades de cada valor."
           }
         ]
-      },
-      {
-        "id": "luck-decision-record",
-        "title": "Luck — Registro de la decisión de recursos",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Luck es una prioridad inicial práctica. Money y Luck pueden preceder a Roll Speed. Luck no garantiza una unidad concreta."
-          },
-          {
-            "type": "paragraph",
-            "text": "No están confirmadas las probabilidades de cada valor."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Luck es una prioridad inicial práctica.",
-              "Money y Luck pueden preceder a Roll Speed.",
-              "Luck no garantiza una unidad concreta."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué se anota antes de usar Luck?",
-        "answer": "Luck es una prioridad inicial práctica. Money y Luck pueden preceder a Roll Speed. Luck no garantiza una unidad concreta."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Luck?",
+        "answer": "Luck es una prioridad inicial práctica."
       },
       {
-        "question": "¿Cómo conecta Luck con la siguiente meta?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Luck?",
         "answer": "Money y Luck pueden preceder a Roll Speed. Luck no garantiza una unidad concreta."
       },
       {
-        "question": "¿Qué valores de Luck exigen el panel actual?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Luck?",
         "answer": "No están confirmadas las probabilidades de cada valor."
       }
     ],
@@ -1898,8 +1346,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Luck máxima",
     "description": "Anime Dice: Luck máxima: guía centrada en comprobar límites en el panel actual, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de comprobar límites en el panel actual. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Luck aparece como prioridad de progresión. Rebirth puede afectar el progreso a largo plazo. No hay un máximo permanente confirmado."
+      "Esta página trata específicamente de comprobar límites en el panel actual. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -1918,16 +1365,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Rebirth puede afectar el progreso a largo plazo. El panel actual muestra los pasos disponibles."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Luck máxima.",
-              "Usa este punto como primera comprobación: Luck aparece como prioridad de progresión.",
-              "Antes de decidir, compara también: Rebirth puede afectar el progreso a largo plazo."
-            ]
+            "text": "Rebirth puede afectar el progreso a largo plazo."
           }
         ]
       },
@@ -1937,15 +1375,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: El panel actual muestra los pasos disponibles."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Rebirth puede afectar el progreso a largo plazo.",
-              "El panel actual muestra los pasos disponibles."
-            ]
+            "text": "El panel actual muestra los pasos disponibles."
           }
         ]
       },
@@ -1960,42 +1390,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No hay un máximo permanente confirmado."
           }
         ]
-      },
-      {
-        "id": "max-luck-decision-record",
-        "title": "Luck máxima — Registro de la decisión de recursos",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Luck aparece como prioridad de progresión. Rebirth puede afectar el progreso a largo plazo. El panel actual muestra los pasos disponibles."
-          },
-          {
-            "type": "paragraph",
-            "text": "No hay un máximo permanente confirmado."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Luck aparece como prioridad de progresión.",
-              "Rebirth puede afectar el progreso a largo plazo.",
-              "El panel actual muestra los pasos disponibles."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué se anota antes de usar Luck máxima?",
-        "answer": "Luck aparece como prioridad de progresión. Rebirth puede afectar el progreso a largo plazo. El panel actual muestra los pasos disponibles."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Luck máxima?",
+        "answer": "Luck aparece como prioridad de progresión."
       },
       {
-        "question": "¿Cómo conecta Luck máxima con la siguiente meta?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Luck máxima?",
         "answer": "Rebirth puede afectar el progreso a largo plazo. El panel actual muestra los pasos disponibles."
       },
       {
-        "question": "¿Qué valores de Luck máxima exigen el panel actual?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Luck máxima?",
         "answer": "No hay un máximo permanente confirmado."
       }
     ],
@@ -2011,8 +1418,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Gems",
     "description": "Anime Dice: Gems: guía centrada en proteger y gastar un recurso de progresión, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de proteger y gastar un recurso de progresión. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: UPDATE6 incluye Gems en sus recompensas. El cofre del grupo puede dar Gems según la guía. Precios, ofertas y mejor compra pueden cambiar."
+      "Esta página trata específicamente de proteger y gastar un recurso de progresión. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -2031,16 +1437,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: El cofre del grupo puede dar Gems según la guía. Gasta recursos para una meta definida."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Gems.",
-              "Usa este punto como primera comprobación: UPDATE6 incluye Gems en sus recompensas.",
-              "Antes de decidir, compara también: El cofre del grupo puede dar Gems según la guía."
-            ]
+            "text": "El cofre del grupo puede dar Gems según la guía."
           }
         ]
       },
@@ -2050,15 +1447,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Gasta recursos para una meta definida."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "El cofre del grupo puede dar Gems según la guía.",
-              "Gasta recursos para una meta definida."
-            ]
+            "text": "Gasta recursos para una meta definida."
           }
         ]
       },
@@ -2073,42 +1462,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Precios, ofertas y mejor compra pueden cambiar."
           }
         ]
-      },
-      {
-        "id": "gems-decision-record",
-        "title": "Gems — Registro de la decisión de recursos",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: UPDATE6 incluye Gems en sus recompensas. El cofre del grupo puede dar Gems según la guía. Gasta recursos para una meta definida."
-          },
-          {
-            "type": "paragraph",
-            "text": "Precios, ofertas y mejor compra pueden cambiar."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "UPDATE6 incluye Gems en sus recompensas.",
-              "El cofre del grupo puede dar Gems según la guía.",
-              "Gasta recursos para una meta definida."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué se anota antes de usar Gems?",
-        "answer": "UPDATE6 incluye Gems en sus recompensas. El cofre del grupo puede dar Gems según la guía. Gasta recursos para una meta definida."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Gems?",
+        "answer": "UPDATE6 incluye Gems en sus recompensas."
       },
       {
-        "question": "¿Cómo conecta Gems con la siguiente meta?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Gems?",
         "answer": "El cofre del grupo puede dar Gems según la guía. Gasta recursos para una meta definida."
       },
       {
-        "question": "¿Qué valores de Gems exigen el panel actual?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Gems?",
         "answer": "Precios, ofertas y mejor compra pueden cambiar."
       }
     ],
@@ -2124,8 +1490,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Jackpot Roll",
     "description": "Anime Dice: Jackpot Roll: guía centrada en comprobar la función antes de gastar, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de comprobar la función antes de gastar. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Jackpot Roll se trata aquí como un tema de progreso que debe verificarse dentro del juego. Luck se evalúa aparte del acceso a la función. Requisitos, premios y probabilidades no están confirmados."
+      "Esta página trata específicamente de comprobar la función antes de gastar. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -2144,16 +1509,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Luck se evalúa aparte del acceso a la función. La interfaz actual define activación y coste."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Jackpot Roll.",
-              "Usa este punto como primera comprobación: Jackpot Roll se trata aquí como un tema de progreso que debe verificarse dentro del juego.",
-              "Antes de decidir, compara también: Luck se evalúa aparte del acceso a la función."
-            ]
+            "text": "Luck se evalúa aparte del acceso a la función."
           }
         ]
       },
@@ -2163,15 +1519,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: La interfaz actual define activación y coste."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Luck se evalúa aparte del acceso a la función.",
-              "La interfaz actual define activación y coste."
-            ]
+            "text": "La interfaz actual define activación y coste."
           }
         ]
       },
@@ -2186,42 +1534,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Requisitos, premios y probabilidades no están confirmados."
           }
         ]
-      },
-      {
-        "id": "jackpot-roll-decision-record",
-        "title": "Jackpot Roll — Registro de la decisión de recursos",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Jackpot Roll se trata aquí como un tema de progreso que debe verificarse dentro del juego. Luck se evalúa aparte del acceso a la función. La interfaz actual define activación y coste."
-          },
-          {
-            "type": "paragraph",
-            "text": "Requisitos, premios y probabilidades no están confirmados."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Jackpot Roll se trata aquí como un tema de progreso que debe verificarse dentro del juego.",
-              "Luck se evalúa aparte del acceso a la función.",
-              "La interfaz actual define activación y coste."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué se anota antes de usar Jackpot Roll?",
-        "answer": "Jackpot Roll se trata aquí como un tema de progreso que debe verificarse dentro del juego. Luck se evalúa aparte del acceso a la función. La interfaz actual define activación y coste."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Jackpot Roll?",
+        "answer": "Jackpot Roll se trata aquí como un tema de progreso que debe verificarse dentro del juego."
       },
       {
-        "question": "¿Cómo conecta Jackpot Roll con la siguiente meta?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Jackpot Roll?",
         "answer": "Luck se evalúa aparte del acceso a la función. La interfaz actual define activación y coste."
       },
       {
-        "question": "¿Qué valores de Jackpot Roll exigen el panel actual?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Jackpot Roll?",
         "answer": "Requisitos, premios y probabilidades no están confirmados."
       }
     ],
@@ -2237,8 +1562,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Lucky Spins",
     "description": "Anime Dice: Lucky Spins: guía centrada en usar spins como recurso limitado, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de usar spins como recurso limitado. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: UPDATE6 menciona Lucky Spins como recompensa. El cofre del grupo también puede dar spins. Resultados, probabilidades y disponibilidad actuales no están confirmados."
+      "Esta página trata específicamente de usar spins como recurso limitado. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -2257,16 +1581,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: El cofre del grupo también puede dar spins. Revisa el resultado antes de vender."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Lucky Spins.",
-              "Usa este punto como primera comprobación: UPDATE6 menciona Lucky Spins como recompensa.",
-              "Antes de decidir, compara también: El cofre del grupo también puede dar spins."
-            ]
+            "text": "El cofre del grupo también puede dar spins."
           }
         ]
       },
@@ -2276,15 +1591,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Revisa el resultado antes de vender."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "El cofre del grupo también puede dar spins.",
-              "Revisa el resultado antes de vender."
-            ]
+            "text": "Revisa el resultado antes de vender."
           }
         ]
       },
@@ -2299,42 +1606,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Resultados, probabilidades y disponibilidad actuales no están confirmados."
           }
         ]
-      },
-      {
-        "id": "lucky-spin-decision-record",
-        "title": "Lucky Spins — Registro de la decisión de recursos",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: UPDATE6 menciona Lucky Spins como recompensa. El cofre del grupo también puede dar spins. Revisa el resultado antes de vender."
-          },
-          {
-            "type": "paragraph",
-            "text": "Resultados, probabilidades y disponibilidad actuales no están confirmados."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "UPDATE6 menciona Lucky Spins como recompensa.",
-              "El cofre del grupo también puede dar spins.",
-              "Revisa el resultado antes de vender."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué se anota antes de usar Lucky Spins?",
-        "answer": "UPDATE6 menciona Lucky Spins como recompensa. El cofre del grupo también puede dar spins. Revisa el resultado antes de vender."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Lucky Spins?",
+        "answer": "UPDATE6 menciona Lucky Spins como recompensa."
       },
       {
-        "question": "¿Cómo conecta Lucky Spins con la siguiente meta?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Lucky Spins?",
         "answer": "El cofre del grupo también puede dar spins. Revisa el resultado antes de vender."
       },
       {
-        "question": "¿Qué valores de Lucky Spins exigen el panel actual?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Lucky Spins?",
         "answer": "Resultados, probabilidades y disponibilidad actuales no están confirmados."
       }
     ],
@@ -2350,8 +1634,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Rebirth",
     "description": "Anime Dice: Rebirth: guía centrada en preparar una decisión de largo plazo, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de preparar una decisión de largo plazo. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Rebirth pertenece a la progresión prolongada. Update 7 añadió seis rutas de mejora de rebirth. No se confirman aquí costes y efectos de cada paso."
+      "Esta página trata específicamente de preparar una decisión de largo plazo. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -2370,16 +1653,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Update 7 añadió seis rutas de mejora de rebirth. Lee los efectos del reinicio en el panel actual."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Rebirth.",
-              "Usa este punto como primera comprobación: Rebirth pertenece a la progresión prolongada.",
-              "Antes de decidir, compara también: Update 7 añadió seis rutas de mejora de rebirth."
-            ]
+            "text": "Update 7 añadió seis rutas de mejora de rebirth."
           }
         ]
       },
@@ -2389,15 +1663,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Lee los efectos del reinicio en el panel actual."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Update 7 añadió seis rutas de mejora de rebirth.",
-              "Lee los efectos del reinicio en el panel actual."
-            ]
+            "text": "Lee los efectos del reinicio en el panel actual."
           }
         ]
       },
@@ -2429,42 +1695,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No se confirman aquí costes y efectos de cada paso."
           }
         ]
-      },
-      {
-        "id": "rebirth-decision-record",
-        "title": "Rebirth — Registro de la decisión de recursos",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Rebirth pertenece a la progresión prolongada. Update 7 añadió seis rutas de mejora de rebirth. Lee los efectos del reinicio en el panel actual."
-          },
-          {
-            "type": "paragraph",
-            "text": "No se confirman aquí costes y efectos de cada paso."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Rebirth pertenece a la progresión prolongada.",
-              "Update 7 añadió seis rutas de mejora de rebirth.",
-              "Lee los efectos del reinicio en el panel actual."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué se anota antes de usar Rebirth?",
-        "answer": "Rebirth pertenece a la progresión prolongada. Update 7 añadió seis rutas de mejora de rebirth. Lee los efectos del reinicio en el panel actual."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Rebirth?",
+        "answer": "Rebirth pertenece a la progresión prolongada."
       },
       {
-        "question": "¿Cómo conecta Rebirth con la siguiente meta?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Rebirth?",
         "answer": "Update 7 añadió seis rutas de mejora de rebirth. Lee los efectos del reinicio en el panel actual."
       },
       {
-        "question": "¿Qué valores de Rebirth exigen el panel actual?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Rebirth?",
         "answer": "No se confirman aquí costes y efectos de cada paso."
       }
     ],
@@ -2485,8 +1728,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Rebirth máximo",
     "description": "Anime Dice: Rebirth máximo: guía centrada en distinguir rutas de mejora de un límite final, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de distinguir rutas de mejora de un límite final. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Update 7 documenta seis rutas de mejora. El número de rutas no equivale a un máximo de rebirths. No hay un máximo permanente confirmado."
+      "Esta página trata específicamente de distinguir rutas de mejora de un límite final. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -2505,16 +1747,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: El número de rutas no equivale a un máximo de rebirths. Usa el panel actual para los límites."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Rebirth máximo.",
-              "Usa este punto como primera comprobación: Update 7 documenta seis rutas de mejora.",
-              "Antes de decidir, compara también: El número de rutas no equivale a un máximo de rebirths."
-            ]
+            "text": "El número de rutas no equivale a un máximo de rebirths."
           }
         ]
       },
@@ -2524,15 +1757,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Usa el panel actual para los límites."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "El número de rutas no equivale a un máximo de rebirths.",
-              "Usa el panel actual para los límites."
-            ]
+            "text": "Usa el panel actual para los límites."
           }
         ]
       },
@@ -2547,42 +1772,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No hay un máximo permanente confirmado."
           }
         ]
-      },
-      {
-        "id": "max-rebirth-decision-record",
-        "title": "Rebirth máximo — Registro de la decisión de recursos",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Update 7 documenta seis rutas de mejora. El número de rutas no equivale a un máximo de rebirths. Usa el panel actual para los límites."
-          },
-          {
-            "type": "paragraph",
-            "text": "No hay un máximo permanente confirmado."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Update 7 documenta seis rutas de mejora.",
-              "El número de rutas no equivale a un máximo de rebirths.",
-              "Usa el panel actual para los límites."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué se anota antes de usar Rebirth máximo?",
-        "answer": "Update 7 documenta seis rutas de mejora. El número de rutas no equivale a un máximo de rebirths. Usa el panel actual para los límites."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Rebirth máximo?",
+        "answer": "Update 7 documenta seis rutas de mejora."
       },
       {
-        "question": "¿Cómo conecta Rebirth máximo con la siguiente meta?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Rebirth máximo?",
         "answer": "El número de rutas no equivale a un máximo de rebirths. Usa el panel actual para los límites."
       },
       {
-        "question": "¿Qué valores de Rebirth máximo exigen el panel actual?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Rebirth máximo?",
         "answer": "No hay un máximo permanente confirmado."
       }
     ],
@@ -2598,8 +1800,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Tienda de misiones",
     "description": "Anime Dice: Tienda de misiones: guía centrada en comparar recompensas y compras actuales, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de comparar recompensas y compras actuales. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Comprueba la tienda en la versión actual. Gems, Tickets y spins son recursos diferentes. Inventario, precios y renovación no están confirmados."
+      "Esta página trata específicamente de comparar recompensas y compras actuales. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -2618,16 +1819,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Gems, Tickets y spins son recursos diferentes. Compra según el plan del equipo."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Tienda de misiones.",
-              "Usa este punto como primera comprobación: Comprueba la tienda en la versión actual.",
-              "Antes de decidir, compara también: Gems, Tickets y spins son recursos diferentes."
-            ]
+            "text": "Gems, Tickets y spins son recursos diferentes."
           }
         ]
       },
@@ -2637,15 +1829,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Compra según el plan del equipo."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Gems, Tickets y spins son recursos diferentes.",
-              "Compra según el plan del equipo."
-            ]
+            "text": "Compra según el plan del equipo."
           }
         ]
       },
@@ -2660,42 +1844,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Inventario, precios y renovación no están confirmados."
           }
         ]
-      },
-      {
-        "id": "quest-shop-decision-record",
-        "title": "Tienda de misiones — Registro de la decisión de recursos",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Comprueba la tienda en la versión actual. Gems, Tickets y spins son recursos diferentes. Compra según el plan del equipo."
-          },
-          {
-            "type": "paragraph",
-            "text": "Inventario, precios y renovación no están confirmados."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Comprueba la tienda en la versión actual.",
-              "Gems, Tickets y spins son recursos diferentes.",
-              "Compra según el plan del equipo."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué se anota antes de usar Tienda de misiones?",
-        "answer": "Comprueba la tienda en la versión actual. Gems, Tickets y spins son recursos diferentes. Compra según el plan del equipo."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Tienda de misiones?",
+        "answer": "Comprueba la tienda en la versión actual."
       },
       {
-        "question": "¿Cómo conecta Tienda de misiones con la siguiente meta?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Tienda de misiones?",
         "answer": "Gems, Tickets y spins son recursos diferentes. Compra según el plan del equipo."
       },
       {
-        "question": "¿Qué valores de Tienda de misiones exigen el panel actual?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Tienda de misiones?",
         "answer": "Inventario, precios y renovación no están confirmados."
       }
     ],
@@ -2711,8 +1872,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Tower",
     "description": "Anime Dice: Tower: guía centrada en preparar equipo y recursos para una entrada, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de preparar equipo y recursos para una entrada. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Revisa el equipo activo antes de entrar. Gear, Potions y Tickets son recursos distintos. Pisos, enemigos y recompensas pueden cambiar."
+      "Esta página trata específicamente de preparar equipo y recursos para una entrada. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -2731,16 +1891,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Gear, Potions y Tickets son recursos distintos. Las fuentes tratan Tower como progresión."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Tower.",
-              "Usa este punto como primera comprobación: Revisa el equipo activo antes de entrar.",
-              "Antes de decidir, compara también: Gear, Potions y Tickets son recursos distintos."
-            ]
+            "text": "Gear, Potions y Tickets son recursos distintos."
           }
         ]
       },
@@ -2750,15 +1901,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Las fuentes tratan Tower como progresión."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Gear, Potions y Tickets son recursos distintos.",
-              "Las fuentes tratan Tower como progresión."
-            ]
+            "text": "Las fuentes tratan Tower como progresión."
           }
         ]
       },
@@ -2790,42 +1933,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Pisos, enemigos y recompensas pueden cambiar."
           }
         ]
-      },
-      {
-        "id": "tower-decision-record",
-        "title": "Tower — Registro de preparación del intento",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Revisa el equipo activo antes de entrar. Gear, Potions y Tickets son recursos distintos. Las fuentes tratan Tower como progresión."
-          },
-          {
-            "type": "paragraph",
-            "text": "Pisos, enemigos y recompensas pueden cambiar."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Revisa el equipo activo antes de entrar.",
-              "Gear, Potions y Tickets son recursos distintos.",
-              "Las fuentes tratan Tower como progresión."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué entra en la lista de Tower?",
-        "answer": "Revisa el equipo activo antes de entrar. Gear, Potions y Tickets son recursos distintos. Las fuentes tratan Tower como progresión."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Tower?",
+        "answer": "Revisa el equipo activo antes de entrar."
       },
       {
-        "question": "¿Cómo se revisa un intento fallido de Tower?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Tower?",
         "answer": "Gear, Potions y Tickets son recursos distintos. Las fuentes tratan Tower como progresión."
       },
       {
-        "question": "¿Qué premios de Tower no están garantizados?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Tower?",
         "answer": "Pisos, enemigos y recompensas pueden cambiar."
       }
     ],
@@ -2846,8 +1966,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Gear",
     "description": "Anime Dice: Gear: guía centrada en comparar equipo por origen y utilidad, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de comparar equipo por origen y utilidad. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Gear está vinculado a Tower en las fuentes. Compara cada pieza con unidad y objetivo. Lista y modificadores en vivo no están confirmados."
+      "Esta página trata específicamente de comparar equipo por origen y utilidad. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -2866,16 +1985,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Compara cada pieza con unidad y objetivo. Vincula la forma de obtenerla a una fuente revisada."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Gear.",
-              "Usa este punto como primera comprobación: Gear está vinculado a Tower en las fuentes.",
-              "Antes de decidir, compara también: Compara cada pieza con unidad y objetivo."
-            ]
+            "text": "Compara cada pieza con unidad y objetivo."
           }
         ]
       },
@@ -2885,15 +1995,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Vincula la forma de obtenerla a una fuente revisada."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Compara cada pieza con unidad y objetivo.",
-              "Vincula la forma de obtenerla a una fuente revisada."
-            ]
+            "text": "Vincula la forma de obtenerla a una fuente revisada."
           }
         ]
       },
@@ -2943,42 +2045,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Lista y modificadores en vivo no están confirmados."
           }
         ]
-      },
-      {
-        "id": "gear-decision-record",
-        "title": "Gear — Registro de preparación del intento",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Gear está vinculado a Tower en las fuentes. Compara cada pieza con unidad y objetivo. Vincula la forma de obtenerla a una fuente revisada."
-          },
-          {
-            "type": "paragraph",
-            "text": "Lista y modificadores en vivo no están confirmados."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Gear está vinculado a Tower en las fuentes.",
-              "Compara cada pieza con unidad y objetivo.",
-              "Vincula la forma de obtenerla a una fuente revisada."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué entra en la lista de Gear?",
-        "answer": "Gear está vinculado a Tower en las fuentes. Compara cada pieza con unidad y objetivo. Vincula la forma de obtenerla a una fuente revisada."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Gear?",
+        "answer": "Gear está vinculado a Tower en las fuentes."
       },
       {
-        "question": "¿Cómo se revisa un intento fallido de Gear?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Gear?",
         "answer": "Compara cada pieza con unidad y objetivo. Vincula la forma de obtenerla a una fuente revisada."
       },
       {
-        "question": "¿Qué premios de Gear no están garantizados?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Gear?",
         "answer": "Lista y modificadores en vivo no están confirmados."
       }
     ],
@@ -2999,8 +2078,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Potions",
     "description": "Anime Dice: Potions: guía centrada en decidir cuándo usar un recurso temporal, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de decidir cuándo usar un recurso temporal. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Potions se tratan como preparación para Tower. Lee el texto actual del objeto antes de usarlo. Inventario, duración y efectos pueden cambiar."
+      "Esta página trata específicamente de decidir cuándo usar un recurso temporal. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -3019,16 +2097,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Lee el texto actual del objeto antes de usarlo. Reserva objetos limitados para una meta definida."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Potions.",
-              "Usa este punto como primera comprobación: Potions se tratan como preparación para Tower.",
-              "Antes de decidir, compara también: Lee el texto actual del objeto antes de usarlo."
-            ]
+            "text": "Lee el texto actual del objeto antes de usarlo."
           }
         ]
       },
@@ -3038,15 +2107,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Reserva objetos limitados para una meta definida."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Lee el texto actual del objeto antes de usarlo.",
-              "Reserva objetos limitados para una meta definida."
-            ]
+            "text": "Reserva objetos limitados para una meta definida."
           }
         ]
       },
@@ -3061,42 +2122,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Inventario, duración y efectos pueden cambiar."
           }
         ]
-      },
-      {
-        "id": "potion-decision-record",
-        "title": "Potions — Registro de preparación del intento",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Potions se tratan como preparación para Tower. Lee el texto actual del objeto antes de usarlo. Reserva objetos limitados para una meta definida."
-          },
-          {
-            "type": "paragraph",
-            "text": "Inventario, duración y efectos pueden cambiar."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Potions se tratan como preparación para Tower.",
-              "Lee el texto actual del objeto antes de usarlo.",
-              "Reserva objetos limitados para una meta definida."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué entra en la lista de Potions?",
-        "answer": "Potions se tratan como preparación para Tower. Lee el texto actual del objeto antes de usarlo. Reserva objetos limitados para una meta definida."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Potions?",
+        "answer": "Potions se tratan como preparación para Tower."
       },
       {
-        "question": "¿Cómo se revisa un intento fallido de Potions?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Potions?",
         "answer": "Lee el texto actual del objeto antes de usarlo. Reserva objetos limitados para una meta definida."
       },
       {
-        "question": "¿Qué premios de Potions no están garantizados?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Potions?",
         "answer": "Inventario, duración y efectos pueden cambiar."
       }
     ],
@@ -3112,8 +2150,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Tickets",
     "description": "Anime Dice: Tickets: guía centrada en registrar Tickets antes de usarlos, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de registrar Tickets antes de usarlos. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: UPDATE6 incluye Tickets en la recompensa. Confirma su uso en la interfaz actual. Costes, usos y disponibilidad no están confirmados."
+      "Esta página trata específicamente de registrar Tickets antes de usarlos. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -3132,16 +2169,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Confirma su uso en la interfaz actual. Ninguna fuente respalda un suministro ilimitado."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Tickets.",
-              "Usa este punto como primera comprobación: UPDATE6 incluye Tickets en la recompensa.",
-              "Antes de decidir, compara también: Confirma su uso en la interfaz actual."
-            ]
+            "text": "Confirma su uso en la interfaz actual."
           }
         ]
       },
@@ -3151,15 +2179,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Ninguna fuente respalda un suministro ilimitado."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Confirma su uso en la interfaz actual.",
-              "Ninguna fuente respalda un suministro ilimitado."
-            ]
+            "text": "Ninguna fuente respalda un suministro ilimitado."
           }
         ]
       },
@@ -3174,42 +2194,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Costes, usos y disponibilidad no están confirmados."
           }
         ]
-      },
-      {
-        "id": "tickets-decision-record",
-        "title": "Tickets — Registro de preparación del intento",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: UPDATE6 incluye Tickets en la recompensa. Confirma su uso en la interfaz actual. Ninguna fuente respalda un suministro ilimitado."
-          },
-          {
-            "type": "paragraph",
-            "text": "Costes, usos y disponibilidad no están confirmados."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "UPDATE6 incluye Tickets en la recompensa.",
-              "Confirma su uso en la interfaz actual.",
-              "Ninguna fuente respalda un suministro ilimitado."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué entra en la lista de Tickets?",
-        "answer": "UPDATE6 incluye Tickets en la recompensa. Confirma su uso en la interfaz actual. Ninguna fuente respalda un suministro ilimitado."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Tickets?",
+        "answer": "UPDATE6 incluye Tickets en la recompensa."
       },
       {
-        "question": "¿Cómo se revisa un intento fallido de Tickets?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Tickets?",
         "answer": "Confirma su uso en la interfaz actual. Ninguna fuente respalda un suministro ilimitado."
       },
       {
-        "question": "¿Qué premios de Tickets no están garantizados?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Tickets?",
         "answer": "Costes, usos y disponibilidad no están confirmados."
       }
     ],
@@ -3225,8 +2222,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Sistema de intercambios",
     "description": "Anime Dice: Sistema de intercambios: guía centrada en verificar ambos lados de una operación, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de verificar ambos lados de una operación. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Confirma cada unidad u objeto ofrecido. Compara grade, trait, mutation y nivel por separado. Disponibilidad y demanda no son permanentes."
+      "Esta página trata específicamente de verificar ambos lados de una operación. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -3245,16 +2241,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Compara grade, trait, mutation y nivel por separado. Usa destinos verificados para contexto comunitario."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Sistema de intercambios.",
-              "Usa este punto como primera comprobación: Confirma cada unidad u objeto ofrecido.",
-              "Antes de decidir, compara también: Compara grade, trait, mutation y nivel por separado."
-            ]
+            "text": "Compara grade, trait, mutation y nivel por separado."
           }
         ]
       },
@@ -3264,15 +2251,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Usa destinos verificados para contexto comunitario."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Compara grade, trait, mutation y nivel por separado.",
-              "Usa destinos verificados para contexto comunitario."
-            ]
+            "text": "Usa destinos verificados para contexto comunitario."
           }
         ]
       },
@@ -3287,42 +2266,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Disponibilidad y demanda no son permanentes."
           }
         ]
-      },
-      {
-        "id": "trading-decision-record",
-        "title": "Sistema de intercambios — Registro documentado de la comparación",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Confirma cada unidad u objeto ofrecido. Compara grade, trait, mutation y nivel por separado. Usa destinos verificados para contexto comunitario."
-          },
-          {
-            "type": "paragraph",
-            "text": "Disponibilidad y demanda no son permanentes."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Confirma cada unidad u objeto ofrecido.",
-              "Compara grade, trait, mutation y nivel por separado.",
-              "Usa destinos verificados para contexto comunitario."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué se anota antes de decidir sobre Sistema de intercambios?",
-        "answer": "Confirma cada unidad u objeto ofrecido. Compara grade, trait, mutation y nivel por separado. Usa destinos verificados para contexto comunitario."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Sistema de intercambios?",
+        "answer": "Confirma cada unidad u objeto ofrecido."
       },
       {
-        "question": "¿Por qué una oferta de Sistema de intercambios no basta?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Sistema de intercambios?",
         "answer": "Compara grade, trait, mutation y nivel por separado. Usa destinos verificados para contexto comunitario."
       },
       {
-        "question": "¿Qué precio de Sistema de intercambios rechaza esta página?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Sistema de intercambios?",
         "answer": "Disponibilidad y demanda no son permanentes."
       }
     ],
@@ -3338,8 +2294,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Valor de intercambio",
     "description": "Anime Dice: Valor de intercambio: guía centrada en comparar ofertas sin copiar un precio aislado, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de comparar ofertas sin copiar un precio aislado. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Registra identidad y rarity. Grade, trait, mutation y nivel alteran la comparación. No hay precios en vivo verificados en las fuentes."
+      "Esta página trata específicamente de comparar ofertas sin copiar un precio aislado. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -3358,16 +2313,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Grade, trait, mutation y nivel alteran la comparación. Cada estimación necesita fuente y fecha."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Valor de intercambio.",
-              "Usa este punto como primera comprobación: Registra identidad y rarity.",
-              "Antes de decidir, compara también: Grade, trait, mutation y nivel alteran la comparación."
-            ]
+            "text": "Grade, trait, mutation y nivel alteran la comparación."
           }
         ]
       },
@@ -3377,15 +2323,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Cada estimación necesita fuente y fecha."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Grade, trait, mutation y nivel alteran la comparación.",
-              "Cada estimación necesita fuente y fecha."
-            ]
+            "text": "Cada estimación necesita fuente y fecha."
           }
         ]
       },
@@ -3400,42 +2338,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No hay precios en vivo verificados en las fuentes."
           }
         ]
-      },
-      {
-        "id": "trade-value-decision-record",
-        "title": "Valor de intercambio — Registro documentado de la comparación",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Registra identidad y rarity. Grade, trait, mutation y nivel alteran la comparación. Cada estimación necesita fuente y fecha."
-          },
-          {
-            "type": "paragraph",
-            "text": "No hay precios en vivo verificados en las fuentes."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Registra identidad y rarity.",
-              "Grade, trait, mutation y nivel alteran la comparación.",
-              "Cada estimación necesita fuente y fecha."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué se anota antes de decidir sobre Valor de intercambio?",
-        "answer": "Registra identidad y rarity. Grade, trait, mutation y nivel alteran la comparación. Cada estimación necesita fuente y fecha."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Valor de intercambio?",
+        "answer": "Registra identidad y rarity."
       },
       {
-        "question": "¿Por qué una oferta de Valor de intercambio no basta?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Valor de intercambio?",
         "answer": "Grade, trait, mutation y nivel alteran la comparación. Cada estimación necesita fuente y fecha."
       },
       {
-        "question": "¿Qué precio de Valor de intercambio rechaza esta página?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Valor de intercambio?",
         "answer": "No hay precios en vivo verificados en las fuentes."
       }
     ],
@@ -3451,8 +2366,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Hoja de evaluación",
     "description": "Anime Dice: Hoja de evaluación: guía centrada en ordenar manualmente ambos lados de una oferta, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de ordenar manualmente ambos lados de una oferta. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Lista las unidades de ambos lados. Compara rarity, grade, trait, mutation y nivel. Rechaza la presión para cerrar la operación antes de verificarla."
+      "Esta página trata específicamente de ordenar manualmente ambos lados de una oferta. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -3471,16 +2385,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Compara rarity, grade, trait, mutation y nivel. Anota fuente y fecha de cualquier estimación."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Hoja de evaluación.",
-              "Usa este punto como primera comprobación: Lista las unidades de ambos lados.",
-              "Antes de decidir, compara también: Compara rarity, grade, trait, mutation y nivel."
-            ]
+            "text": "Compara rarity, grade, trait, mutation y nivel."
           }
         ]
       },
@@ -3490,16 +2395,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Anota fuente y fecha de cualquier estimación."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Compara rarity, grade, trait, mutation y nivel.",
-              "Anota fuente y fecha de cualquier estimación.",
-              "Rechaza la presión para cerrar la operación antes de verificarla."
-            ]
+            "text": "Anota fuente y fecha de cualquier estimación."
           }
         ]
       },
@@ -3514,42 +2410,19 @@ export const ES_ARTICLE_COPY = {
             "body": "La página no afirma una fórmula numérica de mercado."
           }
         ]
-      },
-      {
-        "id": "value-calculator-decision-record",
-        "title": "Hoja de evaluación — Registro documentado de la comparación",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Lista las unidades de ambos lados. Compara rarity, grade, trait, mutation y nivel. Anota fuente y fecha de cualquier estimación."
-          },
-          {
-            "type": "paragraph",
-            "text": "Rechaza la presión para cerrar la operación antes de verificarla."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Lista las unidades de ambos lados.",
-              "Compara rarity, grade, trait, mutation y nivel.",
-              "Anota fuente y fecha de cualquier estimación."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué se anota antes de decidir sobre Hoja de evaluación?",
-        "answer": "Lista las unidades de ambos lados. Compara rarity, grade, trait, mutation y nivel. Anota fuente y fecha de cualquier estimación."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Hoja de evaluación?",
+        "answer": "Lista las unidades de ambos lados."
       },
       {
-        "question": "¿Por qué una oferta de Hoja de evaluación no basta?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Hoja de evaluación?",
         "answer": "Compara rarity, grade, trait, mutation y nivel. Anota fuente y fecha de cualquier estimación."
       },
       {
-        "question": "¿Qué precio de Hoja de evaluación rechaza esta página?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Hoja de evaluación?",
         "answer": "Rechaza la presión para cerrar la operación antes de verificarla."
       }
     ],
@@ -3566,8 +2439,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Mercado",
     "description": "Anime Dice: Mercado: guía centrada en seguir demanda comunitaria cambiante, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de seguir demanda comunitaria cambiante. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Una oferta observada no es una operación completada. La fecha importa porque la demanda cambia. No existe feed en vivo ni lista oficial fija."
+      "Esta página trata específicamente de seguir demanda comunitaria cambiante. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -3586,16 +2458,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: La fecha importa porque la demanda cambia. Compara varias observaciones verificables."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Mercado.",
-              "Usa este punto como primera comprobación: Una oferta observada no es una operación completada.",
-              "Antes de decidir, compara también: La fecha importa porque la demanda cambia."
-            ]
+            "text": "La fecha importa porque la demanda cambia."
           }
         ]
       },
@@ -3605,15 +2468,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Compara varias observaciones verificables."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "La fecha importa porque la demanda cambia.",
-              "Compara varias observaciones verificables."
-            ]
+            "text": "Compara varias observaciones verificables."
           }
         ]
       },
@@ -3628,42 +2483,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No existe feed en vivo ni lista oficial fija."
           }
         ]
-      },
-      {
-        "id": "market-decision-record",
-        "title": "Mercado — Registro documentado de la comparación",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Una oferta observada no es una operación completada. La fecha importa porque la demanda cambia. Compara varias observaciones verificables."
-          },
-          {
-            "type": "paragraph",
-            "text": "No existe feed en vivo ni lista oficial fija."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Una oferta observada no es una operación completada.",
-              "La fecha importa porque la demanda cambia.",
-              "Compara varias observaciones verificables."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué se anota antes de decidir sobre Mercado?",
-        "answer": "Una oferta observada no es una operación completada. La fecha importa porque la demanda cambia. Compara varias observaciones verificables."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Mercado?",
+        "answer": "Una oferta observada no es una operación completada."
       },
       {
-        "question": "¿Por qué una oferta de Mercado no basta?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Mercado?",
         "answer": "La fecha importa porque la demanda cambia. Compara varias observaciones verificables."
       },
       {
-        "question": "¿Qué precio de Mercado rechaza esta página?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Mercado?",
         "answer": "No existe feed en vivo ni lista oficial fija."
       }
     ],
@@ -3679,8 +2511,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Nueva actualización",
     "description": "Anime Dice: Nueva actualización: guía centrada en identificar el último cambio confirmado, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de identificar el último cambio confirmado. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: La investigación aportada identifica Update 7. Update 7 añade rarity Galactic. No se confirmó una versión posterior."
+      "Esta página trata específicamente de identificar el último cambio confirmado. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -3699,16 +2530,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Update 7 añade rarity Galactic. También añade seis rutas de rebirth."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Nueva actualización.",
-              "Usa este punto como primera comprobación: La investigación aportada identifica Update 7.",
-              "Antes de decidir, compara también: Update 7 añade rarity Galactic."
-            ]
+            "text": "Update 7 añade rarity Galactic."
           }
         ]
       },
@@ -3718,15 +2540,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: También añade seis rutas de rebirth."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Update 7 añade rarity Galactic.",
-              "También añade seis rutas de rebirth."
-            ]
+            "text": "También añade seis rutas de rebirth."
           }
         ]
       },
@@ -3741,42 +2555,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No se confirmó una versión posterior."
           }
         ]
-      },
-      {
-        "id": "new-update-decision-record",
-        "title": "Nueva actualización — Registro fechado de verificación",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: La investigación aportada identifica Update 7. Update 7 añade rarity Galactic. También añade seis rutas de rebirth."
-          },
-          {
-            "type": "paragraph",
-            "text": "No se confirmó una versión posterior."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "La investigación aportada identifica Update 7.",
-              "Update 7 añade rarity Galactic.",
-              "También añade seis rutas de rebirth."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué fuente fechada confirma Nueva actualización?",
-        "answer": "La investigación aportada identifica Update 7. Update 7 añade rarity Galactic. También añade seis rutas de rebirth."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Nueva actualización?",
+        "answer": "La investigación aportada identifica Update 7."
       },
       {
-        "question": "¿Cómo se separa un anuncio de un rumor sobre Nueva actualización?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Nueva actualización?",
         "answer": "Update 7 añade rarity Galactic. También añade seis rutas de rebirth."
       },
       {
-        "question": "¿Qué sigue sin saberse sobre Nueva actualización?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Nueva actualización?",
         "answer": "No se confirmó una versión posterior."
       }
     ],
@@ -3792,8 +2583,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Próxima actualización",
     "description": "Anime Dice: Próxima actualización: guía centrada en separar anuncios de especulación, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de separar anuncios de especulación. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: La página oficial y Discord verificado son fuentes de anuncios. Un rumor no equivale a anuncio del desarrollador. No hay fecha ni lista futura confirmada."
+      "Esta página trata específicamente de separar anuncios de especulación. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -3812,16 +2602,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Un rumor no equivale a anuncio del desarrollador. Cada comprobación necesita fecha."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Próxima actualización.",
-              "Usa este punto como primera comprobación: La página oficial y Discord verificado son fuentes de anuncios.",
-              "Antes de decidir, compara también: Un rumor no equivale a anuncio del desarrollador."
-            ]
+            "text": "Un rumor no equivale a anuncio del desarrollador."
           }
         ]
       },
@@ -3831,15 +2612,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Cada comprobación necesita fecha."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Un rumor no equivale a anuncio del desarrollador.",
-              "Cada comprobación necesita fecha."
-            ]
+            "text": "Cada comprobación necesita fecha."
           }
         ]
       },
@@ -3854,42 +2627,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No hay fecha ni lista futura confirmada."
           }
         ]
-      },
-      {
-        "id": "next-update-decision-record",
-        "title": "Próxima actualización — Registro fechado de verificación",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: La página oficial y Discord verificado son fuentes de anuncios. Un rumor no equivale a anuncio del desarrollador. Cada comprobación necesita fecha."
-          },
-          {
-            "type": "paragraph",
-            "text": "No hay fecha ni lista futura confirmada."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "La página oficial y Discord verificado son fuentes de anuncios.",
-              "Un rumor no equivale a anuncio del desarrollador.",
-              "Cada comprobación necesita fecha."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué fuente fechada confirma Próxima actualización?",
-        "answer": "La página oficial y Discord verificado son fuentes de anuncios. Un rumor no equivale a anuncio del desarrollador. Cada comprobación necesita fecha."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Próxima actualización?",
+        "answer": "La página oficial y Discord verificado son fuentes de anuncios."
       },
       {
-        "question": "¿Cómo se separa un anuncio de un rumor sobre Próxima actualización?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Próxima actualización?",
         "answer": "Un rumor no equivale a anuncio del desarrollador. Cada comprobación necesita fecha."
       },
       {
-        "question": "¿Qué sigue sin saberse sobre Próxima actualización?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Próxima actualización?",
         "answer": "No hay fecha ni lista futura confirmada."
       }
     ],
@@ -3905,8 +2655,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Update 7",
     "description": "Anime Dice: Update 7: guía centrada en resumir solo cambios documentados, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de resumir solo cambios documentados. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Update 7 añade rarity Galactic. Añade seis rutas de mejora de rebirth. No se afirman balances fuera de las fuentes."
+      "Esta página trata específicamente de resumir solo cambios documentados. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -3925,16 +2674,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Añade seis rutas de mejora de rebirth. UPDATE7 es un código documentado."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Update 7.",
-              "Usa este punto como primera comprobación: Update 7 añade rarity Galactic.",
-              "Antes de decidir, compara también: Añade seis rutas de mejora de rebirth."
-            ]
+            "text": "Añade seis rutas de mejora de rebirth."
           }
         ]
       },
@@ -3944,15 +2684,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: UPDATE7 es un código documentado."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Añade seis rutas de mejora de rebirth.",
-              "UPDATE7 es un código documentado."
-            ]
+            "text": "UPDATE7 es un código documentado."
           }
         ]
       },
@@ -3985,42 +2717,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No se afirman balances fuera de las fuentes."
           }
         ]
-      },
-      {
-        "id": "update-7-decision-record",
-        "title": "Update 7 — Registro fechado de verificación",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Update 7 añade rarity Galactic. Añade seis rutas de mejora de rebirth. UPDATE7 es un código documentado."
-          },
-          {
-            "type": "paragraph",
-            "text": "No se afirman balances fuera de las fuentes."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Update 7 añade rarity Galactic.",
-              "Añade seis rutas de mejora de rebirth.",
-              "UPDATE7 es un código documentado."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué fuente fechada confirma Update 7?",
-        "answer": "Update 7 añade rarity Galactic. Añade seis rutas de mejora de rebirth. UPDATE7 es un código documentado."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Update 7?",
+        "answer": "Update 7 añade rarity Galactic."
       },
       {
-        "question": "¿Cómo se separa un anuncio de un rumor sobre Update 7?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Update 7?",
         "answer": "Añade seis rutas de mejora de rebirth. UPDATE7 es un código documentado."
       },
       {
-        "question": "¿Qué sigue sin saberse sobre Update 7?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Update 7?",
         "answer": "No se afirman balances fuera de las fuentes."
       }
     ],
@@ -4042,8 +2751,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Eventos",
     "description": "Anime Dice: Eventos: guía centrada en confirmar si hay un evento actual, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de confirmar si hay un evento actual. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Revisa la página oficial y Discord verificado. Inicio y fin deben aparecer en juego o anuncio original. No hay calendario actual confirmado."
+      "Esta página trata específicamente de confirmar si hay un evento actual. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -4062,16 +2770,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Inicio y fin deben aparecer en juego o anuncio original. Una publicación comunitaria necesita respaldo oficial."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Eventos.",
-              "Usa este punto como primera comprobación: Revisa la página oficial y Discord verificado.",
-              "Antes de decidir, compara también: Inicio y fin deben aparecer en juego o anuncio original."
-            ]
+            "text": "Inicio y fin deben aparecer en juego o anuncio original."
           }
         ]
       },
@@ -4081,15 +2780,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Una publicación comunitaria necesita respaldo oficial."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Inicio y fin deben aparecer en juego o anuncio original.",
-              "Una publicación comunitaria necesita respaldo oficial."
-            ]
+            "text": "Una publicación comunitaria necesita respaldo oficial."
           }
         ]
       },
@@ -4104,42 +2795,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No hay calendario actual confirmado."
           }
         ]
-      },
-      {
-        "id": "event-decision-record",
-        "title": "Eventos — Registro fechado de verificación",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Revisa la página oficial y Discord verificado. Inicio y fin deben aparecer en juego o anuncio original. Una publicación comunitaria necesita respaldo oficial."
-          },
-          {
-            "type": "paragraph",
-            "text": "No hay calendario actual confirmado."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Revisa la página oficial y Discord verificado.",
-              "Inicio y fin deben aparecer en juego o anuncio original.",
-              "Una publicación comunitaria necesita respaldo oficial."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué fuente fechada confirma Eventos?",
-        "answer": "Revisa la página oficial y Discord verificado. Inicio y fin deben aparecer en juego o anuncio original. Una publicación comunitaria necesita respaldo oficial."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Eventos?",
+        "answer": "Revisa la página oficial y Discord verificado."
       },
       {
-        "question": "¿Cómo se separa un anuncio de un rumor sobre Eventos?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Eventos?",
         "answer": "Inicio y fin deben aparecer en juego o anuncio original. Una publicación comunitaria necesita respaldo oficial."
       },
       {
-        "question": "¿Qué sigue sin saberse sobre Eventos?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Eventos?",
         "answer": "No hay calendario actual confirmado."
       }
     ],
@@ -4155,8 +2823,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Horario de evento de administrador",
     "description": "Anime Dice: Horario de evento de administrador: guía centrada en validar fecha, hora y zona de una sesión, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de validar fecha, hora y zona de una sesión. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: Busca un anuncio fechado en destino oficial. Lee fecha y zona horaria juntas. No hay horario recurrente confirmado."
+      "Esta página trata específicamente de validar fecha, hora y zona de una sesión. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -4175,16 +2842,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Lee fecha y zona horaria juntas. Ignora republicaciones sin enlace original."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Horario de evento de administrador.",
-              "Usa este punto como primera comprobación: Busca un anuncio fechado en destino oficial.",
-              "Antes de decidir, compara también: Lee fecha y zona horaria juntas."
-            ]
+            "text": "Lee fecha y zona horaria juntas."
           }
         ]
       },
@@ -4194,15 +2852,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Ignora republicaciones sin enlace original."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Lee fecha y zona horaria juntas.",
-              "Ignora republicaciones sin enlace original."
-            ]
+            "text": "Ignora republicaciones sin enlace original."
           }
         ]
       },
@@ -4217,42 +2867,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No hay horario recurrente confirmado."
           }
         ]
-      },
-      {
-        "id": "admin-abuse-time-decision-record",
-        "title": "Horario de evento de administrador — Registro fechado de verificación",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: Busca un anuncio fechado en destino oficial. Lee fecha y zona horaria juntas. Ignora republicaciones sin enlace original."
-          },
-          {
-            "type": "paragraph",
-            "text": "No hay horario recurrente confirmado."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Busca un anuncio fechado en destino oficial.",
-              "Lee fecha y zona horaria juntas.",
-              "Ignora republicaciones sin enlace original."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Qué fuente fechada confirma Horario de evento de administrador?",
-        "answer": "Busca un anuncio fechado en destino oficial. Lee fecha y zona horaria juntas. Ignora republicaciones sin enlace original."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Horario de evento de administrador?",
+        "answer": "Busca un anuncio fechado en destino oficial."
       },
       {
-        "question": "¿Cómo se separa un anuncio de un rumor sobre Horario de evento de administrador?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Horario de evento de administrador?",
         "answer": "Lee fecha y zona horaria juntas. Ignora republicaciones sin enlace original."
       },
       {
-        "question": "¿Qué sigue sin saberse sobre Horario de evento de administrador?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Horario de evento de administrador?",
         "answer": "No hay horario recurrente confirmado."
       }
     ],
@@ -4268,8 +2895,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Discord",
     "description": "Anime Dice: Discord: guía centrada en usar la invitación comunitaria verificada, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de usar la invitación comunitaria verificada. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: El catálogo usa discord.com/invite/ag5MCCu5aQ. Los canales y anuncios pueden cambiar. Roles, canales y calendario actual pueden variar."
+      "Esta página trata específicamente de usar la invitación comunitaria verificada. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -4288,16 +2914,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Los canales y anuncios pueden cambiar. Nunca compartas contraseña o token con moderadores."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Discord.",
-              "Usa este punto como primera comprobación: El catálogo usa discord.com/invite/ag5MCCu5aQ.",
-              "Antes de decidir, compara también: Los canales y anuncios pueden cambiar."
-            ]
+            "text": "Los canales y anuncios pueden cambiar."
           }
         ]
       },
@@ -4307,15 +2924,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Nunca compartas contraseña o token con moderadores."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Los canales y anuncios pueden cambiar.",
-              "Nunca compartas contraseña o token con moderadores."
-            ]
+            "text": "Nunca compartas contraseña o token con moderadores."
           }
         ]
       },
@@ -4330,42 +2939,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Roles, canales y calendario actual pueden variar."
           }
         ]
-      },
-      {
-        "id": "discord-decision-record",
-        "title": "Discord — Comprobación de confianza del destino",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: El catálogo usa discord.com/invite/ag5MCCu5aQ. Los canales y anuncios pueden cambiar. Nunca compartas contraseña o token con moderadores."
-          },
-          {
-            "type": "paragraph",
-            "text": "Roles, canales y calendario actual pueden variar."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "El catálogo usa discord.com/invite/ag5MCCu5aQ.",
-              "Los canales y anuncios pueden cambiar.",
-              "Nunca compartas contraseña o token con moderadores."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Cómo se verifica el destino de Discord?",
-        "answer": "El catálogo usa discord.com/invite/ag5MCCu5aQ. Los canales y anuncios pueden cambiar. Nunca compartas contraseña o token con moderadores."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Discord?",
+        "answer": "El catálogo usa discord.com/invite/ag5MCCu5aQ."
       },
       {
-        "question": "¿Qué mensajes de Discord solo son discusión?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Discord?",
         "answer": "Los canales y anuncios pueden cambiar. Nunca compartas contraseña o token con moderadores."
       },
       {
-        "question": "¿Cuándo se revisa otra vez el enlace de Discord?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Discord?",
         "answer": "Roles, canales y calendario actual pueden variar."
       }
     ],
@@ -4381,8 +2967,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Reddit",
     "description": "Anime Dice: Reddit: guía centrada en usar debates sin tratarlos como oficiales, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de usar debates sin tratarlos como oficiales. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: No se confirmó un subreddit oficial. Los posts descubren preguntas, no prueban hechos. Los votos no convierten un post en anuncio oficial."
+      "Esta página trata específicamente de usar debates sin tratarlos como oficiales. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -4401,16 +2986,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Los posts descubren preguntas, no prueban hechos. Contrasta afirmaciones con destinos oficiales."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Reddit.",
-              "Usa este punto como primera comprobación: No se confirmó un subreddit oficial.",
-              "Antes de decidir, compara también: Los posts descubren preguntas, no prueban hechos."
-            ]
+            "text": "Los posts descubren preguntas, no prueban hechos."
           }
         ]
       },
@@ -4420,15 +2996,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Contrasta afirmaciones con destinos oficiales."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Los posts descubren preguntas, no prueban hechos.",
-              "Contrasta afirmaciones con destinos oficiales."
-            ]
+            "text": "Contrasta afirmaciones con destinos oficiales."
           }
         ]
       },
@@ -4443,42 +3011,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Los votos no convierten un post en anuncio oficial."
           }
         ]
-      },
-      {
-        "id": "reddit-decision-record",
-        "title": "Reddit — Comprobación de confianza del destino",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: No se confirmó un subreddit oficial. Los posts descubren preguntas, no prueban hechos. Contrasta afirmaciones con destinos oficiales."
-          },
-          {
-            "type": "paragraph",
-            "text": "Los votos no convierten un post en anuncio oficial."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "No se confirmó un subreddit oficial.",
-              "Los posts descubren preguntas, no prueban hechos.",
-              "Contrasta afirmaciones con destinos oficiales."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Cómo se verifica el destino de Reddit?",
-        "answer": "No se confirmó un subreddit oficial. Los posts descubren preguntas, no prueban hechos. Contrasta afirmaciones con destinos oficiales."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Reddit?",
+        "answer": "No se confirmó un subreddit oficial."
       },
       {
-        "question": "¿Qué mensajes de Reddit solo son discusión?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Reddit?",
         "answer": "Los posts descubren preguntas, no prueban hechos. Contrasta afirmaciones con destinos oficiales."
       },
       {
-        "question": "¿Cuándo se revisa otra vez el enlace de Reddit?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Reddit?",
         "answer": "Los votos no convierten un post en anuncio oficial."
       }
     ],
@@ -4494,8 +3039,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Trello",
     "description": "Anime Dice: Trello: guía centrada en verificar un tablero antes de confiar, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de verificar un tablero antes de confiar. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: No se confirmó un Trello oficial. Comprueba propietario y enlaces desde canales oficiales. No publicamos un enlace de Trello sin verificar."
+      "Esta página trata específicamente de verificar un tablero antes de confiar. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -4514,16 +3058,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: Comprueba propietario y enlaces desde canales oficiales. Los tableros de fans pueden estar desactualizados."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Trello.",
-              "Usa este punto como primera comprobación: No se confirmó un Trello oficial.",
-              "Antes de decidir, compara también: Comprueba propietario y enlaces desde canales oficiales."
-            ]
+            "text": "Comprueba propietario y enlaces desde canales oficiales."
           }
         ]
       },
@@ -4533,15 +3068,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: Los tableros de fans pueden estar desactualizados."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "Comprueba propietario y enlaces desde canales oficiales.",
-              "Los tableros de fans pueden estar desactualizados."
-            ]
+            "text": "Los tableros de fans pueden estar desactualizados."
           }
         ]
       },
@@ -4556,42 +3083,19 @@ export const ES_ARTICLE_COPY = {
             "body": "No publicamos un enlace de Trello sin verificar."
           }
         ]
-      },
-      {
-        "id": "trello-decision-record",
-        "title": "Trello — Comprobación de confianza del destino",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: No se confirmó un Trello oficial. Comprueba propietario y enlaces desde canales oficiales. Los tableros de fans pueden estar desactualizados."
-          },
-          {
-            "type": "paragraph",
-            "text": "No publicamos un enlace de Trello sin verificar."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "No se confirmó un Trello oficial.",
-              "Comprueba propietario y enlaces desde canales oficiales.",
-              "Los tableros de fans pueden estar desactualizados."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Cómo se verifica el destino de Trello?",
-        "answer": "No se confirmó un Trello oficial. Comprueba propietario y enlaces desde canales oficiales. Los tableros de fans pueden estar desactualizados."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Trello?",
+        "answer": "No se confirmó un Trello oficial."
       },
       {
-        "question": "¿Qué mensajes de Trello solo son discusión?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Trello?",
         "answer": "Comprueba propietario y enlaces desde canales oficiales. Los tableros de fans pueden estar desactualizados."
       },
       {
-        "question": "¿Cuándo se revisa otra vez el enlace de Trello?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Trello?",
         "answer": "No publicamos un enlace de Trello sin verificar."
       }
     ],
@@ -4607,8 +3111,7 @@ export const ES_ARTICLE_COPY = {
     "title": "Anime Dice: Grupo oficial",
     "description": "Anime Dice: Grupo oficial: guía centrada en confirmar More & More Games, con hechos documentados y límites claros para datos variables.",
     "intro": [
-      "Esta página trata específicamente de confirmar More & More Games. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas.",
-      "Las pruebas proporcionadas establecen estos puntos: La comunidad verificada es More & More Games. La guía indica posibles spins en el cofre. Confirma recompensas y disponibilidad dentro del juego."
+      "Esta página trata específicamente de confirmar More & More Games. Evita cifras, horarios y resultados que no aparecen en las fuentes aportadas."
     ],
     "sections": [
       {
@@ -4627,16 +3130,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Lee estos dos hechos juntos antes de actuar: La guía indica posibles spins en el cofre. También puede haber Gems o rerolls."
-          },
-          {
-            "type": "list",
-            "style": "ordered",
-            "items": [
-              "Abre el juego o destino verificado relacionado con Grupo oficial.",
-              "Usa este punto como primera comprobación: La comunidad verificada es More & More Games.",
-              "Antes de decidir, compara también: La guía indica posibles spins en el cofre."
-            ]
+            "text": "La guía indica posibles spins en el cofre."
           }
         ]
       },
@@ -4646,15 +3140,7 @@ export const ES_ARTICLE_COPY = {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Punto de evidencia: También puede haber Gems o rerolls."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "La guía indica posibles spins en el cofre.",
-              "También puede haber Gems o rerolls."
-            ]
+            "text": "También puede haber Gems o rerolls."
           }
         ]
       },
@@ -4669,42 +3155,19 @@ export const ES_ARTICLE_COPY = {
             "body": "Confirma recompensas y disponibilidad dentro del juego."
           }
         ]
-      },
-      {
-        "id": "group-decision-record",
-        "title": "Grupo oficial — Comprobación de confianza del destino",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "La decisión depende de la relación documentada entre estos puntos: La comunidad verificada es More & More Games. La guía indica posibles spins en el cofre. También puede haber Gems o rerolls."
-          },
-          {
-            "type": "paragraph",
-            "text": "Confirma recompensas y disponibilidad dentro del juego."
-          },
-          {
-            "type": "list",
-            "style": "unordered",
-            "items": [
-              "La comunidad verificada es More & More Games.",
-              "La guía indica posibles spins en el cofre.",
-              "También puede haber Gems o rerolls."
-            ]
-          }
-        ]
       }
     ],
     "faq": [
       {
-        "question": "¿Cómo se verifica el destino de Grupo oficial?",
-        "answer": "La comunidad verificada es More & More Games. La guía indica posibles spins en el cofre. También puede haber Gems o rerolls."
+        "question": "¿Qué confirman las pruebas proporcionadas sobre Anime Dice: Grupo oficial?",
+        "answer": "La comunidad verificada es More & More Games."
       },
       {
-        "question": "¿Qué mensajes de Grupo oficial solo son discusión?",
+        "question": "¿Qué dos comprobaciones deben leerse juntas para Anime Dice: Grupo oficial?",
         "answer": "La guía indica posibles spins en el cofre. También puede haber Gems o rerolls."
       },
       {
-        "question": "¿Cuándo se revisa otra vez el enlace de Grupo oficial?",
+        "question": "¿Qué sigue sin confirmar sobre Anime Dice: Grupo oficial?",
         "answer": "Confirma recompensas y disponibilidad dentro del juego."
       }
     ],
