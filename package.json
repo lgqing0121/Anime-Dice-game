@@ -5,14 +5,15 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "cross-env SITE_URL=https://animedicegamei.wiki astro build",
     "check": "npm run typecheck && npm run test:unit && npm run test:e2e",
     "preview": "astro preview",
     "typecheck": "astro check",
     "test": "vitest run",
     "test:unit": "vitest run",
     "test:e2e": "npm run build && playwright test",
-    "release:check": "cross-env SITE_URL=https://animedicegamei.wiki npm run check"
+    "release:check": "cross-env SITE_URL=https://animedicegamei.wiki npm run check",
+    "deploy": "wrangler deploy"
   },
   "keywords": [
     "anime-dice",
@@ -27,8 +28,10 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
     "@playwright/test": "^1.64.0",
+    "@types/node": "^24.19.2",
     "cross-env": "^10.1.0",
     "typescript": "^6.0.3",
-    "vitest": "^5.0.3"
+    "vitest": "^5.0.3",
+    "wrangler": "^4.149.0"
   }
 }
