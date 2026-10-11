@@ -1,6 +1,22 @@
 ---
 import type { HomeCopy } from '../i18n';
-interface Props { copy: HomeCopy }
-const { copy } = Astro.props;
+interface Props { copy: HomeCopy; placement?: 'top-banner' | 'home-compact' | 'sidebar-rectangle' | 'wide-rail' }
+const { copy, placement = 'top-banner' } = Astro.props;
+const inventory = {
+  top: [
+    { minWidth: 768, width: 728, height: 90, key: 'ed61897adbabefe7983f3ffc1c0bfb13' },
+    { minWidth: 480, width: 468, height: 60, key: 'e40507feac6259ee5ec020c616ef8220' },
+    { minWidth: 0, width: 320, height: 50, key: 'f8aa1e7be1c73b875e0fe37ebdd6c71d' },
+  ],
+  compact: [{ minWidth: 0, width: 320, height: 50, key: 'f8aa1e7be1c73b875e0fe37ebdd6c71d' }],
+  rectangle: [{ minWidth: 0, width: 300, height: 250, key: '75918c00e54fff5919aff04229377854' }],
+  rail: [
+    { minWidth: 1650, minHeight: 750, width: 160, height: 600, key: '13a793ae0c63d94a073f6094dd5c31ba' },
+    { minWidth: 1650, minHeight: 0, width: 160, height: 300, key: '77f188cab8e8814bd7dc6d4ee180295d' },
+  ],
+} as const;
+const kind = placement === 'top-banner' ? 'top' : placement === 'home-compact' ? 'compact' : placement === 'sidebar-rectangle' ? 'rectangle' : 'rail';
 ---
-<aside class="ad-slot" aria-label={copy.common.advertisement}><span>{copy.common.advertisement}</span></aside>
+<aside class:list={['ad-slot', `ad-slot-${kind}`]} aria-label={copy.common.advertisement} data-ad-placement={placement} data-ad-inventory={JSON.stringify(inventory[kind])}>
+  <span>{copy.common.advertisement}</span>
+</aside>

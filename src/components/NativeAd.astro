@@ -1,0 +1,9 @@
+---
+import type { HomeCopy } from '../i18n';
+interface Props { copy: HomeCopy; placement: 'home-native' | 'category-native' | 'article-native' }
+const { copy, placement } = Astro.props;
+---
+<aside class="native-ad" aria-label={copy.common.advertisement} data-ad-placement={placement}>
+  <span class="ad-label">{copy.common.advertisement}</span>
+  <div id="container-5eeea7029bf2ad75a55091411c46de30"></div>
+</aside>

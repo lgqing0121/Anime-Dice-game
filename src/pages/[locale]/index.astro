@@ -1,5 +1,6 @@
 ---
 import AdSlot from '../../components/AdSlot.astro';
+import NativeAd from '../../components/NativeAd.astro';
 import Hero from '../../components/Hero.astro';
 import Sidebar from '../../components/Sidebar.astro';
 import LatestUpdates from '../../components/LatestUpdates.astro';
@@ -24,12 +25,14 @@ const copy = getHomeCopy(locale);
 ---
 <WikiLayout locale={locale} copy={copy}>
   <main class="page-shell">
-    <AdSlot copy={copy} />
+    <AdSlot copy={copy} placement="top-banner" />
     <div class="content-grid">
       <div class="primary-column">
         <Hero copy={copy} />
+        <AdSlot copy={copy} placement="home-compact" />
         <LatestUpdates copy={copy} />
         <Journey copy={copy} />
+        <NativeAd copy={copy} placement="home-native" />
         <Trending copy={copy} />
         <AboutGame copy={copy} />
         <ExploreModules locale={locale} copy={copy} />
