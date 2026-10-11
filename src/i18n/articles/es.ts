@@ -2012,23 +2012,23 @@ export const ES_ARTICLE_COPY = {
             "rows": [
               [
                 "Angel's Halo",
-                "+30% Luck, +5 Walk Speed; 0.02% from Dragon Tower pisos 90+"
+                "+30% Luck, +5 Walk Speed; 0.02% en los pisos 90+ de Dragon Tower"
               ],
               [
                 "Sakuna's Sash",
-                "2x Damage, +30% Luck, +30% Gems; 0.02% from Cursed Tower pisos 90+"
+                "2x Damage, +30% Luck, +30% Gems; 0.02% en los pisos 90+ de Cursed Tower"
               ],
               [
                 "Enol's Drums",
-                "+40% Luck, 1.5x Cash; 0.02% from Pirate Tower pisos 90+"
+                "+40% Luck, 1.5x Cash; 0.02% en los pisos 90+ de Pirate Tower"
               ],
               [
                 "Obita's Mask",
-                "+40% Luck, +30% Gems; 0.02% from Hidden Leaf Tower pisos 90+"
+                "+40% Luck, +30% Gems; 0.02% en los pisos 90+ de Hidden Leaf Tower"
               ],
               [
                 "Mazun's Coat",
-                "+50% Luck, 2x Cash; 0.02% from Slayer Tower pisos 90+"
+                "+50% Luck, 2x Cash; 0.02% en los pisos 90+ de Slayer Tower"
               ]
             ]
           }

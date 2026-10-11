@@ -2377,7 +2377,7 @@ export const LOCALIZED_FACT_ASSERTIONS = {
         "key": "anime-dice-gear:supplied-angels-halo",
         "texts": [
           "Angel's Halo",
-          "+30% Luck, +5 Walk Speed; 0.02% from Dragon Tower andares 90+"
+          "+30% Luck, +5 Walk Speed; 0.02% nos andares 90+ da Dragon Tower"
         ],
         "canonicalClaim": "Angel's Halo gives +30% Luck and +5 Walk Speed, with a supplied 0.02% source from Dragon Tower Floors 90+."
       },
@@ -2385,7 +2385,7 @@ export const LOCALIZED_FACT_ASSERTIONS = {
         "key": "anime-dice-gear:supplied-sakunas-sash",
         "texts": [
           "Sakuna's Sash",
-          "2x Damage, +30% Luck, +30% Gems; 0.02% from Cursed Tower andares 90+"
+          "2x Damage, +30% Luck, +30% Gems; 0.02% nos andares 90+ da Cursed Tower"
         ],
         "canonicalClaim": "Sakuna's Sash gives 2x Damage, +30% Luck, and +30% Gems, with a supplied 0.02% source from Cursed Tower Floors 90+."
       },
@@ -2393,7 +2393,7 @@ export const LOCALIZED_FACT_ASSERTIONS = {
         "key": "anime-dice-gear:supplied-enols-drums",
         "texts": [
           "Enol's Drums",
-          "+40% Luck, 1.5x Cash; 0.02% from Pirate Tower andares 90+"
+          "+40% Luck, 1.5x Cash; 0.02% nos andares 90+ da Pirate Tower"
         ],
         "canonicalClaim": "Enol's Drums gives +40% Luck and 1.5x Cash, with a supplied 0.02% source from Pirate Tower Floors 90+."
       },
@@ -2401,7 +2401,7 @@ export const LOCALIZED_FACT_ASSERTIONS = {
         "key": "anime-dice-gear:supplied-obitas-mask",
         "texts": [
           "Obita's Mask",
-          "+40% Luck, +30% Gems; 0.02% from Hidden Leaf Tower andares 90+"
+          "+40% Luck, +30% Gems; 0.02% nos andares 90+ da Hidden Leaf Tower"
         ],
         "canonicalClaim": "Obita's Mask gives +40% Luck and +30% Gems, with a supplied 0.02% source from Hidden Leaf Tower Floors 90+."
       },
@@ -2409,7 +2409,7 @@ export const LOCALIZED_FACT_ASSERTIONS = {
         "key": "anime-dice-gear:supplied-mazuns-coat",
         "texts": [
           "Mazun's Coat",
-          "+50% Luck, 2x Cash; 0.02% from Slayer Tower andares 90+"
+          "+50% Luck, 2x Cash; 0.02% nos andares 90+ da Slayer Tower"
         ],
         "canonicalClaim": "Mazun's Coat gives +50% Luck and 2x Cash, with a supplied 0.02% source from Slayer Tower Floors 90+."
       }
@@ -3833,7 +3833,7 @@ export const LOCALIZED_FACT_ASSERTIONS = {
         "key": "anime-dice-gear:supplied-angels-halo",
         "texts": [
           "Angel's Halo",
-          "+30% Luck, +5 Walk Speed; 0.02% from Dragon Tower pisos 90+"
+          "+30% Luck, +5 Walk Speed; 0.02% en los pisos 90+ de Dragon Tower"
         ],
         "canonicalClaim": "Angel's Halo gives +30% Luck and +5 Walk Speed, with a supplied 0.02% source from Dragon Tower Floors 90+."
       },
@@ -3841,7 +3841,7 @@ export const LOCALIZED_FACT_ASSERTIONS = {
         "key": "anime-dice-gear:supplied-sakunas-sash",
         "texts": [
           "Sakuna's Sash",
-          "2x Damage, +30% Luck, +30% Gems; 0.02% from Cursed Tower pisos 90+"
+          "2x Damage, +30% Luck, +30% Gems; 0.02% en los pisos 90+ de Cursed Tower"
         ],
         "canonicalClaim": "Sakuna's Sash gives 2x Damage, +30% Luck, and +30% Gems, with a supplied 0.02% source from Cursed Tower Floors 90+."
       },
@@ -3849,7 +3849,7 @@ export const LOCALIZED_FACT_ASSERTIONS = {
         "key": "anime-dice-gear:supplied-enols-drums",
         "texts": [
           "Enol's Drums",
-          "+40% Luck, 1.5x Cash; 0.02% from Pirate Tower pisos 90+"
+          "+40% Luck, 1.5x Cash; 0.02% en los pisos 90+ de Pirate Tower"
         ],
         "canonicalClaim": "Enol's Drums gives +40% Luck and 1.5x Cash, with a supplied 0.02% source from Pirate Tower Floors 90+."
       },
@@ -3857,7 +3857,7 @@ export const LOCALIZED_FACT_ASSERTIONS = {
         "key": "anime-dice-gear:supplied-obitas-mask",
         "texts": [
           "Obita's Mask",
-          "+40% Luck, +30% Gems; 0.02% from Hidden Leaf Tower pisos 90+"
+          "+40% Luck, +30% Gems; 0.02% en los pisos 90+ de Hidden Leaf Tower"
         ],
         "canonicalClaim": "Obita's Mask gives +40% Luck and +30% Gems, with a supplied 0.02% source from Hidden Leaf Tower Floors 90+."
       },
@@ -3865,7 +3865,7 @@ export const LOCALIZED_FACT_ASSERTIONS = {
         "key": "anime-dice-gear:supplied-mazuns-coat",
         "texts": [
           "Mazun's Coat",
-          "+50% Luck, 2x Cash; 0.02% from Slayer Tower pisos 90+"
+          "+50% Luck, 2x Cash; 0.02% en los pisos 90+ de Slayer Tower"
         ],
         "canonicalClaim": "Mazun's Coat gives +50% Luck and 2x Cash, with a supplied 0.02% source from Slayer Tower Floors 90+."
       }
@@ -5289,7 +5289,7 @@ export const LOCALIZED_FACT_ASSERTIONS = {
         "key": "anime-dice-gear:supplied-angels-halo",
         "texts": [
           "Angel's Halo",
-          "+30% Luck, +5 Walk Speed; 0.02% from Dragon Tower lantai 90+"
+          "+30% Luck, +5 Walk Speed; 0.02% dari lantai 90+ Dragon Tower"
         ],
         "canonicalClaim": "Angel's Halo gives +30% Luck and +5 Walk Speed, with a supplied 0.02% source from Dragon Tower Floors 90+."
       },
@@ -5297,7 +5297,7 @@ export const LOCALIZED_FACT_ASSERTIONS = {
         "key": "anime-dice-gear:supplied-sakunas-sash",
         "texts": [
           "Sakuna's Sash",
-          "2x Damage, +30% Luck, +30% Gems; 0.02% from Cursed Tower lantai 90+"
+          "2x Damage, +30% Luck, +30% Gems; 0.02% dari lantai 90+ Cursed Tower"
         ],
         "canonicalClaim": "Sakuna's Sash gives 2x Damage, +30% Luck, and +30% Gems, with a supplied 0.02% source from Cursed Tower Floors 90+."
       },
@@ -5305,7 +5305,7 @@ export const LOCALIZED_FACT_ASSERTIONS = {
         "key": "anime-dice-gear:supplied-enols-drums",
         "texts": [
           "Enol's Drums",
-          "+40% Luck, 1.5x Cash; 0.02% from Pirate Tower lantai 90+"
+          "+40% Luck, 1.5x Cash; 0.02% dari lantai 90+ Pirate Tower"
         ],
         "canonicalClaim": "Enol's Drums gives +40% Luck and 1.5x Cash, with a supplied 0.02% source from Pirate Tower Floors 90+."
       },
@@ -5313,7 +5313,7 @@ export const LOCALIZED_FACT_ASSERTIONS = {
         "key": "anime-dice-gear:supplied-obitas-mask",
         "texts": [
           "Obita's Mask",
-          "+40% Luck, +30% Gems; 0.02% from Hidden Leaf Tower lantai 90+"
+          "+40% Luck, +30% Gems; 0.02% dari lantai 90+ Hidden Leaf Tower"
         ],
         "canonicalClaim": "Obita's Mask gives +40% Luck and +30% Gems, with a supplied 0.02% source from Hidden Leaf Tower Floors 90+."
       },
@@ -5321,7 +5321,7 @@ export const LOCALIZED_FACT_ASSERTIONS = {
         "key": "anime-dice-gear:supplied-mazuns-coat",
         "texts": [
           "Mazun's Coat",
-          "+50% Luck, 2x Cash; 0.02% from Slayer Tower lantai 90+"
+          "+50% Luck, 2x Cash; 0.02% dari lantai 90+ Slayer Tower"
         ],
         "canonicalClaim": "Mazun's Coat gives +50% Luck and 2x Cash, with a supplied 0.02% source from Slayer Tower Floors 90+."
       }

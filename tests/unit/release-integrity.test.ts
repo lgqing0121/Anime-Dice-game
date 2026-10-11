@@ -36,6 +36,7 @@ it('rejects repeated editorial scaffolding and thin non-code articles',()=>{
 
 it('fully localizes non-English article bodies and homepage tier labels',()=>{
  for(const locale of SUPPORTED_LOCALES.filter(locale=>locale!=='en')){const visible=JSON.stringify(ARTICLE_IDS.map(id=>getArticleCopy(locale,id)));expect(visible,locale).not.toMatch(/review item: preserve|decision item: compare|boundary item: leave unsupported/i);}
+ for(const locale of SUPPORTED_LOCALES.filter(locale=>locale!=='en')){const gear=JSON.stringify(getArticleCopy(locale,'anime-dice-gear'));expect(gear,locale).not.toMatch(/0\.02% from /i);}
  const tier=EXPLORE_MODULES.find(module=>module.id==='tier-list');expect(tier?.highlights.map(item=>item.label)).not.toEqual(['S','A','B','C']);
  const english=JSON.stringify(ARTICLE_IDS.filter(id=>id!=='anime-dice-codes').map(id=>getArticleCopy('en',id)));expect(english).not.toMatch(/Open the current game panel|Start with this documented point|Compare this separately|Before acting, account for this point/);
 });
