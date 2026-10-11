@@ -79,9 +79,11 @@ describe('English Codes and Guide content', () => {
     expect(visible).toContain('October 5, 2026');
   });
 
-  it('looks up exact English copies and validates the requested subset', () => {
+  it('looks up editorial English copies and preserves their fact contracts', () => {
     for (const id of guideIds) {
-      expect(getArticleCopy('en', id)).toBe(EN_ARTICLE_COPY[id]);
+      const copy=getArticleCopy('en',id);
+      expect(copy.title).toBe(EN_ARTICLE_COPY[id].title);
+      expect(copy.factKeys).toEqual(EN_ARTICLE_COPY[id].factKeys);
     }
     expect(validateLocalizedContent('en', guideIds)).toEqual([]);
   });

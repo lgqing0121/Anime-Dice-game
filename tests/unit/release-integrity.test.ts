@@ -26,8 +26,10 @@ it('rejects repeated editorial scaffolding and thin non-code articles',()=>{
   }
   const collisions=[...repeated.entries()].filter(([text,ids])=>ids.length>1&&!allowedFacts.has(text));
   expect(collisions,locale).toEqual([]);
-  const faqQuestions=ARTICLE_IDS.filter(id=>id!=='anime-dice-codes').flatMap(id=>getArticleCopy(locale,id).faq.map(item=>item.question.toLocaleLowerCase(locale)));
+  const faqQuestions=ARTICLE_IDS.filter(id=>id!=='anime-dice-codes').flatMap(id=>{const copy=getArticleCopy(locale,id);return copy.faq.map(item=>item.question.replaceAll(copy.title,'').replaceAll(copy.title.replace(/ Guide$/u,''),'').trim().toLocaleLowerCase(locale));});
   expect(new Set(faqQuestions).size,locale).toBe(faqQuestions.length);
+  const intros=ARTICLE_IDS.filter(id=>id!=='anime-dice-codes').map(id=>{const copy=getArticleCopy(locale,id);return copy.intro.join(' ').replaceAll(copy.title,'').replaceAll(copy.title.replace(/ Guide$/u,''),'').trim().toLocaleLowerCase(locale);});
+  expect(new Set(intros).size,locale).toBe(intros.length);
  }
 });
 
@@ -38,7 +40,7 @@ it('fully localizes non-English article bodies and homepage tier labels',()=>{
 });
 
 it('binds every localized assertion to its canonical claim and uses facts in FAQ answers',()=>{
- for(const locale of SUPPORTED_LOCALES)for(const id of ARTICLE_IDS){const assertions=LOCALIZED_FACT_ASSERTIONS[locale][id];const claims=ARTICLE_FACTS[id].claims;expect(assertions.map(item=>item.canonicalClaim),locale+'/'+id).toEqual(claims);if(id!=='anime-dice-codes'){const faq=getArticleCopy(locale,id).faq;expect(assertions[0].texts.every(text=>faq[0].answer.includes(text)),locale+'/'+id+' FAQ 1').toBe(true);expect([...assertions[1].texts,...assertions[2].texts].every(text=>faq[1].answer.includes(text)),locale+'/'+id+' FAQ 2').toBe(true);expect(assertions[3].texts.every(text=>faq[2].answer.includes(text)),locale+'/'+id+' FAQ 3').toBe(true);}}
+ for(const locale of SUPPORTED_LOCALES)for(const id of ARTICLE_IDS){const assertions=LOCALIZED_FACT_ASSERTIONS[locale][id];const claims=ARTICLE_FACTS[id].claims;expect(assertions.map(item=>item.canonicalClaim),locale+'/'+id).toEqual(claims);if(id!=='anime-dice-codes'){const faq=getArticleCopy(locale,id).faq,boundary=assertions.find(item=>item.key.endsWith(':evidence-boundary'))!,confirmed=assertions.filter(item=>item!==boundary);expect(confirmed[0].texts.every(text=>faq[0].answer.includes(text)),locale+'/'+id+' FAQ 1').toBe(true);expect(confirmed.slice(1).flatMap(item=>item.texts).every(text=>faq[1].answer.includes(text)),locale+'/'+id+' FAQ 2').toBe(true);expect(boundary.texts.every(text=>faq[2].answer.includes(text)),locale+'/'+id+' FAQ 3').toBe(true);}}
 });
 it('does not present an invented S/A/B/C unit ranking as supplied evidence',()=>{
  for(const locale of SUPPORTED_LOCALES){const copy=getArticleCopy(locale,'anime-dice-tier-list');const visible=JSON.stringify(copy);expect(visible,locale).not.toContain('Galactic pull rarity; Heavenly and Secret II Dice Shop bands');expect(copy.sections.find(section=>section.id==='tier-list-verified-data')?.blocks.some(block=>block.type==='table')).not.toBe(true);}
