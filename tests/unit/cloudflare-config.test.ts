@@ -11,5 +11,8 @@ describe('Cloudflare Workers deployment configuration', () => {
       html_handling: 'force-trailing-slash',
       not_found_handling: '404-page',
     });
+    expect(config.routes).toEqual([
+      { pattern: 'animedicegamei.wiki', custom_domain: true },
+    ]);
   });
 });

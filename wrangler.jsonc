@@ -2,6 +2,12 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "anime-dice-game",
   "compatibility_date": "2026-10-11",
+  "routes": [
+    {
+      "pattern": "animedicegamei.wiki",
+      "custom_domain": true
+    }
+  ],
   "assets": {
     "directory": "./dist",
     "html_handling": "force-trailing-slash",
