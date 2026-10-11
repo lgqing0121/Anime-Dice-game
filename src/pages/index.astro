@@ -1,4 +1,6 @@
 ---
+import GoogleAnalytics from '../components/GoogleAnalytics.astro';
+
 const locales = [
   { code: 'en', label: 'English' },
   { code: 'pt-br', label: 'Português do Brasil' },
@@ -9,6 +11,7 @@ const locales = [
 <!doctype html>
 <html lang="en" data-theme="dark">
   <head>
+    <GoogleAnalytics />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="robots" content="noindex,follow" />
