@@ -63,10 +63,10 @@ export const EXPLORE_MODULES: ExploreModule[] = [
     href: '#units',
     displayType: 'tier-grid',
     highlights: [
-      { label: 'S', detail: 'Galactic is the newest top pull rarity; Heavenly and Secret II are the highest documented Dice Shop bands.' },
-      { label: 'A', detail: 'Secret I and Celestial dice, including Chrono, Cyber, Toxic, Arcane, Corrupted, and Titan.' },
-      { label: 'B', detail: 'Exotic, Divine, and Mythical options including Royal, Prismatic, Black Hole, Dragon, Solar, Lunar, and Galaxy.' },
-      { label: 'C', detail: 'Common through Legendary dice, from Normal and Fire through Light, Blood Moon, and Void.' },
+      { label: 'Galactic', detail: 'Galactic is the newest top pull rarity; Heavenly and Secret II are the highest documented Dice Shop bands.' },
+      { label: 'Heavenly', detail: 'Secret I and Celestial dice, including Chrono, Cyber, Toxic, Arcane, Corrupted, and Titan.' },
+      { label: 'Secret I', detail: 'Exotic, Divine, and Mythical options including Royal, Prismatic, Black Hole, Dragon, Solar, Lunar, and Galaxy.' },
+      { label: 'Common', detail: 'Common through Legendary dice, from Normal and Fire through Light, Blood Moon, and Void.' },
     ],
     references: [
       'https://www.allthings.how/anime-dice-update-7-adds-galactic-rarity-and-six-rebirth-upgrade-paths/',

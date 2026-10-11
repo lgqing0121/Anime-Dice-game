@@ -1,4 +1,4 @@
-import{describe,expect,it}from'vitest';import{ARTICLE_IDS,CATEGORY_IDS}from'../../src/content/types';import{SUPPORTED_LOCALES}from'../../src/config/site';import{ARTICLES}from'../../src/data/articles';import{CATEGORIES}from'../../src/data/categories';import{ARTICLE_FACTS}from'../../src/data/article-facts';import{LOCALIZED_FACT_ASSERTIONS}from'../../src/data/localized-fact-assertions';import{getArticleCopy}from'../../src/i18n/content';import{validateReleaseContent}from'../../src/lib/content-validation';import{getIndexableRoutes}from'../../src/lib/seo';
+import{describe,expect,it}from'vitest';import{ARTICLE_IDS,CATEGORY_IDS}from'../../src/content/types';import{SUPPORTED_LOCALES}from'../../src/config/site';import{ARTICLES}from'../../src/data/articles';import{CATEGORIES}from'../../src/data/categories';import{EXPLORE_MODULES}from'../../src/data/modules';import{ARTICLE_FACTS}from'../../src/data/article-facts';import{LOCALIZED_FACT_ASSERTIONS}from'../../src/data/localized-fact-assertions';import{getArticleCopy}from'../../src/i18n/content';import{validateReleaseContent}from'../../src/lib/content-validation';import{getIndexableRoutes}from'../../src/lib/seo';
 describe('release integrity',()=>{
  it('locks the approved 8/40/4/196 inventory',()=>{expect(CATEGORY_IDS).toHaveLength(8);expect(CATEGORIES).toHaveLength(8);expect(ARTICLE_IDS).toHaveLength(40);expect(ARTICLES).toHaveLength(40);expect(SUPPORTED_LOCALES).toHaveLength(4);expect(getIndexableRoutes()).toHaveLength(196);});
  it('requires complete source-constrained locale content',()=>{expect(validateReleaseContent()).toEqual([]);for(const locale of SUPPORTED_LOCALES){const titles=new Set<string>(),descriptions=new Set<string>();for(const id of ARTICLE_IDS){const copy=getArticleCopy(locale,id);titles.add(copy.title);descriptions.add(copy.description);const visible=JSON.stringify(copy);expect(visible,id).not.toMatch(/\b(?:TODO|TBD|PLACEHOLDER|rideapetwiki|keyless|autofarm)\b/i);}expect(titles.size).toBe(40);expect(descriptions.size).toBe(40);}});
@@ -20,7 +20,7 @@ it('rejects repeated editorial scaffolding and thin non-code articles',()=>{
    expect(articleBodyText(locale,id).length,id).toBeGreaterThanOrEqual(1400);
    expect(copy.sections.length,id).toBeGreaterThanOrEqual(5);
    const sentences=[...copy.intro,...copy.sections.flatMap(section=>section.blocks.flatMap(block=>block.type==='paragraph'?[block.text]:[]))];
-   for(const sentence of sentences){if(sentence.length<55)continue;const key=sentence.toLocaleLowerCase(locale);repeated.set(key,[...(repeated.get(key)??[]),id]);}
+   for(const sentence of sentences){if(sentence.length<55)continue;const key=sentence.replace(/^.*?:\s*/u,'').toLocaleLowerCase(locale);repeated.set(key,[...(repeated.get(key)??[]),id]);}
   }
   const collisions=[...repeated.entries()].filter(([,ids])=>ids.length>1);
   expect(collisions,locale).toEqual([]);
@@ -29,6 +29,14 @@ it('rejects repeated editorial scaffolding and thin non-code articles',()=>{
  }
 });
 
+it('fully localizes non-English article bodies and homepage tier labels',()=>{
+ for(const locale of SUPPORTED_LOCALES.filter(locale=>locale!=='en')){const visible=JSON.stringify(ARTICLE_IDS.map(id=>getArticleCopy(locale,id)));expect(visible,locale).not.toMatch(/review item: preserve|decision item: compare|boundary item: leave unsupported/i);}
+ const tier=EXPLORE_MODULES.find(module=>module.id==='tier-list');expect(tier?.highlights.map(item=>item.label)).not.toEqual(['S','A','B','C']);
+});
+
+it('binds every localized assertion to its canonical claim and uses facts in FAQ answers',()=>{
+ for(const locale of SUPPORTED_LOCALES)for(const id of ARTICLE_IDS){const assertions=LOCALIZED_FACT_ASSERTIONS[locale][id];const claims=ARTICLE_FACTS[id].claims;expect(assertions.map(item=>item.canonicalClaim),locale+'/'+id).toEqual(claims);if(id!=='anime-dice-codes')for(const faq of getArticleCopy(locale,id).faq)expect(assertions.some(item=>item.texts.some(text=>faq.answer.includes(text))),locale+'/'+id+' FAQ: '+faq.question).toBe(true);}
+});
 it('does not present an invented S/A/B/C unit ranking as supplied evidence',()=>{
  for(const locale of SUPPORTED_LOCALES){const copy=getArticleCopy(locale,'anime-dice-tier-list');const visible=JSON.stringify(copy);expect(visible,locale).not.toContain('Galactic pull rarity; Heavenly and Secret II Dice Shop bands');expect(copy.sections.find(section=>section.id==='tier-list-verified-data')?.blocks.some(block=>block.type==='table')).not.toBe(true);}
 });
