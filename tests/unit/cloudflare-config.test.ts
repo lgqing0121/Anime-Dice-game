@@ -13,6 +13,7 @@ describe('Cloudflare Workers deployment configuration', () => {
     });
     expect(config.routes).toEqual([
       { pattern: 'animedicegamei.wiki', custom_domain: true },
+      { pattern: 'www.animedicegamei.wiki', custom_domain: true },
     ]);
   });
 });

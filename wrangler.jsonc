@@ -6,6 +6,10 @@
     {
       "pattern": "animedicegamei.wiki",
       "custom_domain": true
+    },
+    {
+      "pattern": "www.animedicegamei.wiki",
+      "custom_domain": true
     }
   ],
   "assets": {

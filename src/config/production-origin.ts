@@ -1,4 +1,4 @@
-export const PRODUCTION_ORIGIN = 'https://animedicegamei.wiki';
+export const PRODUCTION_ORIGIN = 'https://www.animedicegamei.wiki';
 
 export function assertProductionSite(site: string | undefined, isBuild: boolean): string | undefined {
   if (!isBuild) return site;
