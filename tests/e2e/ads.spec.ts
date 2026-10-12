@@ -32,7 +32,7 @@ test('responsive banner inventory contains one code per supported viewport size'
   for (const key of expectedKeys) expect(html).toContain(key);
 });
 
-test('language gateway, legal pages, and error pages stay ad-free', async ({ request }) => {
+test('language gateway, legal pages, and error pages stay free of Adsterra placements', async ({ request }) => {
   for (const path of ['/', '/en/privacy/', '/en/terms/', '/missing-anime-dice-page/']) {
     const response = await request.get(path);
     const html = await response.text();
@@ -46,5 +46,7 @@ test('privacy pages disclose third-party advertising in every language', async (
   for (const locale of ['en', 'pt-br', 'es', 'id']) {
     const html = await (await request.get(`/${locale}/privacy/`)).text();
     expect(html).toContain('data-advertising-disclosure="true"');
+    expect(html).toContain('Google AdSense');
+    expect(html).toContain('Adsterra');
   }
 });
