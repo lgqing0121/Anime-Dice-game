@@ -3,9 +3,9 @@ import { expect, test } from '@playwright/test';
 test('monetized templates expose the approved ad inventory without Smartlink', async ({ request }) => {
   const expectations = [
     { path: '/en/', placements: ['top-banner', 'home-compact', 'home-native', 'sidebar-rectangle', 'wide-rail'] },
-    { path: '/en/guide/', placements: ['top-banner', 'category-native', 'sidebar-rectangle', 'wide-rail'] },
-    { path: '/en/codes/', placements: ['top-banner', 'category-native', 'sidebar-rectangle', 'wide-rail'] },
-    { path: '/en/guide/anime-dice-guide/', placements: ['top-banner', 'article-native', 'sidebar-rectangle', 'wide-rail'] },
+    { path: '/en/guide/', placements: ['top-banner', 'inner-compact', 'category-native', 'sidebar-rectangle', 'wide-rail'] },
+    { path: '/en/codes/', placements: ['top-banner', 'inner-compact', 'category-native', 'sidebar-rectangle', 'wide-rail'] },
+    { path: '/en/guide/anime-dice-guide/', placements: ['top-banner', 'inner-compact', 'article-native', 'sidebar-rectangle', 'wide-rail'] },
   ] as const;
 
   for (const expectation of expectations) {
@@ -14,8 +14,26 @@ test('monetized templates expose the approved ad inventory without Smartlink', a
       expect(html, `${expectation.path} missing ${placement}`).toContain(`data-ad-placement="${placement}"`);
     }
     expect(html.match(/data-ad-global="social-bar"/g)).toHaveLength(1);
-    expect(html.match(/data-ad-global="popunder"/g)).toHaveLength(1);
+    expect(html).not.toContain('data-ad-global="popunder"');
+    expect(html).not.toContain('pl31774208.profitableratecpmnetwork.com');
     expect(html).not.toContain('1c3838e94268f961bd33ecff04b5f0ae');
+  }
+});
+
+test('all 192 localized content inner pages place a compact banner and one native unit near the top', async ({ request }) => {
+  const xml = await (await request.get('/sitemap.xml')).text();
+  const paths = [...xml.matchAll(/<loc>https:\/\/www\.animedicegamei\.wiki(.*?)<\/loc>/g)]
+    .map((match) => match[1])
+    .filter((path) => !/^\/(?:en|pt-br|es|id)\/$/.test(path));
+
+  expect(paths).toHaveLength(192);
+  const responses = await Promise.all(paths.map((path) => request.get(path)));
+  for (const response of responses) {
+    const html = await response.text();
+    expect(html.match(/data-ad-placement="inner-compact"/g) ?? [], response.url()).toHaveLength(1);
+    expect(html.match(/data-ad-placement="(?:category|article)-native"/g) ?? [], response.url()).toHaveLength(1);
+    expect(html.indexOf('data-ad-placement="inner-compact"'), response.url()).toBeLessThan(html.indexOf('class="content-grid"'));
+    expect(html, response.url()).not.toContain('data-ad-global="popunder"');
   }
 });
 
@@ -48,5 +66,6 @@ test('privacy pages disclose third-party advertising in every language', async (
     expect(html).toContain('data-advertising-disclosure="true"');
     expect(html).toContain('Google AdSense');
     expect(html).toContain('Adsterra');
+    expect(html).not.toContain('Popunder');
   }
 });

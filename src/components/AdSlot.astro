@@ -1,6 +1,6 @@
 ---
 import type { HomeCopy } from '../i18n';
-interface Props { copy: HomeCopy; placement?: 'top-banner' | 'home-compact' | 'sidebar-rectangle' | 'wide-rail' }
+interface Props { copy: HomeCopy; placement?: 'top-banner' | 'home-compact' | 'inner-compact' | 'sidebar-rectangle' | 'wide-rail' }
 const { copy, placement = 'top-banner' } = Astro.props;
 const inventory = {
   top: [
@@ -15,7 +15,7 @@ const inventory = {
     { minWidth: 1650, minHeight: 0, width: 160, height: 300, key: '77f188cab8e8814bd7dc6d4ee180295d' },
   ],
 } as const;
-const kind = placement === 'top-banner' ? 'top' : placement === 'home-compact' ? 'compact' : placement === 'sidebar-rectangle' ? 'rectangle' : 'rail';
+const kind = placement === 'top-banner' ? 'top' : placement === 'home-compact' || placement === 'inner-compact' ? 'compact' : placement === 'sidebar-rectangle' ? 'rectangle' : 'rail';
 ---
 <aside class:list={['ad-slot', `ad-slot-${kind}`]} aria-label={copy.common.advertisement} data-ad-placement={placement} data-ad-inventory={JSON.stringify(inventory[kind])}>
   <span>{copy.common.advertisement}</span>
