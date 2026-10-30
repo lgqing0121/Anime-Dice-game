@@ -2,10 +2,10 @@ import type { ArticleId, LocalizedArticle } from '../../content/types';
 
 export const ES_ARTICLE_COPY = {
   "anime-dice-codes": {
-    "title": "Códigos de Anime Dice y recompensas",
-    "description": "Consulta UPDATE7 y UPDATE6, sus recompensas documentadas de forma prudente y la ruta exacta para canjear códigos en Anime Dice.",
+    "title": "Códigos de Anime Dice para Roblox 2026: Recompensas",
+    "description": "Encuentra UPDATE7 y UPDATE6 de Anime Dice para Roblox, consulta las recompensas documentadas y sigue los pasos para canjearlos en el juego. El estado puede cambiar.",
     "intro": [
-      "Los códigos de Anime Dice pueden aportar recursos sin sustituir el ciclo normal de tiradas y mejoras. Esta página solo incluye códigos presentes en las referencias aportadas.",
+      "Los códigos de Anime Dice para Roblox pueden aportar recursos sin sustituir el ciclo normal de tiradas y mejoras. Esta página solo incluye códigos presentes en las referencias aportadas.",
       "La lista fue revisada el 5 de octubre de 2026. El estado puede cambiar, así que escribe cada código exactamente y acepta la respuesta del juego como definitiva."
     ],
     "sections": [

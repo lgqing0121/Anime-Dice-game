@@ -2,10 +2,10 @@ import type { ArticleId, LocalizedArticle } from '../../content/types';
 
 export const ID_ARTICLE_COPY = {
   "anime-dice-codes": {
-    "title": "Kode Anime Dice dan hadiahnya",
-    "description": "Periksa UPDATE7 dan UPDATE6, hadiah yang dicatat secara hati-hati, serta jalur tepat untuk menukarkan kode di Anime Dice.",
+    "title": "Kode Anime Dice Roblox 2026: Hadiah & Cara Menukar",
+    "description": "Temukan kode Roblox Anime Dice UPDATE7 dan UPDATE6, lihat hadiah yang tercatat, tanggal pemeriksaan, dan langkah penukaran di game. Status kode dapat berubah.",
     "intro": [
-      "Kode Anime Dice dapat memberi resource tanpa menggantikan alur roll dan upgrade normal. Halaman ini hanya memuat kode yang ada dalam referensi yang diberikan.",
+      "Kode Anime Dice Roblox dapat memberi resource tanpa menggantikan alur roll dan upgrade normal. Halaman ini hanya memuat kode yang ada dalam referensi yang diberikan.",
       "Daftar ditinjau pada 5 Oktober 2026. Status dapat berubah, jadi masukkan kode persis seperti tertulis dan jadikan respons game sebagai keputusan akhir."
     ],
     "sections": [

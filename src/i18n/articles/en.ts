@@ -2,10 +2,10 @@ import type { ArticleId, LocalizedArticle } from '../../content/types';
 
 export const EN_ARTICLE_COPY = {
   "anime-dice-codes": {
-    "title": "Anime Dice Codes: Working Rewards",
-    "description": "Check the Anime Dice codes UPDATE7 and UPDATE6, see their conservatively documented rewards, and follow the exact in-game redemption path.",
+    "title": "Anime Dice Codes 2026: Roblox Rewards & Redeem Guide",
+    "description": "Find Roblox Anime Dice codes UPDATE7 and UPDATE6, see their documented rewards, check the last-reviewed date, and follow in-game redemption steps. Code status can change.",
     "intro": [
-      "Anime Dice codes can add useful resources without changing the normal roll-and-upgrade loop. This page records only codes supported by the supplied references and avoids guessing at expiry dates.",
+      "Roblox Anime Dice codes can add useful resources without changing the normal roll-and-upgrade loop. This page records only codes supported by the supplied references and avoids guessing at expiry dates.",
       "The list was reviewed on October 5, 2026. A code can change after review, so enter it exactly as shown and treat the in-game response as final."
     ],
     "sections": [
